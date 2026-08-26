@@ -81,10 +81,6 @@ https://cdnbal1.indihometv.com/atm/DASH/sctv/manifest.mpd|User-Agent=IndiHomeTV/
 
 #EXTINF:-1 tvg-id="Channel87TransTV.mnc" tvg-name="Channel87Trans TV (MNC)" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logo/General/TRANS%20TV.png" group-title="General",TRANS TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Origin=https://20.detik.com&Referer=https://20.detik.com/
-https://video.detik.com/transtv-sec/smil:transtv.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Origin=https://20.detik.com&Referer=https://20.detik.com/
-#KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=764e726a234a435c87a82e4a1da6a69b:0de18199ebb3316e3aed8529e39542b7
@@ -92,10 +88,6 @@ https://video.detik.com/transtv-sec/smil:transtv.smil/playlist.m3u8|User-Agent=M
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/|clearkey=764e726a234a435c87a82e4a1da6a69b:0de18199ebb3316e3aed8529e39542b7
 
 #EXTINF:-1 tvg-id="Channel110Trans7.mnc" tvg-name="Channel110Trans 7 (MNC)" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logo/General/TRANS|7.png" group-title="General",TRANS|7
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Origin=https://20.detik.com&Referer=https://20.detik.com/
-https://video.detik.com/trans7-sec/smil:trans7.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36&Origin=https://20.detik.com&Referer=https://20.detik.com/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
