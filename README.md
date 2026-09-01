@@ -10,7 +10,8 @@ Import this raw playlist URL directly into your preferred IPTV client:
 
 | Resource | URL |
 | :--- | :--- |
-| **Playlist (M3U)** | `[https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/playlist.m3u8] or (https://sulthanpamenan.github.io/IPTV_Master/playlist.m3u8)` |
+| **Playlist (GitHub Raw)** | `https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/playlist.m3u8` |
+| **Playlist (GitHub Pages)** | `https://sulthanpamenan.github.io/IPTV_Master/playlist.m3u8` |
 
 ---
 
