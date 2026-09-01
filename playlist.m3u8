@@ -14,7 +14,7 @@ window.location.replace("https://sulthanpamenan.github.io/IPTV_Master/");
 
 #EXTM3U url-tvg="https://sulthanpamenan.github.io/epg-repository/epg.xml,https://bit.ly/IndonesiaEpg,https://bit.ly/RtmEpg,https://bit.ly/AstroEpg,https://bit.ly/SingaporeEpg" refresh="23"
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Info/NO%20SIGNAL.png" group-title="Info",NO SIGNAL ðŸ––ðŸ»
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Info/NO%20SIGNAL.jpg" group-title="Info",NO SIGNAL ðŸ––ðŸ»
 https://da.gd/nosig
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Info/THANKS.png" group-title="Info",THANKS ðŸ––ðŸ»
@@ -2173,7 +2173,7 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3ynrpdanq2/
 
 <=================== Live Events ===================>
 
-#EXTINF:-1 tvg-id="Dens_live-streaming-1.id" tvg-name="Live Streaming 1" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/Live%20Streaming%201.png" group-title="Live Events" group-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/info/Live%20Events.png",Live Streaming 1
+#EXTINF:-1 tvg-id="Dens_live-streaming-1.id" tvg-name="Live Streaming 1" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/Live%20Streaming%201.png" group-title="Live Events" group-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Info/Live%20Events.png",Live Streaming 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
