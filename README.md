@@ -28,8 +28,24 @@ Import this raw playlist URL directly into your preferred IPTV client:
 1. Open your IPTV Player (e.g., **OTT Navigator**, **TiviMate**).
 2. Add a new playlist source using **M3U / URL**.
 3. Paste the following URL:
-   https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/playlist.m3u8
+   `https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/playlist.m3u8`
 4. Save and reload the playlist to start streaming!
+
+---
+
+## ⚠️ Disclaimer
+
+This repository and its contents are provided strictly for educational, testing, and personal non-commercial use.
+
+- **Content Ownership:** All streams, logos, brand names, and trademarks belong to their respective copyright holders and broadcaster networks.
+- **No Stream Hosting:** This repository does not host, re-transmit, or store any media files or live video streams on its servers. It only acts as an index of public links freely available on the internet.
+- **No Warranties:** The maintainer cannot guarantee stream stability, uptime, or availability, as links are maintained and controlled by external media providers.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
