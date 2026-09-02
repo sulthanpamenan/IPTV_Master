@@ -6,7 +6,7 @@ A curated, self-maintained M3U playlist collection featuring various live TV cha
 
 ## 🚀 Quick Start / URLs
 
-Import this raw playlist URL directly into your preferred IPTV client:
+Import this playlist URL directly into your preferred IPTV client:
 
 | Resource | URL |
 | :--- | :--- |
@@ -27,7 +27,7 @@ Import this raw playlist URL directly into your preferred IPTV client:
 1. Open your IPTV Player (e.g., **OTT Navigator**, **TiviMate**).
 2. Add a new playlist source using **M3U / URL**.
 3. Paste the following URL:
-   `https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/playlist.m3u8`
+   `https://sulthanpamenan.github.io/IPTV_Master/playlist.m3u8`
 4. Save and reload the playlist to start streaming!
 
 ---
