@@ -14,10 +14,10 @@ window.location.replace("https://sulthanpamenan.github.io/IPTV_Master/");
 
 #EXTM3U url-tvg="https://sulthanpamenan.github.io/epg-repository/epg.xml,https://bit.ly/IndonesiaEpg,https://bit.ly/RtmEpg,https://bit.ly/AstroEpg,https://bit.ly/SingaporeEpg" refresh="23"
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Info/NO%20SIGNAL.jpg" group-title="Info",NO SIGNAL ðŸ––ðŸ»
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Info/NO%20SIGNAL.jpg" group-title="Info",NO SIGNAL
 https://da.gd/nosig
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Info/THANKS.png" group-title="Info",THANKS ðŸ––ðŸ»
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Info/THANKS.png" group-title="Info",THANKS
 https://da.gd/trmks
 
 <=================== General ===================>
