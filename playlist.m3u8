@@ -4288,20 +4288,20 @@ https://kazakhstan-proxy.sulthan-pamenan.workers.dev/?url=https://radio-streams.
 
 <=================== Movies - Romane ===================>
 
-#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/My%20Boo.png" group-title="Romance",My Boo
+#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/My%20Boo.jpg" group-title="Romance",My Boo
 https://main.24playerhd.com/newplaylist/6e363837ea8a7bdd61c97cb9/6e363837ea8a7bdd61c97cb9.m3u8
 
-#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/That%20Kind%20of%20Love.png" group-title="Romance",That Kind of Love
+#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/That%20Kind%20of%20Love.jpg" group-title="Romance",That Kind of Love
 https://main.24playerhd.com/newplaylist/1a2c08fe117364b627498a1e/1a2c08fe117364b627498a1e.m3u8
 
 <=================== Movies - Comedy ===================>
 
-#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/Oh%20My%20Ghost%20The%20Finale.png" group-title="Comedy",Oh My Ghost The Finale
+#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/Oh%20My%20Ghost%20The%20Finale.jpg" group-title="Comedy",Oh My Ghost The Finale
 https://main.24playerhd.com/newplaylist/2049b2b7c05193358600d233/2049b2b7c05193358600d233.m3u8
 
 <=================== Movies - Horor ===================>
 
-#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/Moei%20The%20Promised.png" group-title="Horor",Moei The Promised
+#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/Moei%20The%20Promised.jpg" group-title="Horor",Moei The Promised
 https://main.24playerhd.com/newplaylist/dcc8921a64a9e1af57fbf3da/dcc8921a64a9e1af57fbf3da.m3u8
 
 <=================== Series (VOD) ===================>
