@@ -2172,6 +2172,8 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3ynrpdanq2/
 
 <=================== Live Events ===================>
 
+#EXTINF:-1 group-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Info/Live%20Events.png"
+
 #EXTINF:-1 tvg-id="Dens_live-streaming-1.id" tvg-name="Live Streaming 1" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/Live%20Streaming%201.png" group-title="Live Events" group-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Info/Live%20Events.png",Live Streaming 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
