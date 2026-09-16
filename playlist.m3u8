@@ -1377,7 +1377,7 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/384f26c1c3b74ce09fa60bed24719b79/in
 
 <=================== Sports ===================>
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/TVRI%20SPORT.png" group-title="Sports",TVRI SPORT
+#EXTINF:-1 tvg-id="Dens_tvri-sport.id" tvg-name="TVRI Sport" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/TVRI%20SPORT.png" group-title="Sports",TVRI SPORT
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://klik.tvri.go.id/
