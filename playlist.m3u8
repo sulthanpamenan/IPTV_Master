@@ -123,12 +123,12 @@ https://tvstreamcast.com/indonesiana.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.
 #EXTINF:-1 tvg-id="Tivie_tvri.id" tvg-name="TVRI" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/TVRI.png" group-title="General",TVRI Nasional
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://klik.tvri.go.id/
-https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://klik.tvri.go.id/
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h17/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://klik.tvri.go.id/
+https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://klik.tvri.go.id/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/TV1%20(Malaysia).png" group-title="General",TV1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
