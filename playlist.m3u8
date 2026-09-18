@@ -390,7 +390,7 @@ https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8|User-Agent
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h218/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
-#EXTINF:-1 tvg-id="MNC_jaktv_113.id" tvg-name="JAKTV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Local/JAKTV.png" group-title="Local",JAKTV
+#EXTINF:-1 tvg-id="Dens_jak-tv.id" tvg-name="Jak TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Local/JAKTV.png" group-title="Local",JAKTV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
@@ -1197,7 +1197,7 @@ https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://v.kr.kollus.com&Referer=https://v.kr.kollus.com/
 https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://v.kr.kollus.com&Referer=https://v.kr.kollus.com/
 
-#EXTINF:-1 tvg-id="MNC_nhk-world_355.id" tvg-name="NHK World" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/NHK%20World%20Japan.png" group-title="News + Opinion",NHK World Japan
+#EXTINF:-1 tvg-id="Dens_nhk-world-japan.id" tvg-name="NHK World Japan" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/NHK%20World%20Japan.png" group-title="News + Opinion",NHK World Japan
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www3.nhk.or.jp&Referer=https://www3.nhk.or.jp/
@@ -1213,7 +1213,7 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h23/index.m3u8|User-Agent=DENSGO/3.00.
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/
 https://d3rzhldmr21hry.cloudfront.net/out/v1/8decf3562fe943e88872ef868d6fb6a5/index.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/|clearkey=989c2b64799145f3bbf19fade7f20380:6eb7e7a29e6e633a82a2af4449b93535
 
-#EXTINF:-1 tvg-id="MNC_dw-english_357.id" tvg-name="DW English" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/DW-TV.png" group-title="News + Opinion",DW-TV
+#EXTINF:-1 tvg-id="Dens_dw-tv.id" tvg-name="DW TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/DW-TV.png" group-title="News + Opinion",DW-TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
@@ -1221,13 +1221,13 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h213/index.m3u8|User-Agent=DENSGO/3.00
 
 #EXTINF:-1 tvg-id="MNC_euronews_333.id" tvg-name="EURONEWS" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/Euronews.png" group-title="News + Opinion",Euronews
 
-#EXTINF:-1 tvg-id="MNC_france-24-english_352.id" tvg-name="France 24 English" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/France%2024.png" group-title="News + Opinion",France 24
+#EXTINF:-1 tvg-id="Dens_france-24.id" tvg-name="France 24" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/France%2024.png" group-title="News + Opinion",France 24
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h14/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
-#EXTINF:-1 tvg-id="MNC_channel-news-asia_330.id" tvg-name="Channel News Asia" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/CNA.png" group-title="News + Opinion",Channel News Asia
+#EXTINF:-1 tvg-id="Dens_cna.id" tvg-name="CNA" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/CNA.png" group-title="News + Opinion",Channel News Asia
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
@@ -1277,7 +1277,7 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h101/index.m3u8|User-Agent=DENSGO/3.00
 https://op-flashcon-digdayahd-1.dens.tv/h/h307/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 
-#EXTINF:-1 tvg-id="MNC_al-jazeera-english_331.id" tvg-name="Al Jazeera English" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/Al%20Jazeera.png" group-title="News + Opinion",Al Jazeera English
+#EXTINF:-1 tvg-id="Dens_al-jazeera-english.id" tvg-name="Al Jazeera English" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/Al%20Jazeera.png" group-title="News + Opinion",Al Jazeera English
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.aljazeera.com&Referer=https://www.aljazeera.com/
@@ -3364,7 +3364,7 @@ http://107.150.60.122/live/cctv9hd.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History%20+%20Science/CCTV-10.png" group-title="History + Science",CCTV-10
 http://107.150.60.122/live/cctv10hd.m3u8
 
-#EXTINF:-1 tvg-id="MNC_cgtn-documentary_205.id" tvg-name="CGTN Documentary" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History%20+%20Science/CGTN%20Documentary.png" group-title="History + Science",CGTN Documentary
+#EXTINF:-1 tvg-id="Dens_cgtn-documentary.id" tvg-name="CGTN Documentary" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History%20+%20Science/CGTN%20Documentary.png" group-title="History + Science",CGTN Documentary
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
