@@ -1533,10 +1533,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/RTM%20Sukan+.png" group-title="Sports",RTM Sukan+
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://rtmklik.rtm.gov.my/
-https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/chunklist.m3u8?id=1|Referer=https://rtmklik.rtm.gov.my/
-#KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
 
