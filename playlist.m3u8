@@ -1097,10 +1097,6 @@ https://d37ey7ubht2hh2.cloudfront.net/out/v1/2d4a3d04aa404f3f8860da4a3ae25817/in
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/manifest.mpd|Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/RTM%20Asean.png" group-title="News + Opinion",RTM Asean
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://rtmklik.rtm.gov.my/
-https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/playlist.m3u8|Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/RTM%20Parlimen%20Dewan%20Rakyat.png" group-title="News + Opinion",RTM Parlimen Dewan Rakyat
 
@@ -1532,9 +1528,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36|clearkey=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/RTM%20Sukan+.png" group-title="Sports",RTM Sukan+
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/T%20Sports%207.png" group-title="Sports",T Sports 7
 
