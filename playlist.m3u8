@@ -137,32 +137,16 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h17/index.m3u8|User-Agent=DENSGO/3.00.
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://klik.tvri.go.id/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/RTM%20TV1.png" group-title="General",RTM TV1
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://rtmklik.rtm.gov.my/
-https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/manifest.mpd|Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/TV2%20(Malaysia).png" group-title="General",TV2
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://rtmklik.rtm.gov.my/
-https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/manifest.mpd|Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/TV6%20(Malaysia).png" group-title="General",TV6
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://rtmklik.rtm.gov.my/
-https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/manifest.mpd|Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/8TV.png" group-title="General",8TV
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/TV9%20Malaysia.png" group-title="General",TV9 Malaysia
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/Okey.png" group-title="General",Okey
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://rtmklik.rtm.gov.my/
-https://d25tgymtnqzu8s.cloudfront.net/smil:okey/manifest.mpd|Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/RTB%20Sukmaindera.png" group-title="General",RTB Sukmaindera
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1119,16 +1103,8 @@ https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/in
 https://d37ey7ubht2hh2.cloudfront.net/out/v1/2d4a3d04aa404f3f8860da4a3ae25817/index_2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://radio5.cn&Referer=https://radio5.cn/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/Berita%20RTM.png" group-title="News + Opinion",Berita RTM
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://rtmklik.rtm.gov.my/
-https://d25tgymtnqzu8s.cloudfront.net/smil:berita/manifest.mpd|Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/RTM%20Asean.png" group-title="News + Opinion",RTM Asean
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://rtmklik.rtm.gov.my/
-https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/playlist.m3u8|Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News%20+%20Opinion/RTM%20Parlimen%20Dewan%20Rakyat.png" group-title="News + Opinion",RTM Parlimen Dewan Rakyat
 
@@ -1560,15 +1536,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36|clearkey=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/RTM%20Sukan+.png" group-title="Sports",Sukan+
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/RTM%20Sukan+.png" group-title="Sports",Sukan+ 2
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd?id=1|Referer=https://rtmklik.rtm.gov.my/
-
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/T%20Sports%207.png" group-title="Sports",T Sports 7
 
@@ -2100,6 +2067,11 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h71/wedo_sport.m3u8|User-Agent=DENSGO/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Tennis%20Channel.png" group-title="Sports",Tennis Channel
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Pickleballtv.png" group-title="Sports",Pickleballtv
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://stream.pickleballtv.com&Referer=https://stream.pickleballtv.com/
+https://amg01444-tennischannel-amg01444c3-tennischannel-us-1912.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01444-tennischannelfast-pickleball-tennischannelus/playlist.m3u8?route_version=v2|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://stream.pickleballtv.com&Referer=https://stream.pickleballtv.com/
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Billiard%20TV.png" group-title="Sports",Billiard TV
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/WPT.png" group-title="Sports",World Poker Tour
@@ -2138,36 +2110,36 @@ https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
 #KODIPROP:inputstream.adaptive.license_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase|clearkey=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4
 
-<=================== Live Events ===================>
+<=================== Live Sports ===================>
 
 #EXTINF:-1 group-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Info/Live%20Events.png"
 
-#EXTINF:-1 tvg-id="Dens_live-streaming-1.id" tvg-name="Live Streaming 1" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/Live%20Streaming%201.png" group-title="Live Events",Live Streaming 1
+#EXTINF:-1 tvg-id="Dens_live-streaming-1.id" tvg-name="Live Streaming 1" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/Live%20Streaming%201.png" group-title="Live Sports",Live Streaming 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h123/live.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/Rogers.png" group-title="Live Events",PPV1 Channel 499
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/Rogers.png" group-title="Live Sports",PPV1 Channel 499
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1&Referer=https://cronos.mangora1.cfd/000/
 https://cronos.mangora1.cfd/puki1/usergendx6kal0r2bsm.m3u8|User-Agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1&Referer=https://cronos.mangora1.cfd/000/
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/Rogers.png" group-title="Live Events",PPV2 Channel 497
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/Rogers.png" group-title="Live Sports",PPV2 Channel 497
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1&Referer=https://cronos.mangora1.cfd/000/
 https://cronos.mangora1.cfd/puki2/usergendxpk2s6utg0l.m3u8|User-Agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1&Referer=https://cronos.mangora1.cfd/000/
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/M%20Live%201.png" group-title="Live Events",M Live 1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/M%20Live%201.png" group-title="Live Sports",M Live 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.mewatch.sg&Referer=https://www.mewatch.sg/
 https://tglmp04.akamaized.net/out/v1/9092ef82ee7c4e3daa1dcb1c66c70395/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.mewatch.sg&Referer=https://www.mewatch.sg/
 https://d19h5fcpqoh625.cloudfront.net/out/v1/9092ef82ee7c4e3daa1dcb1c66c70395/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/M%20Live%201.png" group-title="Live Events",M Live 1 Event
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/M%20Live%201.png" group-title="Live Sports",M Live 1 Event
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2175,7 +2147,7 @@ https://d19h5fcpqoh625.cloudfront.net/out/v1/9092ef82ee7c4e3daa1dcb1c66c70395/ma
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Dalvik/2.1.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36
 https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/232439/assetType/media/assetFileId/2808449/contextType/PLAYBACK/isAltUrl/False/a.mpd|User-Agent=Dalvik/2.1.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/M%20Live%202.png" group-title="Live Events",M Live 2 Event
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/M%20Live%202.png" group-title="Live Sports",M Live 2 Event
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2183,7 +2155,7 @@ https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/par
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Dalvik/2.1.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36
 https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd|User-Agent=Dalvik/2.1.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36|clearkey=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/M%20Live%205.png" group-title="Live Events",M Live 5 Event
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/M%20Live%205.png" group-title="Live Sports",M Live 5 Event
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2191,7 +2163,7 @@ https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.m
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Dalvik/2.1.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36
 https://tglmp04.akamaized.net/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.mpd|User-Agent=Dalvik/2.1.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36|clearkey=91b9592c819246c68b3b08a1fe08ba22:fa0d80dfd865b34077bae44cd4a0c5e6
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/M%20Live%206.png" group-title="Live Events",M Live 6 Event
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/M%20Live%206.png" group-title="Live Sports",M Live 6 Event
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2199,7 +2171,7 @@ https://tglmp04.akamaized.net/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.m
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Dalvik/2.1.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36
 https://tglmp02.akamaized.net/out/v1/cc0fc82e76cb4e0093e81695284af443/manifest.mpd|User-Agent=Dalvik/2.1.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36|clearkey=d418f733ed224f9bb9c2b1589db22a20:6ed6fe26daa4b926810869ff60254ebb
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/M%20Live%207.png" group-title="Live Events",M Live 7 Event
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/M%20Live%207.png" group-title="Live Sports",M Live 7 Event
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2207,58 +2179,58 @@ https://tglmp02.akamaized.net/out/v1/cc0fc82e76cb4e0093e81695284af443/manifest.m
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Dalvik/2.1.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36
 https://tglmp04.akamaized.net/out/v1/5793335474d74566a8a0adfa260f22a9/manifest.mpd|User-Agent=Dalvik/2.1.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36|clearkey=5332345367554fd39588283a2b949d02:8abcd0b3126923b068c26508e24c9f69
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/RTBGo%20Live.png" group-title="Live Events",RTBGo Live
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/RTBGo%20Live.png" group-title="Live Sports",RTBGo Live
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.rtbgo.bn&Referer=https://www.rtbgo.bn/
 https://d1211whpimeups.cloudfront.net/smil:rtbgo/playlist.m3u8?id=1229|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.rtbgo.bn&Referer=https://www.rtbgo.bn/
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/XOILACZ.IO.png" group-title="Live Events",XOILACZ.IO (C1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/XOILACZ.IO.png" group-title="Live Sports",XOILACZ.IO (C1)
 https://tfyi0grauqmtofaauqmt1gy3145djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel60.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/XOILACZ.IO.png" group-title="Live Events",XOILACZ.IO (C1+)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/XOILACZ.IO.png" group-title="Live Sports",XOILACZ.IO (C1+)
 https://tfyi0grauqmtofaauqmt1gy3145djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel80.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/XOILACZ.LIVE.png" group-title="Live Events",XOILACZ.IO (ch.80+)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/XOILACZ.LIVE.png" group-title="Live Sports",XOILACZ.IO (ch.80+)
 https://tfyn0grauqmtofaauqmt1gy3145djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel80.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/Xoilac%20TV.png" group-title="Live Events",Xoilac TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/Xoilac%20TV.png" group-title="Live Sports",Xoilac TV
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/VEBOtv.png" group-title="Live Events",VEBOtv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/VEBOtv.png" group-title="Live Sports",VEBOtv
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/Cakeo%20TV.png" group-title="Live Events",Cakeo TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/Cakeo%20TV.png" group-title="Live Sports",Cakeo TV
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/Thập%20Cẩm%20TV.png" group-title="Live Events",Thập Cẩm TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/Thập%20Cẩm%20TV.png" group-title="Live Sports",Thập Cẩm TV
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/90PHUT.TV.png" group-title="Live Events",90PHUT.TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/90PHUT.TV.png" group-title="Live Sports",90PHUT.TV
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/Banhkhuc%20TV.png" group-title="Live Events",Banhkhuc TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/Banhkhuc%20TV.png" group-title="Live Sports",Banhkhuc TV
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/DouYu.png" group-title="Live Events",DOUBAN  TOP 250
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/DouYu.png" group-title="Live Sports",DOUBAN  TOP 250
 https://live.metshop.top/douyu/8770422
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/DouYu.png" group-title="Live Events",DOUYU 4332
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/DouYu.png" group-title="Live Sports",DOUYU 4332
 https://live.metshop.top/douyu/4332
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/DouYu.png" group-title="Live Events",DOUYU 20415 可乐电影
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/DouYu.png" group-title="Live Sports",DOUYU 20415 可乐电影
 https://live.metshop.top/douyu/20415
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/DouYu.png" group-title="Live Events",DOUYU 263824 吃奶滴虫
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/DouYu.png" group-title="Live Sports",DOUYU 263824 吃奶滴虫
 https://live.metshop.top/douyu/263824
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/DouYu.png" group-title="Live Events",DOUYU 508118
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/DouYu.png" group-title="Live Sports",DOUYU 508118
 https://live.metshop.top/douyu/508118
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/DouYu.png" group-title="Live Events",DOUYU 2793084
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/DouYu.png" group-title="Live Sports",DOUYU 2793084
 https://live.metshop.top/douyu/2793084
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/DouYu.png" group-title="Live Events",DOUYU 贝爷影厅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/DouYu.png" group-title="Live Sports",DOUYU 贝爷影厅
 https://live.metshop.top/douyu/36337
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/DouYu.png" group-title="Live Events",DOUYU 冰冰小剧场
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/DouYu.png" group-title="Live Sports",DOUYU 冰冰小剧场
 https://live.metshop.top/douyu/74374
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Events/DouYu.png" group-title="Live Events",DOUYU 邵氏影院
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live%20Sports/DouYu.png" group-title="Live Sports",DOUYU 邵氏影院
 https://live.metshop.top/douyu/4246519
 
 <=================== Movies ===================>
