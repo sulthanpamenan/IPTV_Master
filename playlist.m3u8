@@ -51,8 +51,8 @@ https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti|User-Agent=android-R+&Ref
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/|clearkey=d386001215594043a8995db796ad9e9c:3404792cb4c804902acdc6ca65c1a298
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Referer=https://www.indihometv.com/
-https://cdnbal1.indihometv.com/atm/DASH/rcti/manifest.mpd|User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Referer=https://www.indihometv.com/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
+https://cdnbal1.indihometv.com/atm/DASH/rcti/manifest.mpd|User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 
 #EXTINF:-1 tvg-id="Tivie_gtv.id" tvg-name="GTV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/GTV%20(Indonesia).png" group-title="General",GTV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -67,14 +67,14 @@ https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv|User-Agent=android-R+&Refe
 https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36&Referer=https://www.visionplus.id/|clearkey=036e85de0bb448eeb21d39ab300da48e:4c6f9b15dfab2a169b2b78a498c4d77d
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Referer=https://www.indihometv.com/
-https://cdnbal1.indihometv.com/atm/DASH/globaltv/manifest.mpd|User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Referer=https://www.indihometv.com/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
+https://cdnbal1.indihometv.com/atm/DASH/globaltv/manifest.mpd|User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 
 #EXTINF:-1 tvg-id="Tivie_sctv.id" tvg-name="SCTV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/SCTV.png" group-title="General",SCTV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Referer=https://www.indihometv.com/
-https://cdnbal1.indihometv.com/atm/DASH/sctv/manifest.mpd|User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Referer=https://www.indihometv.com/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
+https://cdnbal1.indihometv.com/atm/DASH/sctv/manifest.mpd|User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 
 #EXTINF:-1 tvg-id="Tivie_transtv.id" tvg-name="Trans TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/Trans%20TV.png" group-title="General",Trans TV
 
@@ -4240,23 +4240,24 @@ https://kazakhstan-proxy.sulthan-pamenan.workers.dev/?url=https://radio-streams.
 
 <=================== Movies - Romane ===================>
 
-#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/My%20Boo.jpg" group-title="Romance",My Boo
+#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-tmdb="1257388" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/My%20Boo.jpg" group-title="Romance",My Boo (2024)
 https://main.24playerhd.com/newplaylist/6e363837ea8a7bdd61c97cb9/6e363837ea8a7bdd61c97cb9.m3u8
 
-#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/That%20Kind%20of%20Love.jpg" group-title="Romance",That Kind of Love
+#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-tmdb="1164492" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/That%20Kind%20of%20Love.jpg" group-title="Romance",That Kind of Love (2024)
 https://main.24playerhd.com/newplaylist/1a2c08fe117364b627498a1e/1a2c08fe117364b627498a1e.m3u8
 
 <=================== Movies - Comedy ===================>
 
-#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/Oh%20My%20Ghost%20The%20Finale.jpg" group-title="Comedy",Oh My Ghost The Finale
+#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-tmdb="1216195" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/Oh%20My%20Ghost%20The%20Finale.jpg" group-title="Comedy",Oh My Ghost The Finale (2024)
 https://main.24playerhd.com/newplaylist/2049b2b7c05193358600d233/2049b2b7c05193358600d233.m3u8
 
 <=================== Movies - Horor ===================>
 
-#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/Moei%20The%20Promised.jpg" group-title="Horor",Moei The Promised
+#EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-tmdb="1224589" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies%20(VOD)/Moei%20The%20Promised.jpg" group-title="Horor",Moei The Promised (2024)
 https://main.24playerhd.com/newplaylist/dcc8921a64a9e1af57fbf3da/dcc8921a64a9e1af57fbf3da.m3u8
 
 <=================== Series (VOD) ===================>
+
 
 <=================== Anime (VOD) ===================>
 
