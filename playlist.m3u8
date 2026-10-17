@@ -141,7 +141,6 @@ https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8|User-Agent=M
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/TV2%20(Malaysia).png" group-title="General",TV2
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/TV3.png" group-title="General",TV3
-http://192.168.1.128:5001/live/tv3-live
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/TV6%20(Malaysia).png" group-title="General",TV6
 
