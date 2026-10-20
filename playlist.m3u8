@@ -4254,16 +4254,17 @@ https://22273.live.streamtheworld.com/TRAXX_FMAAC/HLS/playlist.m3u8?id=32959
 #EXTINF:-1 radio="true" tvg-country="MY" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Radio/RTM%20Ai%20FM.png" group-title="Radio - Malaysia",Ai FM
 https://27223.live.streamtheworld.com/AI_FMAAC/HLS/playlist.m3u8?id=32961
 https://22283.live.streamtheworld.com/AI_FMAAC/HLS/playlist.m3u8?id=32961
+https://28093.live.streamtheworld.com/AI_FMAAC/HLS/playlist.m3u8
 
 #EXTINF:-1 radio="true" tvg-country="MY" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Radio/RTM%20Minnal%20FM.png" group-title="Radio - Malaysia",Minnal FM
 https://27223.live.streamtheworld.com/MINNAL_FMAAC/HLS/playlist.m3u8?id=32964
 https://28093.live.streamtheworld.com/MINNAL_FMAAC/HLS/playlist.m3u8?id=32964
 
+#EXTINF:-1 radio="true" tvg-country="MY" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Radio/RTM%20Asyik%20FM.png" group-title="Radio - Malaysia",Asyik FM
+https://28103.live.streamtheworld.com/ASYIK_FMAAC/HLS/playlist.m3u8?id=32966
+
 #EXTINF:-1 radio="true" tvg-country="MY" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Radio/Rakita%20FM.png" group-title="Radio - Malaysia",Rakita FM
 https://22283.live.streamtheworld.com/RAKITAAAC/HLS/playlist.m3u8?dist=audioplus
-
-#EXTINF:-1 radio="true" tvg-country="MY" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Radio/Ai%20FM.png" group-title="Radio - Malaysia",Ai FM
-https://28093.live.streamtheworld.com/AI_FMAAC/HLS/playlist.m3u8
 
 #EXTINF:-1 radio="true" tvg-country="MY" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Radio/Asyik%20FM.png" group-title="Radio - Malaysia",Asyik FM
 https://28103.live.streamtheworld.com/ASYIK_FMAAC.aac
