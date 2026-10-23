@@ -145,7 +145,6 @@ https://d25tgymtnqzu8s.cloudfront.net/main/A0jyR3/master.m3u8?id=1|User-Agent=Mo
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/RTM_TV2.png" group-title="General",TV2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 https://d25tgymtnqzu8s.cloudfront.net/live/media0/tv2/HLS/tv2.m3u8?id=2|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/TV3.png" group-title="General",TV3
@@ -159,7 +158,6 @@ https://d25tgymtnqzu8s.cloudfront.net/live/media0/tv2/HLS/tv2.m3u8?id=2|User-Age
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/Okey_RTM.png" group-title="General",Okey
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 https://d25tgymtnqzu8s.cloudfront.net/live/media0/okey1/HLS/okey1.m3u8?id=3|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/RTB_Sukmaindera.png" group-title="General",RTB Sukmaindera
@@ -1129,19 +1127,16 @@ https://d25tgymtnqzu8s.cloudfront.net/main/VPxRb6/master.m3u8?id=5|User-Agent=Mo
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/RTM_World.png" group-title="News + Opinion",RTM World
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 https://d25tgymtnqzu8s.cloudfront.net/live/media0/world/HLS/world.m3u8?id=38442|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/RTM_Parlimen_Dewan_Rakyat.png" group-title="News + Opinion",RTM Parlimen Dewan Rakyat
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 https://d25tgymtnqzu8s.cloudfront.net/live/media0/rakyat/HLS/rakyat.m3u8?id=38452|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/RTM_Parlimen_Dewan_Negara.png" group-title="News + Opinion",RTM Parlimen Dewan Negara
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 https://d25tgymtnqzu8s.cloudfront.net/live/media0/negara/HLS/negara.m3u8?id=38453|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Voice_of_America.png" group-title="News + Opinion",Voice of America
@@ -1584,7 +1579,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/RTM_Sukan+.png" group-title="Sports",Sukan+
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 https://d25tgymtnqzu8s.cloudfront.net/live/media0/sukan/HLS/sukan.m3u8?id=4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/T_Sports_7.png" group-title="Sports",T Sports 7
