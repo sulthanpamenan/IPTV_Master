@@ -97,22 +97,22 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/ind
 #EXTINF:-1 tvg-id="Tivie_rtv.id" tvg-name="RTV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/RTV.png" group-title="General",RTV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
 
 #EXTINF:-1 tvg-id="Tivie_mdtv.id" tvg-name="MDTV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/MDTV.png" group-title="General",MDTV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h06/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h06/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8
 
 #EXTINF:-1 tvg-id="Tivie_nusantaratv.id" tvg-name="Nusantara TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/Nusantara_TV.png" group-title="General",Nusantara TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="Indonesiana_MMF.id" tvg-name="Indonesiana TV MMF" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/INDONESIANA.TV.png" group-title="General",INDOSIANA.TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -133,8 +133,8 @@ https://restreamer.indonusa.id:8443/d5f4ad43-1b5a-4b0f-8bef-5b37224ed221.m3u8|Us
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://klik.tvri.go.id/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h17/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h17/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/RTM_TV1.png" group-title="General",TV1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -231,8 +231,8 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/39a34211e80145678ce1616b52368f99/in
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/Dragon_TV.png" group-title="General",Dragon TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-http://op-flashcon-digdayahd-1.dens.tv/h/h05/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+http://op-flashcon-digdayahd-1.dens.tv/h/h05/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -255,8 +255,8 @@ http://107.150.60.122/live/cctv1hd.m3u8
 http://107.150.60.122/live/cctv4hd.m3u8
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h22/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h22/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/CCTV-4.png" group-title="General",CCTV-4 America
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -386,6 +386,9 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ge6gonv7cy/out/v1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.zdf.de&Referer=https://www.zdf.de/
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.zdf.de&Referer=https://www.zdf.de/
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/Pitaara_TV.png" group-title="General",Pitaara TV
+https://vg-pitaaratvyupp.akamaized.net/ptnr-yupptv/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-433350/881adefe-4b73-4876-9772-1334127e9a75/0.m3u8
+
 <=================== Local ===================>
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Local/Ficom_Channel.png" group-title="Local",Ficom Channel
@@ -394,8 +397,8 @@ https://v3.siar.us/ficomchannel/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Dens_jak-tv.id" tvg-name="Jak TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Local/JAKTV.png" group-title="Local",JAKTV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayasd-1.dens.tv/h/h209/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayasd-1.dens.tv/h/h209/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Local/Inspira.png" group-title="Local",Inspira TV
 https://inspiratv.siar.us/inspiratv/live/playlist.m3u8
@@ -556,8 +559,8 @@ http://122.248.43.242:1935/KAWANUATV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="Dens_channel-jowo.id" tvg-name="Channel Jowo" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Local/Channel_Jowo.png" group-title="Local",Channel Jowo
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayasd-1.dens.tv/h/h215/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayasd-1.dens.tv/h/h215/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="MNC_hanacaraka-tv_90.id" tvg-name="Hanacaraka TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Local/Hanacaraka_TV.png" group-title="Local",Hanacaraka TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -853,7 +856,7 @@ https://live.mediatech.vn/live/28597f8fd7ea5064d0f84ab00b3699dfd86/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Local/THP_Hải_Phòng.png" group-title="Local",Hải Phòng
 https://live.mediatech.vn/live/285a4c99665fdf84e94956c66bc7dc7eb5d/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Local/THP+_Hải_Phòng.png" group-title="Local",Hải Phòng +
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Local/THP%2B_Hải_Phòng.png" group-title="Local",Hải Phòng +
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Local/THP3_Hải_Phòng.png" group-title="Local",Hải Phòng 3
 https://live.mediatech.vn/live/28548ca35823d41426d8b3da7ed82bdab13/playlist.m3u8
@@ -980,23 +983,23 @@ https://kazakhstan-proxy.sulthan-pamenan.workers.dev/?url=https://stream.kaztrk.
 
 <=================== News + Opinion ===================>
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Jakarta_Globe.png" group-title="News + Opinion",Jakarta Globe
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Jakarta_Globe.png" group-title="News + Opinion",Jakarta Globe
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/TVRI_WORLD.png" group-title="News + Opinion",TVRI World
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/TVRI_WORLD.png" group-title="News + Opinion",TVRI World
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://klik.tvri.go.id/
 https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://klik.tvri.go.id/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h249/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h249/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
-#EXTINF:-1 tvg-id="Tivie_tvone.id" tvg-name="tvOne" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/tvOne_-_white.png" group-title="News + Opinion",tvOne
+#EXTINF:-1 tvg-id="Tivie_tvone.id" tvg-name="tvOne" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/tvOne_-_white.png" group-title="News + Opinion",tvOne
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h40/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h40/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1004,7 +1007,7 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h40/index.m3u8|User-Agent=DENSGO/3.00.
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/index.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/|clearkey=eab667a8f7f14ff7bf00d790314a10f0:1d6693bc942f036053fc1c3c3b3b5032
 
-#EXTINF:-1 tvg-id="Tivie_inews.id" tvg-name="iNews" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/iNews.png" group-title="News + Opinion",iNews
+#EXTINF:-1 tvg-id="Tivie_inews.id" tvg-name="iNews" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/iNews.png" group-title="News + Opinion",iNews
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Referer=https://www.rctiplus.com/
@@ -1014,11 +1017,11 @@ https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews|User-Agent=android-R+&Re
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 https://cdnbal1.indihometv.com/atm/DASH/inews/manifest.mpd|User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 
-#EXTINF:-1 tvg-id="Tivie_metrotv.id" tvg-name="Metro TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Metro_TV.png" group-title="News + Opinion",Metro TV
+#EXTINF:-1 tvg-id="Tivie_metrotv.id" tvg-name="Metro TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Metro_TV.png" group-title="News + Opinion",Metro TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1026,18 +1029,18 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8|User-Agent=DENSGO/3.00.
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36&Referer=https://www.visionplus.id/
 https://d2tjypxxy769fn.cloudfront.net/out/v1/fd4360b1c12c4375848c8f085fd51d41/index.mpd|User-Agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36&Referer=https://www.visionplus.id/|clearkey=c64493155d8b443c834a13d4970cf834:509294911ac3c2d779ae2225a23460b4
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Elshinta_TV.png" group-title="News + Opinion",Elshinta TV
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Elshinta_TV.png" group-title="News + Opinion",Elshinta TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayasd-1.dens.tv/h/h216/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayasd-1.dens.tv/h/h216/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
-#EXTINF:-1 tvg-id="Tivie_btv.id" tvg-name="BTV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/BTV.png" group-title="News + Opinion",BTV
+#EXTINF:-1 tvg-id="Tivie_btv.id" tvg-name="BTV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/BTV.png" group-title="News + Opinion",BTV
 https://lnd0t3b922.tenbytecdn.com/ta-sg1/90369cf5-6ac2-411d-b3d0-15fae10a2e2c/master.m3u8
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h313/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h313/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.beritasatu.com&Referer=https://www.beritasatu.com/
@@ -1047,7 +1050,7 @@ https://lnd0t3b922.tenbytecdn.com/ta-sg1/90369cf5-6ac2-411d-b3d0-15fae10a2e2c/ma
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 https://cdnbal1.indihometv.com/atm/DASH/beritasatu/manifest.mpd|User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Berita_Satu.png" group-title="News + Opinion",Berita Satu
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Berita_Satu.png" group-title="News + Opinion",Berita Satu
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.04 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
@@ -1057,60 +1060,60 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8|User-Agent=DENSGO/3.0
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.beritasatu.com&Referer=https://www.beritasatu.com/
 https://lnd0t3b922.tenbytecdn.com/ta-sg1/89c624c5-4b4f-473c-b50d-1a156a1c0174/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.beritasatu.com&Referer=https://www.beritasatu.com/
 
-#EXTINF:-1 tvg-id="Tivie_kompastv.id" tvg-name="Kompas TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/KOMPAS_TV.png" group-title="News + Opinion",KOMPAS TV
+#EXTINF:-1 tvg-id="Tivie_kompastv.id" tvg-name="Kompas TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/KOMPAS_TV.png" group-title="News + Opinion",KOMPAS TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h234/index.m3u8
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 https://cdnbal1.indihometv.com/atm/DASH/KOMPAS_TV/manifest.mpd|User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 
-#EXTINF:-1 tvg-id="Tivie_sindonews.id" tvg-name="Sindonews TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Sindo_News_TV.png" group-title="News + Opinion",Sindo News TV
+#EXTINF:-1 tvg-id="Tivie_sindonews.id" tvg-name="Sindonews TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Sindo_News_TV.png" group-title="News + Opinion",Sindo News TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 https://cdnbal1.indihometv.com/atm/DASH/mncnews/manifest.mpd|User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 
-#EXTINF:-1 tvg-id="Tivie_garudatv.id" tvg-name="Garuda TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Garuda_TV.png" group-title="News + Opinion",Garuda TV
+#EXTINF:-1 tvg-id="Tivie_garudatv.id" tvg-name="Garuda TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Garuda_TV.png" group-title="News + Opinion",Garuda TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8|User-Agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-id="Tivie_sinpotv.id" tvg-name="Sin Po TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Sin_Po_TV.png" group-title="News + Opinion",Sin Po TV
+#EXTINF:-1 tvg-id="Tivie_sinpotv.id" tvg-name="Sin Po TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Sin_Po_TV.png" group-title="News + Opinion",Sin Po TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 https://cdnbal1.indihometv.com/atm/DASH/sinpotv/manifest.mpd|User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 
-#EXTINF:-1 tvg-id="MNC_idx-hd_436.id" tvg-name="IDX HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/IDX.png" group-title="News + Opinion",IDX
+#EXTINF:-1 tvg-id="MNC_idx-hd_436.id" tvg-name="IDX HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/IDX.png" group-title="News + Opinion",IDX
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 https://cdnbal1.indihometv.com/atm/DASH/idx/manifest.mpd|User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 
-#EXTINF:-1 tvg-id="MNC_cnbc_337.id" tvg-name="CNBC" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/CNBC_Indonesia.png" group-title="News + Opinion",CNBC Indonesia
+#EXTINF:-1 tvg-id="MNC_cnbc_337.id" tvg-name="CNBC" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/CNBC_Indonesia.png" group-title="News + Opinion",CNBC Indonesia
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.cnbcindonesia.com&Referer=https://www.cnbcindonesia.com/
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.cnbcindonesia.com&Referer=https://www.cnbcindonesia.com/
 
-#EXTINF:-1 tvg-id="Tivie_cnnindonesia.id" tvg-name="CNN Indonesia" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/CNN_Indonesia.png" group-title="News + Opinion",CNN Indonesia
+#EXTINF:-1 tvg-id="Tivie_cnnindonesia.id" tvg-name="CNN Indonesia" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/CNN_Indonesia.png" group-title="News + Opinion",CNN Indonesia
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.cnnindonesia.com&Referer=https://www.cnnindonesia.com/
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.cnnindonesia.com&Referer=https://www.cnnindonesia.com/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/TVR_Parlemen.png" group-title="News + Opinion",TVR Parlemen
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/TVR_Parlemen.png" group-title="News + Opinion",TVR Parlemen
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tvrparlemen.dpr.go.id&Referer=https://tvrparlemen.dpr.go.id/
 https://wowza.dpr.go.id/golive/livestream/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tvrparlemen.dpr.go.id&Referer=https://tvrparlemen.dpr.go.id/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Astro_Awani.png" group-title="News + Opinion",Astro Awani
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Astro_Awani.png" group-title="News + Opinion",Astro Awani
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://rtmklik.rtm.gov.my/
@@ -1120,40 +1123,40 @@ https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/in
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://radio5.cn&Referer=https://radio5.cn/
 https://d37ey7ubht2hh2.cloudfront.net/out/v1/2d4a3d04aa404f3f8860da4a3ae25817/index_2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://radio5.cn&Referer=https://radio5.cn/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Berita_RTM.png" group-title="News + Opinion",Berita RTM
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Berita_RTM.png" group-title="News + Opinion",Berita RTM
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 https://d25tgymtnqzu8s.cloudfront.net/main/VPxRb6/master.m3u8?id=5|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/RTM_World.png" group-title="News + Opinion",RTM World
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/RTM_World.png" group-title="News + Opinion",RTM World
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 #https://d25tgymtnqzu8s.cloudfront.net/live/media0/world/HLS/world.m3u8?id=38442|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/RTM_Parlimen_Dewan_Rakyat.png" group-title="News + Opinion",RTM Parlimen Dewan Rakyat
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/RTM_Parlimen_Dewan_Rakyat.png" group-title="News + Opinion",RTM Parlimen Dewan Rakyat
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 #https://d25tgymtnqzu8s.cloudfront.net/live/media0/rakyat/HLS/rakyat.m3u8?id=38452|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/RTM_Parlimen_Dewan_Negara.png" group-title="News + Opinion",RTM Parlimen Dewan Negara
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/RTM_Parlimen_Dewan_Negara.png" group-title="News + Opinion",RTM Parlimen Dewan Negara
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 #https://d25tgymtnqzu8s.cloudfront.net/live/media0/negara/HLS/negara.m3u8?id=38453|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Voice_of_America.png" group-title="News + Opinion",Voice of America
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Voice_of_America.png" group-title="News + Opinion",Voice of America
 https://voa-ingest.akamaized.net/hls/live/2033874/tvmc06/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/CNN_International.png" group-title="News + Opinion",CNN International
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/CNN_International.png" group-title="News + Opinion",CNN International
 
-#EXTINF:-1 tvg-id="MNC_bloomberg_338.id" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Bloomberg.png" group-title="News + Opinion",Bloomberg Taiwan
+#EXTINF:-1 tvg-id="MNC_bloomberg_338.id" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Bloomberg.png" group-title="News + Opinion",Bloomberg Taiwan
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IPTVSmartersPlayer
 http://125.227.210.55:8161/VideoInput/play.ts|User-Agent=IPTVSmartersPlayer
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/TheGrio.png" group-title="News + Opinion",TheGrio
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/TheGrio.png" group-title="News + Opinion",TheGrio
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tv.garden&Referer=https://tv.garden/
@@ -1163,29 +1166,29 @@ https://blacknewschannel-xumo-us.amagi.tv/playlist.m3u8|User-Agent=Mozilla/5.0 (
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tubitv.com&Referer=https://tubitv.com/
 https://c.tubi1.apollo.adrise.io/live/thegrio-cxvuwn.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tubitv.com&Referer=https://tubitv.com/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/NTD_China_-_white.png" group-title="News + Opinion",NTD China
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/NTD_China_-_white.png" group-title="News + Opinion",NTD China
 https://ntd02.akamaized.net/HD-NY/index.m3u8
 http://cnhls.ntdtv.com/cn/live800/playlist.m3u8
 
-#EXTINF:-1 tvg-id="MNC_fox-news_335.id" tvg-name="FOX News" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/FOX_News.png" group-title="News + Opinion",FOX News
+#EXTINF:-1 tvg-id="MNC_fox-news_335.id" tvg-name="FOX News" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/FOX_News.png" group-title="News + Opinion",FOX News
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/FOX_Weather.png" group-title="News + Opinion",FOX Weather
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/FOX_Weather.png" group-title="News + Opinion",FOX Weather
 https://247wlive.foxweather.com/stream/index.m3u8
 
-#EXTINF:-1 tvg-id="MNC_abc-australia_350.id" tvg-name="ABC Australia" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/ABC_News.png" group-title="News + Opinion",ABC News
+#EXTINF:-1 tvg-id="MNC_abc-australia_350.id" tvg-name="ABC Australia" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/ABC_News.png" group-title="News + Opinion",ABC News
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Sky_News_International.png" group-title="News + Opinion",Sky News International
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Sky_News_International.png" group-title="News + Opinion",Sky News International
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tv.garden&Referer=https://tv.garden/
 https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tv.garden&Referer=https://tv.garden/
 
-#EXTINF:-1 tvg-id="MNC_bbc-world-news_332.id" tvg-name="BBC World News" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/BBC_News.png" group-title="News + Opinion",BBC News
+#EXTINF:-1 tvg-id="MNC_bbc-world-news_332.id" tvg-name="BBC World News" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/BBC_News.png" group-title="News + Opinion",BBC News
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tv.garden&Referer=https://tv.garden/
-https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tv.garden&Referer=https://tv.garden/
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tv.garden&Referer=https://tv.garden/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1195,7 +1198,7 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/7d38a4525dfa42b08a94c22c173061da/ind
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IPTVSmartersPlayer
 http://125.227.210.55:8165/VideoInput/play.ts|User-Agent=IPTVSmartersPlayer
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/BBC_Arabic.png" group-title="News + Opinion",BBC Arabic
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/BBC_Arabic.png" group-title="News + Opinion",BBC Arabic
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tv.garden&Referer=https://tv.garden/
@@ -1204,27 +1207,27 @@ https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/BBC_Persian.png" group-title="News + Opinion",BBC Persian
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/BBC_Persian.png" group-title="News + Opinion",BBC Persian
 https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/mobile_wifi_main_hd_abr_v2.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Al_Hiwar_TV.png" group-title="News + Opinion",Al Hiwar TV
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Al_Hiwar_TV.png" group-title="News + Opinion",Al Hiwar TV
 https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Arirang_TV.png" group-title="News + Opinion",Arirang UN TV
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Arirang_TV.png" group-title="News + Opinion",Arirang UN TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://v.kr.kollus.com&Referer=https://v.kr.kollus.com/
 https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://v.kr.kollus.com&Referer=https://v.kr.kollus.com/
 
-#EXTINF:-1 tvg-id="Dens_nhk-world-japan.id" tvg-name="NHK World Japan" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/NHK_World_Japan.png" group-title="News + Opinion",NHK World Japan
+#EXTINF:-1 tvg-id="Dens_nhk-world-japan.id" tvg-name="NHK World Japan" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/NHK_World_Japan.png" group-title="News + Opinion",NHK World Japan
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www3.nhk.or.jp&Referer=https://www3.nhk.or.jp/
 https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www3.nhk.or.jp&Referer=https://www3.nhk.or.jp/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h23/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h23/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1232,42 +1235,46 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h23/index.m3u8|User-Agent=DENSGO/3.00.
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/
 https://d3rzhldmr21hry.cloudfront.net/out/v1/8decf3562fe943e88872ef868d6fb6a5/index.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/|clearkey=989c2b64799145f3bbf19fade7f20380:6eb7e7a29e6e633a82a2af4449b93535
 
-#EXTINF:-1 tvg-id="Dens_dw-tv.id" tvg-name="DW TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/DW-TV.png" group-title="News + Opinion",DW-TV
+#EXTINF:-1 tvg-id="Dens_dw-tv.id" tvg-name="DW TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/DW-TV.png" group-title="News + Opinion",DW-TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h213/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h213/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
-#EXTINF:-1 tvg-id="MNC_euronews_333.id" tvg-name="EURONEWS" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Euronews.png" group-title="News + Opinion",Euronews
-
-#EXTINF:-1 tvg-id="Dens_france-24.id" tvg-name="France 24" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/France_24.png" group-title="News + Opinion",France 24
+#EXTINF:-1 tvg-id="MNC_euronews_333.id" tvg-name="EURONEWS" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Euronews..png" group-title="News + Opinion",Euronews.
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h14/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://geo.dailymotion.com&Referer=https://geo.dailymotion.com/
+https://cdndirector.dailymotion.com/cdn/live/video/xar7p26.m3u8?sec=lE3qH4ptng0l0RymNFV5sVBsoTuCwaIQ-ygqFdY9qQuAaPsVT9aFnl9V4Ptgip4G-xEB7nvLsIx0MM1HJpwlg5pY8O8zi5tX1_iUeRtYOCSdycLhpmT09i10Kj7OX_AE|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://geo.dailymotion.com&Referer=https://geo.dailymotion.com/
 
-#EXTINF:-1 tvg-id="Dens_france-english-24.id" tvg-name="France 24 English" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/France_24.png" group-title="News + Opinion",France 24 English
+#EXTINF:-1 tvg-id="Dens_france-24.id" tvg-name="France 24" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/France_24.png" group-title="News + Opinion",France 24
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h238/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h14/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
-#EXTINF:-1 tvg-id="Dens_cna.id" tvg-name="CNA" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/CNA.png" group-title="News + Opinion",Channel News Asia
+#EXTINF:-1 tvg-id="Dens_france-english-24.id" tvg-name="France 24 English" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/France_24.png" group-title="News + Opinion",France 24 English
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h29/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h238/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+
+#EXTINF:-1 tvg-id="Dens_cna.id" tvg-name="CNA" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/CNA.png" group-title="News + Opinion",Channel News Asia
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h29/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4ee336861eed4840a555788dc54aea6e:f1f53644d4941d4ed31b4bb2478f8cf4
 https://tglmp03.akamaized.net/out/v1/43856347987b4da3890360b0d18b5dc5/manifest.mpd|clearkey=4ee336861eed4840a555788dc54aea6e:f1f53644d4941d4ed31b4bb2478f8cf4
 
-#EXTINF:-1 tvg-id="Dens_trt-world.id" tvg-name="TRT World" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/TRT_World.png" group-title="News + Opinion",TRT World
+#EXTINF:-1 tvg-id="Dens_trt-world.id" tvg-name="TRT World" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/TRT_World.png" group-title="News + Opinion",TRT World
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h156/index2.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h156/index2.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h20/index.m3u8
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -1276,11 +1283,11 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h20/index.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/
 https://dv6fza91pwlw3.cloudfront.net/out/v1/be2bcc4b75e348e5b331fc5f99aa3daf/index.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/|clearkey=e4b5eab488e149e68f3e421615ffd0d2:2556a421a56e53ab9b6ccefdf464581e
 
-#EXTINF:-1 tvg-id="Dens_russia-today-rt.id" tvg-name="RT News" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Russia_Today.png" group-title="News + Opinion",Russia Today (RT)
+#EXTINF:-1 tvg-id="Dens_russia-today-rt.id" tvg-name="RT News" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Russia_Today.png" group-title="News + Opinion",Russia Today (RT)
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h226/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h226/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -1289,106 +1296,106 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h226/index.m3u8|User-Agent=DENSGO/3.00
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Xstream XGO/1.22 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 https://cdnjkt913.transvision.co.id:1000/live/master/2/4028c68572841ba301729cea1be63c1b/manifest.mpd|User-Agent=Xstream XGO/1.22 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36|clearkey=https://cbm.openwindows038.workers.dev/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/FreeDOM.png" group-title="News + Opinion",FreeDOM
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/FreeDOM.png" group-title="News + Opinion",FreeDOM
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h101/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h101/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/WION.png" group-title="News + Opinion",WION
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/WION.png" group-title="News + Opinion",WION
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h307/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h307/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 
-#EXTINF:-1 tvg-id="Dens_al-jazeera-english.id" tvg-name="Al Jazeera English" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Al_Jazeera.png" group-title="News + Opinion",Al Jazeera English
+#EXTINF:-1 tvg-id="Dens_al-jazeera-english.id" tvg-name="Al Jazeera English" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Al_Jazeera.png" group-title="News + Opinion",Al Jazeera English
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.aljazeera.com&Referer=https://www.aljazeera.com/
 https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.aljazeera.com&Referer=https://www.aljazeera.com/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h43/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h43/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
-#EXTINF:-1 tvg-id="Dens_al-jazeera-arabic.id" tvg-name="Al Jazeera Arabic" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Al_Jazeera.png" group-title="News + Opinion",Al Jazeera Arabic
+#EXTINF:-1 tvg-id="Dens_al-jazeera-arabic.id" tvg-name="Al Jazeera Arabic" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Al_Jazeera.png" group-title="News + Opinion",Al Jazeera Arabic
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/s/s16/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/s/s16/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/CCTV+.png" group-title="News + Opinion",CCTV+ 1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/CCTV%2B.png" group-title="News + Opinion",CCTV+ 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.cctvplus.com/
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.cctvplus.com/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/CCTV+.png" group-title="News + Opinion",CCTV+ 2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/CCTV%2B.png" group-title="News + Opinion",CCTV+ 2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.cctvplus.com/
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.cctvplus.com/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/CCTV+.png" group-title="News + Opinion",CCTV+ 3
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/CCTV%2B.png" group-title="News + Opinion",CCTV+ 3
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.cctvplus.com/
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL3.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.cctvplus.com/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/CCTV+.png" group-title="News + Opinion",CCTV+ 4
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/CCTV%2B.png" group-title="News + Opinion",CCTV+ 4
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.cctvplus.com/
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL4.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.cctvplus.com/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/CCTV-2.png" group-title="News + Opinion",CCTV-2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/CCTV-2.png" group-title="News + Opinion",CCTV-2
 http://107.150.60.122/live/cctv2hd.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/CCTV-12.png" group-title="News + Opinion",CCTV-12
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/CCTV-12.png" group-title="News + Opinion",CCTV-12
 http://107.150.60.122/live/cctv12hd.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/CCTV-13.png" group-title="News + Opinion",CCTV-13
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/CCTV-13.png" group-title="News + Opinion",CCTV-13
 http://107.150.60.122/live/cctv13hd.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/TaiwanPlus.png" group-title="News + Opinion",TaiwanPlus
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/TaiwanPlus.png" group-title="News + Opinion",TaiwanPlus
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.taiwanplus.com&Referer=https://www.taiwanplus.com/
 https://fastly.live.brightcove.com/6385235869112/ap-northeast-1/6282251407001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaWU4OWZvLmVncmVzcy5pdjNqZDgiLCJhY2NvdW50X2lkIjoiNjI4MjI1MTQwNzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MjgyMjUxNDA3MDAxIl0sImp0aSI6IjYzODUyMzU4NjkxMTIifQ.4c-V1Ks3nBx9nRljtn5-jCNP_nLuWBbk-pw9BFWZfMQ/playlist-hls.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.taiwanplus.com&Referer=https://www.taiwanplus.com/
 
-#EXTINF:-1 tvg-id="MNC_cgtn_353.id" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/CGTN.png" group-title="News + Opinion",CGTN
+#EXTINF:-1 tvg-id="MNC_cgtn_353.id" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/CGTN.png" group-title="News + Opinion",CGTN
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Zhejiang_News.png" group-title="News + Opinion",Zhejiang News
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Zhejiang_News.png" group-title="News + Opinion",Zhejiang News
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Zhejiang_Economic_Life.png" group-title="News + Opinion",Zhejiang Economic Life
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Zhejiang_Economic_Life.png" group-title="News + Opinion",Zhejiang Economic Life
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/TVBS_News.png" group-title="News + Opinion",TVBS News
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/TVBS_News.png" group-title="News + Opinion",TVBS News
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/TTV_News.png" group-title="News + Opinion",TTV News
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/TTV_News.png" group-title="News + Opinion",TTV News
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/FTV_News.png" group-title="News + Opinion",FTV News
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/FTV_News.png" group-title="News + Opinion",FTV News
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/USTV_News.png" group-title="News + Opinion",USTV News
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/USTV_News.png" group-title="News + Opinion",USTV News
 rtmp://f13h.mine.nu/sat/tv581
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Nation_TV.png" group-title="News + Opinion",Nation TV
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Nation_TV.png" group-title="News + Opinion",Nation TV
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/TNN16.png" group-title="News + Opinion",TNN16
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/TNN16.png" group-title="News + Opinion",TNN16
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/JKN18.png" group-title="News + Opinion",JKN18
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/JKN18.png" group-title="News + Opinion",JKN18
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/phoenix.png" group-title="News + Opinion",phoenix
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/phoenix.png" group-title="News + Opinion",phoenix
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.zdf.de&Referer=https://www.zdf.de/
 https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.zdf.de&Referer=https://www.zdf.de/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/NBT2.png" group-title="News + Opinion",NBT2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/NBT2.png" group-title="News + Opinion",NBT2
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_+_Opinion/Thairath_TV32.png" group-title="News + Opinion",Thairath TV32
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/Thairath_TV32.png" group-title="News + Opinion",Thairath TV32
 
 <=================== True Crime ===================>
 
@@ -1406,6 +1413,8 @@ https://linear-474.frequency.stream/dist/glewedtv/474/hls/master/playlist.m3u8|U
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/384f26c1c3b74ce09fa60bed24719b79/index.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/|clearkey=ce73b28200934af786104ce175d0dc45:b3a7b83221ed0d8fe18b8fcf92b5861a
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/True_Crime/ION.png" group-title="True Crime",ION
+
 <=================== Sports ===================>
 
 #EXTINF:-1 tvg-id="Dens_tvri-sport.id" tvg-name="TVRI Sport" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/TVRI_SPORT.png" group-title="Sports",TVRI SPORT
@@ -1415,14 +1424,14 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/384f26c1c3b74ce09fa60bed24719b79/in
 https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://klik.tvri.go.id/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h19/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h19/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="Tivie_moji.id" tvg-name="MOJI" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/MOJI.png" group-title="Sports",MOJI
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/MAX_Streak.png" group-title="Sports",MAX Streak
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1439,7 +1448,7 @@ https://cdnbal1.indihometv.com/atm/DASH/useesport/manifest.mpd|User-Agent=IndiHo
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/CCTV-5.png" group-title="Sports",CCTV-5
 http://107.150.60.122/live/cctv5hd.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/CCTV-5+.png" group-title="Sports",CCTV-5+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/CCTV-5%2B.png" group-title="Sports",CCTV-5+
 http://107.150.60.122/live/cctv5p.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/CCTV-16.png" group-title="Sports",CCTV-16
@@ -1581,7 +1590,7 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36|clearkey=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Sukan+_RTM.png" group-title="Sports",Sukan+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Sukan%2B_RTM.png" group-title="Sports",Sukan+
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
@@ -1882,8 +1891,8 @@ https://amg00585-amg00585c17-freelivesports-emea-6712.playouts.now.amagi.tv/play
 #EXTINF:-1 tvg-id="Dens_motorvision.id" tvg-name="Motorvision+" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Motorvision%2B.png" group-title="Sports",Motorvision+
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h09/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h09/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Motorvision.TV.png" group-title="Sports",Motorvision.TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1962,11 +1971,17 @@ https://amg26268-amg26268c16-freelivesports-emea-10881.playouts.now.amagi.tv/ts-
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/MUTV.png" group-title="Sports",MUTV
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Real_Madrid_TV.png" group-title="Sports",Real Madrid TV
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Real_Madrid_TV.png" group-title="Sports",Real Madrid TV 🇪🇸
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer/2.19.1 (Linux; Android 13; SM-G9980) Media3/1.6.0
-https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8?hdnea=exp=1653452799~acl=/*~hmac=6fa983776826e1224ab4c19996ce92f00a1ad234617b07fd8a398160d72c19e0|User-Agent=ExoPlayer/2.19.1 (Linux; Android 13; SM-G9980) Media3/1.6.0
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8|User-Agent=ExoPlayer/2.19.1 (Linux; Android 13; SM-G9980) Media3/1.6.0
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Real_Madrid_TV.png" group-title="Sports",Real Madrid TV 🇬🇧
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayer/2.19.1 (Linux; Android 13; SM-G9980) Media3/1.6.0
+https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/master.m3u8|User-Agent=ExoPlayer/2.19.1 (Linux; Android 13; SM-G9980) Media3/1.6.0
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Inter_TV.png" group-title="Sports",Inter TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -2022,13 +2037,13 @@ https://wahyu1ptv.pages.dev/SkySportF1-HD.m3u8|User-Agent=Player (Linux; Android
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Sky_Sports_Mix.png" group-title="Sports",Sky Sports Mix
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Sky_Sports+.png" group-title="Sports",Sky Sports+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Sky_Sports%2B.png" group-title="Sports",Sky Sports+
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Sky_Sports_Main_Event.png" group-title="Sports",Sky Sports Main Event
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/ONE_Sports.png" group-title="Sports",ONE Sports
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/ONE_Sports+.png" group-title="Sports",ONE Sports+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/ONE_Sports%2B.png" group-title="Sports",ONE Sports+
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/UNIFI_Sports.png" group-title="Sports",UNIFI Sports
 
@@ -2110,17 +2125,26 @@ https://cdn.skygo.mn/live/disk1/ONTV/DASH-FTA/ONTV.mpd|User-Agent=Mozilla/5.0 (W
 #EXTINF:-1 tvg-id="Dens_wedosports.id" tvg-name="wedoSports" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/wedotv_Sports.png" group-title="Sports",wedotv Sports
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h71/wedo_sport.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h71/wedo_sport.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Golf_Channel.png" group-title="Sports",Golf Channel
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Tennis_Channel.png" group-title="Sports",Tennis Channel
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Tennis%2B.png" group-title="Sports",Tennis+
+https://amg01935-amg01935c1-amgplt0020.playout.now3.amagi.tv/playlist/amg01935-amg01935c1-amgplt0020/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/PickeTV.png" group-title="Sports",PickeTV
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-63ec0b739866d8d2120ac759.m3u8?includeAllStreams=1&x-plex-product=Plex+Mediaverse&x-plex-token=3Nv9zQpqRiPSsS9abkLh&auto=0
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Pickleballtv.png" group-title="Sports",Pickleballtv
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://stream.pickleballtv.com&Referer=https://stream.pickleballtv.com/
 https://amg01444-tennischannel-amg01444c3-tennischannel-us-1912.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01444-tennischannelfast-pickleball-tennischannelus/playlist.m3u8?route_version=v2|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://stream.pickleballtv.com&Referer=https://stream.pickleballtv.com/
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Cricket_Gold.png" group-title="Sports",Cricket Gold Live
+https://dltcbyrjz4q6b.cloudfront.net/scheduler/scheduleMaster/418.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/Billiard_TV.png" group-title="Sports",Billiard TV
 
@@ -2167,8 +2191,8 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3ynrpdanq2/
 #EXTINF:-1 tvg-id="Dens_live-streaming-1.id" tvg-name="Live Streaming 1" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live_Events/Live_Streaming_1.png" group-title="Live Events",Live Streaming 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h123/live.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h123/live.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Live_Events/Prelude_ASA_2026.png" group-title="Live Events",Prelude ASA 2026
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -2315,6 +2339,9 @@ https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_11/dash.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/Miramax_Movie_Channel.png" group-title="Movies",Miramax Movie Channel
+https://linear-798.frequency.stream/mt/plex/798/hls/master/playlist.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/HBO_Plus.png" group-title="Movies",(🇧🇷) HBO Plus
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/HBO2.png" group-title="Movies",(🇧🇷) HBO2
@@ -2422,8 +2449,8 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/010bb28c19b64975b318d3b00f58b18b/ind
 #EXTINF:-1 tvg-id="Dens_wedotvmovies.id" tvg-name="wedo Movies" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/wedotv_Movies.png" group-title="Movies",wedotv Movies
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h70/wedotv_movie.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h70/wedotv_movie.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="MNC_tvn-movies-hd_415.id" tvg-name="tvN Movies HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/tvN_Movies.png" group-title="Movies",tvN Movies
 
@@ -2499,8 +2526,8 @@ https://live.metshop.top/huya/11602075
 #EXTINF:-1 tvg-id="Dens_my-cinema-europe-hd.id" tvg-name="My Cinema Europe" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/My_Cinema_Europe.png" group-title="Movies",My Cinema Europe
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h18/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h18/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/CinemaWorld.png" group-title="Movies",CinemaWorld
 
@@ -2566,8 +2593,8 @@ https://phonealihd.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZkZWY9MSZ1aXA9MTAzLjE1MC4y
 #EXTINF:-1 tvg-id="Dens_wedotvamor.id" tvg-name="wedo Amor" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Drama/wedotv_Amor.png" group-title="Drama",wedotv Amor
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h68/wedotv_amor.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h68/wedotv_amor.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 <=================== Classic TV ===================>
 
@@ -2595,6 +2622,9 @@ https://cb562753.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_3/dash.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Comedy/Pitaara_Comedy.png" group-title="Comedy",Pitaara Comedy
+https://vg-pitaaratvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/5b28c9c9-60eb-4d9b-8f3e-d772ec318e7f/playlist.m3u8
+
 <=================== Entertainment ===================>
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/AllPlay_Ent..png" group-title="Entertainment",AllPlay Ent.
@@ -2602,14 +2632,14 @@ https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-
 #EXTINF:-1 tvg-id="Dens_densshowbiz.id" tvg-name="Dens ShowBiz" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/DensShowBiz.png" group-title="Entertainment",DensShowBiz
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h244/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h244/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="Dens_densplay.id" tvg-name="DensPlay" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/DensPlay.png" group-title="Entertainment",DensPlay
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h246/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h246/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="MNC_vision-prime-hd_1.id" tvg-name="Vision Prime HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/Vision_Prime.png" group-title="Entertainment",Vision Prime
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -2632,14 +2662,14 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/8cf72e61626f4361a45c57ce6f2fdad8/in
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/BN_Channel.png" group-title="Entertainment",BN Channel
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=http://www.dens.tv/
-https://op-group1-swiftservehd-1.dens.tv/h/h39/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=http://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=http://www.dens.tv/
+https://op-group1-swiftservehd-1.dens.tv/h/h39/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=http://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/Magna_Channel.png" group-title="Entertainment",Magna Channel
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h24/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=http://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=http://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h24/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=http://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/Citra_Entertainment.png" group-title="Entertainment",Citra Entertainment
 
@@ -2680,6 +2710,9 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/1880fc1b32d3449196e80345f6cd5918/ind
 https://cdnbal1.indihometv.com/atm/DASH/warner/manifest.mpd|User-Agent=IndiHomeTV/8.7.12 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/DMAX.png" group-title="Entertainment",DMAX
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/Nosey.png" group-title="Entertainment",Nosey
+https://dbrb49pjoymg4.cloudfront.net/10001/99991366/hls/playlist.m3u8?ads.xumo_channelId=99991366&ads._fw_ifa_type=dpid&ads._fw_did=7cbb683b-d05a-b7ee-8440-7ef90e448150&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads.asnw=&ads.caid=Nosey&ads.csid=xumo_desktopweb_Nosey_ssai&ads._fw_is_lat=1&ads._fw_us_privacy=1YNN&ads._fw_coppa=0&ads.genre=Drama,Entertainment,DD,GD,GV,Talk+Show&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=Drama,Entertainment,DD,GD,GV,Talk+Show&ads._fw_content_rating=TV-PG&ads.xumo_contentId=1070&ads.xumo_contentName=Nosey&ads.xumo_providerId=1070&ads.xumo_providerName=Nosey&ads._fw_deviceMake=&ads._fw_device_model=&ads.channelId=99991366&ads.xumo_platform=desktopweb&ads.site_id=26840&ads.appName=xumo&ads.appVersion=2.32.0&ads._fw_app_bundle=&ads._fw_app_store_url=&ads.site_name=XumoPlay&ads.site_page=play.xumo.com
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/Astro_Ria.png" group-title="Entertainment",Astro Ria
 
@@ -2752,8 +2785,8 @@ https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/.mpd|Us
 #EXTINF:-1 tvg-id="Dens_dim-tv.id" tvg-name="DIM TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/DIM_TV.png" group-title="Entertainment",DIM TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h305/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h305/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/Hunan_Entertainment.png" group-title="Entertainment",Hunan Entertainment
 https://phonealihd.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZkZWY9MSZ1aXA9MTAzLjE1MC4yMTguNzgmdGVybT00Jm1hY2lkPTcwMzBkMTMxLWI0ODMtNGI4OC04ODdkLTJkZjc3MWYyZGZmZSZxaWQ9JnJhdXRoX2VuYWJsZT1vZmYmY2RuZXhfaWQ9YWxfcGhvbmU0JmVzPTE3ODQ1MDI3NzAmdXVpZD1hYTBhZTIwNTIyNTYwMThkY2FhYTIwNDdhMmFlNjBlMC02Nzk2ZGE0ZSZzPTczZDJhNjczOGFmM2UyZGJkZDZiMGVlYWFjYmQyMmJlJnVpZD0mbmR2PXBjX3dlYi1pbWdvdHYtcGNoNS0xLjIuMyZ2PTImYXM9MCZfY2FyQ29kZT0w/HNYLMPP360.m3u8?sftc=v1.0.1-alpha.39ds1_vtp2&ftc=webP1
@@ -2790,8 +2823,8 @@ https://albuk.dyndns.tv/albuk/albuk.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Dens_tv5monde-asie.id" tvg-name="TV5Monde Asie" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/TV5MONDE_Asie.png" group-title="Entertainment",TV5MONDE Asie
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h312/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h312/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/Italia_1.png" group-title="Entertainment",Italia 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -3284,20 +3317,20 @@ https://d1xc25jm9e0l4b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-id="Dens_qwest-tv.id" tvg-name="Qwest TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Music_Videos/Qwest_TV.png" group-title="Music Videos",Qwest TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h306/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h306/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="Dens_stingray-classica.id" tvg-name="Stingray Classica" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Music_Videos/Stingray_Classica.png" group-title="Music Videos",Stingray Classica
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h304/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h304/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="Dens_dance-tv.id" tvg-name="Dance TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Music_Videos/Dance_TV.png" group-title="Music Videos",Dance TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h308/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h308/stream.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Music_Videos/Fresh_Dance.png" group-title="Music Videos",Fresh Dance
 https://wahyu1ptv.pages.dev/FreshDance.m3u8
@@ -3326,13 +3359,13 @@ https://3abn.bozztv.com/3abn1/PraiseHim/smil:PraiseHim.smil/playlist.m3u8|User-A
 
 <=================== History + Science ===================>
 
-#EXTINF:-1 tvg-id="Dens_densknowledge.id" tvg-name="Dens Knowledge" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/DensKnowledge.png" group-title="History + Science",DensKnowledge
+#EXTINF:-1 tvg-id="Dens_densknowledge.id" tvg-name="Dens Knowledge" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/DensKnowledge.png" group-title="History + Science",DensKnowledge
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h218/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h218/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
-#EXTINF:-1 tvg-id="MNC_history_206.id" tvg-name="History" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/History.png" group-title="History + Science",History
+#EXTINF:-1 tvg-id="MNC_history_206.id" tvg-name="History" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/History.png" group-title="History + Science",History
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -3340,31 +3373,31 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h218/index.m3u8|User-Agent=DENSGO/3.00
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/936ed6f98448469b924a0ce456586651/index.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/|clearkey=dc32fe8b8e0b4b849724d4a34e390c83:62a98c5670883a0a034df0c27b435a5e
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/Curiosity.png" group-title="History + Science",Curiosity
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/Curiosity.png" group-title="History + Science",Curiosity
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/Smithsonian_Channel.png" group-title="History + Science",Smithsonian Channel
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/Smithsonian_Channel.png" group-title="History + Science",Smithsonian Channel
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/World_War_TV.png" group-title="History + Science",World War TV
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/World_War_TV.png" group-title="History + Science",World War TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tv.garden&Referer=https://tv.garden/
 https://aenetworks-worldwartv-rakuten.amagi.tv/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tv.garden&Referer=https://tv.garden/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/Discovery_Channel.png" group-title="History + Science",Discovery Channel
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/Discovery_Channel.png" group-title="History + Science",Discovery Channel
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/Discovery_Asia.png" group-title="History + Science",Discovery Asia
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/Discovery_Asia.png" group-title="History + Science",Discovery Asia
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/CCTV-9.png" group-title="History + Science",CCTV-9
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/CCTV-9.png" group-title="History + Science",CCTV-9
 http://107.150.60.122/live/cctv9hd.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/CCTV-10.png" group-title="History + Science",CCTV-10
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/CCTV-10.png" group-title="History + Science",CCTV-10
 http://107.150.60.122/live/cctv10hd.m3u8
 
-#EXTINF:-1 tvg-id="Dens_cgtn-documentary.id" tvg-name="CGTN Documentary" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/CGTN_Documentary.png" group-title="History + Science",CGTN Documentary
+#EXTINF:-1 tvg-id="Dens_cgtn-documentary.id" tvg-name="CGTN Documentary" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/CGTN_Documentary.png" group-title="History + Science",CGTN Documentary
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h04/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h04/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -3372,51 +3405,51 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h04/index.m3u8|User-Agent=DENSGO/3.00.
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/
 https://d1ebgtxjo246w3.cloudfront.net/out/v1/9757e131659a4ab8ba08d448c4a3779e/index.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/|clearkey=349ac1b8d5f2493d97ffd88d364de38c:92e769c36e60dcd8573c08fd9c27b9bf
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/Zhejiang_Education_%26_Film.png" group-title="History + Science",Zhejiang Education & Film
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/Zhejiang_Education_%26_Film.png" group-title="History + Science",Zhejiang Education & Film
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/Zhijiang_Documentary.png" group-title="History + Science",Zhijiang Documentary
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/Zhijiang_Documentary.png" group-title="History + Science",Zhijiang Documentary
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/Golden_Eagle_Documentary.png" group-title="History + Science",Golden Eagle Documentary
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/Golden_Eagle_Documentary.png" group-title="History + Science",Golden Eagle Documentary
 https://phonealihd.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZkZWY9MSZ1aXA9MTAzLjE1MC4yMTguNzgmdGVybT00Jm1hY2lkPTcwMzBkMTMxLWI0ODMtNGI4OC04ODdkLTJkZjc3MWYyZGZmZSZxaWQ9JnJhdXRoX2VuYWJsZT1vZmYmY2RuZXhfaWQ9YWxfcGhvbmU0JmVzPTE3ODQ1MDI4NzYmdXVpZD04NWEzYmMxNzg4MmI3NTU0Y2E1YmEwZmQxMDQ4NDllOC02Nzk2ZGE0ZSZzPTAzZmU2YTc5MDcyMWFiOWU1M2YxZWI3YzYwNzgxOWQ1JnVpZD0mbmR2PXBjX3dlYi1pbWdvdHYtcGNoNS0xLjIuMyZ2PTImYXM9MCZfY2FyQ29kZT0w/JYJSMPP360.m3u8?sftc=v1.0.1-alpha.39ds1_vtp2&ftc=webP1
 
-#EXTINF:-1 tvg-id="Dens_wedotvbig-stories.id" tvg-name="wedo Big Stories" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/wedotv_Big_Stories.png" group-title="History + Science",wedotv Big Stories
+#EXTINF:-1 tvg-id="Dens_wedotvbig-stories.id" tvg-name="wedo Big Stories" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/wedotv_Big_Stories.png" group-title="History + Science",wedotv Big Stories
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h69/wedotv_big_stories.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h69/wedotv_big_stories.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/7_Storia.png" group-title="History + Science",7 Storia
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/7_Storia.png" group-title="History + Science",7 Storia
 
-#EXTINF:-1 tvg-id="AbaiTV.kz" tvg-name="Abai TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/Abai_TV.png" group-title="History + Science",Abai TV
+#EXTINF:-1 tvg-id="AbaiTV.kz" tvg-name="Abai TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/Abai_TV.png" group-title="History + Science",Abai TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://player.rtrk.kz&Referer=https://player.rtrk.kz/
 https://kazakhstan-proxy.sulthan-pamenan.workers.dev/?url=https://abaitv-stream.qazcdn.com/abaitv/abaitv/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://player.rtrk.kz&Referer=https://player.rtrk.kz/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/RT_Documentary.png" group-title="History + Science",RT Documentary
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/RT_Documentary.png" group-title="History + Science",RT Documentary
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/KBS_World_Dokdo.png" group-title="History + Science",KBS World Dokdo
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/KBS_World_Dokdo.png" group-title="History + Science",KBS World Dokdo
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://world.kbs.co.kr/
 http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://world.kbs.co.kr/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/ZDFinfo.png" group-title="History + Science",ZDFinfo
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/ZDFinfo.png" group-title="History + Science",ZDFinfo
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.zdf.de&Referer=https://www.zdf.de/
 https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.zdf.de&Referer=https://www.zdf.de/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/3sat.png" group-title="History + Science",3sat
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/3sat.png" group-title="History + Science",3sat
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.zdf.de&Referer=https://www.zdf.de/
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.zdf.de&Referer=https://www.zdf.de/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_+_Science/ARTE.png" group-title="History + Science",ARTE
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/History_%2B_Science/ARTE.png" group-title="History + Science",ARTE
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://www.zdf.de&Referer=https://www.zdf.de/
@@ -3424,26 +3457,26 @@ https://artelivezdf.akamaized.net/hls/live/2030993/artelive_de/index.m3u8|User-A
 
 <=================== Animals + Nature ===================>
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_+_Nature/Biznet_Adventure.png" group-title="Animals + Nature",Biznet Adventure
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_%2B_Nature/Biznet_Adventure.png" group-title="Animals + Nature",Biznet Adventure
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/manifest.mpd?bizkeylivestarttime=0&bizkeyliveendtime=0&bizkeyliveCustomParameter=myParameter&bizkeylivehash=D2-Bdo6x4Cb0PsmWG5fu7YVz3FhpmD2005p60ZgyKUQS1JrK98LUd-yQ6T81d1tE
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_+_Nature/Love_Pets.png" group-title="Animals + Nature",Love Pets
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_%2B_Nature/Love_Pets.png" group-title="Animals + Nature",Love Pets
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tv.garden&Referer=https://tv.garden/
 https://rakutenaa-blueskyent-lovepetsemea-rakuten-ikc4q.amagi.tv/playlist/rakutenAA-blueskyent-lovepetsemea-rakuten/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tv.garden&Referer=https://tv.garden/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_+_Nature/Animal_Planet.png" group-title="Animals + Nature",Animal Planet
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_%2B_Nature/Animal_Planet.png" group-title="Animals + Nature",Animal Planet
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_+_Nature/Adventure_Earth.png" group-title="Animals + Nature",Adventure Earth
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_%2B_Nature/Adventure_Earth.png" group-title="Animals + Nature",Adventure Earth
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tv.garden&Referer=https://tv.garden/
 https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Origin=https://tv.garden&Referer=https://tv.garden/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_+_Nature/National_Geographic_Wild.png" group-title="Animals + Nature",National Geographic Wild
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_%2B_Nature/National_Geographic_Wild.png" group-title="Animals + Nature",National Geographic Wild
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -3452,7 +3485,7 @@ https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8|User-Agent=M
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://webtv.sk/tv/
 https://dash2.antik.sk/stream/hisi_ngw/playlist_cbcs.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://webtv.sk/tv/|clearkey=https://drm.antik.sk/widevine/key
 
-#EXTINF:-1 tvg-id="MNC_global-trekker-hd_462.id" tvg-name="Global Trekker HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_+_Nature/Global_Trekker.png" group-title="Animals + Nature",Global Trekker
+#EXTINF:-1 tvg-id="MNC_global-trekker-hd_462.id" tvg-name="Global Trekker HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_%2B_Nature/Global_Trekker.png" group-title="Animals + Nature",Global Trekker
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -3460,7 +3493,7 @@ https://dash2.antik.sk/stream/hisi_ngw/playlist_cbcs.mpd|User-Agent=Mozilla/5.0 
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/
 https://d2tjypxxy769fn.cloudfront.net/out/v1/99b07f39f4964b7cb9bfc092b51af734/index.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/|clearkey=b826a2e05a5a4922b64019c17345a020:a532aa3aaf1b2f32daa66b4d165056c6
 
-#EXTINF:-1 tvg-id="MNC_bbc-earth-hd_461.id" tvg-name="BBC Earth HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_+_Nature/BBC_Earth.png" group-title="Animals + Nature",BBC Earth
+#EXTINF:-1 tvg-id="MNC_bbc-earth-hd_461.id" tvg-name="BBC Earth HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_%2B_Nature/BBC_Earth.png" group-title="Animals + Nature",BBC Earth
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -3468,13 +3501,13 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/99b07f39f4964b7cb9bfc092b51af734/in
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/4e5b2a283adf462c8b6b55b2ef059fac/index.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/|clearkey=5709bc59805c4f23b000306efea48438:1772cf06c2f5dd3980a3245cd31fd356
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_+_Nature/BBC_Earth.png" group-title="Animals + Nature",BBC Earth (Feed)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_%2B_Nature/BBC_Earth.png" group-title="Animals + Nature",BBC Earth (Feed)
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_+_Nature/BBC_Earth.png" group-title="Animals + Nature",BBC Earth
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_%2B_Nature/BBC_Earth.png" group-title="Animals + Nature",BBC Earth
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -3482,10 +3515,10 @@ https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEar
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Dalvik/2.1.0
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/bbcearth.smil/manifest.mpd|User-Agent=Dalvik/2.1.0|clearkey=5014941a2c42379880b5edf72304c165:f3fa0fe3cd39a52f4eefd36ff7161e89
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_+_Nature/Earth_Touch_TV.png" group-title="Animals + Nature",Earth Touch TV
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_%2B_Nature/Earth_Touch_TV.png" group-title="Animals + Nature",Earth Touch TV
 https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="MNC_love-nature-hd_463.id" tvg-name="Love Nature HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_+_Nature/Love_Nature.png" group-title="Animals + Nature",Love Nature
+#EXTINF:-1 tvg-id="MNC_love-nature-hd_463.id" tvg-name="Love Nature HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_%2B_Nature/Love_Nature.png" group-title="Animals + Nature",Love Nature
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -3493,9 +3526,9 @@ https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/15500e8f0dc44058ba0431d39a8fed57/index.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/|clearkey=6c4190749d6f4b51bde2df71715e843b:9dfc9803c0fdbb1cd6df2188a6f29064
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_+_Nature/4K_Travel.png" group-title="Animals + Nature",4K Travel
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_%2B_Nature/4K_Travel.png" group-title="Animals + Nature",4K Travel
 
-#EXTINF:-1 tvg-id="MNC_outdoor-channel-hd_460.id" tvg-name="Outdoor channel HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_+_Nature/Outdoor_Channel.png" group-title="Animals + Nature",Outdoor Channel
+#EXTINF:-1 tvg-id="MNC_outdoor-channel-hd_460.id" tvg-name="Outdoor channel HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Animals_%2B_Nature/Outdoor_Channel.png" group-title="Animals + Nature",Outdoor Channel
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
 
 <=================== Lifestyle ===================>
@@ -3510,8 +3543,8 @@ http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/manifest.
 #EXTINF:-1 tvg-id="Dens_denslifestyle.id" tvg-name="Dens Lifestyle" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Lifestyle/DensLife%26Style.png" group-title="Lifestyle",DensLife&Style
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Lifestyle/TLC.png" group-title="Lifestyle",TLC
 
@@ -3551,37 +3584,37 @@ https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/index.m3u8
 
 <=================== Home + Food ===================>
 
-#EXTINF:-1 tvg-id="Dens_densfood-channel.id" tvg-name="Dens Food Channel" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_+_Food/DensFood_Channel.png" group-title="Home + Food",DensFood Channel
+#EXTINF:-1 tvg-id="Dens_densfood-channel.id" tvg-name="Dens Food Channel" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_%2B_Food/DensFood_Channel.png" group-title="Home + Food",DensFood Channel
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h221/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h221/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_+_Food/Apetito.png" group-title="Home + Food",Apetito
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_%2B_Food/Apetito.png" group-title="Home + Food",Apetito
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 https://d1sq2slp9afh7o.cloudfront.net/smil:apetito/playlist.m3u8?id=24100|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_+_Food/Sooka_Travel_%26_Taste.png" group-title="Home + Food",Sooka Travel & Taste
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_%2B_Food/Sooka_Travel_%26_Taste.png" group-title="Home + Food",Sooka Travel & Taste
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_5/dash.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_+_Food/Crema_TV.png" group-title="Home + Food",Crema TV
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_%2B_Food/Crema_TV.png" group-title="Home + Food",Crema TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h202/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h202/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_+_Food/Asian_Food_Network.png" group-title="Home + Food",Asian Food Network
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_%2B_Food/Asian_Food_Network.png" group-title="Home + Food",Asian Food Network
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_+_Food/AWE.png" group-title="Home + Food",AWE
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_%2B_Food/AWE.png" group-title="Home + Food",AWE
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_+_Food/Food_Network.png" group-title="Home + Food",Food Network
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_%2B_Food/Food_Network.png" group-title="Home + Food",Food Network
 
-#EXTINF:-1 tvg-id="MNC_food-travel-hd_459.id" tvg-name="Food Travel HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_+_Food/Food_Travel.png" group-title="Home + Food",Food Travel
+#EXTINF:-1 tvg-id="MNC_food-travel-hd_459.id" tvg-name="Food Travel HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_%2B_Food/Food_Travel.png" group-title="Home + Food",Food Travel
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -3589,7 +3622,7 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h202/index.m3u8|User-Agent=DENSGO/3.00
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://visionplus.id
 https://d2gr3zenqo3tg4.cloudfront.net/out/v1/77d7eac1b90247ac9aa745bd2eb47fa8/index.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36&Referer=https://visionplus.id|clearkey=c263b43be6b94fb682b1d701e0aaf847:83491ecbe2968e91ed563ce2c41428dc
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_+_Food/HGTV.png" group-title="Home + Food",HGTV
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Home_%2B_Food/HGTV.png" group-title="Home + Food",HGTV
 
 <=================== Competition Reality ===================>
 
@@ -3608,15 +3641,15 @@ https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
 https://win.holol.com/live/quran/playlist.m3u8
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h15/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h15/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Religious/As_Sunnah_An_Nabawiyah.png" group-title="Religious",As Sunnah An Nabawiyah
 https://win.holol.com/live/sunnah/playlist.m3u8
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h38/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h38/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Religious/Citra_Muslim.png" group-title="Religious",Citra Muslim
 
@@ -3627,8 +3660,8 @@ https://rodjatv.com/rodjatv/live.m3u8
 https://wahyu1ptv.pages.dev/RodjaTV-HD.m3u8
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h233/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h233/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Religious/Insan_TV.png" group-title="Religious",InsanTV
 
@@ -3743,8 +3776,8 @@ https://cdn-globecast.akamaized.net/live/eds/akaal_tv/hls1_smart_akaal/akaal_tv.
 https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h16/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h16/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Religious/I_AM_Channel.png" group-title="Religious",I AM Channel
 
@@ -3782,8 +3815,8 @@ https://cdn.jwplayer.com/v2/sites/Yal8cmyO/media/fCGf6ROk/ssai.m3u8?ad_config_id
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Religious/TBN_Asia_-_white.png" group-title="Religious",TBN Asia
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/s/s39/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 13; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/s/s39/index.m3u8|User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
