@@ -17,19 +17,27 @@ window.location.replace("https://sulthanpamenan.github.io/IPTV_Master/");
 <=================== Movies - Romane ===================>
 
 #EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-tmdb="1257388" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies_(VOD)/My_Boo_(2024).jpg" group-title="Romance",My Boo (2024)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://main.24playerhd.com/newplaylist/6e363837ea8a7bdd61c97cb9/6e363837ea8a7bdd61c97cb9.m3u8
 
 #EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-tmdb="1164492" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies_(VOD)/That_Kind_of_Love_(2024).jpg" group-title="Romance",That Kind of Love (2024)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://main.24playerhd.com/newplaylist/1a2c08fe117364b627498a1e/1a2c08fe117364b627498a1e.m3u8
 
 <=================== Movies - Comedy ===================>
 
 #EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-tmdb="1216195" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies_(VOD)/Oh_My_Ghost_The_Finale_(2024).jpg" group-title="Comedy",Oh My Ghost The Finale (2024)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://main.24playerhd.com/newplaylist/2049b2b7c05193358600d233/2049b2b7c05193358600d233.m3u8
 
 <=================== Movies - Horor ===================>
 
 #EXTINF:-1 vod="1" type="movie" content-type="movie" tvg-tmdb="1224589" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies_(VOD)/Moei_The_Promised_(2024).jpg" group-title="Horor",Moei The Promised (2024)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://main.24playerhd.com/newplaylist/dcc8921a64a9e1af57fbf3da/dcc8921a64a9e1af57fbf3da.m3u8
 
 <=================== Series (VOD) ===================>
