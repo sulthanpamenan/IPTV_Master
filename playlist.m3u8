@@ -204,6 +204,7 @@ https://d25tgymtnqzu8s.cloudfront.net/main/A0jyR3/master.m3u8?id=1
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://rtmklik.rtm.gov.my&Referer=https://rtmklik.rtm.gov.my/
 #https://d25tgymtnqzu8s.cloudfront.net/live/media0/tv2/HLS/tv2.m3u8?id=2
+https://2bfd741e.b-cdn.net/streamer/6enj7a28wshMvNNzXzLrtmMDgVsnVpJC6cZGZf6g5yJt.m3u8?expires=1793672586&token=hVT_FfmXVjemL-eobC0ZpuIsnegL2Ju38qbWwKrqVl0
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/TV3.png" group-title="General",TV3
 
