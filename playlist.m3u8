@@ -48,15 +48,6 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/in
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 https://cdnbal1.indihometv.com/atm/DASH/mnctv/manifest.mpd
 
-#EXTINF:-1 tvg-id="Tivie_rcti.id" tvg-name="RCTI" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/RCTI.png" group-title="General",vod
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-origin=https://www.rctiplus.com
-#EXTVLCOPT:http-referer=https://www.rctiplus.com/
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Origin=https://www.rctiplus.com&Referer=https://www.rctiplus.com/
-https://d2tolhxlph2dpt.cloudfront.net/out/v1/25f615039448438781f44a4cd4f002ff/7b05bbbb935a4a58a9eb9efab9393708/42d9b0ef42fb4cd2926040f58263ed39/index.mpd
-
 #EXTINF:-1 tvg-id="Tivie_rcti.id" tvg-name="RCTI" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/RCTI.png" group-title="General",RCTI
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-origin=https://www.rctiplus.com
@@ -64,7 +55,7 @@ https://d2tolhxlph2dpt.cloudfront.net/out/v1/25f615039448438781f44a4cd4f002ff/7b
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Origin=https://www.rctiplus.com&Referer=https://www.rctiplus.com/
-https://proxy-b.rctiplus.id/live/web/rcti/index.m3u8?auth_key=1793691314-8cf718a0a799dbbe0f7a448e33ad1aa0-0-5495c6500bfd659578fc2fcbcba15b2b
+https://proxy-b.rctiplus.id/live/web/rcti/index.m3u8?auth_key=1793722077-20cd9c9c8d141fb4066753839e82dafc-0-6b5f35b3a29317e17132a3ad4b9004c8
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referer=https://www.visionplus.id/
