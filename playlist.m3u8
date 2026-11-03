@@ -29,7 +29,6 @@ https://da.gd/trmks
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Origin=https://www.rctiplus.com&Referer=https://www.rctiplus.com/
-https://proxy-b.rctiplus.id/live/web/mnctv/index.m3u8?auth_key=1793719118-df46e91ba53d2aff032879cc975000dc-0-6d514fa434216f0dd813cf4c5d7aa4dc
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referer=https://www.visionplus.id/
@@ -55,7 +54,6 @@ https://cdnbal1.indihometv.com/atm/DASH/mnctv/manifest.mpd
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Origin=https://www.rctiplus.com&Referer=https://www.rctiplus.com/
-https://proxy-b.rctiplus.id/live/web/rcti/index.m3u8?auth_key=1793722077-20cd9c9c8d141fb4066753839e82dafc-0-6b5f35b3a29317e17132a3ad4b9004c8
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referer=https://www.visionplus.id/
@@ -81,7 +79,6 @@ https://cdnbal1.indihometv.com/atm/DASH/rcti/manifest.mpd
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Origin=https://www.rctiplus.com&Referer=https://www.rctiplus.com/
-https://proxy-b.rctiplus.id/live/web/gtv/index.m3u8?auth_key=1793719368-ce1f56c723ff7ba2835fcc440f7c9adc-0-50e9d0a6ef52514ae984983fcad52bab
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referer=https://www.visionplus.id/
@@ -1305,7 +1302,6 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/in
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Origin=https://www.rctiplus.com&Referer=https://www.rctiplus.com/
-https://proxy-b.rctiplus.id/live/web/inews/index.m3u8?auth_key=1793719436-35c709b275eb5cd24084fccb5ab13bd9-0-f9b754bd1a2621fa0b35e891f30d3eb3
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1
 #EXTVLCOPT:http-origin=https://www.indihometv.com
