@@ -24,10 +24,12 @@ https://da.gd/trmks
 
 #EXTINF:-1 tvg-id="Tivie_mnctv.id" tvg-name="MNC TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/MNC_TV.png" group-title="General",MNC TV
 #EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-origin=https://www.rctiplus.com
 #EXTVLCOPT:http-referer=https://www.rctiplus.com/
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Referer=https://www.rctiplus.com/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Origin=https://www.rctiplus.com&Referer=https://www.rctiplus.com/
+https://proxy-b.rctiplus.id/live/web/mnctv/index.m3u8?auth_key=1793719118-df46e91ba53d2aff032879cc975000dc-0-6d514fa434216f0dd813cf4c5d7aa4dc
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referer=https://www.visionplus.id/
@@ -48,10 +50,12 @@ https://cdnbal1.indihometv.com/atm/DASH/mnctv/manifest.mpd
 
 #EXTINF:-1 tvg-id="Tivie_rcti.id" tvg-name="RCTI" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/RCTI.png" group-title="General",RCTI
 #EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-origin=https://www.rctiplus.com
 #EXTVLCOPT:http-referer=https://www.rctiplus.com/
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Referer=https://www.rctiplus.com/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Origin=https://www.rctiplus.com&Referer=https://www.rctiplus.com/
+https://proxy-b.rctiplus.id/live/web/rcti/index.m3u8?auth_key=1793691314-8cf718a0a799dbbe0f7a448e33ad1aa0-0-5495c6500bfd659578fc2fcbcba15b2b
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referer=https://www.visionplus.id/
@@ -72,10 +76,12 @@ https://cdnbal1.indihometv.com/atm/DASH/rcti/manifest.mpd
 
 #EXTINF:-1 tvg-id="Tivie_gtv.id" tvg-name="GTV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/GTV_(Indonesia).png" group-title="General",GTV
 #EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-origin=https://www.rctiplus.com
 #EXTVLCOPT:http-referer=https://www.rctiplus.com/
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Referer=https://www.rctiplus.com/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Origin=https://www.rctiplus.com&Referer=https://www.rctiplus.com/
+https://proxy-b.rctiplus.id/live/web/gtv/index.m3u8?auth_key=1793719368-ce1f56c723ff7ba2835fcc440f7c9adc-0-50e9d0a6ef52514ae984983fcad52bab
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referer=https://www.visionplus.id/
@@ -1294,10 +1300,12 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/in
 
 #EXTINF:-1 tvg-id="Tivie_inews.id" tvg-name="iNews" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/iNews.png" group-title="News + Opinion",iNews
 #EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-origin=https://www.rctiplus.com
 #EXTVLCOPT:http-referer=https://www.rctiplus.com/
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Referer=https://www.rctiplus.com/
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=android-R+&Origin=https://www.rctiplus.com&Referer=https://www.rctiplus.com/
+https://proxy-b.rctiplus.id/live/web/inews/index.m3u8?auth_key=1793719436-35c709b275eb5cd24084fccb5ab13bd9-0-f9b754bd1a2621fa0b35e891f30d3eb3
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1
 #EXTVLCOPT:http-origin=https://www.indihometv.com
