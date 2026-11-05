@@ -45,9 +45,9 @@ def is_title_similar(a, b, threshold=0.4):
     return SequenceMatcher(None, a.lower(), b.lower()).ratio() >= threshold
 
 def fetch_tmdb_id(title, tmdb_api_key, media_type="movie", year=None):
-    if not tmdb_api_key:
+    if not title:
         return ""
-    
+
     extracted_year = str(year) if year else None
     match_year = re.search(r'\((\d{4})\)', title)
     if match_year and not extracted_year:
@@ -56,46 +56,59 @@ def fetch_tmdb_id(title, tmdb_api_key, media_type="movie", year=None):
     clean_t = clean_title(title)
     if not clean_t:
         return ""
-    
-    cache_key = f"{clean_t}_{extracted_year}" if extracted_year else clean_t
-    if cache_key in TMDB_CACHE and TMDB_CACHE[cache_key] != "":
-        return TMDB_CACHE[cache_key]
-        
-    if clean_t in TMDB_CACHE and TMDB_CACHE[clean_t] != "":
-        return TMDB_CACHE[clean_t]
 
+    # 1. case-insensitive
+    cache_keys_to_check = []
+    if extracted_year:
+        cache_keys_to_check.append(f"{clean_t}_{extracted_year}")
+    cache_keys_to_check.append(clean_t)
+    cache_keys_to_check.append(f"{clean_t}_None")
+
+    for k in cache_keys_to_check:
+        for cached_k, cached_v in TMDB_CACHE.items():
+            if cached_k.lower() == k.lower() and cached_v != "":
+                return str(cached_v)
+            if cached_k.lower() == k.lower() and cached_v == "":
+                break
+
+    if not tmdb_api_key:
+        return ""
+
+    # 2. Searching TMDB with a scoring and year-tolerance system
     url = f"https://api.themoviedb.org/3/search/{media_type}"
     try:
         params = {"api_key": tmdb_api_key, "query": clean_t}
         res = requests.get(url, params=params, timeout=5)
-        
+
         if res.status_code == 200:
             results = res.json().get("results", [])
             if results:
                 best_match_id = ""
                 highest_score = 0.0
-                
                 is_short_title = len(clean_t.strip()) <= 10
-                
+
                 for item in results:
                     item_title = item.get("title") or item.get("name") or ""
                     date_str = item.get("release_date") or item.get("first_air_date") or ""
                     item_year = date_str.split("-")[0] if date_str else ""
-                    
+
                     score = SequenceMatcher(None, clean_t.lower(), item_title.lower()).ratio()
-                    
-                    if extracted_year and item_year:
-                        diff_year = abs(int(item_year) - int(extracted_year))
-                        if diff_year == 0:
-                            score += 0.4
-                        elif diff_year <= 2:
-                            score += 0.2
-                        else:
-                            continue
+
+                     if extracted_year and item_year:
+                        try:
+                            diff_year = abs(int(item_year) - int(extracted_year))
+                            if diff_year == 0:
+                                score += 0.4
+                            elif diff_year <= 2:
+                                score += 0.2
+                            else:
+                                continue
+                        except ValueError:
+                            pass
 
                     clean_t_lower = clean_t.lower()
                     item_title_lower = item_title.lower()
-                    
+
                     if is_short_title:
                         if clean_t_lower != item_title_lower:
                             words_in_item = item_title_lower.split()
@@ -117,16 +130,20 @@ def fetch_tmdb_id(title, tmdb_api_key, media_type="movie", year=None):
                         best_match_id = str(item.get("id", ""))
 
                 min_threshold = 0.7 if is_short_title else 0.55
+                cache_key_save = f"{clean_t}_{extracted_year}" if extracted_year else clean_t
+
                 if best_match_id and highest_score >= min_threshold:
-                    TMDB_CACHE[cache_key] = best_match_id
+                    TMDB_CACHE[cache_key_save] = best_match_id
+                    save_tmdb_cache()
                     print(f"[TMDB] Matched '{clean_t}' (Score: {highest_score:.2f}) -> ID: {best_match_id}")
                     return best_match_id
-                
+
     except Exception as e:
         print(f"[TMDB] Error fetching ID: {e}")
-        pass
-        
-    TMDB_CACHE[cache_key] = ""
+
+    cache_key_save = f"{clean_t}_{extracted_year}" if extracted_year else clean_t
+    TMDB_CACHE[cache_key_save] = ""
+    save_tmdb_cache()
     print(f"[TMDB] No valid results found for '{clean_t}'")
     return ""
 
@@ -198,21 +215,16 @@ def fls_get_home_data(session, token):
 def is_valid_movie(item):
     movie_type = str(item.get("movie_type", "")).upper()
     title = item.get("title", "").lower()
-    
     if movie_type == "SERIES" or any(kw in title for kw in ["episode", "episodes", "eps", "s0", "season"]):
         return False
-        
     if "season" in item and item.get("season") is not None:
         return False
-        
     return True
 
 def is_valid_series(item):
     movie_type = str(item.get("movie_type", "")).upper()
-    
     if movie_type == "MOVIE":
         return False
-        
     return True
 
 def is_fls_movie(details):
