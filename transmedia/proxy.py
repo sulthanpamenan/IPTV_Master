@@ -1,0 +1,263 @@
+import os
+from urllib.parse import unquote, urljoin
+from flask import Flask, Response, jsonify, request
+import requests
+import time
+import json
+
+
+app = Flask(__name__)
+
+CHANNELS = {
+    "trans7": {
+        "name": "Trans 7",
+        "logo": "https://www.trans7.co.id/assets/front/images/logo/logo-trans7.png",
+    },
+    "transtv": {
+        "name": "Trans TV",
+        "logo": "https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/Trans_TV.png",
+    },
+}
+
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+
+GIST_ID = os.environ.get("GIST_ID")
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+GIST_FILENAME = os.environ.get("GIST_FILENAME", "transmedia.json")
+GIST_API_URL = f"https://api.github.com/gists/{GIST_ID}"
+
+_token_cache = {
+    "data": {},
+    "expires_at": 0
+}
+
+def load_tokens():
+    global _token_cache
+    current_time = time.time()
+    
+    if _token_cache["data"] and current_time < _token_cache["expires_at"]:
+        return _token_cache["data"]
+
+    if not GIST_ID or not GITHUB_TOKEN:
+        print("[!] GIST_ID or GITHUB_TOKEN is missing in environment variables!")
+        return {}
+        
+    try:
+        headers = {
+            "Authorization": f"Bearer {GITHUB_TOKEN}",
+            "Accept": "application/vnd.github.v3+json"
+        }
+        res = requests.get(GIST_API_URL, headers=headers, timeout=10)
+        if res.status_code == 200:
+            files = res.json().get("files", {})
+            file_data = files.get(GIST_FILENAME, {})
+            content = file_data.get("content", "{}")
+            data = json.loads(content)
+            
+            _token_cache["data"] = data if isinstance(data, dict) else {}
+            _token_cache["expires_at"] = time.time() + 900
+            
+            return _token_cache["data"]
+        else:
+            print(f"[!] Failed to load Gist. Status Code: {res.status_code}, Response: {res.text}")
+    except Exception as e:
+        print(f"[!] Error loading tokens from GitHub Gist: {e}")
+        
+    return _token_cache["data"]
+
+def save_tokens(tokens):
+    if not GIST_ID or not GITHUB_TOKEN:
+        print("[!] GIST_ID or GITHUB_TOKEN is missing when trying to save!")
+        return
+    
+    headers = {
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github.v3+json",
+        "Content-Type": "application/json"
+    }
+    payload = {
+        "files": {
+            GIST_FILENAME: {
+                "content": json.dumps(tokens, indent=4)
+            }
+        }
+    }
+    res = requests.patch(GIST_API_URL, headers=headers, json=payload, timeout=10)
+    print(f"[DEBUG] GitHub Gist Response Code: {res.status_code}, Body: {res.text}")
+    res.raise_for_status()
+    
+    global _token_cache
+    _token_cache["expires_at"] = 0
+
+
+@app.route("/")
+def index():
+    return "Proxy Transmedia Active (GitHub Gist Mode)! Access playlist via /playlist.m3u"
+
+
+@app.route("/update_token", methods=["POST"])
+def update_token():
+    data = request.json
+    if not data or "channel" not in data or "url" not in data:
+        return jsonify({"error": "invalid payload"}), 400
+
+    current_tokens = load_tokens()
+    current_tokens[data["channel"]] = {
+        "url": data["url"],
+        "cookies": data.get("cookies", {}),
+    }
+    try:
+        save_tokens(current_tokens)
+        print(f"[✓] Token {data['channel']} successfully updated to GitHub Gist!")
+        return jsonify({"status": "success", "channel": data["channel"]})
+    except Exception as e:
+        print(f"[!] Critical Error in update_token: {e}")
+        return jsonify({"status": "error", "message": str(e)}), 500
+
+
+@app.route("/update_epg", methods=["POST"])
+def update_epg():
+    if "file" not in request.files:
+        return jsonify({"error": "no file uploaded"}), 400
+
+    file = request.files["file"]
+    file.save("epg.xml")
+    print("[✓] epg.xml was successfully received and updated on Render!")
+    return jsonify({"status": "success"})
+
+
+@app.route("/epg.xml")
+def get_epg():
+    if os.path.exists("epg.xml"):
+        with open("epg.xml", "r", encoding="utf-8") as f:
+            return Response(f.read(), content_type="text/xml")
+    return "EPG is not yet available", 404
+
+
+@app.route("/playlist.m3u")
+def get_master_playlist():
+    scheme = request.headers.get("X-Forwarded-Proto", "https")
+    host_url = request.host
+    epg_url = "https://sulthanpamenan.github.io/transmedia-playlist/epg.xml"
+
+    m3u_text = (
+        "<!--more-->\n"
+        "<html>\n"
+        "<head>\n"
+        '<meta charset="utf-8">\n'
+        '<meta http-equiv="X-UA-Compatible" content="IE=edge">\n'
+        '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+        '<script language="javascript">\n'
+        'window.location.replace("https://sulthanpamenan.github.io/transmedia-playlist/");\n'
+        "</script>\n"
+        "</head></html>\n\n"
+        "<=================== PLAYLIST AUTOGENERATED BY SUTAN PAMENAN ===================>\n"
+        "<=================== IF YOU FIND THIS PLAYLIST, PLEASE DO NOT SELL OR DISTRIBUTE IT FOR PERSONAL GAIN ===================>\n\n"
+        f'#EXTM3U url-tvg="{epg_url}"\n'
+    )
+
+    for key, info in CHANNELS.items():
+        m3u_text += f'#EXTINF:-1 tvg-id="{key}" tvg-name="{info["name"]}" tvg-logo="{info["logo"]}" group-title="General", {info["name"]}\n'
+        m3u_text += f"{scheme}://{host_url}/live/{key}\n"
+
+    return Response(m3u_text, content_type="audio/x-mpegurl")
+
+
+@app.route("/live/<channel>")
+def stream_proxy(channel):
+    if channel not in CHANNELS:
+        return "Channel not found", 404
+
+    stream_cache = load_tokens()
+    cached_data = stream_cache.get(channel)
+    
+    if not cached_data or not cached_data.get("url"):
+        return "Waiting for token. Please try again...", 503
+
+    m3u8_url = cached_data["url"]
+    cookies = cached_data["cookies"]
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Referer": "https://20.detik.com/",
+        "Origin": "https://20.detik.com",
+    }
+
+    try:
+        res = requests.get(m3u8_url, headers=headers, cookies=cookies, timeout=10)
+        if res.status_code in [401, 403]:
+            return "Token flow is freezing or blocking the CDN. Waiting for the next automatic update...", 503
+        
+        if res.status_code != 200:
+            return f"Error CDN Detik: {res.status_code}", res.status_code
+
+        content = res.text
+        base_url = m3u8_url.rsplit("/", 1)[0] + "/"
+        scheme = request.headers.get("X-Forwarded-Proto", "https")
+
+        lines = content.splitlines()
+        new_lines = []
+        for line in lines:
+            if line.startswith("#") or not line.strip():
+                new_lines.append(line)
+            else:
+                full_url = line if line.startswith("http") else urljoin(base_url, line)
+                encoded_url = requests.utils.quote(full_url)
+                new_lines.append(f"{scheme}://{request.host}/ts_proxy?channel={channel}&url={encoded_url}")
+
+        return Response("\n".join(new_lines), content_type="application/vnd.apple.mpegurl")
+    except Exception as e:
+        return f"Stream Proxy Error: {e}", 500
+
+
+@app.route("/ts_proxy")
+def ts_proxy():
+    segment_url = request.args.get("url")
+    channel = request.args.get("channel", "trans7")
+
+    if not segment_url:
+        return "Invalid segment URL", 400
+
+    target_url = unquote(segment_url)
+    
+    stream_cache = load_tokens()
+    cached_data = stream_cache.get(channel, {})
+    cookies = cached_data.get("cookies", {})
+    
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Referer": "https://20.detik.com/",
+        "Origin": "https://20.detik.com",
+    }
+    scheme = request.headers.get("X-Forwarded-Proto", "https")
+
+    if ".m3u8" in target_url:
+        try:
+            res = requests.get(target_url, headers=headers, cookies=cookies, timeout=10)
+            if res.status_code != 200:
+                return f"Error CDN: {res.status_code}", res.status_code
+
+            base_url = target_url.rsplit("/", 1)[0] + "/"
+            lines = res.text.splitlines()
+            new_lines = []
+            for line in lines:
+                if line.startswith("#") or not line.strip():
+                    new_lines.append(line)
+                else:
+                    full_url = line if line.startswith("http") else urljoin(base_url, line)
+                    encoded_url = requests.utils.quote(full_url)
+                    new_lines.append(f"{scheme}://{request.host}/ts_proxy?channel={channel}&url={encoded_url}")
+
+            return Response("\n".join(new_lines), content_type="application/vnd.apple.mpegurl")
+        except Exception as e:
+            return f"Manifest Error: {e}", 500
+
+    try:
+        res = requests.get(target_url, headers=headers, cookies=cookies, stream=True, timeout=15)
+        return Response(res.iter_content(chunk_size=32768), content_type="video/MP2T")
+    except Exception as e:
+        return f"Segment Error: {e}", 500
+
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, threaded=True)
