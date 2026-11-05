@@ -1,0 +1,21 @@
+name: Malaysia TV Token Update
+
+on:
+  repository_dispatch:
+    types: [run-playlist]
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: |
+          pip install playwright requests
+          playwright install chromium
+          python malaysia-tv/fetcher.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIST_MALAYSIA_TV }}
