@@ -62,7 +62,7 @@ def generate_playlist():
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script language="javascript">
-window.location.replace("https://sulthanpamenan.github.io/IPTV_Master/");
+window.location.replace("https://sulthanpamenan.github.io/IPTV_Master/freelivesports-tv/");
 </script>
 </head></html>
 
