@@ -27,7 +27,7 @@ def main():
         print("[X] Failed to fetch stream URL.")
         sys.exit(0)
 
-    ua_header = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+    ua_header = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
 
     m3u_lines = [
         "<!--more-->",
@@ -37,7 +37,7 @@ def main():
         '<meta http-equiv="X-UA-Compatible" content="IE=edge">',
         '<meta name="viewport" content="width=device-width, initial-scale=1">',
         '<script language="javascript">',
-        'window.location.replace("https://sulthanpamenan.github.io/padang-tv-playlist/");',
+        'window.location.replace("https://sulthanpamenan.github.io/IPTV_Master/padang-tv/");',
         '</script>',
         '</head></html>',
         "",
