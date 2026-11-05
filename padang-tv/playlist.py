@@ -4,7 +4,7 @@ import streamlink
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-EPG_URL = "https://sulthanpamenan.github.io/padang-tv-playlist/epg.xml"
+EPG_URL = "https://sulthanpamenan.github.io/IPTV_Master/padang-tv/epg.xml"
 LOGO_URL = "https://padangtv.id/wp-content/uploads/2020/07/logo1-e1595189708614.png"
 TWITCH_CHANNEL_URL = "https://www.twitch.tv/padang_tv"
 
