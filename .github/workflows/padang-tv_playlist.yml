@@ -1,0 +1,38 @@
+name: Padang TV Playlist
+
+on:
+  repository_dispatch:
+    types: [run-padang-playlist]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        working-directory: padang-tv
+        run: |
+          python -m pip install --upgrade pip
+          pip install streamlink requests
+
+      - name: Generate M3U Playlist
+        working-directory: padang-tv
+        run: python playlist.py
+
+      - name: Commit and Push Stream Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add "padang-tv/playlist.m3u"
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto refresh Padang TV Playlist [skip ci]" && git pull --rebase origin main && git push)
