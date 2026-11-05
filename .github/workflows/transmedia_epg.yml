@@ -1,0 +1,27 @@
+name: Transmedia EPG Update
+
+on:
+  repository_dispatch:
+    types: [run-epg]
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: |
+          pip install requests beautifulsoup4 cloudscraper
+          python transmedia/epg.py
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.io"
+          git add transmedia/epg.xml
+          git diff --staged --quiet || git commit -m "Auto-update Transmedia EPG [skip ci]"
+          git push
