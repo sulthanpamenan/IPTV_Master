@@ -3,26 +3,10 @@ import os
 from urllib.parse import parse_qs, urlparse
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from utils import create_robust_session
+from utils import create_robust_session, authenticate_fls_guest
 
 EXCLUDED_IDS = {"Select"}
 EXCLUDED_NAMES = {"Select"}
-
-def authenticate_guest(session):
-    auth_url = "https://api.gizmott.com/api/v1/account/authenticate"
-    headers = {
-        "accept": "application/json, text/plain, */*", "channelid": "516",
-        "country_code": "ID", "crossorigin": "true", "dev_id": "5d01d64ac5b0026957052f0330129fc6",
-        "device_type": "web", "ip": "103.150.218.78", "pubid": "50183", "uid": "7938114",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
-    }
-    try:
-        response = session.get(auth_url, headers=headers, timeout=15)
-        if response.status_code == 200:
-            return response.json().get("token")
-    except Exception:
-        pass
-    return None
 
 def extract_genre_from_url(url):
     try:
@@ -43,7 +27,7 @@ def format_group_name(raw_group, channel_name=""):
 
 def generate_playlist():
     session = create_robust_session()
-    token = authenticate_guest(session)
+    token = authenticate_fls_guest(session)
     if not token:
         print("Cannot proceed with playlist creation because the token could not be obtained.")
         return
