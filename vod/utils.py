@@ -162,7 +162,7 @@ FLS_HEADERS = {
     "pubid": "50183",
     "referer": "https://freelivesports.tv/",
     "uid": "7938114",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
 }
 
 def create_fls_session():
