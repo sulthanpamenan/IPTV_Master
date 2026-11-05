@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+from utils import create_robust_session, clean_xml_text
 
 SCHEDULE_URL = "https://padangtv.id/schedule/"
 CHANNEL_ID = "PadangTV.id"
@@ -17,26 +18,6 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
 }
-
-def create_robust_session():
-    session = requests.Session()
-    retries = Retry(total=3, backoff_factor=1.0, status_forcelist=[500, 502, 503, 504], raise_on_status=False)
-    adapter = HTTPAdapter(max_retries=retries, pool_connections=10, pool_maxsize=10)
-    session.mount("https://", adapter)
-    session.mount("http://", adapter)
-    session.headers.update(HEADERS)
-    return session
-
-def clean_xml_text(val):
-    if not val:
-        return ""
-    val_str = html.unescape(str(val))
-    clean_str = re.sub(
-        r"[^\x09\x0A\x0D\x20-\uD7FF\uE000-\uFFFD\U00010000-\U0010FFFF]",
-        "",
-        val_str,
-    )
-    return clean_str.strip()
 
 def get_now_wib():
     return datetime.now(timezone.utc) + timedelta(hours=7)
