@@ -1,0 +1,21 @@
+name: Transmedia Token Update
+
+on:
+  repository_dispatch:
+    types: [run-token]
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: |
+          pip install playwright requests
+          playwright install chromium
+          python transmedia/fetcher.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.TRANSMEDIA_TOKEN }}
