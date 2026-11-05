@@ -5,7 +5,6 @@ import requests
 import time
 import json
 
-
 app = Flask(__name__)
 
 CHANNELS = {
@@ -19,8 +18,7 @@ CHANNELS = {
     },
 }
 
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
-
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
 GIST_ID = os.environ.get("GIST_ID")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 GIST_FILENAME = os.environ.get("GIST_FILENAME", "transmedia.json")
@@ -89,11 +87,9 @@ def save_tokens(tokens):
     global _token_cache
     _token_cache["expires_at"] = 0
 
-
 @app.route("/")
 def index():
     return "Proxy Transmedia Active (GitHub Gist Mode)! Access playlist via /playlist.m3u"
-
 
 @app.route("/update_token", methods=["POST"])
 def update_token():
@@ -114,7 +110,6 @@ def update_token():
         print(f"[!] Critical Error in update_token: {e}")
         return jsonify({"status": "error", "message": str(e)}), 500
 
-
 @app.route("/update_epg", methods=["POST"])
 def update_epg():
     if "file" not in request.files:
@@ -125,7 +120,6 @@ def update_epg():
     print("[✓] epg.xml was successfully received and updated on Render!")
     return jsonify({"status": "success"})
 
-
 @app.route("/epg.xml")
 def get_epg():
     if os.path.exists("epg.xml"):
@@ -133,12 +127,11 @@ def get_epg():
             return Response(f.read(), content_type="text/xml")
     return "EPG is not yet available", 404
 
-
 @app.route("/playlist.m3u")
 def get_master_playlist():
     scheme = request.headers.get("X-Forwarded-Proto", "https")
     host_url = request.host
-    epg_url = "https://sulthanpamenan.github.io/transmedia-playlist/epg.xml"
+    epg_url = "https://sulthanpamenan.github.io/IPTV_Master/transmedia/epg.xml"
 
     m3u_text = (
         "<!--more-->\n"
@@ -160,7 +153,6 @@ def get_master_playlist():
         m3u_text += f"{scheme}://{host_url}/live/{key}\n"
 
     return Response(m3u_text, content_type="audio/x-mpegurl")
-
 
 @app.route("/live/<channel>")
 def stream_proxy(channel):
@@ -206,7 +198,6 @@ def stream_proxy(channel):
         return Response("\n".join(new_lines), content_type="application/vnd.apple.mpegurl")
     except Exception as e:
         return f"Stream Proxy Error: {e}", 500
-
 
 @app.route("/ts_proxy")
 def ts_proxy():
