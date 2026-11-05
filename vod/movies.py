@@ -25,7 +25,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 USER_ID_TARGET = "wnctpm5uf2j"
 TMDB_API_KEY = os.environ.get("TMDB_API_KEY")
 
-UA_VAL = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+UA_VAL = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
 ORIGIN_VAL = "https://www.dens.tv"
 REFERER_VAL = "https://www.dens.tv/"
 
