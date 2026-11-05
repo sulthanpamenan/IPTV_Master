@@ -6,6 +6,8 @@ from bs4 import BeautifulSoup
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utils import create_robust_session, clean_xml_text
 
 SCHEDULE_URL = "https://padangtv.id/schedule/"
