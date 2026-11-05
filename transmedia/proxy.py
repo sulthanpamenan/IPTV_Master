@@ -1,1 +1,121 @@
+import os
+from urllib.parse import unquote, urljoin
+from flask import Flask, Response, request
+import requests
+import time
+import json
 
+app = Flask(__name__)
+
+CHANNELS = {
+    "trans7": {
+        "name": "Trans 7",
+        "logo": "https://www.trans7.co.id/assets/front/images/logo/logo-trans7.png",
+    },
+    "transtv": {
+        "name": "Trans TV",
+        "logo": "https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/General/Trans_TV.png",
+    },
+}
+
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+GIST_ID = os.environ.get("GIST_ID")
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+GIST_FILENAME = os.environ.get("GIST_FILENAME", "transmedia.json")
+GIST_API_URL = f"https://api.github.com/gists/{GIST_ID}"
+
+_token_cache = {"data": {}, "expires_at": 0}
+
+def load_tokens():
+    global _token_cache
+    if _token_cache["data"] and time.time() < _token_cache["expires_at"]:
+        return _token_cache["data"]
+    if not GIST_ID or not GITHUB_TOKEN:
+        return {}
+    try:
+        headers = {"Authorization": f"Bearer {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
+        res = requests.get(GIST_API_URL, headers=headers, timeout=10)
+        if res.status_code == 200:
+            content = res.json().get("files", {}).get(GIST_FILENAME, {}).get("content", "{}")
+            data = json.loads(content)
+            _token_cache["data"] = data if isinstance(data, dict) else {}
+            _token_cache["expires_at"] = time.time() + 30
+            return _token_cache["data"]
+    except Exception:
+        pass
+    return _token_cache["data"]
+
+@app.route("/playlist.m3u")
+def get_master_playlist():
+    host_url = request.host
+    epg_url = "https://sulthanpamenan.github.io/IPTV_Master/transmedia/epg.xml"
+    m3u_text = f'#EXTM3U url-tvg="{epg_url}"\n'
+    for key, info in CHANNELS.items():
+        m3u_text += f'#EXTINF:-1 tvg-id="{key}" tvg-name="{info["name"]}" tvg-logo="{info["logo"]}" group-title="General",{info["name"]}\n'
+        m3u_text += f"http://{host_url}/live/{key}\n"
+    return Response(m3u_text, content_type="audio/x-mpegurl")
+
+@app.route("/live/<channel>")
+def stream_proxy(channel):
+    if channel not in CHANNELS:
+        return "Channel not found", 404
+    cached_data = load_tokens().get(channel, {})
+    m3u8_url = cached_data.get("url", "")
+    cookies = cached_data.get("cookies", {})
+    if not m3u8_url:
+        return "Stream URL not found", 503
+
+    headers = {"User-Agent": USER_AGENT, "Referer": "https://20.detik.com/", "Origin": "https://20.detik.com"}
+    try:
+        res = requests.get(m3u8_url, headers=headers, cookies=cookies, timeout=10)
+        if res.status_code != 200:
+            return f"Error CDN: {res.status_code}", res.status_code
+
+        base_url = m3u8_url.rsplit("/", 1)[0] + "/"
+        host_url = request.host
+        new_lines = []
+        for line in res.text.splitlines():
+            if line.startswith("#") or not line.strip():
+                new_lines.append(line)
+            else:
+                full_url = line if line.startswith("http") else urljoin(base_url, line)
+                new_lines.append(f"http://{host_url}/ts_proxy?channel={channel}&url={requests.utils.quote(full_url)}")
+        return Response("\n".join(new_lines), content_type="application/vnd.apple.mpegurl")
+    except Exception as e:
+        return f"Proxy Error: {e}", 500
+
+@app.route("/ts_proxy")
+def ts_proxy():
+    segment_url = request.args.get("url")
+    channel = request.args.get("channel", "trans7")
+    if not segment_url:
+        return "Invalid URL", 400
+
+    target_url = unquote(segment_url)
+    cached_data = load_tokens().get(channel, {})
+    cookies = cached_data.get("cookies", {})
+    headers = {"User-Agent": USER_AGENT, "Referer": "https://20.detik.com/", "Origin": "https://20.detik.com"}
+
+    if ".m3u8" in target_url:
+        try:
+            res = requests.get(target_url, headers=headers, cookies=cookies, timeout=10)
+            base_url = target_url.rsplit("/", 1)[0] + "/"
+            new_lines = []
+            for line in res.text.splitlines():
+                if line.startswith("#") or not line.strip():
+                    new_lines.append(line)
+                else:
+                    full_url = line if line.startswith("http") else urljoin(base_url, line)
+                    new_lines.append(f"http://{request.host}/ts_proxy?channel={channel}&url={requests.utils.quote(full_url)}")
+            return Response("\n".join(new_lines), content_type="application/vnd.apple.mpegurl")
+        except Exception as e:
+            return f"Manifest Error: {e}", 500
+
+    try:
+        res = requests.get(target_url, headers=headers, cookies=cookies, stream=True, timeout=15)
+        return Response(res.iter_content(chunk_size=32768), content_type="video/MP2T")
+    except Exception as e:
+        return f"Segment Error: {e}", 500
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, threaded=True)
