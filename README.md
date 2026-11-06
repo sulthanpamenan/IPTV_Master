@@ -56,7 +56,7 @@ If this project is helpful to you, consider supporting the developer to keep thi
 
 ### 🇮🇩 Local Donation (QRIS / E-Wallet / Mobile Banking)
 
-<a href="[https://saweria.co/sulthanpamenan](https://saweria.co/sulthanpamenan)" target="_blank">
+<a href="https://saweria.co/sulthanpamenan" target="_blank">
   <img width="290" height="290" alt="Saweria" src="https://github.com/user-attachments/assets/f2846d1f-a391-4daf-9ce5-a48aadc992a0" />
 </a>
 
