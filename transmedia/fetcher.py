@@ -3,7 +3,7 @@ import time
 import requests
 from playwright.sync_api import sync_playwright
 
-GIST_ID = os.environ.get("GIST_ID", "0489abda2da5420f8f4da73add29b134")
+GIST_ID = os.environ.get("GIST_ID")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 GIST_FILENAME = os.environ.get("GIST_FILENAME", "transmedia.json")
 GIST_API_URL = f"https://api.github.com/gists/{GIST_ID}"
