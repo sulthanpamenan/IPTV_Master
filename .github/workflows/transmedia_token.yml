@@ -2,7 +2,7 @@ name: Transmedia Token Update
 
 on:
   repository_dispatch:
-    types: [run-token]
+    types: [run-transmedia-token]
   workflow_dispatch:
 
 jobs:
