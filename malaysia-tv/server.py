@@ -44,7 +44,7 @@ CHANNELS = [
     {"name": "Best FM", "slug": "best-fm", "group": "Radio - Malaysia", "logo": "https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Radio/Best_FM.png", "type": "radio"}
 ]
 
-GIST_ID = os.environ.get("GIST_ID", "6055fb9a0d9c3754edc6cf956cdbf762")
+GIST_ID = os.environ.get("GIST_ID")
 GIST_RAW_URL = f"https://gist.githubusercontent.com/sulthanpamenan/{GIST_ID}/raw/malaysia_tv.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
 ORIGIN_VAL = "https://malaysia-tv.net"
