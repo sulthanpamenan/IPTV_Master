@@ -222,7 +222,7 @@ def build_xmltv(transtv_progs, trans7_progs):
         ET.indent(tree, space="  ")
     except AttributeError:
         pass
-    tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
+    tree.write("transmedia/epg.xml", encoding="utf-8", xml_declaration=True)
     logging.info("transmedia/epg.xml successfully created!")
 
 if __name__ == "__main__":
