@@ -16,7 +16,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
     "Accept-Language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
 }
@@ -145,7 +145,7 @@ def scrape_single_tivie_channel(ch):
         req = urllib.request.Request(
             url,
             headers={
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36',
                 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
                 'Accept-Language': 'id,en-US;q=0.9,en-US;q=0.8',
             }
@@ -510,7 +510,7 @@ def fetch_epg_indonesiana_with_token(target, auth_token):
                 if not items:
                     print(f"[!] Indonesiana TV [{target['name']}]: No schedule items found for this date range.")
                     return channels, programmes
-                    
+                
                 for item in items:
                     title = item.get("name")
                     start_str = item.get("startDate")
