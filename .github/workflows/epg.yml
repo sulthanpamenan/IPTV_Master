@@ -37,6 +37,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.INDONESIANA_TV_TOKEN }}
           GIST_ID: ${{ secrets.GIST_INDONESIANA_TV }}
+          INDONESIANA_EMAIL: ${{ secrets.INDONESIANA_EMAIL }}
+          INDONESIANA_PASSWORD: ${{ secrets.INDONESIANA_PASSWORD }}
         run: python epg.py
 
       - name: Commit and Push Changes
