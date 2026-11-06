@@ -2,7 +2,7 @@ name: Malaysia TV Token Update
 
 on:
   repository_dispatch:
-    types: [run-playlist]
+    types: [run-malaysia-tv-playlist]
   workflow_dispatch:
 
 jobs:
