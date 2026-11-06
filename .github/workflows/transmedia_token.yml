@@ -1,4 +1,4 @@
-name: Transmedia Token Update
+name: Transmedia Playlist
 
 on:
   repository_dispatch:
