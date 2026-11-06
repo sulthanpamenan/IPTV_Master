@@ -445,8 +445,8 @@ def get_or_refresh_indonesiana_token(channel_code):
                         }
                         email_payload = {
                             "notification": {"channel": 0, "token": ""},
-                            "email": "akun002fix@gmail.com",
-                            "password": "Akun002x"
+                            "email": os.environ.get("EMAIL"),
+                            "password": os.environ.get("PASSWORD")
                         }
                         email_res = session.post(email_url, headers=email_headers, json=email_payload, timeout=25)
                         if email_res.status_code == 200 and email_res.json().get("success"):
