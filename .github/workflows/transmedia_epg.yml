@@ -2,7 +2,7 @@ name: Transmedia EPG Update
 
 on:
   repository_dispatch:
-    types: [run-epg]
+    types: [run-transmedia-epg]
   workflow_dispatch:
 
 jobs:
