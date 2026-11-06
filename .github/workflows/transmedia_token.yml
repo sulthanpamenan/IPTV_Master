@@ -19,3 +19,4 @@ jobs:
           python transmedia/fetcher.py
         env:
           GITHUB_TOKEN: ${{ secrets.TRANSMEDIA_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_TRANSMEDIA }}
