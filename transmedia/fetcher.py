@@ -3,17 +3,16 @@ import time
 import requests
 from playwright.sync_api import sync_playwright
 
-GIST_ID = os.environ.get("GIST_ID")
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
-GIST_FILENAME = os.environ.get("GIST_FILENAME", "transmedia.json")
-GIST_API_URL = f"https://api.github.com/gists/{GIST_ID}"
-
 CHANNELS = {
     "trans7": "https://20.detik.com/live/trans-7",
     "transtv": "https://20.detik.com/live/trans-tv",
 }
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+GIST_ID = os.environ.get("GIST_ID")
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+GIST_FILENAME = os.environ.get("GIST_FILENAME", "transmedia.json")
+GIST_API_URL = f"https://api.github.com/gists/{GIST_ID}"
 
 def fetch_single_channel(channel_key, page_url):
     m3u8_url = None
