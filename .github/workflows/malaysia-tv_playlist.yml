@@ -19,3 +19,4 @@ jobs:
           python malaysia-tv/fetcher.py
         env:
           GITHUB_TOKEN: ${{ secrets.MALAYSIA_TV_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_MALAYSIA_TV }}
