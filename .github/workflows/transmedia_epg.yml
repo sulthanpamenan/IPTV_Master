@@ -1,4 +1,4 @@
-name: Transmedia EPG Update
+name: Transmedia EPG
 
 on:
   repository_dispatch:
