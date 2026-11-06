@@ -5,6 +5,10 @@ on:
     types: [run-fls-playlist]
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+  
 permissions:
   contents: write
 
