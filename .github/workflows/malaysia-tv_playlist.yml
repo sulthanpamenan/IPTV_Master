@@ -1,4 +1,4 @@
-name: Malaysia TV Token Update
+name: Malaysia TV Playlist
 
 on:
   repository_dispatch:
