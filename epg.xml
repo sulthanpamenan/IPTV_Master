@@ -429,6 +429,9 @@
   <channel id="MNC_soccer-channel-hd_420.id">
     <display-name>Soccer Channel HD</display-name>
   </channel>
+  <channel id="MNC_sportstars_102.id">
+    <display-name>Sportstars</display-name>
+  </channel>
   <channel id="MNC_sportstars-2_98.id">
     <display-name>Sportstars 2</display-name>
   </channel>
@@ -446,6 +449,9 @@
   </channel>
   <channel id="MNC_sportstars-4-hd_424.id">
     <display-name>Sportstars 4 HD</display-name>
+  </channel>
+  <channel id="MNC_sportstars-hd_421.id">
+    <display-name>Sportstars HD</display-name>
   </channel>
   <channel id="MNC_spotv_307.id">
     <display-name>SPOTV</display-name>
@@ -5978,10 +5984,6 @@
     <title lang="en">CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
     <desc lang="en">Maureen Beck may have been born missing her lower left arm, but that hasn’t stopped her from going hard.</desc>
   </programme>
-  <programme start="20261106152635 +0700" stop="20261106155301 +0700" channel="RedBullPadel.global">
-    <title lang="en">Meet padel stars Fernández, Triay, Lebrón and Yanguas</title>
-    <desc lang="en">Four padel players give an inside look into their lives and what makes the sport a global phenomenon.</desc>
-  </programme>
   <programme start="20261106155301 +0700" stop="20261106161854 +0700" channel="RedBullPadel.global">
     <title lang="en">Germany Premier Padel P2 highlights</title>
     <desc lang="en">Watch the highlights from the Germany Premier Padel P2 tournament.</desc>
@@ -6002,11 +6004,11 @@
     <title lang="en">Bordeaux Premier Padel P2 highlights</title>
     <desc lang="en">Watch the highlights from the Bordeaux Premier Padel P2 tournament.</desc>
   </programme>
-  <programme start="20261106180259 +0700" stop="20261106182907 +0700" channel="RedBullPadel.global">
+  <programme start="20261106180259 +0700" stop="20261106182906 +0700" channel="RedBullPadel.global">
     <title lang="en">Malaga Premier Padel P1 highlights</title>
     <desc lang="en">Watch the highlights from the Malaga Premier Padel P1 tournament.</desc>
   </programme>
-  <programme start="20261106182907 +0700" stop="20261106185459 +0700" channel="RedBullPadel.global">
+  <programme start="20261106182906 +0700" stop="20261106185459 +0700" channel="RedBullPadel.global">
     <title lang="en">Germany Premier Padel P2 highlights</title>
     <desc lang="en">Watch the highlights from the Germany Premier Padel P2 tournament.</desc>
   </programme>
@@ -6057,6 +6059,10 @@
   <programme start="20261106233858 +0700" stop="20261107000505 +0700" channel="RedBullPadel.global">
     <title lang="en">Madrid P1 Premier Padel highlights</title>
     <desc lang="en">Watch the highlights from the Madrid P1 Premier Padel tournament.</desc>
+  </programme>
+  <programme start="20261107000505 +0700" stop="20261107003131 +0700" channel="RedBullPadel.global">
+    <title lang="en">Meet padel stars Fernández, Triay, Lebrón and Yanguas</title>
+    <desc lang="en">Four padel players give an inside look into their lives and what makes the sport a global phenomenon.</desc>
   </programme>
   <programme start="20261106154717 +0700" stop="20261106160211 +0700" channel="RedBullBike.global">
     <title lang="en">It's all about the drama</title>
@@ -6138,10 +6144,6 @@
     <title lang="en">Underdogs and overdogs</title>
     <desc lang="en">MTB riders Kate Courtney and Loïc Bruni recall the highs and lows of their mountain biking careers.</desc>
   </programme>
-  <programme start="20261106153631 +0700" stop="20261106155320 +0700" channel="RedBullAdventure.global">
-    <title lang="en">Beneath the Ice</title>
-    <desc lang="en">Will Gadd uses his unmatched ice climbing skills and knowledge to lead a scientific expedition into a previously unexplored territory beneath the Greenland ice sheet.</desc>
-  </programme>
   <programme start="20261106155320 +0700" stop="20261106161302 +0700" channel="RedBullAdventure.global">
     <title lang="en">The Filer Creek Expedition</title>
     <desc lang="en">Follow Canadian paddler Ed Muggridge on his first foray into whitewater expedition.</desc>
@@ -6217,6 +6219,10 @@
   <programme start="20261107002646 +0700" stop="20261107003421 +0700" channel="RedBullAdventure.global">
     <title lang="en">City of Gold</title>
     <desc lang="en">Freerunner Dominic Di Tommaso is transported inside a video game where he must collect gold coins to escape.</desc>
+  </programme>
+  <programme start="20261107003421 +0700" stop="20261107005744 +0700" channel="RedBullAdventure.global">
+    <title lang="en">United States of Joe's</title>
+    <desc lang="en">A band of climbers discover thousands of sandstone boulders, and launch the American bouldering revolution.</desc>
   </programme>
   <programme start="20261106151225 +0700" stop="20261106161955 +0700" channel="RedBullMotorsports.global">
     <title lang="en">Red Bull Straight Rhythm</title>
@@ -6378,10 +6384,6 @@
     <title lang="en">Becoming Bronson</title>
     <desc lang="en">Mampukah peselancar muda 16 tahun Bronson Meydi menjadi peselancar Indonesia pertama yang lolos ke WSL Championship Tour?</desc>
   </programme>
-  <programme start="20261106153833 +0700" stop="20261106155629 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Bam Margera</title>
-    <desc lang="en">Meet icon Bam Margera as Madars Apse begins his skateboarding hall of fame journey.</desc>
-  </programme>
   <programme start="20261106155629 +0700" stop="20261106160651 +0700" channel="RedBullSkateboarding.global">
     <title lang="en">Inside Gustavo Ribeiro's skatepark</title>
     <desc lang="en">This is your opportunity to take a tour of Gustavo Ribeiro's private indoor skatepark.</desc>
@@ -6458,9 +6460,9 @@
     <title lang="en">Bam Margera</title>
     <desc lang="en">Meet icon Bam Margera as Madars Apse begins his skateboarding hall of fame journey.</desc>
   </programme>
-  <programme start="20261106154610 +0700" stop="20261106155317 +0700" channel="RedBullWinter.global">
-    <title lang="en">How to create the perfect cable cam shot</title>
-    <desc lang="en">John Jackson and the Pirate film crew are in deep powder in Japan capturing amazing cable cam shots.</desc>
+  <programme start="20261106214346 +0700" stop="20261106220443 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Skate Ethiopia</title>
+    <desc lang="en">Madars Apse travels to Ethiopia to discover the growing, 150-strong skate scene in Addis Ababa.</desc>
   </programme>
   <programme start="20261106155317 +0700" stop="20261106160428 +0700" channel="RedBullWinter.global">
     <title lang="en">Scotty James is stoked to get back on the snow</title>
@@ -6537,6 +6539,10 @@
   <programme start="20261106222410 +0700" stop="20261106223403 +0700" channel="RedBullWinter.global">
     <title lang="en">Back in Switzerland with Scotty James</title>
     <desc lang="en">It's spring break in Switzerland for Scotty James and there's nothing but blue skies and empty halfpipes.</desc>
+  </programme>
+  <programme start="20261106223403 +0700" stop="20261106231606 +0700" channel="RedBullWinter.global">
+    <title lang="en">Chasing Winter</title>
+    <desc lang="en">Pro snowboarder Mark McMorris and friends prepare for the upcoming high-stakes competition season.</desc>
   </programme>
   <programme start="20261106154833 +0700" stop="20261106155852 +0700" channel="RedBullActionReel.global">
     <title lang="en">Markus Eder in The Ultimate Run</title>
@@ -12672,6 +12678,69 @@
   <programme start="20261106233000 +0700" stop="20261107013000 +0700" channel="MNC_soccer-channel-hd_420.id">
     <title lang="id">UNL: CZE Vs ENG</title>
   </programme>
+  <programme start="20261106003000 +0700" stop="20261106010000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">30 Minutes Extreme</title>
+  </programme>
+  <programme start="20261106010000 +0700" stop="20261106013000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20261106013000 +0700" stop="20261106020000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">iNews Sport</title>
+  </programme>
+  <programme start="20261106020000 +0700" stop="20261106040000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">Best Of Badminton</title>
+  </programme>
+  <programme start="20261106040000 +0700" stop="20261106060000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">The Championship Wimbledon</title>
+  </programme>
+  <programme start="20261106060000 +0700" stop="20261106063000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20261106063000 +0700" stop="20261106070000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">30 Minutes Extreme</title>
+  </programme>
+  <programme start="20261106070000 +0700" stop="20261106073000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">Sportrivia</title>
+  </programme>
+  <programme start="20261106073000 +0700" stop="20261106093000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">Pro Futsal League</title>
+  </programme>
+  <programme start="20261106093000 +0700" stop="20261106113000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">V-League 2025-2026: Men</title>
+  </programme>
+  <programme start="20261106113000 +0700" stop="20261106120000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20261106120000 +0700" stop="20261106123000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">iNews Sport</title>
+  </programme>
+  <programme start="20261106123000 +0700" stop="20261106143000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">Best Of Badminton</title>
+  </programme>
+  <programme start="20261106143000 +0700" stop="20261106163000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">V-League 2025-2026: Women</title>
+  </programme>
+  <programme start="20261106163000 +0700" stop="20261106170000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20261106170000 +0700" stop="20261106190000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">V-League 2026-2027: Men (L)</title>
+  </programme>
+  <programme start="20261106190000 +0700" stop="20261106193000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">iNews Sport</title>
+  </programme>
+  <programme start="20261106193000 +0700" stop="20261106200000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">30 Minutes Extreme</title>
+  </programme>
+  <programme start="20261106200000 +0700" stop="20261106203000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20261106203000 +0700" stop="20261106233000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">The Championship Wimbledon</title>
+  </programme>
+  <programme start="20261106233000 +0700" stop="20261107013000 +0700" channel="MNC_sportstars_102.id">
+    <title lang="id">Pro Futsal League</title>
+  </programme>
   <programme start="20261106004500 +0700" stop="20261106010000 +0700" channel="MNC_sportstars-2_98.id">
     <title lang="id">Top Goals</title>
   </programme>
@@ -12867,6 +12936,15 @@
   <programme start="20261106000000 +0700" stop="20261106020000 +0700" channel="MNC_sportstars-4_88.id">
     <title lang="id">Timnas Special</title>
   </programme>
+  <programme start="20261106003000 +0700" stop="20261106010000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">30 Minutes Extreme</title>
+  </programme>
+  <programme start="20261106010000 +0700" stop="20261106013000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20261106013000 +0700" stop="20261106020000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">iNews Sport</title>
+  </programme>
   <programme start="20261106020000 +0700" stop="20261106040000 +0700" channel="MNC_sportstars-4_88.id">
     <title lang="id">AFC Champions League Two</title>
   </programme>
@@ -12876,29 +12954,68 @@
   <programme start="20261106060000 +0700" stop="20261106080000 +0700" channel="MNC_sportstars-4_88.id">
     <title lang="id">V-League Men</title>
   </programme>
+  <programme start="20261106063000 +0700" stop="20261106070000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">30 Minutes Extreme</title>
+  </programme>
+  <programme start="20261106070000 +0700" stop="20261106073000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">Sportrivia</title>
+  </programme>
+  <programme start="20261106073000 +0700" stop="20261106093000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">Pro Futsal League</title>
+  </programme>
   <programme start="20261106080000 +0700" stop="20261106100000 +0700" channel="MNC_sportstars-4_88.id">
     <title lang="id">AFC Champions League Two</title>
+  </programme>
+  <programme start="20261106093000 +0700" stop="20261106113000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">V-League 2025-2026: Men</title>
   </programme>
   <programme start="20261106100000 +0700" stop="20261106120000 +0700" channel="MNC_sportstars-4_88.id">
     <title lang="id">Timnas Special</title>
   </programme>
+  <programme start="20261106113000 +0700" stop="20261106120000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">Sports Today</title>
+  </programme>
   <programme start="20261106120000 +0700" stop="20261106140000 +0700" channel="MNC_sportstars-4_88.id">
     <title lang="id">UEFA Nations League</title>
+  </programme>
+  <programme start="20261106123000 +0700" stop="20261106143000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">Best Of Badminton</title>
   </programme>
   <programme start="20261106140000 +0700" stop="20261106160000 +0700" channel="MNC_sportstars-4_88.id">
     <title lang="id">V-League Men</title>
   </programme>
+  <programme start="20261106143000 +0700" stop="20261106163000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">V-League 2025-2026: Women</title>
+  </programme>
   <programme start="20261106160000 +0700" stop="20261106180000 +0700" channel="MNC_sportstars-4_88.id">
     <title lang="id">Timnas Special</title>
+  </programme>
+  <programme start="20261106163000 +0700" stop="20261106170000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20261106170000 +0700" stop="20261106190000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">V-League 2026-2027: Men (L)</title>
   </programme>
   <programme start="20261106180000 +0700" stop="20261106200000 +0700" channel="MNC_sportstars-4_88.id">
     <title lang="id">AFC Champions League Two</title>
   </programme>
+  <programme start="20261106190000 +0700" stop="20261106193000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">iNews Sport</title>
+  </programme>
+  <programme start="20261106193000 +0700" stop="20261106200000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">30 Minutes Extreme</title>
+  </programme>
   <programme start="20261106200000 +0700" stop="20261106220000 +0700" channel="MNC_sportstars-4_88.id">
     <title lang="id">UEFA Nations League</title>
   </programme>
+  <programme start="20261106203000 +0700" stop="20261106233000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">The Championship Wimbledon</title>
+  </programme>
   <programme start="20261106220000 +0700" stop="20261107000000 +0700" channel="MNC_sportstars-4_88.id">
     <title lang="id">V-League Men</title>
+  </programme>
+  <programme start="20261106233000 +0700" stop="20261107013000 +0700" channel="MNC_sportstars-4_88.id">
+    <title lang="id">Pro Futsal League</title>
   </programme>
   <programme start="20261106000000 +0700" stop="20261106020000 +0700" channel="MNC_sportstars-4-hd_424.id">
     <title lang="id">Timnas Special</title>
@@ -12935,6 +13052,69 @@
   </programme>
   <programme start="20261106220000 +0700" stop="20261107000000 +0700" channel="MNC_sportstars-4-hd_424.id">
     <title lang="id">V-League Men</title>
+  </programme>
+  <programme start="20261106003000 +0700" stop="20261106010000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">30 Minutes Extreme</title>
+  </programme>
+  <programme start="20261106010000 +0700" stop="20261106013000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20261106013000 +0700" stop="20261106020000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">iNews Sport</title>
+  </programme>
+  <programme start="20261106020000 +0700" stop="20261106040000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">Best Of Badminton</title>
+  </programme>
+  <programme start="20261106040000 +0700" stop="20261106060000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">The Championship Wimbledon</title>
+  </programme>
+  <programme start="20261106060000 +0700" stop="20261106063000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20261106063000 +0700" stop="20261106070000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">30 Minutes Extreme</title>
+  </programme>
+  <programme start="20261106070000 +0700" stop="20261106073000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">Sportrivia</title>
+  </programme>
+  <programme start="20261106073000 +0700" stop="20261106093000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">Pro Futsal League</title>
+  </programme>
+  <programme start="20261106093000 +0700" stop="20261106113000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">V-League 2025-2026: Men</title>
+  </programme>
+  <programme start="20261106113000 +0700" stop="20261106120000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20261106120000 +0700" stop="20261106123000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">iNews Sport</title>
+  </programme>
+  <programme start="20261106123000 +0700" stop="20261106143000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">Best Of Badminton</title>
+  </programme>
+  <programme start="20261106143000 +0700" stop="20261106163000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">V-League 2025-2026: Women</title>
+  </programme>
+  <programme start="20261106163000 +0700" stop="20261106170000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20261106170000 +0700" stop="20261106190000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">V-League 2026-2027: Men (L)</title>
+  </programme>
+  <programme start="20261106190000 +0700" stop="20261106193000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">iNews Sport</title>
+  </programme>
+  <programme start="20261106193000 +0700" stop="20261106200000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">30 Minutes Extreme</title>
+  </programme>
+  <programme start="20261106200000 +0700" stop="20261106203000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">Sports Today</title>
+  </programme>
+  <programme start="20261106203000 +0700" stop="20261106233000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">The Championship Wimbledon</title>
+  </programme>
+  <programme start="20261106233000 +0700" stop="20261107013000 +0700" channel="MNC_sportstars-hd_421.id">
+    <title lang="id">Pro Futsal League</title>
   </programme>
   <programme start="20261106000000 +0700" stop="20261106010000 +0700" channel="MNC_spotv_307.id">
     <title lang="id">CelcomDigi STL '26 GP Perak HL</title>
@@ -13997,7 +14177,7 @@
   </programme>
   <programme start="20261106101000 +0500" stop="20261106121000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Мелек</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">Телехикая</desc>
   </programme>
   <programme start="20261106121000 +0500" stop="20261106130000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Қызық екен</title>
@@ -14009,7 +14189,7 @@
   </programme>
   <programme start="20261106131000 +0500" stop="20261106141500 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Селт еткен сезім</title>
-    <desc lang="kk">Телехикая</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261106141500 +0500" stop="20261106144500 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Халықтық құрылыс</title>
@@ -14120,7 +14300,7 @@
   </programme>
   <programme start="20261106101000 +0500" stop="20261106121000 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Мелек</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">Телехикая</desc>
   </programme>
   <programme start="20261106121000 +0500" stop="20261106130000 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Қызық екен</title>
@@ -14132,7 +14312,7 @@
   </programme>
   <programme start="20261106131000 +0500" stop="20261106141500 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Селт еткен сезім</title>
-    <desc lang="kk">Телехикая</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261106141500 +0500" stop="20261106144500 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Халықтық құрылыс</title>
@@ -14327,15 +14507,11 @@
   </programme>
   <programme start="20261106092500 +0500" stop="20261106111000 +0500" channel="Qazsport.kz">
     <title lang="kk">Аталанта (Италия) – Қайрат (Қазақстан)</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">Футбол. УЕФА Конференция Лигасы. 3 тур</desc>
   </programme>
-  <programme start="20261106111000 +0500" stop="20261106120000 +0500" channel="Qazsport.kz">
+  <programme start="20261106111000 +0500" stop="20261106142000 +0500" channel="Qazsport.kz">
     <title lang="kk">УЕФА Еуропа мен Конференция Лигасының шолуы</title>
     <desc lang="kk">Футбол</desc>
-  </programme>
-  <programme start="20261106120000 +0500" stop="20261106142000 +0500" channel="Qazsport.kz">
-    <title lang="kk">Бокс</title>
-    <desc lang="kk">Қазақстан Республикасының чемпионаты. Финал</desc>
   </programme>
   <programme start="20261106142000 +0500" stop="20261106170000 +0500" channel="Qazsport.kz">
     <title lang="kk">Адмирал (Владивосток) - Барыс (Астана)</title>
@@ -14805,8 +14981,12 @@
   <programme start="20261106133500 +0500" stop="20261106134000 +0500" channel="KoksheTV.kz">
     <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
   </programme>
-  <programme start="20261106134000 +0500" stop="20261106140000 +0500" channel="KoksheTV.kz">
+  <programme start="20261106134000 +0500" stop="20261106135500 +0500" channel="KoksheTV.kz">
     <title lang="kk">"КҮМБІР " Мультхикая 20,21 бөлім</title>
+    <desc lang="kk">"КҮМБІР LIVE" Мультхикая 20,21 бөлім</desc>
+  </programme>
+  <programme start="20261106135500 +0500" stop="20261106140000 +0500" channel="KoksheTV.kz">
+    <title lang="kk">"ПӘРМЕНДІ ПІКІР". Бағдарлама аралық телеинтервью</title>
     <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261106140000 +0500" stop="20261106171000 +0500" channel="KoksheTV.kz">
