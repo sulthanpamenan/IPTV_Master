@@ -1,9 +1,12 @@
 import os
+import time
+import json
 from urllib.parse import unquote, urljoin
 from flask import Flask, Response, request
 import requests
-import time
-import json
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 
@@ -30,75 +33,109 @@ def load_tokens():
     global _token_cache
     if _token_cache["data"] and time.time() < _token_cache["expires_at"]:
         return _token_cache["data"]
-    if not GIST_ID or not GITHUB_TOKEN:
-        return {}
+
     try:
-        headers = {"Authorization": f"Bearer {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
+        headers = {"Accept": "application/vnd.github.v3+json"}
+        if GITHUB_TOKEN:
+            headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+            
         res = requests.get(GIST_API_URL, headers=headers, timeout=10)
         if res.status_code == 200:
-            content = res.json().get("files", {}).get(GIST_FILENAME, {}).get("content", "{}")
+            files = res.json().get("files", {})
+            file_data = files.get(GIST_FILENAME, {})
+            content = file_data.get("content", "{}")
             data = json.loads(content)
+
             _token_cache["data"] = data if isinstance(data, dict) else {}
             _token_cache["expires_at"] = time.time() + 30
             return _token_cache["data"]
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"[!] Error loading tokens from Gist: {e}")
+
     return _token_cache["data"]
+
+@app.route("/")
+def index():
+    return "Termux Local Proxy Transmedia Active!"
 
 @app.route("/playlist.m3u")
 def get_master_playlist():
     host_url = request.host
     epg_url = "https://sulthanpamenan.github.io/IPTV_Master/transmedia/epg.xml"
+
     m3u_text = f'#EXTM3U url-tvg="{epg_url}"\n'
     for key, info in CHANNELS.items():
         m3u_text += f'#EXTINF:-1 tvg-id="{key}" tvg-name="{info["name"]}" tvg-logo="{info["logo"]}" group-title="General",{info["name"]}\n'
         m3u_text += f"http://{host_url}/live/{key}\n"
+
     return Response(m3u_text, content_type="audio/x-mpegurl")
 
 @app.route("/live/<channel>")
 def stream_proxy(channel):
     if channel not in CHANNELS:
         return "Channel not found", 404
-    cached_data = load_tokens().get(channel, {})
-    m3u8_url = cached_data.get("url", "")
-    cookies = cached_data.get("cookies", {})
-    if not m3u8_url:
-        return "Stream URL not found", 503
 
-    headers = {"User-Agent": USER_AGENT, "Referer": "https://20.detik.com/", "Origin": "https://20.detik.com"}
+    stream_cache = load_tokens()
+    cached_data = stream_cache.get(channel)
+
+    if not cached_data or not cached_data.get("url"):
+        return "Stream URL not found in Gist. Run fetcher first!", 503
+
+    m3u8_url = cached_data["url"]
+    cookies = cached_data.get("cookies", {})
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Referer": "https://20.detik.com/",
+        "Origin": "https://20.detik.com",
+    }
+
     try:
         res = requests.get(m3u8_url, headers=headers, cookies=cookies, timeout=10)
         if res.status_code != 200:
-            return f"Error CDN: {res.status_code}", res.status_code
+            return f"Error CDN Detik: {res.status_code}", res.status_code
 
         base_url = m3u8_url.rsplit("/", 1)[0] + "/"
         host_url = request.host
+
         new_lines = []
         for line in res.text.splitlines():
             if line.startswith("#") or not line.strip():
                 new_lines.append(line)
             else:
                 full_url = line if line.startswith("http") else urljoin(base_url, line)
-                new_lines.append(f"http://{host_url}/ts_proxy?channel={channel}&url={requests.utils.quote(full_url)}")
+                encoded_url = requests.utils.quote(full_url)
+                new_lines.append(f"http://{host_url}/ts_proxy?channel={channel}&url={encoded_url}")
+
         return Response("\n".join(new_lines), content_type="application/vnd.apple.mpegurl")
     except Exception as e:
-        return f"Proxy Error: {e}", 500
+        return f"Stream Proxy Error: {e}", 500
 
 @app.route("/ts_proxy")
 def ts_proxy():
     segment_url = request.args.get("url")
     channel = request.args.get("channel", "trans7")
+
     if not segment_url:
-        return "Invalid URL", 400
+        return "Invalid segment URL", 400
 
     target_url = unquote(segment_url)
-    cached_data = load_tokens().get(channel, {})
+    stream_cache = load_tokens()
+    cached_data = stream_cache.get(channel, {})
     cookies = cached_data.get("cookies", {})
-    headers = {"User-Agent": USER_AGENT, "Referer": "https://20.detik.com/", "Origin": "https://20.detik.com"}
+
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Referer": "https://20.detik.com/",
+        "Origin": "https://20.detik.com",
+    }
+    host_url = request.host
 
     if ".m3u8" in target_url:
         try:
             res = requests.get(target_url, headers=headers, cookies=cookies, timeout=10)
+            if res.status_code != 200:
+                return f"Error CDN: {res.status_code}", res.status_code
+
             base_url = target_url.rsplit("/", 1)[0] + "/"
             new_lines = []
             for line in res.text.splitlines():
@@ -106,7 +143,9 @@ def ts_proxy():
                     new_lines.append(line)
                 else:
                     full_url = line if line.startswith("http") else urljoin(base_url, line)
-                    new_lines.append(f"http://{request.host}/ts_proxy?channel={channel}&url={requests.utils.quote(full_url)}")
+                    encoded_url = requests.utils.quote(full_url)
+                    new_lines.append(f"http://{host_url}/ts_proxy?channel={channel}&url={encoded_url}")
+
             return Response("\n".join(new_lines), content_type="application/vnd.apple.mpegurl")
         except Exception as e:
             return f"Manifest Error: {e}", 500
