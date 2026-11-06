@@ -93,8 +93,8 @@ def fetch_tmdb_id(title, tmdb_api_key, media_type="movie", year=None):
                     item_year = date_str.split("-")[0] if date_str else ""
 
                     score = SequenceMatcher(None, clean_t.lower(), item_title.lower()).ratio()
-
-                     if extracted_year and item_year:
+                    
+                    if extracted_year and item_year:
                         try:
                             diff_year = abs(int(item_year) - int(extracted_year))
                             if diff_year == 0:
