@@ -31,7 +31,7 @@ jobs:
 
       - name: Run EPG Generator
         env:
-          GH_PAT: ${{ secrets.INDONESIANA_TV_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.INDONESIANA_TV_TOKEN }}
           GIST_ID: ${{ secrets.GIST_INDONESIANA_TV }}
         run: python epg.py
 
