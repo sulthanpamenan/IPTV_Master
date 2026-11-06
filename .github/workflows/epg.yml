@@ -5,6 +5,10 @@ on:
     types: [run-epg]
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+  
 permissions:
   contents: write
 
@@ -45,5 +49,6 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Auto-update EPG XMLTV [skip ci]"
+            git pull origin main --rebase
             git push origin main
           fi
