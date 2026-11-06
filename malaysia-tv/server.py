@@ -3,6 +3,9 @@ import time
 import requests
 from urllib.parse import urljoin, unquote
 from flask import Flask, Response, request
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 
