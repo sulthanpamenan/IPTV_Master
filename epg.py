@@ -378,15 +378,15 @@ def get_or_refresh_indonesiana_token(channel_code):
     os.makedirs(cache_dir, exist_ok=True)
     cache_file = os.path.join(cache_dir, "indonesiana_cache.json")
 
-    gh_pat = os.environ.get("GH_PAT")
+    github_token = os.environ.get("GITHUB_TOKEN")
     gist_id = os.environ.get("GIST_ID")
     gist_filename = "indonesiana_token.json"
 
     # 1. Check the gist
-    if gh_pat and gist_id:
+    if github_token and gist_id:
         try:
             gist_url = f"https://api.github.com/gists/{gist_id}"
-            gist_headers = {"Authorization": f"Bearer {gh_pat}", "Accept": "application/vnd.github+json"}
+            gist_headers = {"Authorization": f"Bearer {github_token}", "Accept": "application/vnd.github+json"}
             gist_res = requests.get(gist_url, headers=gist_headers, timeout=10)
             if gist_res.status_code == 200:
                 files = gist_res.json().get("files", {})
@@ -463,9 +463,9 @@ def get_or_refresh_indonesiana_token(channel_code):
             token_payload = {"token": auth_token, "timestamp": datetime.now(timezone.utc).isoformat()}
             with open(cache_file, "w") as f:
                 json.dump(token_payload, f)
-            if gh_pat and gist_id:
+            if github_token and gist_id:
                 try:
-                    requests.patch(f"https://api.github.com/gists/{gist_id}", headers={"Authorization": f"Bearer {gh_pat}"}, json={"files": {gist_filename: {"content": json.dumps(token_payload, indent=2)}}}, timeout=10)
+                    requests.patch(f"https://api.github.com/gists/{gist_id}", headers={"Authorization": f"Bearer {github_token}"}, json={"files": {gist_filename: {"content": json.dumps(token_payload, indent=2)}}}, timeout=10)
                 except Exception:
                     pass
 
