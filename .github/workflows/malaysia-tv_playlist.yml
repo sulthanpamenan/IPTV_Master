@@ -18,4 +18,4 @@ jobs:
           playwright install chromium
           python malaysia-tv/fetcher.py
         env:
-          GITHUB_TOKEN: ${{ secrets.GIST_MALAYSIA_TV }}
+          GITHUB_TOKEN: ${{ secrets.MALAYSIA_TV_TOKEN }}
