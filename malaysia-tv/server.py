@@ -1,6 +1,7 @@
 import os
 import time
 import requests
+import threading
 from urllib.parse import urljoin, unquote
 from flask import Flask, Response, request
 from dotenv import load_dotenv
@@ -54,18 +55,42 @@ ORIGIN_VAL = "https://malaysia-tv.net"
 REFERER_VAL = "https://malaysia-tv.net/"
 
 _cache_store = {"data": {}, "expires_at": 0}
+_is_updating = False
 
-def get_latest_tokens():
-    global _cache_store
-    if _cache_store["data"] and time.time() < _cache_store["expires_at"]:
-        return _cache_store["data"]
+def background_update_tokens():
+    global _cache_store, _is_updating
     try:
         res = requests.get(GIST_RAW_URL, timeout=6)
         if res.status_code == 200:
-            _cache_store["data"] = res.json()
-            _cache_store["expires_at"] = time.time() + 120
+            new_data = res.json()
+            if new_data:
+                _cache_store["data"] = new_data
+                _cache_store["expires_at"] = time.time() + 120
     except Exception:
         pass
+    finally:
+        _is_updating = False
+
+def get_latest_tokens():
+    global _cache_store, _is_updating
+    current_time = time.time()
+    
+    if not _cache_store["data"]:
+        try:
+            res = requests.get(GIST_RAW_URL, timeout=6)
+            if res.status_code == 200:
+                _cache_store["data"] = res.json()
+                _cache_store["expires_at"] = current_time + 120
+        except Exception:
+            pass
+        return _cache_store["data"]
+
+    if current_time >= _cache_store["expires_at"] and not _is_updating:
+        _is_updating = True
+        update_thread = threading.Thread(target=background_update_tokens)
+        update_thread.daemon = True
+        update_thread.start()
+
     return _cache_store["data"]
 
 @app.route("/")
