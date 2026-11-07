@@ -40,5 +40,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
           git add "vod/movies.m3u" "vod/tmdb_cache.json"
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update movies.m3u and cache [skip ci]" && git pull --rebase origin main && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update movies.m3u and cache [skip ci]" && git push origin main)
