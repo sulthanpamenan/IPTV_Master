@@ -2757,6 +2757,7 @@ https://amdlive-ch01-g-ctnd-com.akamaized.net/arirang_1gch/smil:arirang_1gch.smi
 #EXTINF:-1 tvg-id="MNC_tvn-hd_446.id" tvg-name="tvN HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/tvN.png" group-title="Entertainment",tvN
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/KBS_World.png" group-title="Entertainment",KBS World
+https://world.gscdn.kbs.co.kr/world-01/world-01_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDEvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5NDIwMjk1MX19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=XhY1yxbxmOwslIVhIeKRKY9g2tFyTJ0Du2CdggyAn9u9dagJEm7Whh0aVcoWvJkRjM3o3IHwtDOheI0j5zHSwDGufd85ZiNjo1Apnpx~s~MXzSQuc3cURFs0-5r4~9Dm9HpF0hp~Y7n~V4QPRi2F6Pi8TPYNbMQ21Z-vsbpz3NJxvWuj-iBdRNG73aQhTaQ00nlXvFTQVh6YUPmgRHnlyPa7GscptsqQWjl~VxOa0zzHJIPI5gGOVJHxHAS-07N2gnbO7~pixouKVqT6VpZlY57N5D3-CGYutpPYl2T82Lv29O3XGPrn94igO4XWASvwSHtyZwvF3bwI4kxIisyRMg__
 
 #EXTINF:-1 tvg-id="MNC_kix_161.id" tvg-name="KIX" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/KIX.png" group-title="Entertainment",KIX
 #KODIPROP:inputstream=inputstream.adaptive
