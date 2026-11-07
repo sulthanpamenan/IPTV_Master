@@ -3555,6 +3555,8 @@ https://d1sq2slp9afh7o.cloudfront.net/smil:snap/playlist.m3u8?id=24099
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Lifestyle/Inspirasi_TV.png" group-title="Lifestyle",Inspirasi TV
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Lifestyle/GoUSA_TV.png" group-title="Lifestyle",GoUSA TV
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Lifestyle/Sooka_Lifestyle.png" group-title="Lifestyle",Sooka Lifestyle
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
