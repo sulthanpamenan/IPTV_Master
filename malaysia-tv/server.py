@@ -68,6 +68,10 @@ def get_latest_tokens():
         pass
     return _cache_store["data"]
 
+@app.route("/")
+def index():
+    return "Termux Local Proxy Malaysia TV Active!"
+
 @app.route("/playlist.m3u")
 def get_master_playlist():
     host_url = request.host
@@ -84,8 +88,12 @@ def stream_proxy(slug):
     if not m3u8_url:
         return "Stream URL not found", 503
 
+    headers = {"User-Agent": USER_AGENT, "Origin": ORIGIN_VAL, "Referer": REFERER_VAL}
     try:
-        res = requests.get(m3u8_url, headers={"User-Agent": USER_AGENT, "Origin": ORIGIN_VAL, "Referer": REFERER_VAL}, timeout=10)
+        res = requests.get(m3u8_url, headers=headers, timeout=10)
+        if res.status_code != 200:
+            return f"Upstream error: {res.status_code}", res.status_code
+
         base_url = m3u8_url.rsplit("/", 1)[0] + "/"
         host_url = request.host
         new_lines = []
@@ -94,7 +102,8 @@ def stream_proxy(slug):
                 new_lines.append(line)
             else:
                 full_url = line if line.startswith("http") else urljoin(base_url, line)
-                new_lines.append(f"http://{host_url}/ts_proxy?slug={slug}&url={requests.utils.quote(full_url)}")
+                encoded_url = requests.utils.quote(full_url)
+                new_lines.append(f"http://{host_url}/ts_proxy?slug={slug}&url={encoded_url}")
         return Response("\n".join(new_lines), content_type="application/vnd.apple.mpegurl")
     except Exception as e:
         return f"Proxy Error: {e}", 500
@@ -102,10 +111,35 @@ def stream_proxy(slug):
 @app.route("/ts_proxy")
 def ts_proxy():
     target_url = unquote(request.args.get("url", ""))
+    slug = request.args.get("slug", "")
     if not target_url:
         return "Invalid URL", 400
+
+    headers = {"User-Agent": USER_AGENT, "Origin": ORIGIN_VAL, "Referer": REFERER_VAL}
+    host_url = request.host
+
+    if ".m3u8" in target_url:
+        try:
+            res = requests.get(target_url, headers=headers, timeout=10)
+            if res.status_code != 200:
+                return f"Manifest Error: {res.status_code}", res.status_code
+
+            base_url = target_url.rsplit("/", 1)[0] + "/"
+            new_lines = []
+            for line in res.text.splitlines():
+                if line.startswith("#") or not line.strip():
+                    new_lines.append(line)
+                else:
+                    full_url = line if line.startswith("http") else urljoin(base_url, line)
+                    encoded_url = requests.utils.quote(full_url)
+                    new_lines.append(f"http://{host_url}/ts_proxy?slug={slug}&url={encoded_url}")
+
+            return Response("\n".join(new_lines), content_type="application/vnd.apple.mpegurl")
+        except Exception as e:
+            return f"Sub-manifest Error: {e}", 500
+
     try:
-        res = requests.get(target_url, headers={"User-Agent": USER_AGENT, "Origin": ORIGIN_VAL, "Referer": REFERER_VAL}, stream=True, timeout=15)
+        res = requests.get(target_url, headers=headers, stream=True, timeout=15)
         return Response(res.iter_content(chunk_size=32768), content_type="video/MP2T")
     except Exception as e:
         return f"Segment Error: {e}", 500
