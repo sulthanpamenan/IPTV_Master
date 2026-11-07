@@ -36,6 +36,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add pluto-tv/
           git pull --rebase origin main --autostash
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update Pluto TV EPG [skip ci]" && git push origin main)
+          git add pluto-tv/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update Pluto TV EPG [skip ci]" && git pull --rebase origin main --autostash && git push origin main)
