@@ -26,6 +26,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.io"
-          git add transmedia/
           git pull --rebase origin main --autostash
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update Transmedia EPG [skip ci]" && git push origin main)
+          git add transmedia/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update Transmedia EPG [skip ci]" && git pull --rebase origin main --autostash && git push origin main)
