@@ -14,9 +14,10 @@ Import these URLs directly into your preferred IPTV application:
 | Content Category | Resource Type | Direct URL (GitHub Pages) |
 | :--- | :--- | :--- |
 | **IPTV Master Collection** | Playlist (M3U) | `https://sulthanpamenan.github.io/IPTV_Master/playlist.m3u8` |
+| **VOD Master Collection** | Playlist (M3U) | `https://sulthanpamenan.github.io/IPTV_Master/vod.m3u8` |
 | **Universal EPG Guide** | EPG (XMLTV) | `https://sulthanpamenan.github.io/IPTV_Master/epg.xml` |
-| **Free Live Sports** | Playlist (M3U) | `https://sulthanpamenan.github.io/IPTV_Master/freelivesports/playlist.m3u` |
-| **Free Live Sports EPG** | EPG (XMLTV) | `https://sulthanpamenan.github.io/IPTV_Master/freelivesports/epg.xml` |
+| **Free Live Sports** | Playlist (M3U) | `https://sulthanpamenan.github.io/IPTV_Master/freelivesports-tv/playlist.m3u` |
+| **Free Live Sports EPG** | EPG (XMLTV) | `https://sulthanpamenan.github.io/IPTV_Master/freelivesports-tv/epg.xml` |
 | **Pluto TV** | Playlist (M3U) | `https://sulthanpamenan.github.io/IPTV_Master/pluto-tv/playlist.m3u` |
 | **Pluto TV EPG** | EPG (XMLTV) | `https://sulthanpamenan.github.io/IPTV_Master/pluto-tv/epg.xml` |
 | **Padang TV** | Playlist (M3U) | `https://sulthanpamenan.github.io/IPTV_Master/padang-tv/playlist.m3u` |
