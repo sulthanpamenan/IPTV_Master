@@ -14,6 +14,7 @@ HEADERS = {
 }
 
 EPG_URL = "https://sulthanpamenan.github.io/IPTV_Master/pluto-tv/epg.xml"
+EXCLUDED_IDS = {"select"}
 
 def get_pluto_session():
     device_id = str(uuid.uuid4())
@@ -68,7 +69,7 @@ def build_m3u():
             
         for ch in channels:
             ch_id = ch.get('id') or ch.get('_id')
-            if not ch_id:
+            if not ch_id or str(ch_id) in EXCLUDED_IDS:
                 continue
 
             name = ch.get('name', 'Pluto Channel')
