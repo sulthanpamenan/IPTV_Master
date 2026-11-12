@@ -76,6 +76,76 @@
     <desc lang="id" />
     <category lang="id">General</category>
   </programme>
+  <programme start="20261113050000 +0700" stop="20261113063000 +0700" channel="transtv">
+    <title lang="id">ISLAM ITU INDAH</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261113063000 +0700" stop="20261113073000 +0700" channel="transtv">
+    <title lang="id">INSERT PAGI</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261113073000 +0700" stop="20261113083000 +0700" channel="transtv">
+    <title lang="id">CNN INDONESIA GOOD MORNING</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261113083000 +0700" stop="20261113103000 +0700" channel="transtv">
+    <title lang="id">PAGI-PAGI AMBYAR</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261113103000 +0700" stop="20261113123000 +0700" channel="transtv">
+    <title lang="id">INSERT</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261113123000 +0700" stop="20261113140000 +0700" channel="transtv">
+    <title lang="id">BROWNIS (OBROLAN MANIS)</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261113140000 +0700" stop="20261113150000 +0700" channel="transtv">
+    <title lang="id">RUMPI (NO SECRET)</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261113150000 +0700" stop="20261113160000 +0700" channel="transtv">
+    <title lang="id">INSERT TODAY</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261113160000 +0700" stop="20261113163000 +0700" channel="transtv">
+    <title lang="id">CNN INDONESIA NEWS UPDATE</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261113163000 +0700" stop="20261113173000 +0700" channel="transtv">
+    <title lang="id">MONITOR KETUA</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261113173000 +0700" stop="20261113184500 +0700" channel="transtv">
+    <title lang="id">BIKIN LAPER</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261113184500 +0700" stop="20261113200000 +0700" channel="transtv">
+    <title lang="id">INSERT STORY</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261113200000 +0700" stop="20261113220000 +0700" channel="transtv">
+    <title lang="id">BIOSKOP TRANSTV  - BLACK WATER: ABYSS</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261113220000 +0700" stop="20261113233000 +0700" channel="transtv">
+    <title lang="id">BIOSKOP TRANSTV  - THE BLACK DEMON</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
   <programme start="20261112233100 +0700" stop="20261113001500 +0700" channel="trans7">
     <title lang="id">MISTERI DUNIA</title>
     <desc lang="id" />
