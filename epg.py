@@ -1021,8 +1021,9 @@ def fetch_epg_kbsworld(target):
                 dt_start = datetime.strptime(f"{date_str} {time_str}", "%Y%m%d %H:%M")
                 dt_end = dt_start + timedelta(minutes=duration_min)
 
-                start_formatted = dt_start.strftime("%Y%m%d%H%M00 +0000")
-                stop_formatted = dt_end.strftime("%Y%m%d%H%M00 +0000")
+                target_offset = target.get("utc_offset", "+0700")
+                start_formatted = format_xmltv_date(dt_start, target_offset)
+                stop_formatted = format_xmltv_date(dt_end, target_offset)
 
                 programmes.append({
                     "channel": epg_id,
