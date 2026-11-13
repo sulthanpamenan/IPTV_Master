@@ -614,8 +614,6 @@ def fetch_epg_cltv36(target):
     
     today_local = get_now_in_channel_tz(offset)
     base_date = today_local.date()
-    target_weekday_name = today_local.strftime("%A").upper()
-    is_weekend = today_local.weekday() >= 5
 
     try:
         res = HTTP_SESSION.get(target["url"], timeout=15)
@@ -661,26 +659,12 @@ def fetch_epg_cltv36(target):
                             break
 
                 for sched_str in schedule_blocks:
-                    upper_sched = sched_str.upper()
-                    
-                    is_match_day = False
-                    if "DAILY" in upper_sched or target_weekday_name in upper_sched:
-                        is_match_day = True
-                    elif ("MONDAY - FRIDAY" in upper_sched or "MON - FRI" in upper_sched or "MONDAY – FRIDAY" in upper_sched) and not is_weekend:
-                        is_match_day = True
-                    elif ("MONDAY - SATURDAY" in upper_sched or "MONDAY – SATURDAY" in upper_sched) and target_weekday_name != "SUNDAY":
-                        is_match_day = True
-                    elif not any(day in upper_sched for day in ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]):
-                        is_match_day = True
-
-                    if not is_match_day:
-                        continue
-
                     time_matches = TIME_PATTERN_AMPM.findall(sched_str.replace("NN", "PM").replace("nn", "pm"))
-                    if time_matches and len(time_matches) >= 2:
+                    
+                    for idx in range(0, len(time_matches) - 1, 2):
                         try:
-                            start_str = time_matches[0].upper().replace(" ", "")
-                            stop_str = time_matches[1].upper().replace(" ", "")
+                            start_str = time_matches[idx].upper().replace(" ", "")
+                            stop_str = time_matches[idx + 1].upper().replace(" ", "")
                             
                             start_time = datetime.strptime(start_str.zfill(7), "%I:%M%p").time()
                             stop_time = datetime.strptime(stop_str.zfill(7), "%I:%M%p").time()
@@ -706,7 +690,7 @@ def fetch_epg_cltv36(target):
                             pass
 
             programmes.sort(key=lambda x: x["start"])
-            print(f"[✓] CLTV36: Successfully loaded {len(programmes)} programs for today ({target_weekday_name})!")
+            print(f"[✓] CLTV36: Successfully loaded {len(programmes)} programs chronologically!")
     except Exception as e: 
         print(f"[!] CLTV36 Error: {e}")
         
