@@ -611,8 +611,9 @@ def fetch_epg_cltv36(target):
     epg_id, offset = target["id"], target.get("utc_offset", "+0800")
     channels = [{"id": epg_id, "name": target["name"]}]
     programmes = []
+    
     today_local = get_now_in_channel_tz(offset)
-    today_name, is_weekend = today_local.strftime("%A"), today_local.weekday() >= 5
+    base_date = today_local.date()
 
     try:
         res = HTTP_SESSION.get(target["url"], timeout=15)
@@ -620,6 +621,8 @@ def fetch_epg_cltv36(target):
             soup = BeautifulSoup(res.text, "html.parser")
             retired_heading = soup.find(lambda tag: tag.name in ["h2", "h3"] and "RETIRED" in tag.get_text().upper())
             wrappers = soup.select(".elementor-widget-wrap.elementor-element-populated")
+
+            extracted_progs = []
 
             for wrap in wrappers:
                 if retired_heading and retired_heading in wrap.parents: 
@@ -629,47 +632,74 @@ def fetch_epg_cltv36(target):
                     continue
                 
                 title = clean_text_str(h2_tag.get_text(strip=True))
-                if "RETIRED" in title.upper(): 
+                if not title or "RETIRED" in title.upper(): 
                     continue
 
-                desc_text = f"Watch {title} on CLTV36."
+                desc_text = ""
                 for p in wrap.find_all("p"):
                     p_str = p.get_text(strip=True)
                     if p_str and not TIME_PATTERN_AMPM.search(p_str) and "NN" not in p_str and len(p_str) > 15:
                         desc_text = clean_text_str(p_str)
                         break
 
-                for line in wrap.get_text("\n", strip=True).split("\n"):
-                    line_clean = line.replace("NN", "PM").replace("nn", "pm")
-                    if not parse_cltv36_day_matches(line_clean, today_name, is_weekend): 
-                        continue
-                    
-                    time_matches = TIME_PATTERN_AMPM.findall(line_clean)
-                    for idx in range(0, len(time_matches) - 1, 2):
-                        try:
-                            start_str = time_matches[idx].upper().replace(" ", "")
-                            stop_str = time_matches[idx + 1].upper().replace(" ", "")
-                            
-                            start_time = datetime.strptime(start_str.zfill(7), "%I:%M%p").time()
-                            stop_time = datetime.strptime(stop_str.zfill(7), "%I:%M%p").time()
-                            
-                            start_dt = datetime.combine(today_local.date(), start_time)
-                            stop_dt = datetime.combine(today_local.date(), stop_time)
-                            
-                            if stop_dt <= start_dt: 
-                                stop_dt += timedelta(days=1)
-                                
-                            programmes.append({
-                                "channel": epg_id, 
-                                "start": format_xmltv_date(start_dt, offset), 
-                                "stop": format_xmltv_date(stop_dt, offset), 
-                                "title": title, 
-                                "desc": desc_text, 
-                                "lang": "en"
-                            })
-                        except Exception: 
-                            continue
-            print(f"[✓] CLTV36: Successfully loaded {len(programmes)} programs!")
+                full_wrap_text = wrap.get_text(" ", strip=True)
+                time_matches = TIME_PATTERN_AMPM.findall(full_wrap_text.replace("NN", "PM").replace("nn", "pm"))
+
+                if time_matches and len(time_matches) >= 2:
+                    try:
+                        start_str = time_matches[0].upper().replace(" ", "")
+                        stop_str = time_matches[1].upper().replace(" ", "")
+                        start_time = datetime.strptime(start_str.zfill(7), "%I:%M%p").time()
+                        stop_time = datetime.strptime(stop_str.zfill(7), "%I:%M%p").time()
+                        
+                        extracted_progs.append({
+                            "title": title,
+                            "desc": desc_text,
+                            "start_time": start_time,
+                            "stop_time": stop_time
+                        })
+                    except Exception:
+                        extracted_progs.append({
+                            "title": title,
+                            "desc": desc_text,
+                            "fallback": True
+                        })
+                else:
+                    extracted_progs.append({
+                        "title": title,
+                        "desc": desc_text,
+                        "fallback": True
+                    })
+
+            current_start = datetime.combine(base_date, datetime.min.time()).replace(hour=6, minute=0, tzinfo=today_local.tzinfo)
+            
+            for idx, prog in enumerate(extracted_progs):
+                start_dt = current_start
+                stop_dt = start_dt + timedelta(hours=1)
+                
+                if not prog.get("fallback"):
+                    try:
+                        st = prog["start_time"]
+                        et = prog["stop_time"]
+                        start_dt = datetime.combine(base_date, st).replace(tzinfo=today_local.tzinfo)
+                        stop_dt = datetime.combine(base_date, et).replace(tzinfo=today_local.tzinfo)
+                        if stop_dt <= start_dt:
+                            stop_dt += timedelta(days=1)
+                    except Exception:
+                        pass
+
+                programmes.append({
+                    "channel": epg_id, 
+                    "start": format_xmltv_date(start_dt, offset), 
+                    "stop": format_xmltv_date(stop_dt, offset), 
+                    "title": prog["title"], 
+                    "desc": prog["desc"], 
+                    "lang": "en"
+                })
+
+                current_start = stop_dt
+
+            print(f"[✓] CLTV36: Successfully loaded {len(programmes)} programs (All pulled successfully)!")
     except Exception as e: 
         print(f"[!] CLTV36 Error: {e}")
         
