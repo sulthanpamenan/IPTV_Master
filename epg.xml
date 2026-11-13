@@ -6125,22 +6125,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_wedosports.id">
     <title lang="id">Sport Confidential - S06:E46 - 27 October 2026</title>
   </programme>
-  <programme start="20261113235612 +0700" stop="20261114002248 +0700" channel="RedBullTV.global">
-    <title lang="en">FITNESS: Red Bull Rancher Strong 2025 Texas</title>
-    <desc lang="en">Competitors try an obstacle course designed around the rancher lifestyle to determine WHO is Rancher Strong.</desc>
-  </programme>
-  <programme start="20261114002248 +0700" stop="20261114011719 +0700" channel="RedBullTV.global">
-    <title lang="en">ATHLETICS: Resilience – The Els Visser Ironman Story</title>
-    <desc lang="en">When a shipwreck changes everything, the journey from med student to champion triathlete begins.</desc>
-  </programme>
-  <programme start="20261114011719 +0700" stop="20261114015143 +0700" channel="RedBullTV.global">
-    <title lang="en">FITNESS: Beyond the ROX – Strength in Motion</title>
-    <desc lang="en">After years of training, Jake Dearden reaches the Elite 15. Can he prove he belongs in the 2024/25 season?</desc>
-  </programme>
-  <programme start="20261114015143 +0700" stop="20261114021233 +0700" channel="RedBullTV.global">
-    <title lang="en">SNOW: NST Snow Super Sessions 2026 – Utah</title>
-    <desc lang="en">Results from three NST Snow Super Sessions determine who goes on to YETI Natural Selection Snow in Revelstoke.</desc>
-  </programme>
   <programme start="20261114021233 +0700" stop="20261114025636 +0700" channel="RedBullTV.global">
     <title lang="en">SNOWBOARDING: Volare: Valentino Guseli – A Prodigy</title>
     <desc lang="en">Valentino Guseli shares his journey mastering three snowboard disciplines: big air, slopestyle and halfpipe.</desc>
@@ -6205,25 +6189,21 @@
     <title lang="en">DANCE: Take the Title – South Africa's Elite Talent</title>
     <desc lang="en">With unique styles like Amapiano and Pantsula, see how Red Bull Dance Your Style was started in South Africa.</desc>
   </programme>
-  <programme start="20261113234031 +0700" stop="20261114000621 +0700" channel="RedBullPadel.global">
-    <title lang="en">Tarragona P1 Premier Padel highlights</title>
-    <desc lang="en">Watch the highlights from Tarragona, Spain as the P1 Premier Padel took centre stage.</desc>
+  <programme start="20261114104045 +0700" stop="20261114110445 +0700" channel="RedBullTV.global">
+    <title lang="en">DANCE: Take the Title – South Africa's Elite Talent</title>
+    <desc lang="en">The Red Bull Dance Your Style 2021 country tour, national finals and cancelled World Final were unique!</desc>
   </programme>
-  <programme start="20261114000621 +0700" stop="20261114003226 +0700" channel="RedBullPadel.global">
-    <title lang="en">Bordeaux Premier Padel P2 highlights</title>
-    <desc lang="en">Watch the highlights from the Bordeaux Premier Padel P2 tournament.</desc>
+  <programme start="20261114110445 +0700" stop="20261114112845 +0700" channel="RedBullTV.global">
+    <title lang="en">DANCE: Take the Title – South Africa's Elite Talent</title>
+    <desc lang="en">Follow the Red Bull Dance Your Style competitors on the 2023 tour as they compete and share their stories.</desc>
   </programme>
-  <programme start="20261114003226 +0700" stop="20261114005831 +0700" channel="RedBullPadel.global">
-    <title lang="en">Paris Major Premier Padel highlights</title>
-    <desc lang="en">Watch the highlights from the Paris Major Premier Padel tournament held at Roland-Garros stadium.</desc>
+  <programme start="20261114112845 +0700" stop="20261114115321 +0700" channel="RedBullTV.global">
+    <title lang="en">DANCE: Take the Title – South Africa's Elite Talent</title>
+    <desc lang="en">Watch the Red Bull Dance Your Style National Final as the 16 top compete for a spot at the World Final.</desc>
   </programme>
-  <programme start="20261114005831 +0700" stop="20261114012457 +0700" channel="RedBullPadel.global">
-    <title lang="en">Meet padel stars Fernández, Triay, Lebrón and Yanguas</title>
-    <desc lang="en">Four padel players give an inside look into their lives and what makes the sport a global phenomenon.</desc>
-  </programme>
-  <programme start="20261114012457 +0700" stop="20261114015047 +0700" channel="RedBullPadel.global">
-    <title lang="en">Tarragona P1 Premier Padel highlights</title>
-    <desc lang="en">Watch the highlights from Tarragona, Spain as the P1 Premier Padel took centre stage.</desc>
+  <programme start="20261114115321 +0700" stop="20261114120755 +0700" channel="RedBullTV.global">
+    <title lang="en">DANCE: What it Takes to Break – Phil Wizard's Skills</title>
+    <desc lang="en">B-Boys Phil Wizard and Lee learn the secrets of Menno's creativity before battling in a test of originality.</desc>
   </programme>
   <programme start="20261114015047 +0700" stop="20261114021640 +0700" channel="RedBullPadel.global">
     <title lang="en">Germany Premier Padel P2 highlights</title>
@@ -6233,11 +6213,11 @@
     <title lang="en">Madrid P1 Premier Padel highlights</title>
     <desc lang="en">Watch the highlights from the Madrid P1 Premier Padel tournament.</desc>
   </programme>
-  <programme start="20261114024246 +0700" stop="20261114030732 +0700" channel="RedBullPadel.global">
+  <programme start="20261114024246 +0700" stop="20261114030731 +0700" channel="RedBullPadel.global">
     <title lang="en">Meet padel stars Coello, Sanchez, Chingotto and Salazar</title>
     <desc lang="en">Four stars. Four cities. One sport. Hear emotional journeys from the padel court to the heart of the game.</desc>
   </programme>
-  <programme start="20261114030732 +0700" stop="20261114033336 +0700" channel="RedBullPadel.global">
+  <programme start="20261114030731 +0700" stop="20261114033336 +0700" channel="RedBullPadel.global">
     <title lang="en">Bordeaux Premier Padel P2 highlights</title>
     <desc lang="en">Watch the highlights from the Bordeaux Premier Padel P2 tournament.</desc>
   </programme>
@@ -6249,11 +6229,11 @@
     <title lang="en">Meet padel stars Fernández, Triay, Lebrón and Yanguas</title>
     <desc lang="en">Four padel players give an inside look into their lives and what makes the sport a global phenomenon.</desc>
   </programme>
-  <programme start="20261114042552 +0700" stop="20261114045142 +0700" channel="RedBullPadel.global">
+  <programme start="20261114042552 +0700" stop="20261114045141 +0700" channel="RedBullPadel.global">
     <title lang="en">Italy Major Premier Padel highlights</title>
     <desc lang="en">Watch the highlights from the Italy Major Premier Padel tournament held at Foro Italico in Rome.</desc>
   </programme>
-  <programme start="20261114045142 +0700" stop="20261114051746 +0700" channel="RedBullPadel.global">
+  <programme start="20261114045141 +0700" stop="20261114051746 +0700" channel="RedBullPadel.global">
     <title lang="en">Paris Major Premier Padel highlights</title>
     <desc lang="en">Watch the highlights from the Paris Major Premier Padel tournament held at Roland-Garros stadium.</desc>
   </programme>
@@ -6285,39 +6265,35 @@
     <title lang="en">Madrid P1 Premier Padel highlights</title>
     <desc lang="en">Watch the highlights from the Madrid P1 Premier Padel tournament.</desc>
   </programme>
-  <programme start="20261113235505 +0700" stop="20261114000757 +0700" channel="RedBullBike.global">
-    <title lang="en">French advantage</title>
-    <desc lang="en">MTB riders discuss the consistent success of French competitors and speculate about what gives them the edge.</desc>
+  <programme start="20261114082031 +0700" stop="20261114084621 +0700" channel="RedBullPadel.global">
+    <title lang="en">Tarragona P1 Premier Padel highlights</title>
+    <desc lang="en">Watch the highlights from Tarragona, Spain as the P1 Premier Padel took centre stage.</desc>
   </programme>
-  <programme start="20261114000757 +0700" stop="20261114002528 +0700" channel="RedBullBike.global">
-    <title lang="en">Full recap from Red Bull Formation 2022</title>
-    <desc lang="en">Here’s what went down at the third edition of the women’s freeride MTB progression event at Virgin, Utah, USA.</desc>
+  <programme start="20261114084621 +0700" stop="20261114091214 +0700" channel="RedBullPadel.global">
+    <title lang="en">Germany Premier Padel P2 highlights</title>
+    <desc lang="en">Watch the highlights from the Germany Premier Padel P2 tournament.</desc>
   </programme>
-  <programme start="20261114002528 +0700" stop="20261114003012 +0700" channel="RedBullBike.global">
-    <title lang="en">Courage Adams in Soweto</title>
-    <desc lang="en">BMX street rider Courage Adams creates an electrifying inner-city line through the eclectic streets of Soweto.</desc>
+  <programme start="20261114091214 +0700" stop="20261114093822 +0700" channel="RedBullPadel.global">
+    <title lang="en">Malaga Premier Padel P1 highlights</title>
+    <desc lang="en">Watch the highlights from the Malaga Premier Padel P1 tournament.</desc>
   </programme>
-  <programme start="20261114003012 +0700" stop="20261114004655 +0700" channel="RedBullBike.global">
-    <title lang="en">Remy Morton: Seven Days and $7K</title>
-    <desc lang="en">Can Australian MTB freerider Remy Morton build his ultimate line in seven days and with a AUD$7,000 budget?</desc>
+  <programme start="20261114093822 +0700" stop="20261114100426 +0700" channel="RedBullPadel.global">
+    <title lang="en">Bordeaux Premier Padel P2 highlights</title>
+    <desc lang="en">Watch the highlights from the Bordeaux Premier Padel P2 tournament.</desc>
   </programme>
-  <programme start="20261114004655 +0700" stop="20261114015549 +0700" channel="RedBullBike.global">
-    <title lang="en">The Old World</title>
-    <desc lang="en">Traverse iconic European locations in a celebration of biking culture that unites MTB and BMX.</desc>
-  </programme>
-  <programme start="20261114015549 +0700" stop="20261114020257 +0700" channel="RedBullBike.global">
-    <title lang="en">Harriet Burbidge-Smith – Australian style</title>
-    <desc lang="en">Enjoy the stripped-back action as Harriet Burbidge-Smith puts it down at Maydena Bike Park, Tasmania.</desc>
+  <programme start="20261114100426 +0700" stop="20261114103033 +0700" channel="RedBullPadel.global">
+    <title lang="en">Madrid P1 Premier Padel highlights</title>
+    <desc lang="en">Watch the highlights from the Madrid P1 Premier Padel tournament.</desc>
   </programme>
   <programme start="20261114020257 +0700" stop="20261114021808 +0700" channel="RedBullBike.global">
     <title lang="en">Erik Fedko checks out Emil Johansson's home spots</title>
     <desc lang="en">After 2020 Crankworx Rotorua, Erik Fedko heads to Sweden to see Emil Johansson’s favourite mountain biking spots.</desc>
   </programme>
-  <programme start="20261114021808 +0700" stop="20261114024219 +0700" channel="RedBullBike.global">
+  <programme start="20261114021808 +0700" stop="20261114024218 +0700" channel="RedBullBike.global">
     <title lang="en">Lesotho</title>
     <desc lang="en">Mountain bikers Rob Warner and Matt Jones, head to Lesotho to experience a very different kind of racing.</desc>
   </programme>
-  <programme start="20261114024219 +0700" stop="20261114025430 +0700" channel="RedBullBike.global">
+  <programme start="20261114024218 +0700" stop="20261114025430 +0700" channel="RedBullBike.global">
     <title lang="en">Recap show – Nové Město</title>
     <desc lang="en">Watch a full recap of the cross-country action from Nové Město, the third stop of the UCI MTB World Cup 2022.</desc>
   </programme>
@@ -6337,11 +6313,11 @@
     <title lang="en">Gamble</title>
     <desc lang="en">Raw speed, a heavy-hitting soundtrack and virgin locations – mountain bike riders show off their skills.</desc>
   </programme>
-  <programme start="20261114040913 +0700" stop="20261114042715 +0700" channel="RedBullBike.global">
+  <programme start="20261114040913 +0700" stop="20261114042714 +0700" channel="RedBullBike.global">
     <title lang="en">EMIL – Every Mystery I've Lived: The Next Chapter</title>
     <desc lang="en">Despite autoimmune illness, MTB slopestyle champ Emil Johansson fights to regain his mountain bike title.</desc>
   </programme>
-  <programme start="20261114042715 +0700" stop="20261114044002 +0700" channel="RedBullBike.global">
+  <programme start="20261114042714 +0700" stop="20261114044002 +0700" channel="RedBullBike.global">
     <title lang="en">Instinct vs science</title>
     <desc lang="en">Does understanding the science of speed help MTB riders know when to go fast or slow down? Not necessarily.</desc>
   </programme>
@@ -6365,25 +6341,29 @@
     <title lang="en">Nepal</title>
     <desc lang="en">Rob Warner and downhill pro Olly Wilkins ride around the world's tallest mountain range.</desc>
   </programme>
-  <programme start="20261113235031 +0700" stop="20261114005618 +0700" channel="RedBullAdventure.global">
-    <title lang="en">K2 The Impossible Descent</title>
-    <desc lang="en">Andrzej Bargiel reaches Pakistan to descend K2, the world's second-highest peak after Mount Everest, on skis.</desc>
+  <programme start="20261114062938 +0700" stop="20261114064432 +0700" channel="RedBullBike.global">
+    <title lang="en">It's all about the drama</title>
+    <desc lang="en">MTB riders like Kate Courtney, Finn Iles and Loïc Bruni look back over Fast Life, remembering the good and tough moments.</desc>
   </programme>
-  <programme start="20261114005618 +0700" stop="20261114011345 +0700" channel="RedBullAdventure.global">
-    <title lang="en">One Day, 4061m &amp; 4478m</title>
-    <desc lang="en">Most people need several days to take on two alpine challenges. Can ultrarunner Fernanda Maciel do it in one?</desc>
+  <programme start="20261114064432 +0700" stop="20261114070858 +0700" channel="RedBullBike.global">
+    <title lang="en">Kenya</title>
+    <desc lang="en">Former World Cup racer Rob Warner heads to Kenya with freeride pro Matt Jones to ride Mount Kenya.</desc>
   </programme>
-  <programme start="20261114011345 +0700" stop="20261114013246 +0700" channel="RedBullAdventure.global">
-    <title lang="en">The high road part 2</title>
-    <desc lang="en">Nina Williams hones in on an outrageous new objective: a 15m-tall boulder called Too Big to Flail.</desc>
+  <programme start="20261114070858 +0700" stop="20261114071511 +0700" channel="RedBullBike.global">
+    <title lang="en">Wee day out</title>
+    <desc lang="en">Danny MacAskill tears around rural Scotland, setting out to capture the simple fun of a ride in the country.</desc>
   </programme>
-  <programme start="20261114013246 +0700" stop="20261114013800 +0700" channel="RedBullAdventure.global">
-    <title lang="en">Wild freerun</title>
-    <desc lang="en">Freerunner Krystian Kowalewski explores Rudawy Landscape Park in his home country of Poland.</desc>
+  <programme start="20261114071511 +0700" stop="20261114081917 +0700" channel="RedBullBike.global">
+    <title lang="en">Emerald Storm</title>
+    <desc lang="en">Documenting the rise of Ireland’s top MTB riders from their grassroots beginnings to the global stage.</desc>
   </programme>
-  <programme start="20261114013800 +0700" stop="20261114015743 +0700" channel="RedBullAdventure.global">
-    <title lang="en">The Filer Creek Expedition</title>
-    <desc lang="en">Follow Canadian paddler Ed Muggridge on his first foray into whitewater expedition.</desc>
+  <programme start="20261114081917 +0700" stop="20261114084113 +0700" channel="RedBullBike.global">
+    <title lang="en">Dear 39th Street</title>
+    <desc lang="en">Justin Williams returns to 39th Street, LA to build L39ION – the world's first Black-owned cycling team.</desc>
+  </programme>
+  <programme start="20261114084113 +0700" stop="20261114092655 +0700" channel="RedBullBike.global">
+    <title lang="en">Gamble</title>
+    <desc lang="en">Raw speed, a heavy-hitting soundtrack and virgin locations – mountain bike riders show off their skills.</desc>
   </programme>
   <programme start="20261114015743 +0700" stop="20261114024243 +0700" channel="RedBullAdventure.global">
     <title lang="en">The Last Ascent</title>
@@ -6445,29 +6425,25 @@
     <title lang="en">Red Bull Dual Ascent</title>
     <desc lang="en">Sixteen world-class athletes on eight teams battle to be the fastest up a wall of six gruelling pitches.</desc>
   </programme>
-  <programme start="20261113231918 +0700" stop="20261114002324 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Erzbergrodeo Red Bull Hare Scramble</title>
-    <desc lang="en">Hard Enduro's most difficult race pushes even the best riders to their limits over 35km of hellish terrain.</desc>
+  <programme start="20261114095910 +0700" stop="20261114102011 +0700" channel="RedBullAdventure.global">
+    <title lang="en">Fairy Flight</title>
+    <desc lang="en">Valentin Delluc drops from a hot air balloon for a speedflying adventure in Turkey's magical Cappadocia.</desc>
   </programme>
-  <programme start="20261114002324 +0700" stop="20261114011524 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Mint 400</title>
-    <desc lang="en">Off-road racers endure four battering 100-mile laps through the unrelenting desert outside Las Vegas, USA.</desc>
+  <programme start="20261114102011 +0700" stop="20261114111236 +0700" channel="RedBullAdventure.global">
+    <title lang="en">Best moments from Copenhagen</title>
+    <desc lang="en">These are the best moments from the third event of the 2022 Red Bull Cliff Diving World Series in Denmark.</desc>
   </programme>
-  <programme start="20261114011524 +0700" stop="20261114012045 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">How to install an OEM-tight seat cover</title>
-    <desc lang="en">Aaron Colton breaks down his technique for the tedious task of motorcycle seat cover installation.</desc>
+  <programme start="20261114111236 +0700" stop="20261114120036 +0700" channel="RedBullAdventure.global">
+    <title lang="en">360 Ascent</title>
+    <desc lang="en">Climbers Janja Garnbret and Domen Škofic scale the tallest artificial multi-pitch route in the world.</desc>
   </programme>
-  <programme start="20261114012045 +0700" stop="20261114014430 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Moto Maverick</title>
-    <desc lang="en">Motorcycle rider Ryan Sipes examines the state of motocross and supercross racing through a cinematic lens.</desc>
+  <programme start="20261114120036 +0700" stop="20261114120551 +0700" channel="RedBullAdventure.global">
+    <title lang="en">Wild freerun</title>
+    <desc lang="en">Freerunner Krystian Kowalewski explores Rudawy Landscape Park in his home country of Poland.</desc>
   </programme>
-  <programme start="20261114014430 +0700" stop="20261114015806 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Europeans vs Americans</title>
-    <desc lang="en">The top American and European riders race for national pride at the annual Motocross of Nations.</desc>
-  </programme>
-  <programme start="20261114015806 +0700" stop="20261114021539 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Family support and dedication</title>
-    <desc lang="en">Learn the story of how Tom Vialle's family are sharing in his dream for MXGP glory.</desc>
+  <programme start="20261114120551 +0700" stop="20261114121126 +0700" channel="RedBullAdventure.global">
+    <title lang="en">Dom-ination Cairo</title>
+    <desc lang="en">Australian freerunner Dominic Di Tommaso does his thing at a series of iconic locations across Cairo.</desc>
   </programme>
   <programme start="20261114021539 +0700" stop="20261114023646 +0700" channel="RedBullMotorsports.global">
     <title lang="en">Dead Sea season opener</title>
@@ -6517,29 +6493,37 @@
     <title lang="en">ABC of… Drifting</title>
     <desc lang="en">Drift driver Dave Egan gives the lowdown on the motorsport that's all about speed, style, smoke and skill.</desc>
   </programme>
-  <programme start="20261114074420 +0700" stop="20261114075429 +0700" channel="RedBullMotorsports.global">
+  <programme start="20261114074420 +0700" stop="20261114075428 +0700" channel="RedBullMotorsports.global">
     <title lang="en">Motorbikes and bicycles</title>
     <desc lang="en">Manuel Lettenbichler and Paul Bolton both get to go riding – Mani even takes on a different kind of bike.</desc>
   </programme>
-  <programme start="20261114075429 +0700" stop="20261114081040 +0700" channel="RedBullMotorsports.global">
+  <programme start="20261114075428 +0700" stop="20261114081040 +0700" channel="RedBullMotorsports.global">
     <title lang="en">Wanting the win</title>
     <desc lang="en">Toni Cairoli feels the pressure as he prepares to race in his home country at the competition in Trentino.</desc>
   </programme>
-  <programme start="20261113224252 +0700" stop="20261114002528 +0700" channel="RedBullSurfing.global">
-    <title lang="en">And Two If By Sea</title>
-    <desc lang="en">Twin surfers. Rival careers. Pro surfers and identical twins CJ and Damien Hobgood battle sibling rivalry.</desc>
+  <programme start="20261114081040 +0700" stop="20261114091810 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Red Bull Straight Rhythm</title>
+    <desc lang="en">The battle of the bumps is back in Pomona, California, as the finals go down on a half-mile 'unwound' track.</desc>
   </programme>
-  <programme start="20261114002528 +0700" stop="20261114012300 +0700" channel="RedBullSurfing.global">
-    <title lang="en">The Other Side of Fear</title>
-    <desc lang="en">The inspirational tale of big wave surfer and keynote speaker Mark Mathews and his journey back from disaster.</desc>
+  <programme start="20261114091810 +0700" stop="20261114093034 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Making a mark</title>
+    <desc lang="en">Rene Hofer is the first Austrian this century to represent the most successful team in the MX World Champs.</desc>
   </programme>
-  <programme start="20261114012300 +0700" stop="20261114013818 +0700" channel="RedBullSurfing.global">
-    <title lang="en">The legend of Nazaré</title>
-    <desc lang="en">Kai Lenny travels to Nazaré in Portugal to train with Brazilian big wave charger Lucas 'Chumbo' Chianca.</desc>
+  <programme start="20261114093034 +0700" stop="20261114094135 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Family affair</title>
+    <desc lang="en">Motocross riders talk about how the support of their families inspires and drives them to succeed.</desc>
   </programme>
-  <programme start="20261114013818 +0700" stop="20261114015853 +0700" channel="RedBullSurfing.global">
-    <title lang="en">The beast awakens</title>
-    <desc lang="en">Surfer Kai heads to a Nazaré swell, but ends up fighting for his life after his biggest wipeout ever.</desc>
+  <programme start="20261114094135 +0700" stop="20261114095721 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">The next generation</title>
+    <desc lang="en">Can world champion Antonio Cairoli win a 10th title before he's overtaken by the next generation of riders?</desc>
+  </programme>
+  <programme start="20261114095721 +0700" stop="20261114100951 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">The view from the top</title>
+    <desc lang="en">Tony Cairoli is the most successful rider in the championship. Can he still compete at the top?</desc>
+  </programme>
+  <programme start="20261114100951 +0700" stop="20261114111217 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Erzbergfodeo Red Bull Hare Scramble</title>
+    <desc lang="en">Five hundred riders battle each other and Austria's biggest mine in Hard Enduro's biggest race of the year.</desc>
   </programme>
   <programme start="20261114015853 +0700" stop="20261114024829 +0700" channel="RedBullSurfing.global">
     <title lang="en">Ítalo Ferreira's Tales</title>
@@ -6557,11 +6541,11 @@
     <title lang="en">Shaping Jordy</title>
     <desc lang="en">Ride along with Jordy Smith and Mikey February as they cruise the South African coast in search of waves.</desc>
   </programme>
-  <programme start="20261114043901 +0700" stop="20261114050024 +0700" channel="RedBullSurfing.global">
+  <programme start="20261114043901 +0700" stop="20261114050023 +0700" channel="RedBullSurfing.global">
     <title lang="en">That’s Caroline</title>
     <desc lang="en">Caroline Marks is just a normal young woman – who also happens to be the face of surfing’s future.</desc>
   </programme>
-  <programme start="20261114050024 +0700" stop="20261114051431 +0700" channel="RedBullSurfing.global">
+  <programme start="20261114050023 +0700" stop="20261114051431 +0700" channel="RedBullSurfing.global">
     <title lang="en">Aloha Mr Lenny</title>
     <desc lang="en">Growing up among the world’s best watermen shaped him, but Kai Lenny is now taking it to the next level.</desc>
   </programme>
@@ -6569,11 +6553,11 @@
     <title lang="en">RISS</title>
     <desc lang="en">Ride with surfer Carissa Moore around the 2019 World Surf League Championship Tour.</desc>
   </programme>
-  <programme start="20261114055513 +0700" stop="20261114061548 +0700" channel="RedBullSurfing.global">
+  <programme start="20261114055513 +0700" stop="20261114061547 +0700" channel="RedBullSurfing.global">
     <title lang="en">The beast awakens</title>
     <desc lang="en">Surfer Kai heads to a Nazaré swell, but ends up fighting for his life after his biggest wipeout ever.</desc>
   </programme>
-  <programme start="20261114061548 +0700" stop="20261114065907 +0700" channel="RedBullSurfing.global">
+  <programme start="20261114061547 +0700" stop="20261114065907 +0700" channel="RedBullSurfing.global">
     <title lang="en">Chapters</title>
     <desc lang="en">Travel with surf star Kanoa Igarashi for insider access to the World Championship Tour.</desc>
   </programme>
@@ -6601,33 +6585,25 @@
     <title lang="en">Shaka</title>
     <desc lang="en">From the slopes to the waves – snowboarding legend Mathieu Crépel surfs Jaws.</desc>
   </programme>
-  <programme start="20261114111557 +0700" stop="20261114113720 +0700" channel="RedBullSurfing.global">
+  <programme start="20261114111557 +0700" stop="20261114113719 +0700" channel="RedBullSurfing.global">
     <title lang="en">That’s Caroline</title>
     <desc lang="en">Caroline Marks is just a normal young woman – who also happens to be the face of surfing’s future.</desc>
   </programme>
-  <programme start="20261113235646 +0700" stop="20261114001711 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Johannesburg</title>
-    <desc lang="en">Meet Brandon Valjalo and 30 more top dogs from South Africa's biggest skate scene in our super city report.</desc>
+  <programme start="20261114113719 +0700" stop="20261114115714 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Redemption at Nazaré</title>
+    <desc lang="en">The Big Wave World Tour tow surfing event is on at Nazaré – Kai Lenny‘s last chance to get a win this winter.</desc>
   </programme>
-  <programme start="20261114001711 +0700" stop="20261114004505 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Madars and the Fancy Lad crew</title>
-    <desc lang="en">Madars Apse is in Massachusetts to meet the group of friends redefining what's possible in skateboarding.</desc>
+  <programme start="20261114115714 +0700" stop="20261114124507 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Shaping Jordy</title>
+    <desc lang="en">Ride along with Jordy Smith and Mikey February as they cruise the South African coast in search of waves.</desc>
   </programme>
-  <programme start="20261114004505 +0700" stop="20261114011321 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Unknown treasures</title>
-    <desc lang="en">Skate unexplored spots of Montenegro, Albania, Kosovo and North Macedonia with Wes Kremer’s crew.</desc>
+  <programme start="20261114124507 +0700" stop="20261114132827 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Chapters</title>
+    <desc lang="en">Travel with surf star Kanoa Igarashi for insider access to the World Championship Tour.</desc>
   </programme>
-  <programme start="20261114011321 +0700" stop="20261114012814 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Beaver Fleming</title>
-    <desc lang="en">Can Madars Apse take on the mini Megaramp with Beaver Fleming's help?</desc>
-  </programme>
-  <programme start="20261114012814 +0700" stop="20261114014015 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Torey Pudwill</title>
-    <desc lang="en">Roll along with us as we chill with Grizzly Griptape and Thank You Skateboards' very own Torey Pudwill.</desc>
-  </programme>
-  <programme start="20261114014015 +0700" stop="20261114020927 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Madars Apse meets Mike Vallely</title>
-    <desc lang="en">Madars Apse meets Mike Vallely – the pioneer of modern skateboard culture – in Des Moines, Iowa.</desc>
+  <programme start="20261114132827 +0700" stop="20261114134902 +0700" channel="RedBullSurfing.global">
+    <title lang="en">The beast awakens</title>
+    <desc lang="en">Surfer Kai heads to a Nazaré swell, but ends up fighting for his life after his biggest wipeout ever.</desc>
   </programme>
   <programme start="20261114020927 +0700" stop="20261114021649 +0700" channel="RedBullSkateboarding.global">
     <title lang="en">Pura Pura Skatepark, Bolivia</title>
@@ -6685,25 +6661,29 @@
     <title lang="en">Hometown skating in Lisbon</title>
     <desc lang="en">Ride with skater Gustavo Ribeiro as he shows us his hometown of Lisbon, Portugal.</desc>
   </programme>
-  <programme start="20261113235640 +0700" stop="20261114000654 +0700" channel="RedBullWinter.global">
-    <title lang="en">Scotty James opens the halfpipe season in Laax</title>
-    <desc lang="en">Scotty James showed up to the 2021 Laax Open halfpipe event in fighting shape, ready to drop in to win.</desc>
+  <programme start="20261114061206 +0700" stop="20261114061832 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Margielyn Didal</title>
+    <desc lang="en">Get a tour of Margielyn Didal's home, catch a sesh at her nearby skate spot and chill with the locals.</desc>
   </programme>
-  <programme start="20261114000654 +0700" stop="20261114001522 +0700" channel="RedBullWinter.global">
-    <title lang="en">How to capture perfect drone shots</title>
-    <desc lang="en">Loads of people have a drone – but how can you use them best for professional action shots?</desc>
+  <programme start="20261114061832 +0700" stop="20261114064519 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Vibing with Felipe Nunes</title>
+    <desc lang="en">Madars Apse travels to Brazil to skate with double-amputee and Birdhouse Skateboards pro Felipe Nunes.</desc>
   </programme>
-  <programme start="20261114001522 +0700" stop="20261114010532 +0700" channel="RedBullWinter.global">
-    <title lang="en">She Who Flies</title>
-    <desc lang="en">This cinematic journey charts the highs, lows and in-betweens of Freeski World Champion Mathilde Gremaud.</desc>
+  <programme start="20261114064519 +0700" stop="20261114065101 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Skatepark of Tampa</title>
+    <desc lang="en">Joey and Rip are in Skatepark of Tampa, Florida, home of the world famous Tampa Pro skate competition.</desc>
   </programme>
-  <programme start="20261114010532 +0700" stop="20261114011211 +0700" channel="RedBullWinter.global">
-    <title lang="en">How to tick off your bucket list shoot</title>
-    <desc lang="en">See what happens when John Jackson and the Pirate film crew head into an active volcano in Kamchatka, Russia.</desc>
+  <programme start="20261114065101 +0700" stop="20261114071357 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Skate Tales: Detroit</title>
+    <desc lang="en">Madars Apse hears the incredible story of blind skateboarder Dan Mancina's journey back to skating.</desc>
   </programme>
-  <programme start="20261114011211 +0700" stop="20261114015859 +0700" channel="RedBullWinter.global">
-    <title lang="en">Roots</title>
-    <desc lang="en">Take a journey through Italy, Switzerland and Finland to explore the foundations of freeskiing.</desc>
+  <programme start="20261114071357 +0700" stop="20261114074118 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Douglas Miles Jr and Apache Skateboards</title>
+    <desc lang="en">Madars Apse reveals the incredible story of the community skate company thriving on a reservation in Arizona.</desc>
+  </programme>
+  <programme start="20261114074118 +0700" stop="20261114074511 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Phipps Skate Park</title>
+    <desc lang="en">Joey and Rip hit West Palm Beach’s Phipps Skate Park with Autumn Tust and stop by Post-Modern skate shop.</desc>
   </programme>
   <programme start="20261114015859 +0700" stop="20261114022212 +0700" channel="RedBullWinter.global">
     <title lang="en">Bang on Time</title>
@@ -6745,15 +6725,15 @@
     <title lang="en">The Collective</title>
     <desc lang="en">Undiscovered peaks and midnight-raids on inner-city handrails – that's the Skiing is Collective spirit.</desc>
   </programme>
-  <programme start="20261114065306 +0700" stop="20261114070259 +0700" channel="RedBullWinter.global">
+  <programme start="20261114065306 +0700" stop="20261114070258 +0700" channel="RedBullWinter.global">
     <title lang="en">Back in Switzerland with Scotty James</title>
     <desc lang="en">It's spring break in Switzerland for Scotty James and there's nothing but blue skies and empty halfpipes.</desc>
   </programme>
-  <programme start="20261114070259 +0700" stop="20261114071308 +0700" channel="RedBullWinter.global">
+  <programme start="20261114070258 +0700" stop="20261114071307 +0700" channel="RedBullWinter.global">
     <title lang="en">The mountains are calling and Scotty James must go</title>
     <desc lang="en">Kicking off in Australia last September, we join Scotty James as he packs his bags and heads to Switzerland.</desc>
   </programme>
-  <programme start="20261114071308 +0700" stop="20261114075516 +0700" channel="RedBullWinter.global">
+  <programme start="20261114071307 +0700" stop="20261114075516 +0700" channel="RedBullWinter.global">
     <title lang="en">Paved</title>
     <desc lang="en">Experience the joy as snowboarding’s elite push boundaries and chase podium dreams ahead of the 2026 season.</desc>
   </programme>
@@ -6765,85 +6745,105 @@
     <title lang="en">New York cover shoot</title>
     <desc lang="en">From the mountains to the runway, Eileen Gu finds her feet in the two worlds of skiing and modelling.</desc>
   </programme>
-  <programme start="20261114000611 +0700" stop="20261114001555 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Wild phone chase</title>
-    <desc lang="en">Freerunner Jason Paul makes the impossible possible in the city of Hamburg as he searches for his lost phone.</desc>
+  <programme start="20261114082710 +0700" stop="20261114084146 +0700" channel="RedBullWinter.global">
+    <title lang="en">Eileen Gu</title>
+    <desc lang="en">Witness the dazzling trajectory of a skier who's redefining what it means to be a modern champion.</desc>
   </programme>
-  <programme start="20261114001555 +0700" stop="20261114002447 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Ricciardo takes on the Outback</title>
-    <desc lang="en">The 'Honey Badger' in Oz – Red Bull Racing send driver Daniel Ricciardo to Melbourne's Albert Park circuit.</desc>
+  <programme start="20261114084146 +0700" stop="20261114084853 +0700" channel="RedBullWinter.global">
+    <title lang="en">How to create the perfect cable cam shot</title>
+    <desc lang="en">John Jackson and the Pirate film crew are in deep powder in Japan capturing amazing cable cam shots.</desc>
   </programme>
-  <programme start="20261114002447 +0700" stop="20261114002809 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Pedro Burns</title>
-    <desc lang="en">Pedro Burns goes for a ride across three wildly different Chilean terrains.</desc>
+  <programme start="20261114084853 +0700" stop="20261114085837 +0700" channel="RedBullWinter.global">
+    <title lang="en">Splitboarding in the Swiss Alps with Scotty James</title>
+    <desc lang="en">Earn some turns with Scotty James as the crew climb into the Swiss backcountry for a splitboarding adventure.</desc>
   </programme>
-  <programme start="20261114002809 +0700" stop="20261114003222 +0700" channel="RedBullActionReel.global">
+  <programme start="20261114085837 +0700" stop="20261114090819 +0700" channel="RedBullWinter.global">
+    <title lang="en">Spring training days with Scotty James</title>
+    <desc lang="en">The sun has set on Scotty James's 2021 competitive halfpipe season, but now there's spring training.</desc>
+  </programme>
+  <programme start="20261114090819 +0700" stop="20261114092223 +0700" channel="RedBullWinter.global">
+    <title lang="en">Action Men</title>
+    <desc lang="en">Paddy Graham, Markus Eder and the gang rejoin forces to look back at the highs and lows of an epic ski trip.</desc>
+  </programme>
+  <programme start="20261114021436 +0700" stop="20261114021937 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Off-road</title>
+    <desc lang="en">Watch off-roaders Seth Quintero and Mitch Guthrie Jr carve their lines in the King of the Hammers desert.</desc>
+  </programme>
+  <programme start="20261114021937 +0700" stop="20261114022136 +0700" channel="RedBullActionReel.global">
+    <title lang="en">GP Ice Race</title>
+    <desc lang="en">Watch Max Verstappen enjoy his first track action of 2022 with ice speedway star Franky Zorn.</desc>
+  </programme>
+  <programme start="20261114022136 +0700" stop="20261114022311 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Action from Fabio Wibmer's latest project</title>
+    <desc lang="en">Fabio Wibmer takes dicey situations and turns them into outstanding tricks for his film, Wibmer's Law.</desc>
+  </programme>
+  <programme start="20261114022311 +0700" stop="20261114022550 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Uncontainable</title>
+    <desc lang="en">Always looking for bigger set-ups, Drew Bezanson built a custom BMX park using enormous shipping containers.</desc>
+  </programme>
+  <programme start="20261114022550 +0700" stop="20261114022814 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Matt Jones</title>
+    <desc lang="en">Step inside Matt Jones’s secret compound to find out just what it takes to take on the best in MTB.</desc>
+  </programme>
+  <programme start="20261114022814 +0700" stop="20261114023101 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Laurie Greenland</title>
+    <desc lang="en">Enjoy the raw sight and sound of MTB pro Laurie Greenland as he rides down a mountainside in New Zealand.</desc>
+  </programme>
+  <programme start="20261114023101 +0700" stop="20261114023514 +0700" channel="RedBullActionReel.global">
     <title lang="en">CJ Collins FER DAYZ</title>
     <desc lang="en">Abandoned pools, DIYs and even some street action from everyone's favourite all-terrain animal, CJ Collins.</desc>
   </programme>
-  <programme start="20261114003222 +0700" stop="20261114003538 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Uncorked</title>
-    <desc lang="en">With a gorgeous sunset behind them, Mark McMorris and Seb Toots shred a perfectly manicured snowboard park.</desc>
+  <programme start="20261114023514 +0700" stop="20261114023800 +0700" channel="RedBullActionReel.global">
+    <title lang="en">360° of Jaxson Riddle</title>
+    <desc lang="en">See Jaxson Riddle’s tricks from every angle as he prepares to compete in his second Red Bull Rampage.</desc>
   </programme>
-  <programme start="20261114003538 +0700" stop="20261114003919 +0700" channel="RedBullActionReel.global">
+  <programme start="20261114023800 +0700" stop="20261114024744 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Wild phone chase</title>
+    <desc lang="en">Freerunner Jason Paul makes the impossible possible in the city of Hamburg as he searches for his lost phone.</desc>
+  </programme>
+  <programme start="20261114024744 +0700" stop="20261114025112 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Unrailistic 2.0</title>
+    <desc lang="en">This year freeski ace Jesper Tjäder is back with new trick ideas and creative, never-before-seen features.</desc>
+  </programme>
+  <programme start="20261114025112 +0700" stop="20261114030004 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Ricciardo takes on the Outback</title>
+    <desc lang="en">The 'Honey Badger' in Oz – Red Bull Racing send driver Daniel Ricciardo to Melbourne's Albert Park circuit.</desc>
+  </programme>
+  <programme start="20261114030004 +0700" stop="20261114030146 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Carson Storch</title>
+    <desc lang="en">Watch Carson Storch ride through a forest and take on a train and rail track in 100 seconds of raw MTB action.</desc>
+  </programme>
+  <programme start="20261114030146 +0700" stop="20261114030526 +0700" channel="RedBullActionReel.global">
     <title lang="en">Last call for Mr Paul</title>
     <desc lang="en">Pro freerunner Jason Paul is late for a flight and needs to use his athletic prowess to navigate the airport.</desc>
   </programme>
-  <programme start="20261114003919 +0700" stop="20261114004416 +0700" channel="RedBullActionReel.global">
-    <title lang="en">First sessions = INSANE</title>
-    <desc lang="en">Practice + drone makes you feel like you're flying. This session embodies what freeriding is all about.</desc>
-  </programme>
-  <programme start="20261114004416 +0700" stop="20261114004811 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Project Istanbulls</title>
-    <desc lang="en">Pierre Gasly and Alex Albon took to the streets of Istanbul, Turkey, with a driving display through the city.</desc>
-  </programme>
-  <programme start="20261114004811 +0700" stop="20261114005116 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Dreamland</title>
-    <desc lang="en">Two pro freerunners explore a shipping container-filled obstacle course through Turkey's Port of Haydarpaşa.</desc>
-  </programme>
-  <programme start="20261114005116 +0700" stop="20261114005352 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Downhill drone chase</title>
-    <desc lang="en">The talented FPV drone pilots chase Tomáš Slavík down the iconic Red Bull Valparaíso track.</desc>
-  </programme>
-  <programme start="20261114005352 +0700" stop="20261114005559 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Freerunning illusions</title>
-    <desc lang="en">Jason Paul and Pasha Petkuns play mind tricks as they defy gravity with their freerunning illusions.</desc>
-  </programme>
-  <programme start="20261114005559 +0700" stop="20261114005840 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Catching storm waves</title>
-    <desc lang="en">As a big North Pacific storm bears down on the Hawaiian islands the guys take to the wild waves of Jaws.</desc>
-  </programme>
-  <programme start="20261114005840 +0700" stop="20261114010044 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Best moments</title>
-    <desc lang="en">Watch the best moments from when freerunners turned the Athenian Riviera into their own personal playground.</desc>
-  </programme>
-  <programme start="20261114010044 +0700" stop="20261114010224 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Rob Warner and Matt Jones go riding in New Zealand</title>
-    <desc lang="en">Enjoy the raw sight and sound of Rob Warner and Matt Jones riding down a South Island mountainside.</desc>
-  </programme>
-  <programme start="20261114010224 +0700" stop="20261114010759 +0700" channel="RedBullActionReel.global">
+  <programme start="20261114030526 +0700" stop="20261114031101 +0700" channel="RedBullActionReel.global">
     <title lang="en">Duct Out</title>
     <desc lang="en">Tyler Bereman and Robbie Maddison escape LA's gridlock and turn the city into a personal MX playground.</desc>
   </programme>
-  <programme start="20261114010759 +0700" stop="20261114011124 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Wakeskate reflection</title>
-    <desc lang="en">Wakeskaters Brian Grubb and Matti Buys hit some iconic beachfront landmarks in Durban, South Africa.</desc>
+  <programme start="20261114031101 +0700" stop="20261114031244 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Nouria Newman kayaks in British Columbia</title>
+    <desc lang="en">Follow Nouria Newman as she visits Canada to kayak the white water of British Columbia's Spillimacheen River.</desc>
   </programme>
-  <programme start="20261114011124 +0700" stop="20261114011410 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Tahnée Seagrave tears up Lousã, Portugal</title>
-    <desc lang="en">British cyclist Tahnée Seagrave returns after serious injury to the UCI Downhill Mountain Bike World Cup.</desc>
+  <programme start="20261114031244 +0700" stop="20261114031511 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Martin Söderström and Emil Johansson</title>
+    <desc lang="en">See Martin Söderström and Emil Johansson put their style and excellency in focus at Järvsö, Sweden.</desc>
   </programme>
-  <programme start="20261114011410 +0700" stop="20261114011752 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Jack Robinson</title>
-    <desc lang="en">Filmer Kim Feast showcases Western Australia's most promising young surfer, Jack Robinson.</desc>
+  <programme start="20261114031511 +0700" stop="20261114031801 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Cherry blossoms</title>
+    <desc lang="en">Check out all the great spots skateboarder Simon Stricker found to shred on a trip to Taiwan.</desc>
   </programme>
-  <programme start="20261114011752 +0700" stop="20261114012109 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Keys to the track</title>
-    <desc lang="en">Travis Pastrana, Alexander Rossi and Gregg Duffy are not deterred by the plunging winter temps.</desc>
+  <programme start="20261114031801 +0700" stop="20261114032208 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Freerunner's guide to the Sydney Opera House</title>
+    <desc lang="en">Nobody has ever freerun on the roof of the Sydney Opera House – until now. Watch Dominic Di Tommaso in action.</desc>
   </programme>
-  <programme start="20261114012109 +0700" stop="20261114012324 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Adrenaline Spike</title>
-    <desc lang="en">VALORANT and freerunning unite as Krystian Kowalewski takes on agent Jett's abilities and races through Berlin streets.</desc>
+  <programme start="20261114032208 +0700" stop="20261114032720 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Eli Hanneman 2020</title>
+    <desc lang="en">Eli Hanneman's RAW edit brings you his finest work from the past Pacific winter.</desc>
+  </programme>
+  <programme start="20261114032720 +0700" stop="20261114032940 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Dancing in the lights</title>
+    <desc lang="en">Get your 2019 going in style with a celebratory dance performance on the roofs of Mumbai in India.</desc>
   </programme>
   <programme start="20261114002000 +0700" stop="20261114003000 +0700" channel="MNC_abc-australia_350.id">
     <title lang="id">Common Cause</title>
@@ -14246,7 +14246,11 @@
   <programme start="20261114104500 +0700" stop="20261114110000 +0700" channel="MNC_zoomoo_39.id">
     <title lang="id">Jelly Jamm S1, Ep 42</title>
   </programme>
-  <programme start="20261114110000 +0800" stop="20261114150000 +0800" channel="CLTV36.ph">
+  <programme start="20261114080000 +0800" stop="20261114110000 +0800" channel="CLTV36.ph">
+    <title lang="en">CLTV36 Teleskwela</title>
+    <desc lang="en">Provides students in Pampanga, from Grade 1 to Grade 12, a safe place to continue their learning through innovative teaching modules using television as a medium.</desc>
+  </programme>
+  <programme start="20261114130000 +0800" stop="20261114150000 +0800" channel="CLTV36.ph">
     <title lang="en">CLTV36 Teleskwela</title>
     <desc lang="en">Provides students in Pampanga, from Grade 1 to Grade 12, a safe place to continue their learning through innovative teaching modules using television as a medium.</desc>
   </programme>
@@ -14254,1330 +14258,1156 @@
     <title lang="en">Let’s Talk Heart to Heart</title>
     <desc lang="en">“Let’s Talk Heart to Heart” aims to educate viewers regarding current cardiac conditions most especially the risk factors causing cardiovascular diseases through the Philippine Heart Association (PHA) advocacies.</desc>
   </programme>
-  <programme start="20261113060500 +0500" stop="20261113070000 +0500" channel="Qazaqstan.kz">
+  <programme start="20261114060500 +0500" stop="20261114070000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Соңғы хат</title>
     <desc lang="kk">Телехикая</desc>
   </programme>
-  <programme start="20261113070000 +0500" stop="20261113090000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Таңшолпан</title>
-    <desc lang="kk">Таңғы ақпаратты-сазды бағдарлама</desc>
+  <programme start="20261114070000 +0500" stop="20261114080000 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Құдаша қыз</title>
+    <desc lang="kk">Отбасылық комедия</desc>
   </programme>
-  <programme start="20261113090000 +0500" stop="20261113100000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Ғажайып мұра</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113100000 +0500" stop="20261113101000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Ақпарат</title>
-    <desc lang="kk">Жаңалықтар</desc>
-  </programme>
-  <programme start="20261113101000 +0500" stop="20261113121000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Мелек</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113121000 +0500" stop="20261113130000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Қызық екен</title>
-    <desc lang="kk">Интеллектуалды телевикторина</desc>
-  </programme>
-  <programme start="20261113130000 +0500" stop="20261113140000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Селт еткен сезім</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113140000 +0500" stop="20261113141000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Ақпарат</title>
-    <desc lang="kk">Жаңалықтар</desc>
-  </programme>
-  <programme start="20261113141000 +0500" stop="20261113144500 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Халықтық құрылыс</title>
-    <desc lang="kk">Мәдени нысандар (Түркістан, Атырау, Жамбыл облыстары)</desc>
-  </programme>
-  <programme start="20261113144500 +0500" stop="20261113145000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">SuperStar KZ</title>
-    <desc lang="kk">Күнделік</desc>
-  </programme>
-  <programme start="20261113145000 +0500" stop="20261113155500 +0500" channel="Qazaqstan.kz">
+  <programme start="20261114080000 +0500" stop="20261114090000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Көңіл толқыны</title>
     <desc lang="kk">Концерт</desc>
   </programme>
-  <programme start="20261113155500 +0500" stop="20261113170000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Сезім толқыны</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113170000 +0500" stop="20261113172000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Ақпарат</title>
-    <desc lang="kk">Жаңалықтар</desc>
-  </programme>
-  <programme start="20261113172000 +0500" stop="20261113180000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Қазір айтайық</title>
-    <desc lang="kk">Әлеуметтік ток-шоу</desc>
-  </programme>
-  <programme start="20261113180000 +0500" stop="20261113200000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Мелек</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113200000 +0500" stop="20261113203000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Ақпарат</title>
-    <desc lang="kk">Жаңалықтар</desc>
-  </programme>
-  <programme start="20261113203000 +0500" stop="20261113211500 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Ашық алаң</title>
-    <desc lang="kk">Қоғамдық-саяси ток-шоу</desc>
-  </programme>
-  <programme start="20261113211500 +0500" stop="20261113221000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Соңғы хат</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113221000 +0500" stop="20261113230000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Қызғалдақ</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113230000 +0500" stop="20261113235000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Ғажайып мұра</title>
-    <desc lang="kk">Қазірэфирде</desc>
-  </programme>
-  <programme start="20261113235000 +0500" stop="20261114004000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Қызық екен</title>
-    <desc lang="kk">Интеллектуалды телевикторина</desc>
-  </programme>
-  <programme start="20261113060500 +0500" stop="20261113070000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Соңғы хат</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113070000 +0500" stop="20261113090000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Таңшолпан</title>
-    <desc lang="kk">Таңғы ақпаратты-сазды бағдарлама</desc>
-  </programme>
-  <programme start="20261113090000 +0500" stop="20261113100000 +0500" channel="QazaqstanInt.kz">
+  <programme start="20261114090000 +0500" stop="20261114100000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Ғажайып мұра</title>
     <desc lang="kk">Телехикая</desc>
   </programme>
-  <programme start="20261113100000 +0500" stop="20261113101000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Ақпарат</title>
-    <desc lang="kk">Жаңалықтар</desc>
-  </programme>
-  <programme start="20261113101000 +0500" stop="20261113121000 +0500" channel="QazaqstanInt.kz">
+  <programme start="20261114100000 +0500" stop="20261114120000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Мелек</title>
     <desc lang="kk">Телехикая</desc>
   </programme>
-  <programme start="20261113121000 +0500" stop="20261113130000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Қызық екен</title>
-    <desc lang="kk">Интеллектуалды телевикторина</desc>
+  <programme start="20261114120000 +0500" stop="20261114122000 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Ізгілік формуласы</title>
+    <desc lang="kk">«28 ілмек» ұйымының ізгі еңбегі туралы</desc>
   </programme>
-  <programme start="20261113130000 +0500" stop="20261113140000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Селт еткен сезім</title>
+  <programme start="20261114122000 +0500" stop="20261114144500 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">SuperStar KZ</title>
+    <desc lang="kk">Мегажоба</desc>
+  </programme>
+  <programme start="20261114144500 +0500" stop="20261114152500 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Дисней ұсынады</title>
+    <desc lang="kk">«Сақшы арыстан» мультхикаясы</desc>
+  </programme>
+  <programme start="20261114152500 +0500" stop="20261114174500 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Ғашығым</title>
+    <desc lang="kk">Көркем фильм</desc>
+  </programme>
+  <programme start="20261114174500 +0500" stop="20261114180000 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Құрылтай</title>
+    <desc lang="kk">Бағдарлама</desc>
+  </programme>
+  <programme start="20261114180000 +0500" stop="20261114200000 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Мелек</title>
     <desc lang="kk">Телехикая</desc>
   </programme>
-  <programme start="20261113140000 +0500" stop="20261113141000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Ақпарат</title>
-    <desc lang="kk">Жаңалықтар</desc>
+  <programme start="20261114200000 +0500" stop="20261114223000 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">SuperStar KZ</title>
+    <desc lang="kk">Мегажоба</desc>
   </programme>
-  <programme start="20261113141000 +0500" stop="20261113144500 +0500" channel="QazaqstanInt.kz">
+  <programme start="20261114223000 +0500" stop="20261114232000 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Ғажайып мұра</title>
+    <desc lang="kk">Телехикая</desc>
+  </programme>
+  <programme start="20261114232000 +0500" stop="20261115010500 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Бес қару</title>
+    <desc lang="kk">Көркем фильм</desc>
+  </programme>
+  <programme start="20261114010500 +0500" stop="20261114012000 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Құрылтай</title>
+    <desc lang="kk">Бағдарлама</desc>
+  </programme>
+  <programme start="20261114012000 +0500" stop="20261114015000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Халықтық құрылыс</title>
     <desc lang="kk">Мәдени нысандар (Түркістан, Атырау, Жамбыл облыстары)</desc>
   </programme>
-  <programme start="20261113144500 +0500" stop="20261113145000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">SuperStar KZ</title>
-    <desc lang="kk">Күнделік</desc>
-  </programme>
-  <programme start="20261113145000 +0500" stop="20261113155500 +0500" channel="QazaqstanInt.kz">
+  <programme start="20261114015000 +0500" stop="20261114024500 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Көңіл толқыны</title>
     <desc lang="kk">Концерт</desc>
   </programme>
-  <programme start="20261113155500 +0500" stop="20261113170000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Сезім толқыны</title>
-    <desc lang="kk">Телехикая</desc>
+  <programme start="20261114024500 +0500" stop="20261114030000 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Ізгілік формуласы</title>
+    <desc lang="kk">«28 ілмек» ұйымының ізгі еңбегі туралы шығарылым</desc>
   </programme>
-  <programme start="20261113170000 +0500" stop="20261113172000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Ақпарат</title>
-    <desc lang="kk">Жаңалықтар</desc>
+  <programme start="20261114030000 +0500" stop="20261114030500 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Әнұран</title>
+    <desc lang="kk">Бағдарлама</desc>
   </programme>
-  <programme start="20261113172000 +0500" stop="20261113180000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Қазір айтайық</title>
-    <desc lang="kk">Әлеуметтік ток-шоу</desc>
+  <programme start="20261114030500 +0500" stop="20261114032500 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Ақсауыт</title>
+    <desc lang="kk">Бүркіт. Арнайы жасақ</desc>
   </programme>
-  <programme start="20261113180000 +0500" stop="20261113200000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Мелек</title>
-    <desc lang="kk">Телехикая</desc>
+  <programme start="20261114032500 +0500" stop="20261114040000 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Парасат майданы</title>
+    <desc lang="kk">1994 жылы 14 қарашада Швеция референдум арқылы ЕО құрамына енді</desc>
   </programme>
-  <programme start="20261113200000 +0500" stop="20261113203000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Ақпарат</title>
-    <desc lang="kk">Жаңалықтар</desc>
+  <programme start="20261114040000 +0500" stop="20261114044500 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Құдаша қыз</title>
+    <desc lang="kk">Отбасылық комедия</desc>
   </programme>
-  <programme start="20261113203000 +0500" stop="20261113211500 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Ашық алаң</title>
-    <desc lang="kk">Қоғамдық-саяси ток-шоу</desc>
+  <programme start="20261114044500 +0500" stop="20261114051000 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Qazaq creative</title>
+    <desc lang="kk">ЖИ арқылы кино жасау. Мырзахан Жұмахан - Astana AI Film Festival байқауының жеңімпазы</desc>
   </programme>
-  <programme start="20261113211500 +0500" stop="20261113221000 +0500" channel="QazaqstanInt.kz">
+  <programme start="20261114051000 +0500" stop="20261114053000 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Арнайы жоба</title>
+    <desc lang="kk">Көрінбейтін дерт</desc>
+  </programme>
+  <programme start="20261114053000 +0500" stop="20261114053500 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Әнұран</title>
+    <desc lang="kk">Бағдарлама</desc>
+  </programme>
+  <programme start="20261114053500 +0500" stop="20261114063500 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Таңбалы Алтай. Алтайдағы тастағы таңбалар сыры</title>
+    <desc lang="kk">Деректі фильм</desc>
+  </programme>
+  <programme start="20261114060500 +0500" stop="20261114070000 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Соңғы хат</title>
     <desc lang="kk">Телехикая</desc>
   </programme>
-  <programme start="20261113221000 +0500" stop="20261113230000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Қызғалдақ</title>
+  <programme start="20261114070000 +0500" stop="20261114080000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Құдаша қыз</title>
+    <desc lang="kk">Отбасылық комедия</desc>
+  </programme>
+  <programme start="20261114080000 +0500" stop="20261114090000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Көңіл толқыны</title>
+    <desc lang="kk">Концерт</desc>
+  </programme>
+  <programme start="20261114090000 +0500" stop="20261114100000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Ғажайып мұра</title>
     <desc lang="kk">Телехикая</desc>
   </programme>
-  <programme start="20261113230000 +0500" stop="20261113235000 +0500" channel="QazaqstanInt.kz">
+  <programme start="20261114100000 +0500" stop="20261114120000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Мелек</title>
+    <desc lang="kk">Телехикая</desc>
+  </programme>
+  <programme start="20261114120000 +0500" stop="20261114122000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Ізгілік формуласы</title>
+    <desc lang="kk">«28 ілмек» ұйымының ізгі еңбегі туралы</desc>
+  </programme>
+  <programme start="20261114122000 +0500" stop="20261114144500 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">SuperStar KZ</title>
+    <desc lang="kk">Мегажоба</desc>
+  </programme>
+  <programme start="20261114144500 +0500" stop="20261114152500 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Дисней ұсынады</title>
+    <desc lang="kk">«Сақшы арыстан» мультхикаясы</desc>
+  </programme>
+  <programme start="20261114152500 +0500" stop="20261114174500 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Ғашығым</title>
+    <desc lang="kk">Көркем фильм</desc>
+  </programme>
+  <programme start="20261114174500 +0500" stop="20261114180000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Құрылтай</title>
+    <desc lang="kk">Бағдарлама</desc>
+  </programme>
+  <programme start="20261114180000 +0500" stop="20261114200000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Мелек</title>
+    <desc lang="kk">Телехикая</desc>
+  </programme>
+  <programme start="20261114200000 +0500" stop="20261114223000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">SuperStar KZ</title>
+    <desc lang="kk">Мегажоба</desc>
+  </programme>
+  <programme start="20261114223000 +0500" stop="20261114232000 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Ғажайып мұра</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">Телехикая</desc>
   </programme>
-  <programme start="20261113235000 +0500" stop="20261114004000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Қызық екен</title>
-    <desc lang="kk">Интеллектуалды телевикторина</desc>
+  <programme start="20261114232000 +0500" stop="20261115010500 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Бес қару</title>
+    <desc lang="kk">Көркем фильм</desc>
   </programme>
-  <programme start="20261113070000 +0500" stop="20261113070500 +0500" channel="AbaiTV.kz">
+  <programme start="20261114010500 +0500" stop="20261114012000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Құрылтай</title>
+    <desc lang="kk">Бағдарлама</desc>
+  </programme>
+  <programme start="20261114012000 +0500" stop="20261114015000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Халықтық құрылыс</title>
+    <desc lang="kk">Мәдени нысандар (Түркістан, Атырау, Жамбыл облыстары)</desc>
+  </programme>
+  <programme start="20261114015000 +0500" stop="20261114024500 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Көңіл толқыны</title>
+    <desc lang="kk">Концерт</desc>
+  </programme>
+  <programme start="20261114024500 +0500" stop="20261114030000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Ізгілік формуласы</title>
+    <desc lang="kk">«28 ілмек» ұйымының ізгі еңбегі туралы шығарылым</desc>
+  </programme>
+  <programme start="20261114030000 +0500" stop="20261114030500 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Әнұран</title>
+    <desc lang="kk">Бағдарлама</desc>
+  </programme>
+  <programme start="20261114030500 +0500" stop="20261114032500 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Ақсауыт</title>
+    <desc lang="kk">Бүркіт. Арнайы жасақ</desc>
+  </programme>
+  <programme start="20261114032500 +0500" stop="20261114040000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Парасат майданы</title>
+    <desc lang="kk">1994 жылы 14 қарашада Швеция референдум арқылы ЕО құрамына енді</desc>
+  </programme>
+  <programme start="20261114040000 +0500" stop="20261114044500 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Құдаша қыз</title>
+    <desc lang="kk">Отбасылық комедия</desc>
+  </programme>
+  <programme start="20261114044500 +0500" stop="20261114051000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Qazaq creative</title>
+    <desc lang="kk">ЖИ арқылы кино жасау. Мырзахан Жұмахан - Astana AI Film Festival байқауының жеңімпазы</desc>
+  </programme>
+  <programme start="20261114051000 +0500" stop="20261114053000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Арнайы жоба</title>
+    <desc lang="kk">Көрінбейтін дерт</desc>
+  </programme>
+  <programme start="20261114053000 +0500" stop="20261114053500 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Әнұран</title>
+    <desc lang="kk">Бағдарлама</desc>
+  </programme>
+  <programme start="20261114053500 +0500" stop="20261114063500 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Таңбалы Алтай. Алтайдағы тастағы таңбалар сыры</title>
+    <desc lang="kk">Деректі фильм</desc>
+  </programme>
+  <programme start="20261114070000 +0500" stop="20261114070500 +0500" channel="AbaiTV.kz">
     <title lang="kk">Әнұран</title>
   </programme>
-  <programme start="20261113070500 +0500" stop="20261113073000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">Беймәлім дерек</title>
-    <desc lang="kk">Бағдарлама. Санжар Асфендияров</desc>
+  <programme start="20261114070500 +0500" stop="20261114074000 +0500" channel="AbaiTV.kz">
+    <title lang="kk">«Ұлы дала сазы». 16-бағдарлама</title>
+    <desc lang="kk">Бағдарлама. 16-бағдарлама</desc>
   </programme>
-  <programme start="20261113073000 +0500" stop="20261113081500 +0500" channel="AbaiTV.kz">
-    <title lang="kk">Күй керуен</title>
-    <desc lang="kk">«Күй-керуен»</desc>
-  </programme>
-  <programme start="20261113081500 +0500" stop="20261113084500 +0500" channel="AbaiTV.kz">
-    <title lang="kk">Bookwill</title>
-    <desc lang="kk">Программа. Мировая сатирическая литература</desc>
-  </programme>
-  <programme start="20261113084500 +0500" stop="20261113091000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">Музей</title>
-    <desc lang="kk">Бағдарлама. Алтын залы мен реставрация</desc>
-  </programme>
-  <programme start="20261113091000 +0500" stop="20261113101000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">Пайым</title>
-    <desc lang="kk">Бағдарлама. «Жоғары білімнің жаңа географиясы: Қазақстан және әлемдік университеттер»</desc>
-  </programme>
-  <programme start="20261113101000 +0500" stop="20261113104000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">ӘндіGround</title>
-    <desc lang="kk">Бағдарлама. Аршат Шәріп</desc>
-  </programme>
-  <programme start="20261113104000 +0500" stop="20261113111000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">ART профессии</title>
-    <desc lang="kk">Программа. Антиквариат</desc>
-  </programme>
-  <programme start="20261113111000 +0500" stop="20261113114000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">В ритме танца</title>
-    <desc lang="kk">Программа. Уйгурский танец</desc>
-  </programme>
-  <programme start="20261113114000 +0500" stop="20261113120500 +0500" channel="AbaiTV.kz">
-    <title lang="kk">Құдіретті қылқалам</title>
-    <desc lang="kk">Бағдарлама. Гүлнар Миғражқызы</desc>
-  </programme>
-  <programme start="20261113120500 +0500" stop="20261113131000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">«ОПЕРА КРУПНЫМ ПЛАНОМ»</title>
-    <desc lang="kk">Программа. Опера Е.Брусиловского «Кыз Жибек»</desc>
-  </programme>
-  <programme start="20261113131000 +0500" stop="20261113141000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">Сарасөз</title>
-    <desc lang="kk">Бағдарлама. Толымбек Әбдірайым</desc>
-  </programme>
-  <programme start="20261113141000 +0500" stop="20261113150500 +0500" channel="AbaiTV.kz">
+  <programme start="20261114074000 +0500" stop="20261114081500 +0500" channel="AbaiTV.kz">
     <title lang="kk">Фильм</title>
-    <desc lang="kk">«Мария Каллас: үні жетпеген жылдар». Деректі фильм. 2-бөлім</desc>
+    <desc lang="kk">Бағдарлама. 4-бөлім</desc>
   </programme>
-  <programme start="20261113150500 +0500" stop="20261113161000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">Сана</title>
-    <desc lang="kk">Бағдарлама. Селективті назар теориясы</desc>
+  <programme start="20261114081500 +0500" stop="20261114085000 +0500" channel="AbaiTV.kz">
+    <title lang="kk">Түркі әлемі</title>
+    <desc lang="kk">Бағдарлама. Поло және коньки отаны</desc>
   </programme>
-  <programme start="20261113161000 +0500" stop="20261113163000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">Концерт</title>
-    <desc lang="kk">«Алтын қордан концерт». «Шертер» көне аспаптар ансамблі</desc>
+  <programme start="20261114085000 +0500" stop="20261114091500 +0500" channel="AbaiTV.kz">
+    <title lang="kk">Pro art</title>
+    <desc lang="kk">Программа. Джексон Поллок, Американский художник</desc>
   </programme>
-  <programme start="20261113163000 +0500" stop="20261113170000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">ВРЕМЯ НАУКИ</title>
-    <desc lang="kk">Программа. Батухан Татыкаев - Разработки в области хранения энергии</desc>
+  <programme start="20261114091500 +0500" stop="20261114101500 +0500" channel="AbaiTV.kz">
+    <title lang="kk">Фильм</title>
+    <desc lang="kk">«Хокусай: сурет салуға құмар қарт». Деректі фильм</desc>
   </programme>
-  <programme start="20261113170000 +0500" stop="20261113181000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">Үркер</title>
-    <desc lang="kk">Бағдарлама. Жұмабай Шаштайұлының «Жыр жолбарыс» эсселер жинағын талдау</desc>
+  <programme start="20261114101500 +0500" stop="20261114110000 +0500" channel="AbaiTV.kz">
+    <title lang="kk">Дәуір даналары</title>
+    <desc lang="kk">Бағдарлама. Қасым Аманжолов</desc>
   </programme>
-  <programme start="20261113181000 +0500" stop="20261113184000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">«Дала өркениеті». Музыкалық аспаптар</title>
-    <desc lang="kk">Бағдарлама. Музыкалық аспаптар</desc>
+  <programme start="20261114110000 +0500" stop="20261114113000 +0500" channel="AbaiTV.kz">
+    <title lang="kk">Зертхана</title>
+    <desc lang="kk">Бағдарлама. Тағам химиясы</desc>
   </programme>
-  <programme start="20261113184000 +0500" stop="20261113193000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">Портреты</title>
-    <desc lang="kk">Программа. Нурмухамат Имамов</desc>
+  <programme start="20261114113000 +0500" stop="20261114123500 +0500" channel="AbaiTV.kz">
+    <title lang="kk">Інжу-маржан</title>
+    <desc lang="kk">Бағдарлама. Шыңғыстау ән-күйі</desc>
   </programme>
-  <programme start="20261113193000 +0500" stop="20261113200000 +0500" channel="AbaiTV.kz">
-    <title lang="kk">Кинокеңістік</title>
-    <desc lang="kk">Бағдарлама. «Еш жақсылығы жоқ оқиға драмасы». Режиссері: Әліби Мұқышев</desc>
+  <programme start="20261114123500 +0500" stop="20261114125500 +0500" channel="AbaiTV.kz">
+    <title lang="kk">Эпос</title>
+    <desc lang="kk">Программа. Аяз би. Мудрость и власть - Заключительная часть истории показывает, что истинная мудрость необходима не только человеку, но и самому правителю</desc>
   </programme>
-  <programme start="20261113200000 +0500" stop="20261113211000 +0500" channel="AbaiTV.kz">
+  <programme start="20261114125500 +0500" stop="20261114153000 +0500" channel="AbaiTV.kz">
     <title lang="kk">Сарасөз</title>
     <desc lang="kk">Бағдарлама. Тілек Сұлтан</desc>
   </programme>
-  <programme start="20261113211000 +0500" stop="20261113214500 +0500" channel="AbaiTV.kz">
-    <title lang="kk">Кинонаследие</title>
-    <desc lang="kk">Программа. «Наш милый доктор»</desc>
-  </programme>
-  <programme start="20261113214500 +0500" stop="20261113233000 +0500" channel="AbaiTV.kz">
+  <programme start="20261114153000 +0500" stop="20261114153500 +0500" channel="AbaiTV.kz">
     <title lang="kk">Фильм</title>
     <desc lang="kk">«Біздің сүйікті дәрігер». Көркем фильм</desc>
   </programme>
-  <programme start="20261113233000 +0500" stop="20261114003500 +0500" channel="AbaiTV.kz">
-    <title lang="kk">Фильм</title>
-    <desc lang="kk">Қазірэфирде</desc>
+  <programme start="20261114153500 +0500" stop="20261114170500 +0500" channel="AbaiTV.kz">
+    <title lang="kk">«КЕҢШІЛІК КЕҢІСТІГІ». Ақын Кеңшілік Мырзабековті еске алу кеші</title>
   </programme>
-  <programme start="20261113070000 +0500" stop="20261113070500 +0500" channel="Qazsport.kz">
+  <programme start="20261114170500 +0500" stop="20261114172500 +0500" channel="AbaiTV.kz">
+    <title lang="kk">Ашық академия</title>
+    <desc lang="kk">Бағдарлама. Дінмұхаммед Ибадулла</desc>
+  </programme>
+  <programme start="20261114172500 +0500" stop="20261114180000 +0500" channel="AbaiTV.kz">
+    <title lang="kk">Шебер</title>
+    <desc lang="kk">Бағдарлама. Жазира Борсықова</desc>
+  </programme>
+  <programme start="20261114180000 +0500" stop="20261114190000 +0500" channel="AbaiTV.kz">
+    <title lang="kk">Ұмытпаймыз</title>
+    <desc lang="kk">Бағдарлама. Редактор Нұрлан Әбдібек дайындаған бағдарламалар</desc>
+  </programme>
+  <programme start="20261114190000 +0500" stop="20261114193000 +0500" channel="AbaiTV.kz">
+    <title lang="kk">В ритме танца</title>
+    <desc lang="kk">Программа. Балет</desc>
+  </programme>
+  <programme start="20261114193000 +0500" stop="20261114200000 +0500" channel="AbaiTV.kz">
+    <title lang="kk">Ақын әлемі</title>
+    <desc lang="kk">Бағдарлама. Ерболат Әміренов</desc>
+  </programme>
+  <programme start="20261114200000 +0500" stop="20261114210000 +0500" channel="AbaiTV.kz">
+    <title lang="kk">Вечные ценности</title>
+    <desc lang="kk">Программа. Гульмира Амандыкова</desc>
+  </programme>
+  <programme start="20261114210000 +0500" stop="20261114220000 +0500" channel="AbaiTV.kz">
+    <title lang="kk">ЗАМАН-АРТ</title>
+    <desc lang="kk">Бағдарлама. «Қазақтың ұлттық киімдері: Сән мен салттың айырмасы»</desc>
+  </programme>
+  <programme start="20261114220000 +0500" stop="20261114232500 +0500" channel="AbaiTV.kz">
+    <title lang="kk">Фильм</title>
+    <desc lang="kk">«Туған жер». Көркем фильм</desc>
+  </programme>
+  <programme start="20261114232500 +0500" stop="20261115003000 +0500" channel="AbaiTV.kz">
+    <title lang="kk">Фильм</title>
+    <desc lang="kk">«УФФИЦИ. Өнер сапары». Деректі фильм</desc>
+  </programme>
+  <programme start="20261114003000 +0500" stop="20261114013000 +0500" channel="AbaiTV.kz">
     <title lang="kk">Әнұран</title>
   </programme>
-  <programme start="20261113070500 +0500" stop="20261113090000 +0500" channel="Qazsport.kz">
-    <title lang="kk">Армения – Кипр</title>
-    <desc lang="kk">Футбол. УЕФА Ұлттар Лигасы</desc>
+  <programme start="20261114070000 +0500" stop="20261114070500 +0500" channel="Qazsport.kz">
+    <title lang="kk">Әнұран</title>
   </programme>
-  <programme start="20261113090000 +0500" stop="20261113093500 +0500" channel="Qazsport.kz">
-    <title lang="kk">Qazsport алаңы ток-шоуы</title>
-    <desc lang="kk">Кураш. Әлем назары - Астанада</desc>
+  <programme start="20261114070500 +0500" stop="20261114083500 +0500" channel="Qazsport.kz">
+    <title lang="kk">Мәнерлеп сырғанау</title>
+    <desc lang="kk">Гран-при. Ерлер. Қысқа бағдарлама</desc>
   </programme>
-  <programme start="20261113093500 +0500" stop="20261113113000 +0500" channel="Qazsport.kz">
-    <title lang="kk">Англия – Хорватия</title>
-    <desc lang="kk">Футбол. УЕФА Ұлттар Лигасы</desc>
-  </programme>
-  <programme start="20261113113000 +0500" stop="20261113131000 +0500" channel="Qazsport.kz">
-    <title lang="kk">Күрес. Әлем чемпионаты</title>
-    <desc lang="kk">Әйелдер күресі. Финал (50, 57, 65, 76 кг)</desc>
-  </programme>
-  <programme start="20261113131000 +0500" stop="20261113140000 +0500" channel="Qazsport.kz">
-    <title lang="kk">УЕФА Ұлттар лигасының шолуы</title>
-    <desc lang="kk">Футбол</desc>
-  </programme>
-  <programme start="20261113140000 +0500" stop="20261113144500 +0500" channel="Qazsport.kz">
-    <title lang="kk">Конькимен жүгіру</title>
-    <desc lang="kk">Әлем кубогының кезеңі</desc>
-  </programme>
-  <programme start="20261113144500 +0500" stop="20261113145500 +0500" channel="Qazsport.kz">
-    <title lang="kk">Арнайы репортаж</title>
-    <desc lang="kk">Алатау салбурыны - Дала мұрасы</desc>
-  </programme>
-  <programme start="20261113145500 +0500" stop="20261113160000 +0500" channel="Qazsport.kz">
-    <title lang="kk">Конькимен жүгіру</title>
-    <desc lang="kk">Әлем кубогының кезеңі</desc>
-  </programme>
-  <programme start="20261113160000 +0500" stop="20261113161000 +0500" channel="Qazsport.kz">
-    <title lang="kk">Италия – Франция ойынының шолуы</title>
-    <desc lang="kk">Футбол. УЕФА Ұлттар Лигасы</desc>
-  </programme>
-  <programme start="20261113161000 +0500" stop="20261113171000 +0500" channel="Qazsport.kz">
-    <title lang="kk">Конькимен жүгіру</title>
-    <desc lang="kk">Әлем кубогының кезеңі</desc>
-  </programme>
-  <programme start="20261113171000 +0500" stop="20261113185500 +0500" channel="Qazsport.kz">
-    <title lang="kk">Албания – Финляндия</title>
-    <desc lang="kk">Футбол. УЕФА Ұлттар Лигасы</desc>
-  </programme>
-  <programme start="20261113185500 +0500" stop="20261113205000 +0500" channel="Qazsport.kz">
-    <title lang="kk">Каспий - Қайрат</title>
-    <desc lang="kk">Футзал. Қазақстан чемпионаты</desc>
-  </programme>
-  <programme start="20261113205000 +0500" stop="20261113212000 +0500" channel="Qazsport.kz">
+  <programme start="20261114083500 +0500" stop="20261114085000 +0500" channel="Qazsport.kz">
     <title lang="kk">Sport review</title>
     <desc lang="kk">Ақпараттық-сараптамалық бағдарламасы</desc>
   </programme>
-  <programme start="20261113212000 +0500" stop="20261114000000 +0500" channel="Qazsport.kz">
-    <title lang="kk">Футбол</title>
-    <desc lang="kk">Матч қарсаңында. Студиялық бағдарлама</desc>
+  <programme start="20261114085000 +0500" stop="20261114095500 +0500" channel="Qazsport.kz">
+    <title lang="kk">Мәнерлеп сырғанау</title>
+    <desc lang="kk">Гран-при. Жұптар. Қысқа бағдарлама</desc>
   </programme>
-  <programme start="20261113070000 +0500" stop="20261113070500 +0500" channel="AqtobeTV.kz">
+  <programme start="20261114095500 +0500" stop="20261114102000 +0500" channel="Qazsport.kz">
+    <title lang="kk">УЕФА Чемпиондар Лигасының журналы</title>
+    <desc lang="kk">Футбол</desc>
+  </programme>
+  <programme start="20261114102000 +0500" stop="20261114105000 +0500" channel="Qazsport.kz">
+    <title lang="kk">Qazsport алаңы</title>
+  </programme>
+  <programme start="20261114105000 +0500" stop="20261114123500 +0500" channel="Qazsport.kz">
+    <title lang="kk">Молдова – Қазақстан</title>
+    <desc lang="kk">Футбол. УЕФА Ұлттар Лигасы</desc>
+  </programme>
+  <programme start="20261114123500 +0500" stop="20261114125000 +0500" channel="Qazsport.kz">
+    <title lang="kk">Sport review</title>
+    <desc lang="kk">Ақпараттық-сараптамалық бағдарламасы</desc>
+  </programme>
+  <programme start="20261114125000 +0500" stop="20261114134000 +0500" channel="Qazsport.kz">
+    <title lang="kk">УЕФА Ұлттар Лигасының шолуы</title>
+    <desc lang="kk">Футбол</desc>
+  </programme>
+  <programme start="20261114134000 +0500" stop="20261114140000 +0500" channel="Qazsport.kz">
+    <title lang="kk">Pro Hockey</title>
+    <desc lang="kk">2-выпуск</desc>
+  </programme>
+  <programme start="20261114140000 +0500" stop="20261114145500 +0500" channel="Qazsport.kz">
+    <title lang="kk">Конькимен жүгіру</title>
+    <desc lang="kk">Әлем кубогының кезеңі</desc>
+  </programme>
+  <programme start="20261114145500 +0500" stop="20261114150500 +0500" channel="Qazsport.kz">
+    <title lang="kk">Сербия – Германия ойынының шолуы</title>
+    <desc lang="kk">Футбол. УЕФА Ұлттар Лигасы</desc>
+  </programme>
+  <programme start="20261114150500 +0500" stop="20261114162500 +0500" channel="Qazsport.kz">
+    <title lang="kk">Конькимен жүгіру</title>
+    <desc lang="kk">Әлем кубогының кезеңі</desc>
+  </programme>
+  <programme start="20261114162500 +0500" stop="20261114165500 +0500" channel="Qazsport.kz">
+    <title lang="kk">Sport review</title>
+    <desc lang="kk">Ақпараттық-сараптамалық бағдарламасы</desc>
+  </programme>
+  <programme start="20261114165500 +0500" stop="20261114185000 +0500" channel="Qazsport.kz">
+    <title lang="kk">Жетісу - Берел</title>
+    <desc lang="kk">Волейбол. Қазақстан чемпионаты (Әйелдер)</desc>
+  </programme>
+  <programme start="20261114185000 +0500" stop="20261114210000 +0500" channel="Qazsport.kz">
+    <title lang="kk">Косово – Израиль</title>
+    <desc lang="kk">Футбол. УЕФА Ұлттар Лигасы</desc>
+  </programme>
+  <programme start="20261114210000 +0500" stop="20261114225000 +0500" channel="Qazsport.kz">
+    <title lang="kk">Дзюдо</title>
+    <desc lang="kk">Grand Slam</desc>
+  </programme>
+  <programme start="20261114225000 +0500" stop="20261115003500 +0500" channel="Qazsport.kz">
+    <title lang="kk">Албания – Финляндия</title>
+    <desc lang="kk">Футбол. УЕФА Ұлттар Лигасы</desc>
+  </programme>
+  <programme start="20261114003500 +0500" stop="20261114024500 +0500" channel="Qazsport.kz">
+    <title lang="kk">Португалия – Дания</title>
+    <desc lang="kk">Футбол. УЕФА Ұлттар Лигасы</desc>
+  </programme>
+  <programme start="20261114024500 +0500" stop="20261114031000 +0500" channel="Qazsport.kz">
+    <title lang="kk">УЕФА Ұлттар Лигасының шолуы</title>
+    <desc lang="kk">Футбол</desc>
+  </programme>
+  <programme start="20261114031000 +0500" stop="20261114041000 +0500" channel="Qazsport.kz">
+    <title lang="kk">Әнұран</title>
+  </programme>
+  <programme start="20261114070000 +0500" stop="20261114070500 +0500" channel="AqtobeTV.kz">
     <title lang="kk">ӘНҰРАН</title>
     <desc lang="kk">Әнұран</desc>
   </programme>
-  <programme start="20261113070500 +0500" stop="20261113073000 +0500" channel="AqtobeTV.kz">
+  <programme start="20261114070500 +0500" stop="20261114073000 +0500" channel="AqtobeTV.kz">
     <title lang="kk">ЖАҢАЛЫҚТАР</title>
     <desc lang="kk">Ақпараттық-сараптамалық бағдарлама</desc>
   </programme>
-  <programme start="20261113073000 +0500" stop="20261113080000 +0500" channel="AqtobeTV.kz">
+  <programme start="20261114073000 +0500" stop="20261114080000 +0500" channel="AqtobeTV.kz">
     <title lang="kk">НОВОСТИ</title>
     <desc lang="kk">Ақпараттық-сараптамалық бағдарлама</desc>
   </programme>
-  <programme start="20261113080000 +0500" stop="20261113093000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"ҚАЙЫРЛЫ ТАҢ, АҚТӨБЕ!" тікелей эфир</title>
-    <desc lang="kk">Ақпаратты-сазды бағдарлама</desc>
+  <programme start="20261114080000 +0500" stop="20261114090000 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"ЕЛІМ МЕНІҢ"</title>
+    <desc lang="kk">Халықаралық ән байқауы</desc>
   </programme>
-  <programme start="20261113093000 +0500" stop="20261113095000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"БАЛА ҒОЙ"</title>
+  <programme start="20261114090000 +0500" stop="20261114103000 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"ТОПЫРАҚ ПЕН ХАУА-2"</title>
+    <desc lang="kk">Телехикая</desc>
+  </programme>
+  <programme start="20261114103000 +0500" stop="20261114113000 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"ҚОҒАМ ҮНІ"</title>
+    <desc lang="kk">Қоғамдық-саяси-әлеуметтік хабар</desc>
+  </programme>
+  <programme start="20261114113000 +0500" stop="20261114115000 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"ЖАС ДАРЫН"</title>
     <desc lang="kk">Балалар бағдарламасы</desc>
   </programme>
-  <programme start="20261113095000 +0500" stop="20261113103500 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"ФЕРИХА"</title>
-    <desc lang="kk">Телехикая</desc>
+  <programme start="20261114115000 +0500" stop="20261114121000 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"ТӘУЕКЕЛ-2"</title>
+    <desc lang="kk">Спорт додасы</desc>
   </programme>
-  <programme start="20261113103500 +0500" stop="20261113105000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"ӘН ШАШУ"</title>
-    <desc lang="kk">Ән шашу</desc>
-  </programme>
-  <programme start="20261113105000 +0500" stop="20261113112500 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"ДАРХАН БАТЫР"</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113112500 +0500" stop="20261113121000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"ФАЗИЛЕТ ХАНЫМ"</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113121000 +0500" stop="20261113130000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"ЖЕЛІДЕ 103"</title>
-    <desc lang="kk">Ақпараттық-әлеуметтік хабар</desc>
-  </programme>
-  <programme start="20261113130000 +0500" stop="20261113131500 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">ТҮСКІ ЖАҢАЛЫҚТАР тікелей эфир</title>
-    <desc lang="kk">Ақпараттық-сараптамалық бағдарлама</desc>
-  </programme>
-  <programme start="20261113131500 +0500" stop="20261113133000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"НОВОСТИ" ДНЕВНОЙ ВЫПУСК прямой эфир</title>
-    <desc lang="kk">Ақпараттық-сараптамалық бағдарлама</desc>
-  </programme>
-  <programme start="20261113133000 +0500" stop="20261113170000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"ОТКРЫТАЯ СТУДИЯ"</title>
-    <desc lang="kk">Ақпараттық-әлеуметтік хабар</desc>
-  </programme>
-  <programme start="20261113170000 +0500" stop="20261113172000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">КЕШКІ ЖАҢАЛЫҚТАР тікелей эфир</title>
-    <desc lang="kk">Ақпараттық-сараптамалық бағдарлама</desc>
-  </programme>
-  <programme start="20261113172000 +0500" stop="20261113174000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"НОВОСТИ" ВЕЧЕРНИЙ ВЫПУСК прямой эфир</title>
-    <desc lang="kk">Ақпараттық-сараптамалық бағдарлама</desc>
-  </programme>
-  <programme start="20261113174000 +0500" stop="20261113180000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"ЖАҺАН ЖОЛЫ"</title>
-    <desc lang="kk">танымдық бағдарлама</desc>
-  </programme>
-  <programme start="20261113180000 +0500" stop="20261113182000 +0500" channel="AqtobeTV.kz">
+  <programme start="20261114121000 +0500" stop="20261114122500 +0500" channel="AqtobeTV.kz">
     <title lang="kk">"АДАЛ ЕҢБЕК"</title>
     <desc lang="kk">Ақпараттық-танымдық хабар</desc>
   </programme>
-  <programme start="20261113182000 +0500" stop="20261113184500 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"ЦИФРЛЫ ҚАЗАҚСТАН"</title>
-    <desc lang="kk">Ақпараттық-әлеуметтік хабар</desc>
+  <programme start="20261114122500 +0500" stop="20261114130000 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"СӘТІ ТҮСКЕН СҰҚБАТ"</title>
+    <desc lang="kk">Ақпараттық-танымдық хабар</desc>
   </programme>
-  <programme start="20261113184500 +0500" stop="20261113190500 +0500" channel="AqtobeTV.kz">
+  <programme start="20261114130000 +0500" stop="20261114131500 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"АЛТЫН ҰЯ"</title>
+    <desc lang="kk">Танымдық хабар</desc>
+  </programme>
+  <programme start="20261114131500 +0500" stop="20261114170000 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"ШАБДАЛЫ"</title>
+    <desc lang="kk">Телехикая</desc>
+  </programme>
+  <programme start="20261114170000 +0500" stop="20261114180000 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"АҚПАРАТТЫҚ САҒАТ"</title>
+    <desc lang="kk">Ақпараттық-саяси-сараптамалық хабар</desc>
+  </programme>
+  <programme start="20261114180000 +0500" stop="20261114183000 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"ҰЛЫ ДАЛА МҰРАСЫ"</title>
+    <desc lang="kk">Танымдық хабар</desc>
+  </programme>
+  <programme start="20261114183000 +0500" stop="20261114190000 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">«ЖАС STAR»</title>
+    <desc lang="kk">Танымдық хабар</desc>
+  </programme>
+  <programme start="20261114190000 +0500" stop="20261114191000 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"ТЕАТР ТЫНЫСЫ"</title>
+    <desc lang="kk">Танымдық хабар</desc>
+  </programme>
+  <programme start="20261114191000 +0500" stop="20261114191500 +0500" channel="AqtobeTV.kz">
     <title lang="kk">"САЗДЫ СӘЛЕМ"</title>
     <desc lang="kk">Сазды бағдарлама</desc>
   </programme>
-  <programme start="20261113190500 +0500" stop="20261113192000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"ЖАРЫҚ СӘУЛЕ"</title>
+  <programme start="20261114191500 +0500" stop="20261114200500 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"ЖЕЛІДЕ 103"</title>
     <desc lang="kk">Ақпараттық-әлеуметтік хабар</desc>
   </programme>
-  <programme start="20261113192000 +0500" stop="20261113194000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"ҚАЙСАР"</title>
-    <desc lang="kk">Әскери-патриоттық хабар</desc>
-  </programme>
-  <programme start="20261113194000 +0500" stop="20261113203000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"ФЕРИХА"</title>
+  <programme start="20261114200500 +0500" stop="20261114205000 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"ШАБДАЛЫ"</title>
     <desc lang="kk">Телехикая</desc>
   </programme>
-  <programme start="20261113203000 +0500" stop="20261113210000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">ҚОРЫТЫНДЫ ЖАҢАЛЫҚТАР</title>
-    <desc lang="kk">Ақпараттық-сараптамалық бағдарлама</desc>
+  <programme start="20261114205000 +0500" stop="20261114215000 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"ҚАЗАҚША PODCAST"</title>
+    <desc lang="kk">Ақпараттық-танымдық хабар</desc>
   </programme>
-  <programme start="20261113210000 +0500" stop="20261113213000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"НОВОСТИ" ИТОГОВЫЙ ВЫПУСК</title>
-    <desc lang="kk">Ақпараттық-сараптамалық бағдарлама</desc>
+  <programme start="20261114215000 +0500" stop="20261114232000 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"КӨКСЕРЕК" Көркем фильм</title>
+    <desc lang="kk">Көркем фильм</desc>
   </programme>
-  <programme start="20261113213000 +0500" stop="20261113223000 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"АҚ ҚАНАТТЫ ПЕРІШТЕМ"</title>
-    <desc lang="kk">Концерт</desc>
+  <programme start="20261114232000 +0500" stop="20261114235500 +0500" channel="AqtobeTV.kz">
+    <title lang="kk">"КҮМІС КӨМЕЙ"</title>
+    <desc lang="kk">Музыкалық-танымдық бағдарлама</desc>
   </programme>
-  <programme start="20261113223000 +0500" stop="20261113231500 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"ФАЗИЛЕТ ХАНЫМ"</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113231500 +0500" stop="20261113233500 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">ТҮНГІ ЖАҢАЛЫҚТАР</title>
-    <desc lang="kk">Ақпараттық-сараптамалық бағдарлама</desc>
-  </programme>
-  <programme start="20261113233500 +0500" stop="20261113235500 +0500" channel="AqtobeTV.kz">
-    <title lang="kk">"НОВОСТИ" НОЧНОЙ ВЫПУСК</title>
-    <desc lang="kk">Қазірэфирде</desc>
-  </programme>
-  <programme start="20261113235500 +0500" stop="20261114005500 +0500" channel="AqtobeTV.kz">
+  <programme start="20261114235500 +0500" stop="20261115005500 +0500" channel="AqtobeTV.kz">
     <title lang="kk">ӘНҰРАН</title>
     <desc lang="kk">Әнұран</desc>
   </programme>
-  <programme start="20261113070000 +0500" stop="20261113114500 +0500" channel="AltaiTV.kz">
+  <programme start="20261114070000 +0500" stop="20261114104000 +0500" channel="AltaiTV.kz">
     <title lang="kk">Эфирдің ашылуы. Әнұран</title>
   </programme>
-  <programme start="20261113114500 +0500" stop="20261113130000 +0500" channel="AltaiTV.kz">
-    <title lang="kk">Телехикая "ЫНТЫМАҚ АУЫЛЫ" 14 бөлім</title>
+  <programme start="20261114104000 +0500" stop="20261114110000 +0500" channel="AltaiTV.kz">
+    <title lang="kk">"ВЕКТОР БУДУЩЕГО" информационно-позновательная программа</title>
   </programme>
-  <programme start="20261113130000 +0500" stop="20261113134000 +0500" channel="AltaiTV.kz">
-    <title lang="kk">"ТОПЖАРҒАН"/каз/ спорттық бағдарлама</title>
+  <programme start="20261114110000 +0500" stop="20261114132000 +0500" channel="AltaiTV.kz">
+    <title lang="kk">"ЕЛГЕ ҚЫЗМЕТ"/рус/ общественно-политическая программа</title>
   </programme>
-  <programme start="20261113134000 +0500" stop="20261113140000 +0500" channel="AltaiTV.kz">
-    <title lang="kk">ALTAI AQPARAT /рус/ прямой эфир информационная программа</title>
+  <programme start="20261114132000 +0500" stop="20261114140000 +0500" channel="AltaiTV.kz">
+    <title lang="kk">"ALTAI TRAVEL" информационно-позновательная программа</title>
   </programme>
-  <programme start="20261113140000 +0500" stop="20261113173000 +0500" channel="AltaiTV.kz">
+  <programme start="20261114140000 +0500" stop="20261114170000 +0500" channel="AltaiTV.kz">
     <title lang="kk">Эфирдің күндізгі жабылуы</title>
   </programme>
-  <programme start="20261113173000 +0500" stop="20261113182000 +0500" channel="AltaiTV.kz">
-    <title lang="kk">"ALTAI AQPARAT" /рус/ информационная программа</title>
+  <programme start="20261114170000 +0500" stop="20261114235700 +0500" channel="AltaiTV.kz">
+    <title lang="kk">МУЛЬТИХИКАЯ</title>
   </programme>
-  <programme start="20261113182000 +0500" stop="20261113194500 +0500" channel="AltaiTV.kz">
-    <title lang="kk">"ALTAI APTA" /рус/ аналитическая программа</title>
-  </programme>
-  <programme start="20261113194500 +0500" stop="20261113222000 +0500" channel="AltaiTV.kz">
-    <title lang="kk">Телехикая "ЫНТЫМАҚ АУЫЛЫ" 15 бөлім</title>
-  </programme>
-  <programme start="20261113222000 +0500" stop="20261113232500 +0500" channel="AltaiTV.kz">
-    <title lang="kk">Итоговый "ALTAI AQPARAT" /рус/ информационная программа</title>
-  </programme>
-  <programme start="20261113232500 +0500" stop="20261113235700 +0500" channel="AltaiTV.kz">
-    <title lang="kk">"ТҮРКІ ӘЛЕМІ" танымдық бағдарлама</title>
-    <desc lang="kk">Қазірэфирде</desc>
-  </programme>
-  <programme start="20261113235700 +0500" stop="20261114000000 +0500" channel="AltaiTV.kz">
+  <programme start="20261114235700 +0500" stop="20261115000000 +0500" channel="AltaiTV.kz">
     <title lang="kk">Әнұран, Ген.шапка</title>
   </programme>
-  <programme start="20261113070000 +0500" stop="20261113080500 +0500" channel="AtyrauTV.kz">
+  <programme start="20261114000000 +0500" stop="20261114010000 +0500" channel="AltaiTV.kz">
+    <title lang="kk">Эфирдің жабылуы</title>
+  </programme>
+  <programme start="20261114070000 +0500" stop="20261114080500 +0500" channel="AtyrauTV.kz">
     <title lang="kk">Әнұран, Аңдатпа</title>
   </programme>
-  <programme start="20261113080500 +0500" stop="20261113084500 +0500" channel="AtyrauTV.kz">
+  <programme start="20261114080500 +0500" stop="20261114084500 +0500" channel="AtyrauTV.kz">
     <title lang="kk">"БЕТПЕРДЕЛІ БАТЫР-1" - анимация. (Balapan телеарнасы)</title>
   </programme>
-  <programme start="20261113084500 +0500" stop="20261113104500 +0500" channel="AtyrauTV.kz">
+  <programme start="20261114084500 +0500" stop="20261114105000 +0500" channel="AtyrauTV.kz">
     <title lang="kk">«НОВОСТИ» - информационная программа</title>
   </programme>
-  <programme start="20261113104500 +0500" stop="20261113123000 +0500" channel="AtyrauTV.kz">
-    <title lang="kk">"АНАМ АНКАРА", телехикая, 33 бөлім (Түркия)</title>
-  </programme>
-  <programme start="20261113123000 +0500" stop="20261113131500 +0500" channel="AtyrauTV.kz">
-    <title lang="kk">" 102.0 FM". Тікелей эфир</title>
-  </programme>
-  <programme start="20261113131500 +0500" stop="20261113133000 +0500" channel="AtyrauTV.kz">
-    <title lang="kk">«НОВОСТИ» - информационная программа</title>
-  </programme>
-  <programme start="20261113133000 +0500" stop="20261113172000 +0500" channel="AtyrauTV.kz">
-    <title lang="kk">"ҒАЖАЙЫПСТАНҒА САЯХАТ" - танымдық, анимация. (Balapan телеарнасы, 2012 ж.)</title>
-  </programme>
-  <programme start="20261113172000 +0500" stop="20261113181000 +0500" channel="AtyrauTV.kz">
-    <title lang="kk">«НОВОСТИ» - информационная программа. Прямой эфир</title>
-  </programme>
-  <programme start="20261113181000 +0500" stop="20261113182000 +0500" channel="AtyrauTV.kz">
-    <title lang="kk">"ЕРТЕГІЛЕР ЕЛІНДЕ" - анимациялық мультфильм. (Balapan телеарнасы, 2012 ж.)</title>
-  </programme>
-  <programme start="20261113182000 +0500" stop="20261113192000 +0500" channel="AtyrauTV.kz">
-    <title lang="kk">"ӨЗЕКТІ". Тікелей эфир</title>
-  </programme>
-  <programme start="20261113192000 +0500" stop="20261113194000 +0500" channel="AtyrauTV.kz">
-    <title lang="kk">«НОВОСТИ» - информационная программа. Прямой эфир</title>
-  </programme>
-  <programme start="20261113194000 +0500" stop="20261113210500 +0500" channel="AtyrauTV.kz">
+  <programme start="20261114105000 +0500" stop="20261114123000 +0500" channel="AtyrauTV.kz">
     <title lang="kk">"АНАМ АНКАРА", телехикая, 34 бөлім (Түркия)</title>
   </programme>
-  <programme start="20261113210500 +0500" stop="20261113231500 +0500" channel="AtyrauTV.kz">
-    <title lang="kk">«НОВОСТИ» - информационная программа. Прямой эфир</title>
+  <programme start="20261114123000 +0500" stop="20261114170000 +0500" channel="AtyrauTV.kz">
+    <title lang="kk">"САНА" - әлеуметтік-қоғамдық ток шоу (Abaı ТВ)</title>
   </programme>
-  <programme start="20261113231500 +0500" stop="20261113234500 +0500" channel="AtyrauTV.kz">
-    <title lang="kk">«НОВОСТИ» - информационная программа</title>
+  <programme start="20261114170000 +0500" stop="20261114180500 +0500" channel="AtyrauTV.kz">
+    <title lang="kk">Аңдатпа</title>
   </programme>
-  <programme start="20261113234500 +0500" stop="20261113235500 +0500" channel="AtyrauTV.kz">
+  <programme start="20261114180500 +0500" stop="20261114184000 +0500" channel="AtyrauTV.kz">
+    <title lang="kk">"ЕРТЕГІЛЕР ЕЛІНДЕ" - анимациялық мультфильм. (Balapan телеарнасы, 2012 ж.)</title>
+  </programme>
+  <programme start="20261114184000 +0500" stop="20261114192000 +0500" channel="AtyrauTV.kz">
+    <title lang="kk">"ЖҰМЫСЫМ ОСЫНДАЙ" - танымдық бағдарлама, қайталау</title>
+  </programme>
+  <programme start="20261114192000 +0500" stop="20261114200000 +0500" channel="AtyrauTV.kz">
+    <title lang="kk">"ДОС БОЛАЙЫҚ!" - подкаст</title>
+  </programme>
+  <programme start="20261114200000 +0500" stop="20261114203000 +0500" channel="AtyrauTV.kz">
+    <title lang="kk">"ДАРЫН" - интелектуалдық теле жоба</title>
+  </programme>
+  <programme start="20261114203000 +0500" stop="20261114234000 +0500" channel="AtyrauTV.kz">
+    <title lang="kk">"ӘКЕМНІҢ АРМАНЫ",концерт</title>
+  </programme>
+  <programme start="20261114234000 +0500" stop="20261114235500 +0500" channel="AtyrauTV.kz">
     <title lang="kk">ӘН ШАШУ</title>
-    <desc lang="kk">Қазірэфирде</desc>
   </programme>
-  <programme start="20261113235500 +0500" stop="20261114005500 +0500" channel="AtyrauTV.kz">
+  <programme start="20261114235500 +0500" stop="20261115000000 +0500" channel="AtyrauTV.kz">
     <title lang="kk">Аңдатпа, Әнұран</title>
   </programme>
-  <programme start="20261113070000 +0500" stop="20261113070200 +0500" channel="ErtisTV.kz">
+  <programme start="20261114000000 +0500" stop="20261114010000 +0500" channel="AtyrauTV.kz">
+    <title lang="kk">Аңдатпа, Әнұран</title>
+  </programme>
+  <programme start="20261114070000 +0500" stop="20261114070200 +0500" channel="ErtisTV.kz">
     <title lang="kk">Әнұран</title>
     <desc lang="kk">Арнаның ашылуы.</desc>
   </programme>
-  <programme start="20261113070200 +0500" stop="20261113075000 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Сезім толқыны</title>
-    <desc lang="kk">Телехикая.</desc>
+  <programme start="20261114070200 +0500" stop="20261114090000 +0500" channel="ErtisTV.kz">
+    <title lang="kk">Әндер мен жылдар</title>
   </programme>
-  <programme start="20261113075000 +0500" stop="20261113080000 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Су астындағы оқиға</title>
-    <desc lang="kk">Мультхикая.</desc>
-  </programme>
-  <programme start="20261113080000 +0500" stop="20261113083000 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Ertis ақпарат</title>
-    <desc lang="kk">Ақпараттық бағдарлама.</desc>
-  </programme>
-  <programme start="20261113083000 +0500" stop="20261113090000 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Ertis ақпарат</title>
-    <desc lang="kk">Информационная программа.</desc>
-  </programme>
-  <programme start="20261113090000 +0500" stop="20261113110000 +0500" channel="ErtisTV.kz">
+  <programme start="20261114090000 +0500" stop="20261114110000 +0500" channel="ErtisTV.kz">
     <title lang="kk">Сәлем, әлем!</title>
     <desc lang="kk">Ақпаратты-сазды бағдарлама.</desc>
   </programme>
-  <programme start="20261113110000 +0500" stop="20261113113500 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Дархан батыр</title>
-    <desc lang="kk">Телехикая.</desc>
+  <programme start="20261114110000 +0500" stop="20261114115000 +0500" channel="ErtisTV.kz">
+    <title lang="kk">Бақыттың кілті</title>
+    <desc lang="kk">Телехикая 2 маусым.</desc>
   </programme>
-  <programme start="20261113113500 +0500" stop="20261113114500 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Бала Бекзат</title>
+  <programme start="20261114115000 +0500" stop="20261114120000 +0500" channel="ErtisTV.kz">
+    <title lang="kk">Балапан және оның достары</title>
     <desc lang="kk">Мультхикая.</desc>
   </programme>
-  <programme start="20261113114500 +0500" stop="20261113120000 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Жас project</title>
-    <desc lang="kk">Танымдық бағдарлама.</desc>
-  </programme>
-  <programme start="20261113120000 +0500" stop="20261113123500 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Телецентр</title>
-    <desc lang="kk">Танымдық бағдарлама.</desc>
-  </programme>
-  <programme start="20261113123500 +0500" stop="20261113130000 +0500" channel="ErtisTV.kz">
-    <title lang="kk">1 Студия</title>
-    <desc lang="kk">Общественно-политическая программа.</desc>
-  </programme>
-  <programme start="20261113130000 +0500" stop="20261113131500 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Ertis ақпарат</title>
-    <desc lang="kk">Ақпараттық бағдарлама.</desc>
-  </programme>
-  <programme start="20261113131500 +0500" stop="20261113133000 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Ertis ақпарат</title>
-    <desc lang="kk">Информационная программа.</desc>
-  </programme>
-  <programme start="20261113133000 +0500" stop="20261113135000 +0500" channel="ErtisTV.kz">
+  <programme start="20261114120000 +0500" stop="20261114122000 +0500" channel="ErtisTV.kz">
     <title lang="kk">1 Студия</title>
     <desc lang="kk">Қоғамдық-саяси бағдарлама.</desc>
   </programme>
-  <programme start="20261113135000 +0500" stop="20261113143500 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Фазилет ханым</title>
+  <programme start="20261114122000 +0500" stop="20261114123500 +0500" channel="ErtisTV.kz">
+    <title lang="kk">Мой казахстан</title>
+    <desc lang="kk">Танымдық бағдарлама.</desc>
+  </programme>
+  <programme start="20261114123500 +0500" stop="20261114140500 +0500" channel="ErtisTV.kz">
+    <title lang="kk">Шахматшы қыз</title>
     <desc lang="kk">Телехикая.</desc>
   </programme>
-  <programme start="20261113143500 +0500" stop="20261113150000 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Абайдың жолы</title>
-    <desc lang="kk">Деректі фильм.</desc>
+  <programme start="20261114140500 +0500" stop="20261114150000 +0500" channel="ErtisTV.kz">
+    <title lang="kk">Әуен әлемі</title>
   </programme>
-  <programme start="20261113150000 +0500" stop="20261113180000 +0500" channel="ErtisTV.kz">
+  <programme start="20261114150000 +0500" stop="20261114180000 +0500" channel="ErtisTV.kz">
     <title lang="kk">Техникалық үзіліс</title>
   </programme>
-  <programme start="20261113180000 +0500" stop="20261113183000 +0500" channel="ErtisTV.kz">
+  <programme start="20261114180000 +0500" stop="20261114183000 +0500" channel="ErtisTV.kz">
     <title lang="kk">Ertis ақпарат</title>
     <desc lang="kk">Ақпараттық бағдарлама.</desc>
   </programme>
-  <programme start="20261113183000 +0500" stop="20261113190000 +0500" channel="ErtisTV.kz">
+  <programme start="20261114183000 +0500" stop="20261114190000 +0500" channel="ErtisTV.kz">
     <title lang="kk">Ertis ақпарат</title>
     <desc lang="kk">Информационная программа.</desc>
   </programme>
-  <programme start="20261113190000 +0500" stop="20261113194000 +0500" channel="ErtisTV.kz">
+  <programme start="20261114190000 +0500" stop="20261114194000 +0500" channel="ErtisTV.kz">
     <title lang="kk">ОйLike</title>
     <desc lang="kk">Ток-шоу.</desc>
   </programme>
-  <programme start="20261113194000 +0500" stop="20261113200000 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Руханият</title>
-    <desc lang="kk">Діни-танымдық бағдарлама.</desc>
+  <programme start="20261114194000 +0500" stop="20261114201000 +0500" channel="ErtisTV.kz">
+    <title lang="kk">Талбесік</title>
+    <desc lang="kk">Мәдени-танымдық бағдарлама.</desc>
   </programme>
-  <programme start="20261113200000 +0500" stop="20261113203500 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Дархан батыр</title>
-    <desc lang="kk">Телехикая.</desc>
+  <programme start="20261114201000 +0500" stop="20261114230000 +0500" channel="ErtisTV.kz">
+    <title lang="kk">Апош Сарбаздың концерті</title>
   </programme>
-  <programme start="20261113203500 +0500" stop="20261113204500 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Киелі Қазақстан</title>
+  <programme start="20261114230000 +0500" stop="20261115000000 +0500" channel="ErtisTV.kz">
+    <title lang="kk">Шет елдегі қазақ балалары</title>
     <desc lang="kk">Бағдарлама.</desc>
   </programme>
-  <programme start="20261113204500 +0500" stop="20261113210000 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Заң және тәртіп</title>
-    <desc lang="kk">Құқықтық тақырыпқа арналған бағдарлама.</desc>
-  </programme>
-  <programme start="20261113210000 +0500" stop="20261113213000 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Ertis ақпарат</title>
-    <desc lang="kk">Ақпараттық бағдарлама.</desc>
-  </programme>
-  <programme start="20261113213000 +0500" stop="20261113223000 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Ertis ақпарат</title>
-    <desc lang="kk">Информационная программа.</desc>
-  </programme>
-  <programme start="20261113223000 +0500" stop="20261113233000 +0500" channel="ErtisTV.kz">
-    <title lang="kk">Фериха</title>
-    <desc lang="kk">Қазірэфирде</desc>
-  </programme>
-  <programme start="20261113070000 +0500" stop="20261113070500 +0500" channel="JambylTV.kz">
+  <programme start="20261114070000 +0500" stop="20261114070500 +0500" channel="JambylTV.kz">
     <title lang="kk">Арнаның ашылуы</title>
     <desc lang="kk">Әнұран</desc>
   </programme>
-  <programme start="20261113070500 +0500" stop="20261113080000 +0500" channel="JambylTV.kz">
-    <title lang="kk">ФЕРИХА</title>
-    <desc lang="kk">телехикая 43 -бөлімі</desc>
-  </programme>
-  <programme start="20261113080000 +0500" stop="20261113093000 +0500" channel="JambylTV.kz">
-    <title lang="kk">РАУАН</title>
-    <desc lang="kk">таңғы ойын- сауық танымдық бағдарлама</desc>
-  </programme>
-  <programme start="20261113093000 +0500" stop="20261113100000 +0500" channel="JambylTV.kz">
-    <title lang="kk">ЕРТЕГІЛЕР ЕЛІНЕ САЯХАТ</title>
-    <desc lang="kk">мультфильм</desc>
-  </programme>
-  <programme start="20261113100000 +0500" stop="20261113110000 +0500" channel="JambylTV.kz">
-    <title lang="kk">ЗАМАНДАСТАР</title>
-    <desc lang="kk">телехикая 11-бөлімі</desc>
-  </programme>
-  <programme start="20261113110000 +0500" stop="20261113114000 +0500" channel="JambylTV.kz">
-    <title lang="kk">ТАРАЗ. ТҰЛҒА. ТАЛАНТ</title>
-    <desc lang="kk">танымдық бағдарлама</desc>
-  </programme>
-  <programme start="20261113114000 +0500" stop="20261113123000 +0500" channel="JambylTV.kz">
-    <title lang="kk">КЕК ЖОЛЫНДА</title>
-    <desc lang="kk">телехикая 82-бөлімі</desc>
-  </programme>
-  <programme start="20261113123000 +0500" stop="20261113130000 +0500" channel="JambylTV.kz">
-    <title lang="kk">ЗАҢ ЖӘНЕ ТӘРТІП</title>
-    <desc lang="kk">танымдық бағдарлама</desc>
-  </programme>
-  <programme start="20261113130000 +0500" stop="20261113131500 +0500" channel="JambylTV.kz">
-    <title lang="kk">AIQYN AQPARAT</title>
-    <desc lang="kk">ақпараттық бағдарлама / тікелей эфир</desc>
-  </programme>
-  <programme start="20261113131500 +0500" stop="20261113133000 +0500" channel="JambylTV.kz">
-    <title lang="kk">AIQYN AQPARAT</title>
-    <desc lang="kk">информационная программа / прямой эфир</desc>
-  </programme>
-  <programme start="20261113133000 +0500" stop="20261113140000 +0500" channel="JambylTV.kz">
-    <title lang="kk">СЛУЖБА СПАСЕНИЯ</title>
-    <desc lang="kk">информационно-познавательная передача</desc>
-  </programme>
-  <programme start="20261113140000 +0500" stop="20261113170000 +0500" channel="JambylTV.kz">
-    <title lang="kk">ТЕХНИКАЛЫҚ ҮЗІЛІС</title>
-  </programme>
-  <programme start="20261113170000 +0500" stop="20261113170500 +0500" channel="JambylTV.kz">
-    <title lang="kk">Аңдатпа</title>
-  </programme>
-  <programme start="20261113170500 +0500" stop="20261113180000 +0500" channel="JambylTV.kz">
+  <programme start="20261114070500 +0500" stop="20261114080000 +0500" channel="JambylTV.kz">
     <title lang="kk">ФЕРИХА</title>
     <desc lang="kk">телехикая 44 -бөлімі</desc>
   </programme>
-  <programme start="20261113180000 +0500" stop="20261113183000 +0500" channel="JambylTV.kz">
-    <title lang="kk">ВАЖНЫЙ РАЗГОВОР</title>
-    <desc lang="kk">общественно-политическая программа</desc>
-  </programme>
-  <programme start="20261113183000 +0500" stop="20261113185000 +0500" channel="JambylTV.kz">
-    <title lang="kk">AIQYN AQPARAT</title>
-    <desc lang="kk">ақпараттық бағдарлама / тікелей эфир</desc>
-  </programme>
-  <programme start="20261113185000 +0500" stop="20261113191000 +0500" channel="JambylTV.kz">
-    <title lang="kk">AIQYN AQPARAT</title>
-    <desc lang="kk">информационная программа / прямой эфир</desc>
-  </programme>
-  <programme start="20261113191000 +0500" stop="20261113193000 +0500" channel="JambylTV.kz">
-    <title lang="kk">АҢЫЗДЫҢ АҚИҚАТЫ</title>
+  <programme start="20261114080000 +0500" stop="20261114090000 +0500" channel="JambylTV.kz">
+    <title lang="kk">САНА</title>
     <desc lang="kk">танымдық бағдарлама</desc>
   </programme>
-  <programme start="20261113193000 +0500" stop="20261113200000 +0500" channel="JambylTV.kz">
-    <title lang="kk">ШЕБЕР</title>
-    <desc lang="kk">деректі фильм бағдарлама</desc>
+  <programme start="20261114090000 +0500" stop="20261114094500 +0500" channel="JambylTV.kz">
+    <title lang="kk">КӨНІЛДІ ЖЕКСЕНБІ</title>
+    <desc lang="kk">танымдық бағдарлама</desc>
   </programme>
-  <programme start="20261113200000 +0500" stop="20261113203000 +0500" channel="JambylTV.kz">
-    <title lang="kk">ҰЛТ САУЛЫҒЫ</title>
-    <desc lang="kk">медициналық-сауықтыру бағдарлама</desc>
+  <programme start="20261114094500 +0500" stop="20261114100000 +0500" channel="JambylTV.kz">
+    <title lang="kk">ЕРТЕГІЛЕР ЕЛІНЕ САЯХАТ</title>
+    <desc lang="kk">мультфильм</desc>
   </programme>
-  <programme start="20261113203000 +0500" stop="20261113210000 +0500" channel="JambylTV.kz">
-    <title lang="kk">AIQYN AQPARAT</title>
-    <desc lang="kk">ақпараттық бағдарлама / тікелей эфир</desc>
+  <programme start="20261114100000 +0500" stop="20261114101500 +0500" channel="JambylTV.kz">
+    <title lang="kk">ПАТРИОТ</title>
+    <desc lang="kk">әскери-патриоттық бағдарлама</desc>
   </programme>
-  <programme start="20261113210000 +0500" stop="20261113213000 +0500" channel="JambylTV.kz">
-    <title lang="kk">AIQYN AQPARAT</title>
-    <desc lang="kk">информационная программа / прямой эфир</desc>
-  </programme>
-  <programme start="20261113213000 +0500" stop="20261113221000 +0500" channel="JambylTV.kz">
+  <programme start="20261114101500 +0500" stop="20261114110000 +0500" channel="JambylTV.kz">
     <title lang="kk">ЗАМАНДАСТАР</title>
     <desc lang="kk">телехикая 12-бөлімі</desc>
   </programme>
-  <programme start="20261113221000 +0500" stop="20261113223500 +0500" channel="JambylTV.kz">
-    <title lang="kk">AIQYN AQPARAT</title>
-    <desc lang="kk">ақпараттық бағдарлама</desc>
+  <programme start="20261114110000 +0500" stop="20261114114000 +0500" channel="JambylTV.kz">
+    <title lang="kk">ҒАСЫРЛАР ПЕРНЕСІ</title>
+    <desc lang="kk">мәдени-танымдық бағдарлама</desc>
   </programme>
-  <programme start="20261113223500 +0500" stop="20261113230000 +0500" channel="JambylTV.kz">
-    <title lang="kk">AIQYN AQPARAT</title>
-    <desc lang="kk">информационная программа</desc>
-  </programme>
-  <programme start="20261113230000 +0500" stop="20261113235500 +0500" channel="JambylTV.kz">
+  <programme start="20261114114000 +0500" stop="20261114123000 +0500" channel="JambylTV.kz">
     <title lang="kk">КЕК ЖОЛЫНДА</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">телехикая 83-бөлімі</desc>
   </programme>
-  <programme start="20261113235500 +0500" stop="20261114005500 +0500" channel="JambylTV.kz">
+  <programme start="20261114123000 +0500" stop="20261114130000 +0500" channel="JambylTV.kz">
+    <title lang="kk">ВАЖНЫЙ РАЗГОВОР</title>
+    <desc lang="kk">общественно-политическая программа</desc>
+  </programme>
+  <programme start="20261114130000 +0500" stop="20261114133000 +0500" channel="JambylTV.kz">
+    <title lang="kk">АҢЫЗДЫҢ АҚИҚАТЫ</title>
+    <desc lang="kk">танымдық бағдарлама</desc>
+  </programme>
+  <programme start="20261114133000 +0500" stop="20261114140000 +0500" channel="JambylTV.kz">
+    <title lang="kk">ҰЛТ САУЛЫҒЫ</title>
+    <desc lang="kk">медициналық-сауықтыру бағдарлама</desc>
+  </programme>
+  <programme start="20261114140000 +0500" stop="20261114170000 +0500" channel="JambylTV.kz">
+    <title lang="kk">ТЕХНИКАЛЫҚ ҮЗІЛІС</title>
+  </programme>
+  <programme start="20261114170000 +0500" stop="20261114170500 +0500" channel="JambylTV.kz">
+    <title lang="kk">Аңдатпа</title>
+  </programme>
+  <programme start="20261114170500 +0500" stop="20261114180000 +0500" channel="JambylTV.kz">
+    <title lang="kk">ФЕРИХА</title>
+    <desc lang="kk">телехикая 45 -бөлімі</desc>
+  </programme>
+  <programme start="20261114180000 +0500" stop="20261114183000 +0500" channel="JambylTV.kz">
+    <title lang="kk">САРАПТАЙМ</title>
+    <desc lang="kk">апта қорытындысы / ақпараттық бағдарлама</desc>
+  </programme>
+  <programme start="20261114183000 +0500" stop="20261114190000 +0500" channel="JambylTV.kz">
+    <title lang="kk">СОБЫТИЯ НЕДЕЛИ</title>
+    <desc lang="kk">итоги недели / информационная программа</desc>
+  </programme>
+  <programme start="20261114190000 +0500" stop="20261114193000 +0500" channel="JambylTV.kz">
+    <title lang="kk">МҮМКІН ЕМЕС</title>
+    <desc lang="kk">танымдық бағдарлама</desc>
+  </programme>
+  <programme start="20261114193000 +0500" stop="20261114200000 +0500" channel="JambylTV.kz">
+    <title lang="kk">ТАРАЗ. ТҰЛҒА. ТАЛАНТ</title>
+    <desc lang="kk">танымдық бағдарлама</desc>
+  </programme>
+  <programme start="20261114200000 +0500" stop="20261114203000 +0500" channel="JambylTV.kz">
+    <title lang="kk">БАҚЫТ МЕКЕНІ</title>
+    <desc lang="kk">танымдық бағдарлама (қайталау)</desc>
+  </programme>
+  <programme start="20261114203000 +0500" stop="20261114213000 +0500" channel="JambylTV.kz">
+    <title lang="kk">КҮЙ КЕРУЕНІ</title>
+    <desc lang="kk">танымдық бағдарлама</desc>
+  </programme>
+  <programme start="20261114213000 +0500" stop="20261114221000 +0500" channel="JambylTV.kz">
+    <title lang="kk">ЗАМАНДАСТАР</title>
+    <desc lang="kk">телехикая 13-бөлімі</desc>
+  </programme>
+  <programme start="20261114221000 +0500" stop="20261114230000 +0500" channel="JambylTV.kz">
+    <title lang="kk">КЕК ЖОЛЫНДА</title>
+    <desc lang="kk">телехикая 84-бөлімі</desc>
+  </programme>
+  <programme start="20261114230000 +0500" stop="20261114235500 +0500" channel="JambylTV.kz">
+    <title lang="kk">ӘН ҚАНАТЫНДА</title>
+    <desc lang="kk">концерт</desc>
+  </programme>
+  <programme start="20261114235500 +0500" stop="20261115005500 +0500" channel="JambylTV.kz">
     <title lang="kk">Әнұран</title>
     <desc lang="kk">арнаның жабылуы</desc>
   </programme>
-  <programme start="20261113070000 +0500" stop="20261113070500 +0500" channel="KoksheTV.kz">
+  <programme start="20261114070000 +0500" stop="20261114070500 +0500" channel="KoksheTV.kz">
     <title lang="kk">Әнұран</title>
   </programme>
-  <programme start="20261113070500 +0500" stop="20261113075500 +0500" channel="KoksheTV.kz">
+  <programme start="20261114070500 +0500" stop="20261114072500 +0500" channel="KoksheTV.kz">
     <title lang="kk">"КӨКШЕ ӘУЕНДЕРІ"</title>
   </programme>
-  <programme start="20261113075500 +0500" stop="20261113080000 +0500" channel="KoksheTV.kz">
+  <programme start="20261114072500 +0500" stop="20261114073000 +0500" channel="KoksheTV.kz">
     <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
   </programme>
-  <programme start="20261113080000 +0500" stop="20261113094000 +0500" channel="KoksheTV.kz">
-    <title lang="kk">"KOKSHE NURY"</title>
+  <programme start="20261114073000 +0500" stop="20261114093000 +0500" channel="KoksheTV.kz">
+    <title lang="kk">"КОНЦЕРТ"</title>
   </programme>
-  <programme start="20261113094000 +0500" stop="20261113103000 +0500" channel="KoksheTV.kz">
-    <title lang="kk">"КЕМПІРҚОСАҚ" Мультхикая 8,9,10бөлім</title>
+  <programme start="20261114093000 +0500" stop="20261114100000 +0500" channel="KoksheTV.kz">
+    <title lang="kk">"ҮЗДІК ҚОЙЫЛЫМ" м/х 1 бөлім</title>
   </programme>
-  <programme start="20261113103000 +0500" stop="20261113122500 +0500" channel="KoksheTV.kz">
+  <programme start="20261114100000 +0500" stop="20261114121000 +0500" channel="KoksheTV.kz">
+    <title lang="kk">"KÓKSHE AQPARAT" Информационная программа</title>
+  </programme>
+  <programme start="20261114121000 +0500" stop="20261114121500 +0500" channel="KoksheTV.kz">
     <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
   </programme>
-  <programme start="20261113122500 +0500" stop="20261113133500 +0500" channel="KoksheTV.kz">
+  <programme start="20261114121500 +0500" stop="20261114132500 +0500" channel="KoksheTV.kz">
+    <title lang="kk">"МИСС КӘУСАР" 7,8,9 бөлім</title>
+  </programme>
+  <programme start="20261114132500 +0500" stop="20261114133000 +0500" channel="KoksheTV.kz">
     <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
   </programme>
-  <programme start="20261113133500 +0500" stop="20261113134000 +0500" channel="KoksheTV.kz">
-    <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
+  <programme start="20261114133000 +0500" stop="20261114140000 +0500" channel="KoksheTV.kz">
+    <title lang="kk">"ҮЗДІК ҚОЙЫЛЫМ" м/х 2 бөлім</title>
   </programme>
-  <programme start="20261113134000 +0500" stop="20261113140000 +0500" channel="KoksheTV.kz">
-    <title lang="kk">"КҮМБІР " Мультхикая 20,21 бөлім</title>
-    <desc lang="kk">"КҮМБІР LIVE" Мультхикая 20,21 бөлім</desc>
-  </programme>
-  <programme start="20261113140000 +0500" stop="20261113171000 +0500" channel="KoksheTV.kz">
+  <programme start="20261114140000 +0500" stop="20261114170000 +0500" channel="KoksheTV.kz">
     <title lang="kk">"ТЕХНИКАЛЫҚ ҮЗІЛІС"</title>
   </programme>
-  <programme start="20261113171000 +0500" stop="20261113174500 +0500" channel="KoksheTV.kz">
+  <programme start="20261114170000 +0500" stop="20261114190500 +0500" channel="KoksheTV.kz">
+    <title lang="kk">"КОНЦЕРТ"</title>
+  </programme>
+  <programme start="20261114190500 +0500" stop="20261114203500 +0500" channel="KoksheTV.kz">
     <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
   </programme>
-  <programme start="20261113174500 +0500" stop="20261113185500 +0500" channel="KoksheTV.kz">
-    <title lang="kk">"KÓKSHE AQPARAT" Информационная программа</title>
-  </programme>
-  <programme start="20261113185500 +0500" stop="20261113213000 +0500" channel="KoksheTV.kz">
+  <programme start="20261114203500 +0500" stop="20261114213000 +0500" channel="KoksheTV.kz">
     <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
   </programme>
-  <programme start="20261113213000 +0500" stop="20261113220000 +0500" channel="KoksheTV.kz">
-    <title lang="kk">"KÓKSHE AQPARAT" Информационная программа</title>
-  </programme>
-  <programme start="20261113220000 +0500" stop="20261113234000 +0500" channel="KoksheTV.kz">
+  <programme start="20261114213000 +0500" stop="20261114213500 +0500" channel="KoksheTV.kz">
     <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
   </programme>
-  <programme start="20261113234000 +0500" stop="20261114000000 +0500" channel="KoksheTV.kz">
-    <title lang="kk">"КҮН БЕДЕРІНДЕ" Ақпараттық бағдарлама</title>
-    <desc lang="kk">Қазірэфирде</desc>
+  <programme start="20261114213500 +0500" stop="20261114231500 +0500" channel="KoksheTV.kz">
+    <title lang="kk">"ЕГІЗ ҒҰМЫР". Телехикая 19,20 бөлім</title>
   </programme>
-  <programme start="20261113070000 +0500" stop="20261113070500 +0500" channel="MangystauTV.kz">
+  <programme start="20261114231500 +0500" stop="20261115000000 +0500" channel="KoksheTV.kz">
+    <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
+  </programme>
+  <programme start="20261114000000 +0500" stop="20261114010000 +0500" channel="KoksheTV.kz">
     <title lang="kk">Әнұран</title>
   </programme>
-  <programme start="20261113070500 +0500" stop="20261113071000 +0500" channel="MangystauTV.kz">
-    <title lang="kk">No comment</title>
+  <programme start="20261114070000 +0500" stop="20261114070500 +0500" channel="MangystauTV.kz">
+    <title lang="kk">Әнұран</title>
   </programme>
-  <programme start="20261113071000 +0500" stop="20261113080000 +0500" channel="MangystauTV.kz">
+  <programme start="20261114070500 +0500" stop="20261114071000 +0500" channel="MangystauTV.kz">
+    <title lang="kk">Инфомикс</title>
+    <desc lang="kk">Ақпараттық</desc>
+  </programme>
+  <programme start="20261114071000 +0500" stop="20261114080000 +0500" channel="MangystauTV.kz">
     <title lang="kk">"Топырақ пен Хауа"</title>
-    <desc lang="kk">Телехикая, ІІ-маусым</desc>
+    <desc lang="kk">Телехикая, ІІ-амусым</desc>
   </programme>
-  <programme start="20261113080000 +0500" stop="20261113090000 +0500" channel="MangystauTV.kz">
+  <programme start="20261114080000 +0500" stop="20261114090000 +0500" channel="MangystauTV.kz">
     <title lang="kk">"Сәлем, Маңғыстау!</title>
     <desc lang="kk">Таңғы ақпаратты-сазды бағдарлама</desc>
   </programme>
-  <programme start="20261113090000 +0500" stop="20261113093000 +0500" channel="MangystauTV.kz">
+  <programme start="20261114090000 +0500" stop="20261114093000 +0500" channel="MangystauTV.kz">
     <title lang="kk">"MAŃǴYSTAU AQPARAT"</title>
     <desc lang="kk">Жаңалықтар /қайталау/</desc>
   </programme>
-  <programme start="20261113093000 +0500" stop="20261113100000 +0500" channel="MangystauTV.kz">
+  <programme start="20261114093000 +0500" stop="20261114100000 +0500" channel="MangystauTV.kz">
     <title lang="kk">"MAŃǴYSTAU AQPARAT"</title>
     <desc lang="kk">Новости /повтор/</desc>
   </programme>
-  <programme start="20261113100000 +0500" stop="20261113110000 +0500" channel="MangystauTV.kz">
-    <title lang="kk">"Өзекті мәселе"</title>
-    <desc lang="kk">Ақпараттық-сараптамалық</desc>
-  </programme>
-  <programme start="20261113110000 +0500" stop="20261113113000 +0500" channel="MangystauTV.kz">
-    <title lang="kk">"MAŃǴYSTAU AQPARAT"</title>
-    <desc lang="kk">Жаңалықтар. Тікелей эфир</desc>
-  </programme>
-  <programme start="20261113113000 +0500" stop="20261113130000 +0500" channel="MangystauTV.kz">
-    <title lang="kk">"Болашаққа бағдар"</title>
-    <desc lang="kk">Танымдық-сауықтық бағдарлама. Тікелей эфир</desc>
-  </programme>
-  <programme start="20261113130000 +0500" stop="20261113133000 +0500" channel="MangystauTV.kz">
-    <title lang="kk">"MAŃǴYSTAU AQPARAT"</title>
-    <desc lang="kk">Жаңалықтар. Тікелей эфир</desc>
-  </programme>
-  <programme start="20261113133000 +0500" stop="20261113140000 +0500" channel="MangystauTV.kz">
-    <title lang="kk">"MAŃǴYSTAU AQPARAT"</title>
-    <desc lang="kk">Новости. Прямой эфир</desc>
-  </programme>
-  <programme start="20261113140000 +0500" stop="20261113141500 +0500" channel="MangystauTV.kz">
-    <title lang="kk">Жаңаөзен жаңалықтар</title>
-    <desc lang="kk">Жаңалықтыр</desc>
-  </programme>
-  <programme start="20261113141500 +0500" stop="20261113180000 +0500" channel="MangystauTV.kz">
-    <title lang="kk">"Арнайы репортаж"</title>
-    <desc lang="kk">Ақпараттық</desc>
-  </programme>
-  <programme start="20261113180000 +0500" stop="20261113190000 +0500" channel="MangystauTV.kz">
+  <programme start="20261114100000 +0500" stop="20261114110000 +0500" channel="MangystauTV.kz">
     <title lang="kk">"100 жаса"</title>
     <desc lang="kk">Денсаулық</desc>
   </programme>
-  <programme start="20261113190000 +0500" stop="20261113200000 +0500" channel="MangystauTV.kz">
+  <programme start="20261114110000 +0500" stop="20261114123000 +0500" channel="MangystauTV.kz">
+    <title lang="kk">"Фазилет ханым"</title>
+    <desc lang="kk">Телехикая бөлімдері</desc>
+  </programme>
+  <programme start="20261114123000 +0500" stop="20261114132000 +0500" channel="MangystauTV.kz">
+    <title lang="kk">"Мақамы мәшһүр Маңғыстау"</title>
+    <desc lang="kk">Жыр-терме</desc>
+  </programme>
+  <programme start="20261114132000 +0500" stop="20261114180000 +0500" channel="MangystauTV.kz">
+    <title lang="kk">Концерт</title>
+  </programme>
+  <programme start="20261114180000 +0500" stop="20261114183000 +0500" channel="MangystauTV.kz">
+    <title lang="kk">"Coffee break"</title>
+    <desc lang="kk">Мәдени танымдық</desc>
+  </programme>
+  <programme start="20261114183000 +0500" stop="20261114190000 +0500" channel="MangystauTV.kz">
+    <title lang="kk">"Халық үні"</title>
+    <desc lang="kk">Ақпараттық</desc>
+  </programme>
+  <programme start="20261114190000 +0500" stop="20261114193000 +0500" channel="MangystauTV.kz">
     <title lang="kk">"Дархан батыр"</title>
     <desc lang="kk">Телехикая</desc>
   </programme>
-  <programme start="20261113200000 +0500" stop="20261113203000 +0500" channel="MangystauTV.kz">
-    <title lang="kk">"Дара"</title>
-    <desc lang="kk">Мәдени танымдық</desc>
+  <programme start="20261114193000 +0500" stop="20261114200000 +0500" channel="MangystauTV.kz">
+    <title lang="kk">"Құтты қоныс"</title>
+    <desc lang="kk">Ақпараттық</desc>
   </programme>
-  <programme start="20261113203000 +0500" stop="20261113210000 +0500" channel="MangystauTV.kz">
-    <title lang="kk">"MAŃǴYSTAU AQPARAT"</title>
-    <desc lang="kk">Жаңалықтар. Тікелей эфир</desc>
+  <programme start="20261114200000 +0500" stop="20261114201500 +0500" channel="MangystauTV.kz">
+    <title lang="kk">"Маңғыстау мақтаныштары"</title>
+    <desc lang="kk">Ақпараттық танымдық</desc>
   </programme>
-  <programme start="20261113210000 +0500" stop="20261113213000 +0500" channel="MangystauTV.kz">
-    <title lang="kk">"MAŃǴYSTAU AQPARAT"</title>
-    <desc lang="kk">Новости. Прямой эфир</desc>
+  <programme start="20261114201500 +0500" stop="20261114203000 +0500" channel="MangystauTV.kz">
+    <title lang="kk">"Инновейшн</title>
   </programme>
-  <programme start="20261113213000 +0500" stop="20261113230000 +0500" channel="MangystauTV.kz">
-    <title lang="kk">"Болашаққа бағдар"</title>
-    <desc lang="kk">Танымдық-сауықтық бағдарлама /қайталау/</desc>
+  <programme start="20261114203000 +0500" stop="20261114212000 +0500" channel="MangystauTV.kz">
+    <title lang="kk">"Маңғыстауда жасалған"</title>
+    <desc lang="kk">Ақпараттық</desc>
   </programme>
-  <programme start="20261113230000 +0500" stop="20261113233000 +0500" channel="MangystauTV.kz">
-    <title lang="kk">"MAŃǴYSTAU AQPARAT"</title>
-    <desc lang="kk">Жаңалықтар /қайталау/</desc>
+  <programme start="20261114212000 +0500" stop="20261114221000 +0500" channel="MangystauTV.kz">
+    <title lang="kk">"Мақамы мәшһүр Маңғыстау"</title>
+    <desc lang="kk">Жыр-терме</desc>
   </programme>
-  <programme start="20261113233000 +0500" stop="20261113235800 +0500" channel="MangystauTV.kz">
-    <title lang="kk">"MAŃǴYSTAU AQPARAT"</title>
-    <desc lang="kk">Қазірэфирде</desc>
+  <programme start="20261114221000 +0500" stop="20261114223000 +0500" channel="MangystauTV.kz">
+    <title lang="kk">Әуезді әуен</title>
   </programme>
-  <programme start="20261113235800 +0500" stop="20261114005800 +0500" channel="MangystauTV.kz">
+  <programme start="20261114223000 +0500" stop="20261114230000 +0500" channel="MangystauTV.kz">
+    <title lang="kk">"Фериха"</title>
+    <desc lang="kk">Телехикая</desc>
+  </programme>
+  <programme start="20261114230000 +0500" stop="20261115000000 +0500" channel="MangystauTV.kz">
     <title lang="kk">Әнұран</title>
   </programme>
-  <programme start="20261113070000 +0500" stop="20261113070500 +0500" channel="OntustikTV.kz">
+  <programme start="20261114070000 +0500" stop="20261114070500 +0500" channel="OntustikTV.kz">
     <title lang="kk">Арнаның ашылуы.Гимн</title>
   </programme>
-  <programme start="20261113070500 +0500" stop="20261113080000 +0500" channel="OntustikTV.kz">
+  <programme start="20261114070500 +0500" stop="20261114090000 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Ән шашу»</title>
+    <desc lang="kk">музыкалық бағдарлама</desc>
+  </programme>
+  <programme start="20261114090000 +0500" stop="20261114095500 +0500" channel="OntustikTV.kz">
     <title lang="kk">«Jańalyqtar»</title>
     <desc lang="kk">ақпараттық бағдарлама</desc>
   </programme>
-  <programme start="20261113080000 +0500" stop="20261113093000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Таң нұры»</title>
-    <desc lang="kk">ақпаратты-сазды бағдарлама</desc>
+  <programme start="20261114095500 +0500" stop="20261114104000 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Ойна да, ойлан»</title>
+    <desc lang="kk">интеллектуалдық бағдарлама</desc>
   </programme>
-  <programme start="20261113093000 +0500" stop="20261113100000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Дархан батыр»</title>
-    <desc lang="kk">телехикая. 8-бөлім</desc>
+  <programme start="20261114104000 +0500" stop="20261114110000 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Сарбаз»</title>
+    <desc lang="kk">әскери-патриоттық бағдарлама</desc>
   </programme>
-  <programme start="20261113100000 +0500" stop="20261113104500 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Фазилет ханым»</title>
-    <desc lang="kk">телехикая. 109-бөлім</desc>
+  <programme start="20261114110000 +0500" stop="20261114111500 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Ғажайып мекен»</title>
+    <desc lang="kk">мәдени-танымдық бағдарлама</desc>
   </programme>
-  <programme start="20261113104500 +0500" stop="20261113110000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Бала ғой»</title>
-    <desc lang="kk">балаларға базарлық</desc>
+  <programme start="20261114111500 +0500" stop="20261114120000 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Дәуір даналары»</title>
+    <desc lang="kk">тарихи-танымдық бағдарлама</desc>
   </programme>
-  <programme start="20261113110000 +0500" stop="20261113113000 +0500" channel="OntustikTV.kz">
+  <programme start="20261114120000 +0500" stop="20261114123000 +0500" channel="OntustikTV.kz">
     <title lang="kk">«Бүгінгі әңгіме»</title>
     <desc lang="kk">қоғамдық бағдарлама</desc>
   </programme>
-  <programme start="20261113113000 +0500" stop="20261113122000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Топырақ пен Хауа»</title>
-    <desc lang="kk">телехикая. 137-бөлім</desc>
+  <programme start="20261114123000 +0500" stop="20261114130000 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Табиғат сақшылары»</title>
+    <desc lang="kk">балалар телехикасы</desc>
   </programme>
-  <programme start="20261113122000 +0500" stop="20261113130500 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Көзқарас»</title>
-    <desc lang="kk">қоғамдық-саяси бағдарлама</desc>
-  </programme>
-  <programme start="20261113130500 +0500" stop="20261113133000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Жаңа қоғам»</title>
-    <desc lang="kk">қоғамдық-саяси бағдарлама</desc>
-  </programme>
-  <programme start="20261113133000 +0500" stop="20261113140000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Jańalyqtar»</title>
-    <desc lang="kk">тікелей эфир</desc>
-  </programme>
-  <programme start="20261113140000 +0500" stop="20261113144500 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Фериха»</title>
-    <desc lang="kk">телехикая. 30-бөлім</desc>
-  </programme>
-  <programme start="20261113144500 +0500" stop="20261113150000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Әсем әуен»</title>
+  <programme start="20261114130000 +0500" stop="20261114150000 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Ән шашу»</title>
     <desc lang="kk">музыкалық бағдарлама</desc>
   </programme>
-  <programme start="20261113150000 +0500" stop="20261113170000 +0500" channel="OntustikTV.kz">
+  <programme start="20261114150000 +0500" stop="20261114170000 +0500" channel="OntustikTV.kz">
     <title lang="kk">«Техникалық үзіліс» 15:00 - 17:00</title>
   </programme>
-  <programme start="20261113170000 +0500" stop="20261113170500 +0500" channel="OntustikTV.kz">
+  <programme start="20261114170000 +0500" stop="20261114170500 +0500" channel="OntustikTV.kz">
     <title lang="kk">Арнаның ашылуы</title>
   </programme>
-  <programme start="20261113170500 +0500" stop="20261113171000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Жібек»</title>
-    <desc lang="kk">балаларға базарлық</desc>
+  <programme start="20261114170500 +0500" stop="20261114173000 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Халық заңы»</title>
+    <desc lang="kk">деректі фильм</desc>
   </programme>
-  <programme start="20261113171000 +0500" stop="20261113180000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Фазилет ханым»</title>
-    <desc lang="kk">телехикая. 110-бөлім</desc>
+  <programme start="20261114173000 +0500" stop="20261114180000 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Iyirtimiz jamoli»</title>
+    <desc lang="kk">мәдени-танымдық бағдарлама</desc>
   </programme>
-  <programme start="20261113180000 +0500" stop="20261113183500 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Jańalyqtar»</title>
-    <desc lang="kk">тікелей эфир</desc>
+  <programme start="20261114180000 +0500" stop="20261114182000 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Балдәурен»</title>
+    <desc lang="kk">танымдық балалар бағдарламасы</desc>
   </programme>
-  <programme start="20261113183500 +0500" stop="20261113190000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Jastar life»</title>
-    <desc lang="kk">танымдық бағдарламасы</desc>
+  <programme start="20261114182000 +0500" stop="20261114190500 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Зияткер»</title>
+    <desc lang="kk">интеллектуалды бағдарлама</desc>
   </programme>
-  <programme start="20261113190000 +0500" stop="20261113192000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Новости»</title>
-    <desc lang="kk">прямой эфир</desc>
-  </programme>
-  <programme start="20261113192000 +0500" stop="20261113201000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Үміт»</title>
-    <desc lang="kk">әлеуметтік ток-шоу</desc>
-  </programme>
-  <programme start="20261113201000 +0500" stop="20261113210000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Топырақ пен Хауа»</title>
-    <desc lang="kk">телехикая. 138-бөлім</desc>
-  </programme>
-  <programme start="20261113210000 +0500" stop="20261113220000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Jańalyqtar»</title>
-    <desc lang="kk">тікелей эфир</desc>
-  </programme>
-  <programme start="20261113220000 +0500" stop="20261113224500 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Фериха»</title>
-    <desc lang="kk">телехикая. 31-бөлім</desc>
-  </programme>
-  <programme start="20261113224500 +0500" stop="20261113232000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Арнайы шығарылым»</title>
+  <programme start="20261114190500 +0500" stop="20261114192000 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«112 Шымкент»</title>
     <desc lang="kk">ақпараттық бағдарлама</desc>
   </programme>
-  <programme start="20261113232000 +0500" stop="20261113234000 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Новости»</title>
-    <desc lang="kk">ақпараттық бағдарлама</desc>
+  <programme start="20261114192000 +0500" stop="20261114200000 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Менің әлемім»</title>
+    <desc lang="kk">ойын-сауықтық бағдарлама</desc>
   </programme>
-  <programme start="20261113234000 +0500" stop="20261113235500 +0500" channel="OntustikTV.kz">
-    <title lang="kk">«Әсем әуен»</title>
-    <desc lang="kk">Қазірэфирде</desc>
+  <programme start="20261114200000 +0500" stop="20261114203500 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Апта айнасы»</title>
+    <desc lang="kk">сараптамалық бағдарлама</desc>
   </programme>
-  <programme start="20261113235500 +0500" stop="20261114005500 +0500" channel="OntustikTV.kz">
+  <programme start="20261114203500 +0500" stop="20261114210000 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Ғұмырдария»</title>
+    <desc lang="kk">мәдени-танымдық бағдарлама</desc>
+  </programme>
+  <programme start="20261114210000 +0500" stop="20261114222500 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Ән шашу»</title>
+    <desc lang="kk">музыкалық бағдарлама</desc>
+  </programme>
+  <programme start="20261114222500 +0500" stop="20261114235500 +0500" channel="OntustikTV.kz">
+    <title lang="kk">«Транссібір экспресі»</title>
+    <desc lang="kk">көркем фильм</desc>
+  </programme>
+  <programme start="20261114235500 +0500" stop="20261115005500 +0500" channel="OntustikTV.kz">
     <title lang="kk">Арнаның жабылуы.Гимн</title>
   </programme>
-  <programme start="20261113080000 +0500" stop="20261113140000 +0500" channel="QostanaiTV.kz">
-    <title lang="kk">«БІР ТУЫНДЫ» д.с. («ABAI TV» 2021 ж.)</title>
-  </programme>
-  <programme start="20261113140000 +0500" stop="20261113233000 +0500" channel="QostanaiTV.kz">
+  <programme start="20261114140000 +0500" stop="20261114191000 +0500" channel="QostanaiTV.kz">
     <title lang="kk">Техникалық үзіліс (14:00-17:00)</title>
   </programme>
-  <programme start="20261113233000 +0500" stop="20261114003000 +0500" channel="QostanaiTV.kz">
-    <title lang="kk">«ARQA AQPARAT» (дайджест) (каз/рус) (ақпараттық бағдарлама )</title>
-    <desc lang="kk">Қазірэфирде</desc>
+  <programme start="20261114191000 +0500" stop="20261114201000 +0500" channel="QostanaiTV.kz">
+    <title lang="kk">«ОРТА ДӘЛІЗ» д.ф. («PTRK.KZ»)</title>
   </programme>
-  <programme start="20261113070000 +0500" stop="20261113070500 +0500" channel="QyzyljarTV.kz">
+  <programme start="20261114070000 +0500" stop="20261114070500 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">Әнұран</title>
   </programme>
-  <programme start="20261113070500 +0500" stop="20261113071500 +0500" channel="QyzyljarTV.kz">
+  <programme start="20261114070500 +0500" stop="20261114071500 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">КӨҢІЛДІ КӨЛІКТЕР</title>
   </programme>
-  <programme start="20261113071500 +0500" stop="20261113080000 +0500" channel="QyzyljarTV.kz">
+  <programme start="20261114071500 +0500" stop="20261114080000 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">ТОПЫРАҚ ПЕН ХАУА</title>
   </programme>
-  <programme start="20261113080000 +0500" stop="20261113083000 +0500" channel="QyzyljarTV.kz">
+  <programme start="20261114080000 +0500" stop="20261114083000 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">ESIL-АҚПАРАТ</title>
   </programme>
-  <programme start="20261113083000 +0500" stop="20261113090000 +0500" channel="QyzyljarTV.kz">
+  <programme start="20261114083000 +0500" stop="20261114090000 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">ESIL-АҚПАРАТ</title>
   </programme>
-  <programme start="20261113090000 +0500" stop="20261113110000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">ҚАЙЫРЛЫ ТАҢ</title>
+  <programme start="20261114090000 +0500" stop="20261114100000 +0500" channel="QyzyljarTV.kz">
+    <title lang="kk">САНА</title>
   </programme>
-  <programme start="20261113110000 +0500" stop="20261113120000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">ФАЗИЛЕТ ХАНЫМ</title>
-  </programme>
-  <programme start="20261113120000 +0500" stop="20261113122000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">QAMQOR</title>
-  </programme>
-  <programme start="20261113122000 +0500" stop="20261113130000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">ОТКРЫТЫЙ ДИАЛОГ</title>
-  </programme>
-  <programme start="20261113130000 +0500" stop="20261113131000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">ESIL-АҚПАРАТ</title>
-  </programme>
-  <programme start="20261113131000 +0500" stop="20261113133000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">ESIL-АҚПАРАТ</title>
-  </programme>
-  <programme start="20261113133000 +0500" stop="20261113140000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">ДАРХАН БАТЫР</title>
-  </programme>
-  <programme start="20261113140000 +0500" stop="20261113170000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">техникалық үзіліс</title>
-  </programme>
-  <programme start="20261113170000 +0500" stop="20261113171500 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">ESIL-АҚПАРАТ</title>
-  </programme>
-  <programme start="20261113171500 +0500" stop="20261113173000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">ESIL-АҚПАРАТ</title>
-  </programme>
-  <programme start="20261113173000 +0500" stop="20261113180000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">ҚАЗБА ҚАЗЫНАЛАРЫ</title>
-  </programme>
-  <programme start="20261113180000 +0500" stop="20261113183000 +0500" channel="QyzyljarTV.kz">
+  <programme start="20261114100000 +0500" stop="20261114103000 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">СДЕЛАНО В СЕВЕРНОМ КАЗАХСТАНЕ</title>
   </programme>
-  <programme start="20261113183000 +0500" stop="20261113194500 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">ЖАТ БАУЫР</title>
+  <programme start="20261114103000 +0500" stop="20261114110000 +0500" channel="QyzyljarTV.kz">
+    <title lang="kk">АУЫЛ</title>
   </programme>
-  <programme start="20261113194500 +0500" stop="20261113203000 +0500" channel="QyzyljarTV.kz">
+  <programme start="20261114110000 +0500" stop="20261114120000 +0500" channel="QyzyljarTV.kz">
+    <title lang="kk">ФАЗИЛЕТ ХАНЫМ</title>
+  </programme>
+  <programme start="20261114120000 +0500" stop="20261114134000 +0500" channel="QyzyljarTV.kz">
+    <title lang="kk">АУЫЛ МҰҒАЛІМІ</title>
+  </programme>
+  <programme start="20261114134000 +0500" stop="20261114140000 +0500" channel="QyzyljarTV.kz">
+    <title lang="kk">ДАРХАН БАТЫР</title>
+  </programme>
+  <programme start="20261114140000 +0500" stop="20261114170000 +0500" channel="QyzyljarTV.kz">
+    <title lang="kk">техникалық үзіліс</title>
+  </programme>
+  <programme start="20261114170000 +0500" stop="20261114173000 +0500" channel="QyzyljarTV.kz">
+    <title lang="kk">ПАРАСАТ</title>
+  </programme>
+  <programme start="20261114173000 +0500" stop="20261114180000 +0500" channel="QyzyljarTV.kz">
+    <title lang="kk">ҚАЗБА ҚАЗЫНАЛАРЫ</title>
+  </programme>
+  <programme start="20261114180000 +0500" stop="20261114190000 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">ТОПЫРАҚ ПЕН ХАУА</title>
   </programme>
-  <programme start="20261113203000 +0500" stop="20261113210000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">ESIL-АҚПАРАТ</title>
+  <programme start="20261114190000 +0500" stop="20261114200000 +0500" channel="QyzyljarTV.kz">
+    <title lang="kk">ДӘУІР ДАНАЛАРЫ</title>
   </programme>
-  <programme start="20261113210000 +0500" stop="20261113213000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">ESIL-АҚПАРАТ</title>
+  <programme start="20261114200000 +0500" stop="20261114203000 +0500" channel="QyzyljarTV.kz">
+    <title lang="kk">КІТАП ОҚИЫҚ</title>
   </programme>
-  <programme start="20261113213000 +0500" stop="20261113220000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">СӨЗТАНЫМ</title>
+  <programme start="20261114203000 +0500" stop="20261114214000 +0500" channel="QyzyljarTV.kz">
+    <title lang="kk">ҚР жұлдыздарының қатысуымен концерт</title>
   </programme>
-  <programme start="20261113220000 +0500" stop="20261113223000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">ESIL-АҚПАРАТ</title>
+  <programme start="20261114214000 +0500" stop="20261114230000 +0500" channel="QyzyljarTV.kz">
+    <title lang="kk">ТЕЛ ӨСКЕН ҰЛ</title>
   </programme>
-  <programme start="20261113223000 +0500" stop="20261113230000 +0500" channel="QyzyljarTV.kz">
-    <title lang="kk">ESIL-АҚПАРАТ</title>
-  </programme>
-  <programme start="20261113230000 +0500" stop="20261113235500 +0500" channel="QyzyljarTV.kz">
+  <programme start="20261114230000 +0500" stop="20261114235500 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">ФАЗИЛЕТ ХАНЫМ</title>
-    <desc lang="kk">Қазірэфирде</desc>
   </programme>
-  <programme start="20261113235500 +0500" stop="20261114005500 +0500" channel="QyzyljarTV.kz">
+  <programme start="20261114235500 +0500" stop="20261115005500 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">Әнұран</title>
   </programme>
-  <programme start="20261113070000 +0500" stop="20261113070500 +0500" channel="QyzylordaTV.kz">
+  <programme start="20261114070000 +0500" stop="20261114070500 +0500" channel="QyzylordaTV.kz">
     <title lang="kk">Әнұран</title>
   </programme>
-  <programme start="20261113070500 +0500" stop="20261113080000 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"Таңшолпан" гала -концерті</title>
+  <programme start="20261114070500 +0500" stop="20261114080000 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"Елу жыл елмен бірге!" "ДосМҰҚАСАН" ансамблінің концерті</title>
   </programme>
-  <programme start="20261113080000 +0500" stop="20261113082500 +0500" channel="QyzylordaTV.kz">
+  <programme start="20261114080000 +0500" stop="20261114082500 +0500" channel="QyzylordaTV.kz">
     <title lang="kk">ЖАҢАЛЫҚТАР /қайталау/</title>
   </programme>
-  <programme start="20261113082500 +0500" stop="20261113090000 +0500" channel="QyzylordaTV.kz">
+  <programme start="20261114082500 +0500" stop="20261114084000 +0500" channel="QyzylordaTV.kz">
     <title lang="kk">НОВОСТИ /қайталау/</title>
   </programme>
-  <programme start="20261113090000 +0500" stop="20261113092500 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"Табиғат сақшылары"т/с. /13-бөлім/</title>
+  <programme start="20261114084000 +0500" stop="20261114090000 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"АНЫҚTIMES" /қайталау/</title>
   </programme>
-  <programme start="20261113092500 +0500" stop="20261113101000 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"Топырақ пен Хауа" т/с. /198-сер., 2-маусым/</title>
+  <programme start="20261114090000 +0500" stop="20261114093000 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"ЗИЯТКЕР" /танымдық/</title>
   </programme>
-  <programme start="20261113101000 +0500" stop="20261113102500 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"Елге қызмет"</title>
-  </programme>
-  <programme start="20261113102500 +0500" stop="20261113110000 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"PARALLEL"</title>
-  </programme>
-  <programme start="20261113110000 +0500" stop="20261113120000 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"Фериха" т/с. /17-сер./</title>
-  </programme>
-  <programme start="20261113120000 +0500" stop="20261113124000 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"Paidaly podkast"</title>
-  </programme>
-  <programme start="20261113124000 +0500" stop="20261113130000 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"ҚҰНДЫ ЖӘДІГЕР"</title>
-  </programme>
-  <programme start="20261113130000 +0500" stop="20261113131500 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">ЖАҢАЛЫҚТАР /түпнұска/</title>
-  </programme>
-  <programme start="20261113131500 +0500" stop="20261113170000 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">НОВОСТИ /түпнұсқа/</title>
-  </programme>
-  <programme start="20261113170000 +0500" stop="20261113180000 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"Сарай сыры" т/с. /6-сер/</title>
-  </programme>
-  <programme start="20261113180000 +0500" stop="20261113182500 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">ЖАҢАЛЫҚТАР /түпнұска/</title>
-  </programme>
-  <programme start="20261113182500 +0500" stop="20261113184000 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">НОВОСТИ /түпнұсқа/</title>
-  </programme>
-  <programme start="20261113184000 +0500" stop="20261113190000 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"АНЫҚTIMES" /тікелей эфир/</title>
-  </programme>
-  <programme start="20261113190000 +0500" stop="20261113200000 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"Ғасырлар үні"</title>
-  </programme>
-  <programme start="20261113200000 +0500" stop="20261113204500 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"Фериха" т/с. /18-сер./</title>
-  </programme>
-  <programme start="20261113204500 +0500" stop="20261113211000 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">АРНАЙЫ ЖОБА</title>
-  </programme>
-  <programme start="20261113211000 +0500" stop="20261113213000 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"Ұстаздық ұлағаты ұшан теңіз"</title>
-  </programme>
-  <programme start="20261113213000 +0500" stop="20261113215500 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">ЖАҢАЛЫҚТАР /түпнұска/</title>
-  </programme>
-  <programme start="20261113215500 +0500" stop="20261113221500 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">НОВОСТИ /түпнұска/</title>
-  </programme>
-  <programme start="20261113221500 +0500" stop="20261113230000 +0500" channel="QyzylordaTV.kz">
+  <programme start="20261114093000 +0500" stop="20261114101500 +0500" channel="QyzylordaTV.kz">
     <title lang="kk">"Топырақ пен Хауа" т/с. /199-сер., 2-маусым/</title>
   </programme>
-  <programme start="20261113230000 +0500" stop="20261113234500 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"Ауыл мұғалімі" т/с. /24-сер., 2-маусым/</title>
+  <programme start="20261114101500 +0500" stop="20261114103500 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"Жәдігер"</title>
   </programme>
-  <programme start="20261113234500 +0500" stop="20261114004500 +0500" channel="QyzylordaTV.kz">
-    <title lang="kk">"Дархан батыр" т/с. /10-сер/</title>
-    <desc lang="kk">Қазірэфирде</desc>
+  <programme start="20261114103500 +0500" stop="20261114110000 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"Ұстаздық ұлағаты ұшан теңіз"</title>
   </programme>
-  <programme start="20261113065800 +0500" stop="20261113070000 +0500" channel="SaryarqaTV.kz">
+  <programme start="20261114110000 +0500" stop="20261114120000 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"Фериха" т/с. /18-сер./</title>
+  </programme>
+  <programme start="20261114120000 +0500" stop="20261114122000 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">АРНАЙЫ ЖОБА</title>
+  </programme>
+  <programme start="20261114122000 +0500" stop="20261114130000 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"QYZYQ ORDA"</title>
+  </programme>
+  <programme start="20261114130000 +0500" stop="20261114141500 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"БОТАҚАН"облыстық балалар телефестивалі -2026" /1-бөлім/</title>
+  </programme>
+  <programme start="20261114141500 +0500" stop="20261114170000 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"Ғарыш құтқарушылары" телеқойылымы</title>
+  </programme>
+  <programme start="20261114170000 +0500" stop="20261114180000 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"Сарай сыры" т/с. /7-сер/</title>
+  </programme>
+  <programme start="20261114180000 +0500" stop="20261114191000 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"ҚҰДАЙЫ ҚОНАҚ"</title>
+  </programme>
+  <programme start="20261114191000 +0500" stop="20261114192500 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"Құнды жәдігер"</title>
+  </programme>
+  <programme start="20261114192500 +0500" stop="20261114200000 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"БАЛА ОРДА"</title>
+  </programme>
+  <programme start="20261114200000 +0500" stop="20261114223500 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"Фериха" т/с. /19-сер./</title>
+  </programme>
+  <programme start="20261114223500 +0500" stop="20261114232000 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"Топырақ пен Хауа" т/с. /200-сер., 2-маусым/</title>
+  </programme>
+  <programme start="20261114232000 +0500" stop="20261114235500 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"Күй-керуен"</title>
+  </programme>
+  <programme start="20261114235500 +0500" stop="20261115005500 +0500" channel="QyzylordaTV.kz">
     <title lang="kk">Әнұран</title>
   </programme>
-  <programme start="20261113070000 +0500" stop="20261113074500 +0500" channel="SaryarqaTV.kz">
+  <programme start="20261114065800 +0500" stop="20261114070000 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">Әнұран</title>
+  </programme>
+  <programme start="20261114070000 +0500" stop="20261114074500 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">«Арқа ақпарат»</title>
     <desc lang="kk">Жаңалықтар (каз., рус.)</desc>
   </programme>
-  <programme start="20261113074500 +0500" stop="20261113080000 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Актуально»</title>
-    <desc lang="kk">Информационная программа</desc>
-  </programme>
-  <programme start="20261113080000 +0500" stop="20261113084500 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Айнымас Айғаным»</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113084500 +0500" stop="20261113090000 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Ертемір»</title>
-    <desc lang="kk">Мульттоптама</desc>
-  </programme>
-  <programme start="20261113090000 +0500" stop="20261113100000 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Сәлем, Қарағанды!»</title>
-    <desc lang="kk">Ақпараттық-танымдық, ойын-сауық тележобасы. Тікелей эфир</desc>
-  </programme>
-  <programme start="20261113100000 +0500" stop="20261113104500 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Арқа ақпарат»</title>
-    <desc lang="kk">Жаңалықтар (каз., рус.)</desc>
-  </programme>
-  <programme start="20261113104500 +0500" stop="20261113110000 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Актуально»</title>
-    <desc lang="kk">Информационная программа</desc>
-  </programme>
-  <programme start="20261113110000 +0500" stop="20261113113500 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Ізгілік іздері»</title>
-    <desc lang="kk">Ақпараттық-танымдық бағдарлама</desc>
-  </programme>
-  <programme start="20261113113500 +0500" stop="20261113114500 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">Бейнеклип</title>
-    <desc lang="kk">Музыкалық бағдарлама</desc>
-  </programme>
-  <programme start="20261113114500 +0500" stop="20261113123500 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Топырақ пен Хауа-2»</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113123500 +0500" stop="20261113130000 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«ДАТ». «Шарықта, шахтер!»</title>
-    <desc lang="kk">Ақпараттық-сараптамалық бағдарлама</desc>
-  </programme>
-  <programme start="20261113130000 +0500" stop="20261113132000 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Арқа ақпарат»</title>
-    <desc lang="kk">Жаңалықтар (каз., рус.)</desc>
-  </programme>
-  <programme start="20261113132000 +0500" stop="20261113141500 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Кек жолында»</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113141500 +0500" stop="20261113144500 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Дархан батыр»</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113144500 +0500" stop="20261113170000 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">ТЕХНИКАЛЫҚ ҮЗІЛІС</title>
-  </programme>
-  <programme start="20261113170000 +0500" stop="20261113174000 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Арқа ақпарат»</title>
-    <desc lang="kk">Тікелей эфир (каз., рус.)</desc>
-  </programme>
-  <programme start="20261113174000 +0500" stop="20261113180000 +0500" channel="SaryarqaTV.kz">
+  <programme start="20261114074500 +0500" stop="20261114080000 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">«Өзекті»</title>
     <desc lang="kk">Ақпараттық бағдарлама</desc>
   </programme>
-  <programme start="20261113180000 +0500" stop="20261113183500 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Сөз сұраймын»</title>
-    <desc lang="kk">Саяси-қоғамдық ток-шоу</desc>
+  <programme start="20261114080000 +0500" stop="20261114084500 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">«Самалмен сырласу»</title>
+    <desc lang="kk">Телехикая</desc>
   </programme>
-  <programme start="20261113183500 +0500" stop="20261113190000 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Таразыда тәртіп»</title>
-    <desc lang="kk">Ақпараттық бағдарлама</desc>
+  <programme start="20261114084500 +0500" stop="20261114093500 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">«Күміс көмей»</title>
+    <desc lang="kk">Мәдени-танымдық кеш</desc>
   </programme>
-  <programme start="20261113190000 +0500" stop="20261113192000 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Арқа ақпарат»</title>
-    <desc lang="kk">Жаңалықтар (қаз.) /сурдоаударма/</desc>
+  <programme start="20261114093500 +0500" stop="20261114094500 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">«Құпия Наурыз»</title>
+    <desc lang="kk">Мультфильм</desc>
   </programme>
-  <programme start="20261113192000 +0500" stop="20261113194000 +0500" channel="SaryarqaTV.kz">
+  <programme start="20261114094500 +0500" stop="20261114100000 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">«Қамқорлық»</title>
     <desc lang="kk">Әлеуметтік жоба</desc>
   </programme>
-  <programme start="20261113194000 +0500" stop="20261113203000 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Айнымас Айғаным»</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113203000 +0500" stop="20261113205000 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Арқа ақпарат»</title>
-    <desc lang="kk">Новости /сурдоперевод/</desc>
-  </programme>
-  <programme start="20261113205000 +0500" stop="20261113220000 +0500" channel="SaryarqaTV.kz">
-    <title lang="kk">«Кек жолында»</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113220000 +0500" stop="20261113224500 +0500" channel="SaryarqaTV.kz">
+  <programme start="20261114100000 +0500" stop="20261114104500 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">«Арқа ақпарат»</title>
     <desc lang="kk">Жаңалықтар (каз., рус.)</desc>
   </programme>
-  <programme start="20261113224500 +0500" stop="20261113230000 +0500" channel="SaryarqaTV.kz">
+  <programme start="20261114104500 +0500" stop="20261114110000 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">«Өзекті»</title>
     <desc lang="kk">Ақпараттық бағдарлама</desc>
   </programme>
-  <programme start="20261113230000 +0500" stop="20261114000000 +0500" channel="SaryarqaTV.kz">
+  <programme start="20261114110000 +0500" stop="20261114114500 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">«Топырақ пен Хауа-2»</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">Телехикая</desc>
   </programme>
-  <programme start="20261113070000 +0500" stop="20261113070500 +0500" channel="SemeiTV.kz">
-    <title lang="kk">Әнұран. Тележаршы</title>
+  <programme start="20261114114500 +0500" stop="20261114120000 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">«Таразыда тәртіп»</title>
+    <desc lang="kk">Ақпараттық бағдарлама</desc>
   </programme>
-  <programme start="20261113070500 +0500" stop="20261113073000 +0500" channel="SemeiTV.kz">
-    <title lang="kk">ЖАҢАЛЫҚТАР - ақпараттық шығарылым. /қайталау/</title>
+  <programme start="20261114120000 +0500" stop="20261114140000 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">Асхат Тарғынның концерті</title>
+    <desc lang="kk">Музыкалық бағдарлама</desc>
   </programme>
-  <programme start="20261113073000 +0500" stop="20261113084500 +0500" channel="SemeiTV.kz">
-    <title lang="kk">НОВОСТИ - информационная выпуск. /повтор/</title>
+  <programme start="20261114140000 +0500" stop="20261114170000 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">ТЕХНИКАЛЫҚ ҮЗІЛІС</title>
   </programme>
-  <programme start="20261113084500 +0500" stop="20261113092500 +0500" channel="SemeiTV.kz">
-    <title lang="kk">«Ойыншық сақшылары» мультфильмі</title>
+  <programme start="20261114170000 +0500" stop="20261114175500 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">«Шахматшы қыз»</title>
+    <desc lang="kk">Телехикая</desc>
   </programme>
-  <programme start="20261113092500 +0500" stop="20261113114500 +0500" channel="SemeiTV.kz">
-    <title lang="kk">Тележаршы</title>
+  <programme start="20261114175500 +0500" stop="20261114183500 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">«АуылTIMES»</title>
+    <desc lang="kk">Ақпараттық-танымдық бағдарлама</desc>
   </programme>
-  <programme start="20261113114500 +0500" stop="20261113123000 +0500" channel="SemeiTV.kz">
-    <title lang="kk">«Топырақ пен Хауа» Телехикая</title>
+  <programme start="20261114183500 +0500" stop="20261114190000 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">«Нағыз дипломатия»</title>
+    <desc lang="kk">Деректі фильм</desc>
   </programme>
-  <programme start="20261113123000 +0500" stop="20261113130000 +0500" channel="SemeiTV.kz">
-    <title lang="kk">«DIALOG» сұхбат бағдарламасы /қайталау/</title>
+  <programme start="20261114190000 +0500" stop="20261114193000 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">«Апта»</title>
+    <desc lang="kk">Обзор за неделю (рус.)</desc>
   </programme>
-  <programme start="20261113130000 +0500" stop="20261113132000 +0500" channel="SemeiTV.kz">
-    <title lang="kk">ЖАҢАЛЫҚТАР - ақпараттық шығарылым. Тікелей эфир</title>
+  <programme start="20261114193000 +0500" stop="20261114195000 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">«ДАТ». «Шарықта, шахтер!»</title>
+    <desc lang="kk">Ақпараттық-сараптамалық бағдарлама</desc>
   </programme>
-  <programme start="20261113132000 +0500" stop="20261113134000 +0500" channel="SemeiTV.kz">
-    <title lang="kk">НОВОСТИ - информационная выпуск. Прямой эфир</title>
+  <programme start="20261114195000 +0500" stop="20261114200000 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">Бейнеклип</title>
+    <desc lang="kk">Музыкалық бағдарлама</desc>
   </programme>
-  <programme start="20261113134000 +0500" stop="20261113175500 +0500" channel="SemeiTV.kz">
-    <title lang="kk">Тележаршы</title>
+  <programme start="20261114200000 +0500" stop="20261114204500 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">«Главная студия»</title>
+    <desc lang="kk">Общественно-политическое ток-шоу</desc>
   </programme>
-  <programme start="20261113175500 +0500" stop="20261113180000 +0500" channel="SemeiTV.kz">
-    <title lang="kk">Тележаршы</title>
+  <programme start="20261114204500 +0500" stop="20261114210500 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">«Аймақ айнасы»</title>
+    <desc lang="kk">Ақпараттық-сараптамалық бағдарлама</desc>
   </programme>
-  <programme start="20261113180000 +0500" stop="20261113182500 +0500" channel="SemeiTV.kz">
-    <title lang="kk">ЖАҢАЛЫҚТАР - ақпараттық шығарылым. Тікелей эфир</title>
+  <programme start="20261114210500 +0500" stop="20261114220500 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">«Інжу-маржан»</title>
+    <desc lang="kk">Мәдени-танымдық кеш</desc>
   </programme>
-  <programme start="20261113182500 +0500" stop="20261113184000 +0500" channel="SemeiTV.kz">
-    <title lang="kk">НОВОСТИ - информационная выпуск. Прямой эфир</title>
+  <programme start="20261114220500 +0500" stop="20261114230000 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">«Дәуір даналары». Мұстафа Шоқай</title>
+    <desc lang="kk">Деректі фильм</desc>
   </programme>
-  <programme start="20261113184000 +0500" stop="20261113185000 +0500" channel="SemeiTV.kz">
-    <title lang="kk">Тележаршы</title>
+  <programme start="20261114230000 +0500" stop="20261115000000 +0500" channel="SaryarqaTV.kz">
+    <title lang="kk">«Топырақ пен Хауа-2»</title>
+    <desc lang="kk">Телехикая</desc>
   </programme>
-  <programme start="20261113185000 +0500" stop="20261113191500 +0500" channel="SemeiTV.kz">
-    <title lang="kk">«ҚАЛАДАН АУЫЛҒА» ПИЛОТТЫҚ ЖОБА</title>
-  </programme>
-  <programme start="20261113191500 +0500" stop="20261113205500 +0500" channel="SemeiTV.kz">
-    <title lang="kk">Абайла</title>
-  </programme>
-  <programme start="20261113205500 +0500" stop="20261113210000 +0500" channel="SemeiTV.kz">
-    <title lang="kk">Тележаршы</title>
-  </programme>
-  <programme start="20261113210000 +0500" stop="20261113212500 +0500" channel="SemeiTV.kz">
-    <title lang="kk">ЖАҢАЛЫҚТАР - ақпараттық шығарылым. /қайталау/</title>
-  </programme>
-  <programme start="20261113212500 +0500" stop="20261113214000 +0500" channel="SemeiTV.kz">
-    <title lang="kk">НОВОСТИ - информационная выпуск. /повтор/</title>
-  </programme>
-  <programme start="20261113214000 +0500" stop="20261113230000 +0500" channel="SemeiTV.kz">
-    <title lang="kk">Тележаршы</title>
-  </programme>
-  <programme start="20261113230000 +0500" stop="20261113232500 +0500" channel="SemeiTV.kz">
-    <title lang="kk">ЖАҢАЛЫҚТАР - ақпараттық шығарылым. /қайталау/</title>
-  </programme>
-  <programme start="20261113232500 +0500" stop="20261113234000 +0500" channel="SemeiTV.kz">
-    <title lang="kk">НОВОСТИ - информационная выпуск. /повтор/</title>
-  </programme>
-  <programme start="20261113234000 +0500" stop="20261114004000 +0500" channel="SemeiTV.kz">
+  <programme start="20261114234000 +0500" stop="20261115000000 +0500" channel="SemeiTV.kz">
     <title lang="kk">"Инелік" 8-бөлім Телехикая</title>
     <desc lang="kk">Қазірэфирде</desc>
+  </programme>
+  <programme start="20261114000000 +0500" stop="20261114010000 +0500" channel="SemeiTV.kz">
+    <title lang="kk">Әнұран. Эфирдің жабылуы</title>
   </programme>
   <programme start="20261113061000 +0700" stop="20261113072500 +0700" channel="KBSWorld.id">
     <title lang="en">Marry Him If You Dare Ep.12</title>
