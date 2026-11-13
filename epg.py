@@ -1029,6 +1029,9 @@ def fetch_epg_kbsworld(target):
                             elif val not in ep_info:
                                 ep_info += f" {val}"
 
+                if ep_info:
+                    ep_info = re.sub(r'(\d+)\.0\b', r'\1', ep_info)
+
                 if ep_info and ep_info.lower() not in title_base.lower():
                     if not ep_info.lower().startswith("ep"):
                         title = f"{title_base} Ep.{ep_info}"
