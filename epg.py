@@ -675,11 +675,15 @@ def fetch_epg_cltv36(target):
                     if not is_match_day:
                         continue
 
-                    time_matches = TIME_PATTERN_AMPM.findall(sched_str.replace("NN", "PM").replace("nn", "pm"))
-                    if time_matches and len(time_matches) >= 2:
+                    norm_sched = sched_str.replace("–", "-")
+                    norm_sched = re.sub(r'(\b\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2}\s*(AM|PM))', r'\1 \3 - \2', norm_sched, flags=re.IGNORECASE)
+
+                    time_matches = TIME_PATTERN_AMPM.findall(norm_sched.replace("NN", "PM").replace("nn", "pm"))
+                    
+                    for idx in range(0, len(time_matches) - 1, 2):
                         try:
-                            start_str = time_matches[0].upper().replace(" ", "")
-                            stop_str = time_matches[1].upper().replace(" ", "")
+                            start_str = time_matches[idx].upper().replace(" ", "")
+                            stop_str = time_matches[idx + 1].upper().replace(" ", "")
                             
                             start_time = datetime.strptime(start_str.zfill(7), "%I:%M%p").time()
                             stop_time = datetime.strptime(stop_str.zfill(7), "%I:%M%p").time()
