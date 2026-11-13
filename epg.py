@@ -995,7 +995,6 @@ def fetch_epg_kbsworld(target):
     }
 
     session = requests.Session()
-    print(f"[✓] KBS World: Downloading schedule data from {start_date} to {end_date}...")
 
     try:
         session.get("https://kbsworld.kbs.co.kr/", headers=headers, verify=False, timeout=10)
@@ -1008,8 +1007,6 @@ def fetch_epg_kbsworld(target):
             return channels, programmes
 
         df = dfs[0]
-        print(f"[✓] KBS World: Successfully loaded {len(df)} rows of schedule data.")
-
         for row in df.itertuples(index=False):
             try:
                 date_str = str(row.Date).strip()
