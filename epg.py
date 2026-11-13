@@ -73,7 +73,7 @@ EPG_TARGET_SOURCES = [
     {"id": "Indonesiana_MKU.id", "name": "Indonesiana TV MKU", "code": "MKU", "utc_offset": "+0700"},
 
     # 6. KBS WORLD
-    {"id": "KBSWorld.id", "name": "KBS World", "utc_offset": "+0000"}
+    {"id": "KBSWorld.id", "name": "KBS World", "utc_offset": "+0700"}
 ]
 
 HTTP_SESSION = requests.Session()
