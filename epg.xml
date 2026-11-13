@@ -585,9 +585,6 @@
   <channel id="Indonesiana_MKU.id">
     <display-name>Indonesiana TV MKU</display-name>
   </channel>
-  <programme start="20261113023000 +0700" stop="20261113033000 +0700" channel="Tivie_antv.id">
-    <title lang="id">Karma</title>
-  </programme>
   <programme start="20261113033000 +0700" stop="20261113043000 +0700" channel="Tivie_antv.id">
     <title lang="id">Bikin Mewek</title>
   </programme>
@@ -627,9 +624,6 @@
   <programme start="20261113234500 +0700" stop="20261114004500 +0700" channel="Tivie_antv.id">
     <title lang="id">Lop Nor Tomb</title>
     <category lang="id">Bioskop Asia</category>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="Tivie_btv.id">
-    <title lang="id">Berita Satu Sore</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="Tivie_btv.id">
     <title lang="id">Berita Satu Malam</title>
@@ -783,9 +777,6 @@
   </programme>
   <programme start="20261113234500 +0700" stop="20261114004500 +0700" channel="Tivie_cnnindonesia.id">
     <title lang="id">CNN Indonesia World Now</title>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="Tivie_garudatv.id">
-    <title lang="id">Info Miss Wow</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="Tivie_garudatv.id">
     <title lang="id">Cara Cari Pahala</title>
@@ -1512,9 +1503,6 @@
   <programme start="20261113220000 +0700" stop="20261113230000 +0700" channel="Tivie_rcti.id">
     <title lang="id">Terbelenggu Rindu Amira</title>
   </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="Tivie_rtv.id">
-    <title lang="id">Ustadz On The Road</title>
-  </programme>
   <programme start="20261113033000 +0700" stop="20261113050000 +0700" channel="Tivie_rtv.id">
     <title lang="id">Super Wings</title>
   </programme>
@@ -1607,9 +1595,6 @@
   <programme start="20261113230000 +0700" stop="20261114000000 +0700" channel="Tivie_sctv.id">
     <title lang="id">Bidadari Em(p)ang Terbaik</title>
     <category lang="id">FTV Prime Time</category>
-  </programme>
-  <programme start="20261113013000 +0700" stop="20261113033000 +0700" channel="Tivie_sinpotv.id">
-    <title lang="id">Sorotan Dunia</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113043000 +0700" channel="Tivie_sinpotv.id">
     <title lang="id">Mamah &amp; Aa</title>
@@ -1783,9 +1768,6 @@
   </programme>
   <programme start="20261113233000 +0700" stop="20261114003000 +0700" channel="Tivie_trans7.id">
     <title lang="id">Misteri Dunia</title>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="Tivie_tvone.id">
-    <title lang="id">Kabar Merah Putih</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="Tivie_tvone.id">
     <title lang="id">Kabar Arena Pagi</title>
@@ -1987,9 +1969,6 @@
   </programme>
   <programme start="20261113233000 +0700" stop="20261114003000 +0700" channel="Tivie_vtv.id">
     <title lang="id">Mr. Bean</title>
-  </programme>
-  <programme start="20261113020000 +0700" stop="20261113033000 +0700" channel="Tivie_sindonews.id">
-    <title lang="id">Sindo Prime</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="Tivie_sindonews.id">
     <title lang="id">iNews Malam</title>
@@ -2999,9 +2978,6 @@
   <programme start="20261113235950 +0700" stop="20261114005950 +0700" channel="Dens_qwest-tv.id">
     <title lang="id">Itâ€™s Showtime! by Qwest TV</title>
   </programme>
-  <programme start="20261113025900 +0700" stop="20261113032500 +0700" channel="Dens_stingray-classica.id">
-    <title lang="id">Prokofiev - Peter and the Wolf</title>
-  </programme>
   <programme start="20261113032500 +0700" stop="20261113040100 +0700" channel="Dens_stingray-classica.id">
     <title lang="id">Classica Spotlight</title>
   </programme>
@@ -3320,9 +3296,6 @@
   <programme start="20261113235950 +0700" stop="20261114005950 +0700" channel="Dens_cna.id">
     <title lang="id">East Asia Tonight</title>
   </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="Dens_nhk-world-japan.id">
-    <title lang="id">NHK Newsline</title>
-  </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="Dens_nhk-world-japan.id">
     <title lang="id">Japan Railway Journal</title>
   </programme>
@@ -3566,9 +3539,6 @@
   <programme start="20261113235950 +0700" stop="20261114005950 +0700" channel="Dens_al-jazeera-english.id">
     <title lang="id">Making Peace: Silence Breaks</title>
   </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="Dens_trt-world.id">
-    <title lang="id">NEWS - LONDON</title>
-  </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="Dens_trt-world.id">
     <title lang="id">ACROSS THE BALKANS</title>
   </programme>
@@ -3700,9 +3670,6 @@
   </programme>
   <programme start="20261113235950 +0700" stop="20261114005950 +0700" channel="Dens_trt-world.id">
     <title lang="id">NEXUS</title>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="Dens_russia-today-rt.id">
-    <title lang="id">The Schedule Is Not Available</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="Dens_russia-today-rt.id">
     <title lang="id">The Schedule Is Not Available</title>
@@ -4105,15 +4072,6 @@
   </programme>
   <programme start="20261113235950 +0700" stop="20261114005950 +0700" channel="Dens_cctv-4.id">
     <title lang="id">The Schedule Is Not Available</title>
-  </programme>
-  <programme start="20261113031500 +0700" stop="20261113032100 +0700" channel="Dens_france-24.id">
-    <title lang="id">Business (L)</title>
-  </programme>
-  <programme start="20261113032100 +0700" stop="20261113033000 +0700" channel="Dens_france-24.id">
-    <title lang="id">Truth Or Fake (L)</title>
-  </programme>
-  <programme start="20261113033000 +0700" stop="20261113033200 +0700" channel="Dens_france-24.id">
-    <title lang="id">News (L)</title>
   </programme>
   <programme start="20261113033200 +0700" stop="20261113034400 +0700" channel="Dens_france-24.id">
     <title lang="id">A Propos (L)</title>
@@ -4546,9 +4504,6 @@
   </programme>
   <programme start="20261113235950 +0700" stop="20261114005950 +0700" channel="Dens_tv5monde-asie.id">
     <title lang="id">CASH INVESTIGATION</title>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="Dens_dw-tv.id">
-    <title lang="id">DW News</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="Dens_dw-tv.id">
     <title lang="id">The Day: News In Review</title>
@@ -5009,9 +4964,6 @@
   <programme start="20261113235950 +0700" stop="20261114005950 +0700" channel="Dens_sunna-tv.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
-  <programme start="20261113015000 +0700" stop="20261113033525 +0700" channel="Dens_wedotvmovies.id">
-    <title lang="id">Sister Dating Swap</title>
-  </programme>
   <programme start="20261113033525 +0700" stop="20261113052125 +0700" channel="Dens_wedotvmovies.id">
     <title lang="id">Catfish Murder</title>
   </programme>
@@ -5123,9 +5075,6 @@
   <programme start="20261113235950 +0700" stop="20261114005950 +0700" channel="Dens_wedotvamor.id">
     <title lang="id">El Desprecio</title>
   </programme>
-  <programme start="20261113030005 +0700" stop="20261113033023 +0700" channel="Dens_wedotvbig-stories.id">
-    <title lang="id">Most Haunted Unseen - S09:E01 - York Castle Museum Part 1</title>
-  </programme>
   <programme start="20261113033023 +0700" stop="20261113035710 +0700" channel="Dens_wedotvbig-stories.id">
     <title lang="id">Dropped - S07:E07 - Motherly Love</title>
   </programme>
@@ -5222,9 +5171,6 @@
   <programme start="20261113235950 +0700" stop="20261114005950 +0700" channel="Dens_wedotvbig-stories.id">
     <title lang="id">Royal Documentaries - S01:E35 - Prince Charles At 50 Heir To Sadness</title>
   </programme>
-  <programme start="20261113015702 +0700" stop="20261113033103 +0700" channel="Dens_wedosports.id">
-    <title lang="id">UCI Pump Track World Championships - S01:E01 - Beijing</title>
-  </programme>
   <programme start="20261113033103 +0700" stop="20261113060653 +0700" channel="Dens_wedosports.id">
     <title lang="id">Melbourne Cup - S04:E01 - The Melbourne Cup Film</title>
   </programme>
@@ -5303,10 +5249,6 @@
   <programme start="20261113235950 +0700" stop="20261114005950 +0700" channel="Dens_wedosports.id">
     <title lang="id">Racing on the Edge - S03:E06 - Letting Go</title>
   </programme>
-  <programme start="20261113214148 +0700" stop="20261113222054 +0700" channel="RedBullTV.global">
-    <title lang="en">MOTORSPORT: More Than Machine – All-access WRC Show</title>
-    <desc lang="en">Mārtiņš Sesks fights to prove his speed and claim his permanent spot in the World Rally Championship.</desc>
-  </programme>
   <programme start="20261113222054 +0700" stop="20261113224309 +0700" channel="RedBullTV.global">
     <title lang="en">ATHLETICS: Michelle Khare's Great World Race – Marathon</title>
     <desc lang="en">Michelle faces the final stretch. With everything on the line, will she make it to the final finish?</desc>
@@ -5383,9 +5325,9 @@
     <title lang="en">CLIMBING: Natural Heights – Hidden Stories of Big Names</title>
     <desc lang="en">With another title in sight Janja Garnbret shifts her focus outdoors, is it new motivation or added pressure?</desc>
   </programme>
-  <programme start="20261113215722 +0700" stop="20261113222315 +0700" channel="RedBullPadel.global">
-    <title lang="en">Germany Premier Padel P2 highlights</title>
-    <desc lang="en">Watch the highlights from the Germany Premier Padel P2 tournament.</desc>
+  <programme start="20261114074949 +0700" stop="20261114081355 +0700" channel="RedBullTV.global">
+    <title lang="en">CLIMBING: Natural Heights – Hidden Stories of Big Names</title>
+    <desc lang="en">In Flatanger, Norway, Jakob Schubert tackles the first ascent of 'B.I.G.' (9c) with unyielding resolve.</desc>
   </programme>
   <programme start="20261113222315 +0700" stop="20261113224941 +0700" channel="RedBullPadel.global">
     <title lang="en">Meet padel stars Fernández, Triay, Lebrón and Yanguas</title>
@@ -5462,6 +5404,10 @@
   <programme start="20261114061017 +0700" stop="20261114063625 +0700" channel="RedBullPadel.global">
     <title lang="en">Malaga Premier Padel P1 highlights</title>
     <desc lang="en">Watch the highlights from the Malaga Premier Padel P1 tournament.</desc>
+  </programme>
+  <programme start="20261114063625 +0700" stop="20261114070215 +0700" channel="RedBullPadel.global">
+    <title lang="en">Tarragona P1 Premier Padel highlights</title>
+    <desc lang="en">Watch the highlights from Tarragona, Spain as the P1 Premier Padel took centre stage.</desc>
   </programme>
   <programme start="20261113220300 +0700" stop="20261113232646 +0700" channel="RedBullBike.global">
     <title lang="en">The Engine Inside</title>
@@ -5623,10 +5569,6 @@
     <title lang="en">The high road part 2</title>
     <desc lang="en">Nina Williams hones in on an outrageous new objective: a 15m-tall boulder called Too Big to Flail.</desc>
   </programme>
-  <programme start="20261113212727 +0700" stop="20261113223056 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Red Bull Straight Rhythm</title>
-    <desc lang="en">This new racing format pitted a field of 32 riders in a head-to-head showdown of pure MX racing.</desc>
-  </programme>
   <programme start="20261113223056 +0700" stop="20261113224321 +0700" channel="RedBullMotorsports.global">
     <title lang="en">Making a mark</title>
     <desc lang="en">Rene Hofer is the first Austrian this century to represent the most successful team in the MX World Champs.</desc>
@@ -5702,6 +5644,10 @@
   <programme start="20261114062437 +0700" stop="20261114062636 +0700" channel="RedBullMotorsports.global">
     <title lang="en">GP Ice Race</title>
     <desc lang="en">Watch Max Verstappen enjoy his first track action of 2022 with ice speedway star Franky Zorn.</desc>
+  </programme>
+  <programme start="20261114062636 +0700" stop="20261114071834 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Red Bull Frozen Rush</title>
+    <desc lang="en">The world's first-ever off-road truck race on snow features Pro 4s navigating some slippery slopes.</desc>
   </programme>
   <programme start="20261113210753 +0700" stop="20261113224252 +0700" channel="RedBullSurfing.global">
     <title lang="en">For the Dream</title>
@@ -5783,10 +5729,6 @@
     <title lang="en">Shaka</title>
     <desc lang="en">From the slopes to the waves – snowboarding legend Mathieu Crépel surfs Jaws.</desc>
   </programme>
-  <programme start="20261113220748 +0700" stop="20261113223509 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Douglas Miles Jr and Apache Skateboards</title>
-    <desc lang="en">Madars Apse reveals the incredible story of the community skate company thriving on a reservation in Arizona.</desc>
-  </programme>
   <programme start="20261113223509 +0700" stop="20261113224709 +0700" channel="RedBullSkateboarding.global">
     <title lang="en">Torey Pudwill</title>
     <desc lang="en">Roll along with us as we chill with Grizzly Griptape and Thank You Skateboards' very own Torey Pudwill.</desc>
@@ -5863,9 +5805,9 @@
     <title lang="en">Douglas Miles Jr and Apache Skateboards</title>
     <desc lang="en">Madars Apse reveals the incredible story of the community skate company thriving on a reservation in Arizona.</desc>
   </programme>
-  <programme start="20261113214504 +0700" stop="20261113222254 +0700" channel="RedBullWinter.global">
-    <title lang="en">Abstract</title>
-    <desc lang="en">Faction's fourth feature film exhibits pure creativity through a series of high-octane freeski sequences.</desc>
+  <programme start="20261114041945 +0700" stop="20261114043114 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Jagger Eaton</title>
+    <desc lang="en">Ride shotgun in the Raptor as we hang with Mesa, Arizona’s very own Jagger Eaton, for a day.</desc>
   </programme>
   <programme start="20261113222254 +0700" stop="20261113230457 +0700" channel="RedBullWinter.global">
     <title lang="en">Chasing Winter</title>
@@ -5943,41 +5885,9 @@
     <title lang="en">The Collective</title>
     <desc lang="en">Undiscovered peaks and midnight-raids on inner-city handrails – that's the Skiing is Collective spirit.</desc>
   </programme>
-  <programme start="20261113220919 +0700" stop="20261113221431 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Eli Hanneman 2020</title>
-    <desc lang="en">Eli Hanneman's RAW edit brings you his finest work from the past Pacific winter.</desc>
-  </programme>
-  <programme start="20261113221431 +0700" stop="20261113221614 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Mathieu Rebeaud in Switzerland</title>
-    <desc lang="en">Freeride motocross rider Mathieu Rebeaud takes us on an (almost) silent ride in his own backyard.</desc>
-  </programme>
-  <programme start="20261113221614 +0700" stop="20261113221859 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Tahnée Seagrave tears up Lousã, Portugal</title>
-    <desc lang="en">British cyclist Tahnée Seagrave returns after serious injury to the UCI Downhill Mountain Bike World Cup.</desc>
-  </programme>
-  <programme start="20261113221859 +0700" stop="20261113222100 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Kate Courtney</title>
-    <desc lang="en">Enjoy the stripped-back action as XC mountain biker Kate Courtney tears up the trails in Sedona, Arizona.</desc>
-  </programme>
-  <programme start="20261113222100 +0700" stop="20261113222417 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Uncorked</title>
-    <desc lang="en">With a gorgeous sunset behind them, Mark McMorris and Seb Toots shred a perfectly manicured snowboard park.</desc>
-  </programme>
-  <programme start="20261113222417 +0700" stop="20261113222641 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Matt Jones</title>
-    <desc lang="en">Step inside Matt Jones’s secret compound to find out just what it takes to take on the best in MTB.</desc>
-  </programme>
-  <programme start="20261113222641 +0700" stop="20261113222803 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Petra BASE jump</title>
-    <desc lang="en">Watch as Miles Daisher, Red Bull Air Force pilot, BASE jumps to land in front of Petra's Treasury.</desc>
-  </programme>
-  <programme start="20261113222803 +0700" stop="20261113223304 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Kriss Kyle swaps BMX for MTB</title>
-    <desc lang="en">The wild woods of Wales bear witness to the bike-handling maestro, Kriss Kyle, in a classic British winter.</desc>
-  </programme>
-  <programme start="20261113223304 +0700" stop="20261113223554 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Cherry blossoms</title>
-    <desc lang="en">Check out all the great spots skateboarder Simon Stricker found to shred on a trip to Taiwan.</desc>
+  <programme start="20261114065306 +0700" stop="20261114070259 +0700" channel="RedBullWinter.global">
+    <title lang="en">Back in Switzerland with Scotty James</title>
+    <desc lang="en">It's spring break in Switzerland for Scotty James and there's nothing but blue skies and empty halfpipes.</desc>
   </programme>
   <programme start="20261113223554 +0700" stop="20261113223743 +0700" channel="RedBullActionReel.global">
     <title lang="en">Brandon Semenuk unleashed in an abandoned mine</title>
@@ -6015,13 +5925,49 @@
     <title lang="en">Nouria Newman kayaks in British Columbia</title>
     <desc lang="en">Follow Nouria Newman as she visits Canada to kayak the white water of British Columbia's Spillimacheen River.</desc>
   </programme>
-  <programme start="20261113230645 +0700" stop="20261113230937 +0700" channel="RedBullActionReel.global">
+  <programme start="20261113230645 +0700" stop="20261113230936 +0700" channel="RedBullActionReel.global">
     <title lang="en">What tourists don't see</title>
     <desc lang="en">Dominic Di Tommaso gives a tour through the city of Bruges, Belgium unlike anything tourists have ever seen.</desc>
   </programme>
-  <programme start="20261113230937 +0700" stop="20261113231226 +0700" channel="RedBullActionReel.global">
+  <programme start="20261113230936 +0700" stop="20261113231226 +0700" channel="RedBullActionReel.global">
     <title lang="en">The mighty waves of Nazaré</title>
     <desc lang="en">Enjoy big-wave surfers taking on the monstrous slabs at Nazaré.</desc>
+  </programme>
+  <programme start="20261113231226 +0700" stop="20261113231633 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Freerunner's guide to the Sydney Opera House</title>
+    <desc lang="en">Nobody has ever freerun on the roof of the Sydney Opera House – until now. Watch Dominic Di Tommaso in action.</desc>
+  </programme>
+  <programme start="20261113231633 +0700" stop="20261113231855 +0700" channel="RedBullActionReel.global">
+    <title lang="en">The Soul Flyers</title>
+    <desc lang="en">In a world first, the Soul Flyers wingsuit pilots BASE jump off a mountain and land in a mid-air aeroplane.</desc>
+  </programme>
+  <programme start="20261113231855 +0700" stop="20261113232127 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Caroline Marks</title>
+    <desc lang="en">Meet 2018 Rookie of the Year Caroline Marks in filmer Jacob Vanderwork’s stunning short film.</desc>
+  </programme>
+  <programme start="20261113232127 +0700" stop="20261113232643 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Tyler Bereman</title>
+    <desc lang="en">Watch as a drone captures FMX rider Tyler Bereman on one epic ride from start to finish.</desc>
+  </programme>
+  <programme start="20261113232643 +0700" stop="20261113232825 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Carson Storch</title>
+    <desc lang="en">Watch Carson Storch ride through a forest and take on a train and rail track in 100 seconds of raw MTB action.</desc>
+  </programme>
+  <programme start="20261113232825 +0700" stop="20261113233039 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Adrenaline Spike</title>
+    <desc lang="en">VALORANT and freerunning unite as Krystian Kowalewski takes on agent Jett's abilities and races through Berlin streets.</desc>
+  </programme>
+  <programme start="20261113233039 +0700" stop="20261113233540 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Off-road</title>
+    <desc lang="en">Watch off-roaders Seth Quintero and Mitch Guthrie Jr carve their lines in the King of the Hammers desert.</desc>
+  </programme>
+  <programme start="20261113233540 +0700" stop="20261113233735 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Infinity Cube</title>
+    <desc lang="en">The Red Bull BC One All Stars show off their moves in a mirror cube that gives the illusion of infinity.</desc>
+  </programme>
+  <programme start="20261113233735 +0700" stop="20261113234238 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Cracked</title>
+    <desc lang="en">Toby Price races through the Australian Outback with his rally bike to deliver a carton of eggs.</desc>
   </programme>
   <programme start="20261113030000 +0700" stop="20261113050000 +0700" channel="MNC_abc-australia_350.id">
     <title lang="id">News Breakfast</title>
@@ -6136,9 +6082,6 @@
   </programme>
   <programme start="20261113220000 +0700" stop="20261114000000 +0700" channel="MNC_al-quran-al-kareem_93.id">
     <title lang="id">Live From Mekkah</title>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="MNC_animax_157.id">
-    <title lang="id">Why Raeliana Ended Up..., Ep 1</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="MNC_animax_157.id">
     <title lang="id">Why Raeliana Ended Up..., Ep 2</title>
@@ -6262,9 +6205,6 @@
   </programme>
   <programme start="20261113233000 +0700" stop="20261114000000 +0700" channel="MNC_animax_157.id">
     <title lang="id">Why Raeliana Ended Up..., Ep 3</title>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="MNC_arirang_351.id">
-    <title lang="id">Moo No Plan</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113035000 +0700" channel="MNC_arirang_351.id">
     <title lang="id">The Grand Heritage ASMR</title>
@@ -6676,9 +6616,6 @@
   </programme>
   <programme start="20261113233500 +0700" stop="20261114003000 +0700" channel="MNC_bbc-earth-hd_461.id">
     <title lang="id">Secret Amazon S1, Ep 1</title>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="MNC_bbc-world-news_332.id">
-    <title lang="id">The Context USA</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="MNC_bbc-world-news_332.id">
     <title lang="id">The Context USA</title>
@@ -7304,12 +7241,6 @@
   <programme start="20261113221900 +0700" stop="20261114003200 +0700" channel="MNC_buddy-stars-hd_403.id">
     <title lang="id">Space Racers</title>
   </programme>
-  <programme start="20261113031100 +0700" stop="20261113032000 +0700" channel="MNC_cbeebies_41.id">
-    <title lang="id">Stan Can S1, Ep 47</title>
-  </programme>
-  <programme start="20261113032000 +0700" stop="20261113032500 +0700" channel="MNC_cbeebies_41.id">
-    <title lang="id">Funny Talking Animals S1, Ep 6</title>
-  </programme>
   <programme start="20261113032500 +0700" stop="20261113033800 +0700" channel="MNC_cbeebies_41.id">
     <title lang="id">Jojo &amp; Gran Gran S1, Ep 32</title>
   </programme>
@@ -7543,9 +7474,6 @@
   </programme>
   <programme start="20261113233000 +0700" stop="20261114010500 +0700" channel="MNC_celestial-movies_20.id">
     <title lang="id">Ghost Wedding</title>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="MNC_cgtn_353.id">
-    <title lang="id">The World Today</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="MNC_cgtn_353.id">
     <title lang="id">Dialogue</title>
@@ -7871,9 +7799,6 @@
   <programme start="20261113232500 +0700" stop="20261114002000 +0700" channel="MNC_crime-investigation_207.id">
     <title lang="id">Killer Investigations S1, Ep 6</title>
   </programme>
-  <programme start="20261113030500 +0700" stop="20261113033000 +0700" channel="MNC_dreamworks_47.id">
-    <title lang="id">The Adv. Of Puss In Boots</title>
-  </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="MNC_dreamworks_47.id">
     <title lang="id">Go, Dog. Go!</title>
   </programme>
@@ -7999,9 +7924,6 @@
   </programme>
   <programme start="20261113200000 +0700" stop="20261113202500 +0700" channel="MNC_dreamworks_47.id">
     <title lang="id">The Epic Tales Of Captain...</title>
-  </programme>
-  <programme start="20261113030500 +0700" stop="20261113033000 +0700" channel="MNC_dreamworks-hd_473.id">
-    <title lang="id">The Adv. Of Puss In Boots</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="MNC_dreamworks-hd_473.id">
     <title lang="id">Go, Dog. Go!</title>
@@ -8171,9 +8093,6 @@
   <programme start="20261113223000 +0700" stop="20261114003000 +0700" channel="MNC_entertainment_86.id">
     <title lang="id">Road To Kilau Raya: Banyuwangi</title>
   </programme>
-  <programme start="20261113031200 +0700" stop="20261113033100 +0700" channel="MNC_euronews_333.id">
-    <title lang="id">The Ring</title>
-  </programme>
   <programme start="20261113033100 +0700" stop="20261113033800 +0700" channel="MNC_euronews_333.id">
     <title lang="id">The European Debrief</title>
   </programme>
@@ -8287,9 +8206,6 @@
   </programme>
   <programme start="20261113133000 +0700" stop="20261113134200 +0700" channel="MNC_euronews_333.id">
     <title lang="id">Wake Up Europe</title>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="MNC_fight-sports_304.id">
-    <title lang="id">Knockouts!: Alvarez Vs Rhodes</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="MNC_fight-sports_304.id">
     <title lang="id">FS Grand Sumo S12, Ep 2</title>
@@ -8669,9 +8585,6 @@
   <programme start="20261113232000 +0700" stop="20261114005500 +0700" channel="MNC_galaxy_13.id">
     <title lang="id">The Last Son</title>
   </programme>
-  <programme start="20261113014000 +0700" stop="20261113033000 +0700" channel="MNC_galaxy-premium_12.id">
-    <title lang="id">Stealth</title>
-  </programme>
   <programme start="20261113033000 +0700" stop="20261113050500 +0700" channel="MNC_galaxy-premium_12.id">
     <title lang="id">Monster Hunter</title>
   </programme>
@@ -8957,9 +8870,6 @@
   <programme start="20261113210000 +0700" stop="20261114040000 +0700" channel="MNC_hanacaraka-tv_90.id">
     <title lang="id">Wayang Kulit: Sukoharjo (L)</title>
   </programme>
-  <programme start="20261113022500 +0700" stop="20261113032000 +0700" channel="MNC_history_206.id">
-    <title lang="id">Mountain Men S13, Ep 3</title>
-  </programme>
   <programme start="20261113032000 +0700" stop="20261113041500 +0700" channel="MNC_history_206.id">
     <title lang="id">Forged In Fire S10, Ep 17</title>
   </programme>
@@ -9176,9 +9086,6 @@
   <programme start="20261113234500 +0700" stop="20261114020000 +0700" channel="MNC_hits-movies-hd_409.id">
     <title lang="id">Burlesque</title>
   </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="MNC_idx_100.id">
-    <title lang="id">Technobizz</title>
-  </programme>
   <programme start="20261113033000 +0700" stop="20261113043000 +0700" channel="MNC_idx_100.id">
     <title lang="id">OMG IDX</title>
   </programme>
@@ -9259,9 +9166,6 @@
   </programme>
   <programme start="20261113233000 +0700" stop="20261114003000 +0700" channel="MNC_idx_100.id">
     <title lang="id">Market Review</title>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="MNC_idx-hd_436.id">
-    <title lang="id">Technobizz</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113043000 +0700" channel="MNC_idx-hd_436.id">
     <title lang="id">OMG IDX</title>
@@ -9386,9 +9290,6 @@
   <programme start="20261113232000 +0700" stop="20261114005000 +0700" channel="MNC_imc_14.id">
     <title lang="id">Pohon Keramat</title>
   </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="MNC_kids-tv_46.id">
-    <title lang="id">Kamen Rider ZEZTZ</title>
-  </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="MNC_kids-tv_46.id">
     <title lang="id">Bima S</title>
   </programme>
@@ -9502,9 +9403,6 @@
   </programme>
   <programme start="20261113233000 +0700" stop="20261114000000 +0700" channel="MNC_kids-tv_46.id">
     <title lang="id">Kiko S4</title>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="MNC_kids-tv-hd_471.id">
-    <title lang="id">Kamen Rider ZEZTZ</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="MNC_kids-tv-hd_471.id">
     <title lang="id">Bima S</title>
@@ -9761,9 +9659,6 @@
   <programme start="20261113233000 +0700" stop="20261114003000 +0700" channel="MNC_life_91.id">
     <title lang="id">Semua Kitab Suci</title>
   </programme>
-  <programme start="20261113013500 +0700" stop="20261113032000 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">Silent Night, Fatal Night</title>
-  </programme>
   <programme start="20261113032000 +0700" stop="20261113050500 +0700" channel="MNC_lifetime_167.id">
     <title lang="id">My Father's Murder In Greece</title>
   </programme>
@@ -9982,9 +9877,6 @@
   </programme>
   <programme start="20261113233500 +0700" stop="20261114002500 +0700" channel="MNC_love-nature-hd_463.id">
     <title lang="id">Reef Wrecks S1, Ep 4</title>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113033200 +0700" channel="MNC_moonbug_40.id">
-    <title lang="id">KiiYii</title>
   </programme>
   <programme start="20261113033200 +0700" stop="20261113040000 +0700" channel="MNC_moonbug_40.id">
     <title lang="id">KiiYii</title>
@@ -10283,9 +10175,6 @@
   <programme start="20261113233000 +0700" stop="20261114003000 +0700" channel="MNC_muslim-tv_92.id">
     <title lang="id">Siraman Qolbu, Ust. Dhanu</title>
   </programme>
-  <programme start="20261113030000 +0700" stop="20261113032500 +0700" channel="MNC_nhk-world-premium_354.id">
-    <title lang="id">Grand Sumo '26 Tournament HL</title>
-  </programme>
   <programme start="20261113032500 +0700" stop="20261113035500 +0700" channel="MNC_nhk-world-premium_354.id">
     <title lang="id">Koyuki &amp; Fermenting Master</title>
   </programme>
@@ -10513,9 +10402,6 @@
   </programme>
   <programme start="20261113161500 +0700" stop="20261113164000 +0700" channel="MNC_nick-jr-hd_472.id">
     <title lang="id">Barbapapa: Big Happy Family!</title>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113032500 +0700" channel="MNC_nickelodeon_49.id">
-    <title lang="id">iCarly</title>
   </programme>
   <programme start="20261113032500 +0700" stop="20261113035000 +0700" channel="MNC_nickelodeon_49.id">
     <title lang="id">iCarly</title>
@@ -11188,9 +11074,6 @@
   </programme>
   <programme start="20261113232500 +0700" stop="20261114005500 +0700" channel="MNC_rock-action_248.id">
     <title lang="id">Enter The Game Of Death</title>
-  </programme>
-  <programme start="20261113025500 +0700" stop="20261113033000 +0700" channel="MNC_rock-entertainment_240.id">
-    <title lang="id">Cobra Kai S2, Ep 6</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="MNC_rock-entertainment_240.id">
     <title lang="id">Cobra Kai S2, Ep 7</title>
@@ -11891,9 +11774,6 @@
   <programme start="20261113220000 +0700" stop="20261114000000 +0700" channel="MNC_spotv-hd_427.id">
     <title lang="id">A-League Men: AKL Vs WEL</title>
   </programme>
-  <programme start="20261113012500 +0700" stop="20261113032000 +0700" channel="MNC_studio-universal_26.id">
-    <title lang="id">The Mummy: Dragon Emperor</title>
-  </programme>
   <programme start="20261113032000 +0700" stop="20261113052000 +0700" channel="MNC_studio-universal_26.id">
     <title lang="id">Last Night In Soho</title>
   </programme>
@@ -11929,9 +11809,6 @@
   </programme>
   <programme start="20261113231500 +0700" stop="20261114010000 +0700" channel="MNC_studio-universal_26.id">
     <title lang="id">How To Train Your Dragon 2</title>
-  </programme>
-  <programme start="20261113012500 +0700" stop="20261113032000 +0700" channel="MNC_studio-universal-hd_406.id">
-    <title lang="id">The Mummy: Dragon Emperor</title>
   </programme>
   <programme start="20261113032000 +0700" stop="20261113052000 +0700" channel="MNC_studio-universal-hd_406.id">
     <title lang="id">Last Night In Soho</title>
@@ -12034,9 +11911,6 @@
   </programme>
   <programme start="20261113220800 +0700" stop="20261114004100 +0700" channel="MNC_superrix-hd_404.id">
     <title lang="id">Bandit</title>
-  </programme>
-  <programme start="20261113030000 +0700" stop="20261113033000 +0700" channel="MNC_tawaf-tv_105.id">
-    <title lang="id">DMI TV</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="MNC_tawaf-tv_105.id">
     <title lang="id">DMI TV</title>
@@ -12557,9 +12431,6 @@
   <programme start="20261113210000 +0700" stop="20261114000000 +0700" channel="MNC_zee-bioskop_23.id">
     <title lang="id">Tarla</title>
   </programme>
-  <programme start="20261113031500 +0700" stop="20261113033000 +0700" channel="MNC_zoomoo_39.id">
-    <title lang="id">ZooMoo's Got Brains S2, Ep 21</title>
-  </programme>
   <programme start="20261113033000 +0700" stop="20261113034500 +0700" channel="MNC_zoomoo_39.id">
     <title lang="id">ZooMoo's Got Brains S2, Ep 22</title>
   </programme>
@@ -12714,21 +12585,21 @@
     <title lang="kk">Көңіл толқыны</title>
     <desc lang="kk">Концерт</desc>
   </programme>
-  <programme start="20261113155500 +0500" stop="20261113170000 +0500" channel="Qazaqstan.kz">
+  <programme start="20261113155500 +0500" stop="20261113172000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Сезім толқыны</title>
     <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113170000 +0500" stop="20261113172000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Ақпарат</title>
-    <desc lang="kk">Жаңалықтар</desc>
   </programme>
   <programme start="20261113172000 +0500" stop="20261113180000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Қазір айтайық</title>
     <desc lang="kk">Әлеуметтік ток-шоу</desc>
   </programme>
-  <programme start="20261113180000 +0500" stop="20261113203000 +0500" channel="Qazaqstan.kz">
+  <programme start="20261113180000 +0500" stop="20261113200000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Мелек</title>
     <desc lang="kk">Телехикая</desc>
+  </programme>
+  <programme start="20261113200000 +0500" stop="20261113203000 +0500" channel="Qazaqstan.kz">
+    <title lang="kk">Ақпарат</title>
+    <desc lang="kk">Жаңалықтар</desc>
   </programme>
   <programme start="20261113203000 +0500" stop="20261113211500 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Ашық алаң</title>
@@ -12749,14 +12620,6 @@
   <programme start="20261113235000 +0500" stop="20261114004000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Қызық екен</title>
     <desc lang="kk">Интеллектуалды телевикторина</desc>
-  </programme>
-  <programme start="20261113023500 +0500" stop="20261113032000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Селт еткен сезім</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113032000 +0500" stop="20261113032500 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Әнұран</title>
-    <desc lang="kk">Бағдарлама</desc>
   </programme>
   <programme start="20261113032500 +0500" stop="20261113041000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Көңіл толқыны</title>
@@ -12826,21 +12689,21 @@
     <title lang="kk">Көңіл толқыны</title>
     <desc lang="kk">Концерт</desc>
   </programme>
-  <programme start="20261113155500 +0500" stop="20261113170000 +0500" channel="QazaqstanInt.kz">
+  <programme start="20261113155500 +0500" stop="20261113172000 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Сезім толқыны</title>
     <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113170000 +0500" stop="20261113172000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Ақпарат</title>
-    <desc lang="kk">Жаңалықтар</desc>
   </programme>
   <programme start="20261113172000 +0500" stop="20261113180000 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Қазір айтайық</title>
     <desc lang="kk">Әлеуметтік ток-шоу</desc>
   </programme>
-  <programme start="20261113180000 +0500" stop="20261113203000 +0500" channel="QazaqstanInt.kz">
+  <programme start="20261113180000 +0500" stop="20261113200000 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Мелек</title>
     <desc lang="kk">Телехикая</desc>
+  </programme>
+  <programme start="20261113200000 +0500" stop="20261113203000 +0500" channel="QazaqstanInt.kz">
+    <title lang="kk">Ақпарат</title>
+    <desc lang="kk">Жаңалықтар</desc>
   </programme>
   <programme start="20261113203000 +0500" stop="20261113211500 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Ашық алаң</title>
@@ -12861,14 +12724,6 @@
   <programme start="20261113235000 +0500" stop="20261114004000 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Қызық екен</title>
     <desc lang="kk">Интеллектуалды телевикторина</desc>
-  </programme>
-  <programme start="20261113023500 +0500" stop="20261113032000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Селт еткен сезім</title>
-    <desc lang="kk">Телехикая</desc>
-  </programme>
-  <programme start="20261113032000 +0500" stop="20261113032500 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Әнұран</title>
-    <desc lang="kk">Бағдарлама</desc>
   </programme>
   <programme start="20261113032500 +0500" stop="20261113041000 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Көңіл толқыны</title>
@@ -13012,13 +12867,9 @@
     <title lang="kk">Конькимен жүгіру</title>
     <desc lang="kk">Әлем кубогының кезеңі</desc>
   </programme>
-  <programme start="20261113144500 +0500" stop="20261113145500 +0500" channel="Qazsport.kz">
+  <programme start="20261113144500 +0500" stop="20261113160000 +0500" channel="Qazsport.kz">
     <title lang="kk">Арнайы репортаж</title>
     <desc lang="kk">Алатау салбурыны - Дала мұрасы</desc>
-  </programme>
-  <programme start="20261113145500 +0500" stop="20261113160000 +0500" channel="Qazsport.kz">
-    <title lang="kk">Конькимен жүгіру</title>
-    <desc lang="kk">Әлем кубогының кезеңі</desc>
   </programme>
   <programme start="20261113160000 +0500" stop="20261113161000 +0500" channel="Qazsport.kz">
     <title lang="kk">Италия – Франция ойынының шолуы</title>
@@ -13028,9 +12879,13 @@
     <title lang="kk">Конькимен жүгіру</title>
     <desc lang="kk">Әлем кубогының кезеңі</desc>
   </programme>
-  <programme start="20261113171000 +0500" stop="20261113205000 +0500" channel="Qazsport.kz">
-    <title lang="kk">Албания – Финляндия</title>
+  <programme start="20261113171000 +0500" stop="20261113185500 +0500" channel="Qazsport.kz">
+    <title lang="kk">Чехия – Испания</title>
     <desc lang="kk">Футбол. УЕФА Ұлттар Лигасы</desc>
+  </programme>
+  <programme start="20261113185500 +0500" stop="20261113205000 +0500" channel="Qazsport.kz">
+    <title lang="kk">Каспий - Қайрат</title>
+    <desc lang="kk">Футзал. Қазақстан чемпионаты</desc>
   </programme>
   <programme start="20261113205000 +0500" stop="20261113212000 +0500" channel="Qazsport.kz">
     <title lang="kk">Sport review</title>
@@ -13133,11 +12988,11 @@
   </programme>
   <programme start="20261113194000 +0500" stop="20261113203000 +0500" channel="AqtobeTV.kz">
     <title lang="kk">"ФЕРИХА"</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">Телехикая</desc>
   </programme>
   <programme start="20261113203000 +0500" stop="20261113210000 +0500" channel="AqtobeTV.kz">
     <title lang="kk">ҚОРЫТЫНДЫ ЖАҢАЛЫҚТАР</title>
-    <desc lang="kk">Ақпараттық-сараптамалық бағдарлама</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261113210000 +0500" stop="20261113213000 +0500" channel="AqtobeTV.kz">
     <title lang="kk">"НОВОСТИ" ИТОГОВЫЙ ВЫПУСК</title>
@@ -13184,8 +13039,11 @@
   <programme start="20261113182000 +0500" stop="20261113194500 +0500" channel="AltaiTV.kz">
     <title lang="kk">"ALTAI APTA" /рус/ аналитическая программа</title>
   </programme>
-  <programme start="20261113194500 +0500" stop="20261113222000 +0500" channel="AltaiTV.kz">
+  <programme start="20261113194500 +0500" stop="20261113203000 +0500" channel="AltaiTV.kz">
     <title lang="kk">Телехикая "ЫНТЫМАҚ АУЫЛЫ" 15 бөлім</title>
+  </programme>
+  <programme start="20261113203000 +0500" stop="20261113222000 +0500" channel="AltaiTV.kz">
+    <title lang="kk">КОНЦЕРТТІК БАҒДАРЛАМА</title>
     <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261113222000 +0500" stop="20261113235700 +0500" channel="AltaiTV.kz">
@@ -13227,8 +13085,11 @@
   <programme start="20261113192000 +0500" stop="20261113194000 +0500" channel="AtyrauTV.kz">
     <title lang="kk">«НОВОСТИ» - информационная программа. Прямой эфир</title>
   </programme>
-  <programme start="20261113194000 +0500" stop="20261113210500 +0500" channel="AtyrauTV.kz">
+  <programme start="20261113194000 +0500" stop="20261113203000 +0500" channel="AtyrauTV.kz">
     <title lang="kk">"АНАМ АНКАРА", телехикая, 34 бөлім (Түркия)</title>
+  </programme>
+  <programme start="20261113203000 +0500" stop="20261113210500 +0500" channel="AtyrauTV.kz">
+    <title lang="kk">«ЖАҢАЛЫҚТАР» - ақпараттық бағдарлама. Тікелей эфир</title>
     <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261113210500 +0500" stop="20261113231500 +0500" channel="AtyrauTV.kz">
@@ -13328,11 +13189,11 @@
   </programme>
   <programme start="20261113200000 +0500" stop="20261113203500 +0500" channel="ErtisTV.kz">
     <title lang="kk">Дархан батыр</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">Телехикая.</desc>
   </programme>
   <programme start="20261113203500 +0500" stop="20261113204500 +0500" channel="ErtisTV.kz">
     <title lang="kk">Киелі Қазақстан</title>
-    <desc lang="kk">Бағдарлама.</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261113204500 +0500" stop="20261113210000 +0500" channel="ErtisTV.kz">
     <title lang="kk">Заң және тәртіп</title>
@@ -13426,11 +13287,11 @@
   </programme>
   <programme start="20261113200000 +0500" stop="20261113203000 +0500" channel="JambylTV.kz">
     <title lang="kk">ҰЛТ САУЛЫҒЫ</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">медициналық-сауықтыру бағдарлама</desc>
   </programme>
   <programme start="20261113203000 +0500" stop="20261113210000 +0500" channel="JambylTV.kz">
     <title lang="kk">AIQYN AQPARAT</title>
-    <desc lang="kk">ақпараттық бағдарлама / тікелей эфир</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261113210000 +0500" stop="20261113213000 +0500" channel="JambylTV.kz">
     <title lang="kk">AIQYN AQPARAT</title>
@@ -13493,12 +13354,8 @@
   <programme start="20261113174500 +0500" stop="20261113185500 +0500" channel="KoksheTV.kz">
     <title lang="kk">"KÓKSHE AQPARAT" Информационная программа</title>
   </programme>
-  <programme start="20261113185500 +0500" stop="20261113194000 +0500" channel="KoksheTV.kz">
+  <programme start="20261113185500 +0500" stop="20261113213000 +0500" channel="KoksheTV.kz">
     <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
-  </programme>
-  <programme start="20261113194000 +0500" stop="20261113213000 +0500" channel="KoksheTV.kz">
-    <title lang="kk">"АУЫЛ МҰҒАЛІМІ" Телехикая. 4 бөлім</title>
-    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261113213000 +0500" stop="20261113220000 +0500" channel="KoksheTV.kz">
     <title lang="kk">"KÓKSHE AQPARAT" Информационная программа</title>
@@ -13566,11 +13423,11 @@
   </programme>
   <programme start="20261113200000 +0500" stop="20261113203000 +0500" channel="MangystauTV.kz">
     <title lang="kk">"Дара"</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">Мәдени танымдық</desc>
   </programme>
   <programme start="20261113203000 +0500" stop="20261113210000 +0500" channel="MangystauTV.kz">
     <title lang="kk">"MAŃǴYSTAU AQPARAT"</title>
-    <desc lang="kk">Жаңалықтар. Тікелей эфир</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261113210000 +0500" stop="20261113213000 +0500" channel="MangystauTV.kz">
     <title lang="kk">"MAŃǴYSTAU AQPARAT"</title>
@@ -13702,11 +13559,11 @@
   <programme start="20261113080000 +0500" stop="20261113140000 +0500" channel="QostanaiTV.kz">
     <title lang="kk">«БІР ТУЫНДЫ» д.с. («ABAI TV» 2021 ж.)</title>
   </programme>
-  <programme start="20261113140000 +0500" stop="20261113193000 +0500" channel="QostanaiTV.kz">
+  <programme start="20261113140000 +0500" stop="20261113203000 +0500" channel="QostanaiTV.kz">
     <title lang="kk">Техникалық үзіліс (14:00-17:00)</title>
   </programme>
-  <programme start="20261113193000 +0500" stop="20261113203000 +0500" channel="QostanaiTV.kz">
-    <title lang="kk">«ОТЫҢДЫ ӨШІРМЕ» телехикая (20 бөлім) («Qazaqstan» ҰТА, 2018 ж.)</title>
+  <programme start="20261113203000 +0500" stop="20261113213000 +0500" channel="QostanaiTV.kz">
+    <title lang="kk">«ARQA AQPARAT» (қорытынды жаңалықтар)(ақпараттық бағдарлама)</title>
     <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261113070000 +0500" stop="20261113070500 +0500" channel="QyzyljarTV.kz">
@@ -13765,10 +13622,10 @@
   </programme>
   <programme start="20261113194500 +0500" stop="20261113203000 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">ТОПЫРАҚ ПЕН ХАУА</title>
-    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261113203000 +0500" stop="20261113210000 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">ESIL-АҚПАРАТ</title>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261113210000 +0500" stop="20261113213000 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">ESIL-АҚПАРАТ</title>
@@ -13955,11 +13812,11 @@
   </programme>
   <programme start="20261113194000 +0500" stop="20261113203000 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">«Айнымас Айғаным»</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">Телехикая</desc>
   </programme>
   <programme start="20261113203000 +0500" stop="20261113205000 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">«Арқа ақпарат»</title>
-    <desc lang="kk">Новости /сурдоперевод/</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261113205000 +0500" stop="20261113220000 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">«Кек жолында»</title>
@@ -14048,7 +13905,7 @@
     <title lang="kk">НОВОСТИ - информационная выпуск. /повтор/</title>
   </programme>
   <programme start="20261113024500 +0700" stop="20261113035500 +0700" channel="KBSWorld.id">
-    <title lang="en">Fight For My Way Ep.3.0 Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</title>
+    <title lang="en">Fight For My Way Ep.3.0</title>
     <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
   </programme>
   <programme start="20261113035500 +0700" stop="20261113040000 +0700" channel="KBSWorld.id">
@@ -14056,95 +13913,95 @@
     <desc lang="en">No description</desc>
   </programme>
   <programme start="20261113040000 +0700" stop="20261113053000 +0700" channel="KBSWorld.id">
-    <title lang="en">Boss in the Mirror Ep.378.0 A reality talk show that offers a candid and often humorous look at the workplace through the eyes of Korea's most outspoken bosses. Each episode follows prominent CEOs, entertainers, and professionals as they go about their daily routines and interact with their employees. Through real workplace situations, the show reveals the challenges of leadership, communication, and management.</title>
+    <title lang="en">Boss in the Mirror Ep.378.0</title>
     <desc lang="en">A reality talk show that offers a candid and often humorous look at the workplace through the eyes of Korea's most outspoken bosses. Each episode follows prominent CEOs, entertainers, and professionals as they go about their daily routines and interact with their employees. Through real workplace situations, the show reveals the challenges of leadership, communication, and management.</desc>
   </programme>
   <programme start="20261113053000 +0700" stop="20261113061000 +0700" channel="KBSWorld.id">
-    <title lang="en">Pearl in Red Ep.45.0 A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</title>
+    <title lang="en">Pearl in Red Ep.45.0</title>
     <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
   </programme>
   <programme start="20261113061000 +0700" stop="20261113072500 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.12.0 32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</title>
+    <title lang="en">Marry Him If You Dare Ep.12.0</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
   </programme>
   <programme start="20261113072500 +0700" stop="20261113080000 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.24.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.24.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261113080000 +0700" stop="20261113084000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.52.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.52.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261113084000 +0700" stop="20261113092000 +0700" channel="KBSWorld.id">
-    <title lang="en">Pearl in Red Ep.45.0 A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</title>
+    <title lang="en">Pearl in Red Ep.45.0</title>
     <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
   </programme>
   <programme start="20261113092000 +0700" stop="20261113103500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love on the Menu Ep.26.0 A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</title>
+    <title lang="en">Love on the Menu Ep.26.0</title>
     <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
   </programme>
   <programme start="20261113103500 +0700" stop="20261113104000 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank K-Chart Ep.Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</title>
+    <title lang="en">Music Bank K-Chart</title>
     <desc lang="en">Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
   </programme>
   <programme start="20261113104000 +0700" stop="20261113121000 +0700" channel="KBSWorld.id">
-    <title lang="en">Boss in the Mirror Ep.378.0 A reality talk show that offers a candid and often humorous look at the workplace through the eyes of Korea's most outspoken bosses. Each episode follows prominent CEOs, entertainers, and professionals as they go about their daily routines and interact with their employees. Through real workplace situations, the show reveals the challenges of leadership, communication, and management.</title>
+    <title lang="en">Boss in the Mirror Ep.378.0</title>
     <desc lang="en">A reality talk show that offers a candid and often humorous look at the workplace through the eyes of Korea's most outspoken bosses. Each episode follows prominent CEOs, entertainers, and professionals as they go about their daily routines and interact with their employees. Through real workplace situations, the show reveals the challenges of leadership, communication, and management.</desc>
   </programme>
   <programme start="20261113121000 +0700" stop="20261113132000 +0700" channel="KBSWorld.id">
-    <title lang="en">Fight For My Way Ep.3.0 Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</title>
+    <title lang="en">Fight For My Way Ep.3.0</title>
     <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
   </programme>
   <programme start="20261113132000 +0700" stop="20261113132500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Best of Immortal Songs Ep.The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</title>
+    <title lang="en">The Best of Immortal Songs</title>
     <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
   </programme>
   <programme start="20261113132500 +0700" stop="20261113144000 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.12.0 32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</title>
+    <title lang="en">Marry Him If You Dare Ep.12.0</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
   </programme>
   <programme start="20261113144000 +0700" stop="20261113150000 +0700" channel="KBSWorld.id">
-    <title lang="en">KBS WORLD News Today Ep.KBS World Daily English News Anchor : Choi Kyu-yeon</title>
+    <title lang="en">KBS WORLD News Today</title>
     <desc lang="en">KBS World Daily English News Anchor : Choi Kyu-yeon</desc>
   </programme>
   <programme start="20261113150000 +0700" stop="20261113150500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Best of Immortal Songs Ep.The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</title>
+    <title lang="en">The Best of Immortal Songs</title>
     <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
   </programme>
   <programme start="20261113150500 +0700" stop="20261113151000 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank K-Chart Ep.Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</title>
+    <title lang="en">Music Bank K-Chart</title>
     <desc lang="en">Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
   </programme>
   <programme start="20261113151000 +0700" stop="20261113163500 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank Ep.1314.0 The best tunes in Korea! the most sensational music show on TV satisfies all your senses! Fantastic performances and Awe-inspiring harmony by the nation's top musicians! Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</title>
+    <title lang="en">Music Bank Ep.1314.0</title>
     <desc lang="en">The best tunes in Korea! the most sensational music show on TV satisfies all your senses! Fantastic performances and Awe-inspiring harmony by the nation's top musicians! Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
   </programme>
   <programme start="20261113163500 +0700" stop="20261113165000 +0700" channel="KBSWorld.id">
-    <title lang="en">K-Beauty Pop-Up Ep.3.0 Makeup Artist Liu's K-Beauty Pop-Up Store! A beauty reality show that travels to global hotspots, showcasing K-makeup to people around the world.</title>
+    <title lang="en">K-Beauty Pop-Up Ep.3.0</title>
     <desc lang="en">Makeup Artist Liu's K-Beauty Pop-Up Store! A beauty reality show that travels to global hotspots, showcasing K-makeup to people around the world.</desc>
   </programme>
   <programme start="20261113165000 +0700" stop="20261113170500 +0700" channel="KBSWorld.id">
-    <title lang="en">K-Beauty Pop-Up Ep.4.0 Makeup Artist Liu's K-Beauty Pop-Up Store! A beauty reality show that travels to global hotspots, showcasing K-makeup to people around the world.</title>
+    <title lang="en">K-Beauty Pop-Up Ep.4.0</title>
     <desc lang="en">Makeup Artist Liu's K-Beauty Pop-Up Store! A beauty reality show that travels to global hotspots, showcasing K-makeup to people around the world.</desc>
   </programme>
   <programme start="20261113170500 +0700" stop="20261113174500 +0700" channel="KBSWorld.id">
-    <title lang="en">Hit the Top Ep.32.0 In the year 1993, K-pop idol Yoo Hyunjae accidentally travels through time to the year 2017. Discovering that he is presumed dead, he begins to investigate what exactly has happened while trying to adjust to life in the 21st century.</title>
+    <title lang="en">Hit the Top Ep.32.0</title>
     <desc lang="en">In the year 1993, K-pop idol Yoo Hyunjae accidentally travels through time to the year 2017. Discovering that he is presumed dead, he begins to investigate what exactly has happened while trying to adjust to life in the 21st century.</desc>
   </programme>
   <programme start="20261113174500 +0700" stop="20261113183500 +0700" channel="KBSWorld.id">
-    <title lang="en">Documentary 3 Days Ep.726.0 The program condenses 72 hours of observation into 50 minutes. It captures the passage of time in a single place, revealing the “real” stories within. It is about the places we pass by, the people we overlook, and the things we forget in everyday life.</title>
+    <title lang="en">Documentary 3 Days Ep.726.0</title>
     <desc lang="en">The program condenses 72 hours of observation into 50 minutes. It captures the passage of time in a single place, revealing the “real” stories within. It is about the places we pass by, the people we overlook, and the things we forget in everyday life.</desc>
   </programme>
   <programme start="20261113183500 +0700" stop="20261113191000 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.25.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.25.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261113191000 +0700" stop="20261113195000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.52.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.52.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261113195000 +0700" stop="20261113210000 +0700" channel="KBSWorld.id">
-    <title lang="en">Fight For My Way Ep.4.0 Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</title>
+    <title lang="en">Fight For My Way Ep.4.0</title>
     <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
   </programme>
   <programme start="20261113210000 +0700" stop="20261113210500 +0700" channel="KBSWorld.id">
@@ -14152,39 +14009,39 @@
     <desc lang="en">No description</desc>
   </programme>
   <programme start="20261113210500 +0700" stop="20261113223500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons Ep.30.0 A music program featuring performances and candid conversations with a diverse range of artists to deliver deep musical resonance</title>
+    <title lang="en">The Seasons Ep.30.0</title>
     <desc lang="en">A music program featuring performances and candid conversations with a diverse range of artists to deliver deep musical resonance</desc>
   </programme>
   <programme start="20261113223500 +0700" stop="20261113224000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Best of Immortal Songs Ep.The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</title>
+    <title lang="en">The Best of Immortal Songs</title>
     <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
   </programme>
   <programme start="20261113224000 +0700" stop="20261113235500 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.11.0 32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</title>
+    <title lang="en">Marry Him If You Dare Ep.11.0</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
   </programme>
   <programme start="20261113235500 +0700" stop="20261114011000 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.12.0 32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</title>
+    <title lang="en">Marry Him If You Dare Ep.12.0</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
   </programme>
   <programme start="20261114011000 +0700" stop="20261114012500 +0700" channel="KBSWorld.id">
-    <title lang="en">Idol Booth Ep.6.0 &lt;Idol Booth&gt; is where fans can meet their favorite idols just as both idols and fans have always envisioned them—pretty, cute, full of member chemistry, and as vivid as photocards coming to life—right before their eyes. Set against the backdrop of photo booths—a familiar place for Gen Z and Millennials to make memories with friends and a must-visit spot for many international visitors to Korea—along with the dopamine-rushing claw machine arcades, the show captures idols at their prettiest, cutest, and most energetic moments.</title>
+    <title lang="en">Idol Booth Ep.6.0</title>
     <desc lang="en">&lt;Idol Booth&gt; is where fans can meet their favorite idols just as both idols and fans have always envisioned them—pretty, cute, full of member chemistry, and as vivid as photocards coming to life—right before their eyes. Set against the backdrop of photo booths—a familiar place for Gen Z and Millennials to make memories with friends and a must-visit spot for many international visitors to Korea—along with the dopamine-rushing claw machine arcades, the show captures idols at their prettiest, cutest, and most energetic moments.</desc>
   </programme>
   <programme start="20261114012500 +0700" stop="20261114013000 +0700" channel="KBSWorld.id">
-    <title lang="en">ROUND PLAYLIST Ep.The program is intended to promote exchanges between Korea and ASEAN countries by utilizing popular music.</title>
+    <title lang="en">ROUND PLAYLIST</title>
     <desc lang="en">The program is intended to promote exchanges between Korea and ASEAN countries by utilizing popular music.</desc>
   </programme>
   <programme start="20261114013000 +0700" stop="20261114020500 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.25.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.25.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261114020500 +0700" stop="20261114024500 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.52.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.52.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261114024500 +0700" stop="20261114035500 +0700" channel="KBSWorld.id">
-    <title lang="en">Fight For My Way Ep.4.0 Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</title>
+    <title lang="en">Fight For My Way Ep.4.0</title>
     <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
   </programme>
   <programme start="20261114035500 +0700" stop="20261114040000 +0700" channel="KBSWorld.id">
@@ -14192,287 +14049,287 @@
     <desc lang="en">No description</desc>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114053000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons Ep.30.0 A music program featuring performances and candid conversations with a diverse range of artists to deliver deep musical resonance</title>
+    <title lang="en">The Seasons Ep.30.0</title>
     <desc lang="en">A music program featuring performances and candid conversations with a diverse range of artists to deliver deep musical resonance</desc>
   </programme>
   <programme start="20261114053000 +0700" stop="20261114061000 +0700" channel="KBSWorld.id">
-    <title lang="en">Pearl in Red Ep.46.0 A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</title>
+    <title lang="en">Pearl in Red Ep.46.0</title>
     <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
   </programme>
   <programme start="20261114061000 +0700" stop="20261114072500 +0700" channel="KBSWorld.id">
-    <title lang="en">Problem Child in House Ep.71.0 A collection of outrageous problems that you have never heard of! A great 'knowledge talk show' where problematic children who are struggling and fighting in the emotional rooftop room gain true wisdom about life and the world.</title>
+    <title lang="en">Problem Child in House Ep.71.0</title>
     <desc lang="en">A collection of outrageous problems that you have never heard of! A great 'knowledge talk show' where problematic children who are struggling and fighting in the emotional rooftop room gain true wisdom about life and the world.</desc>
   </programme>
   <programme start="20261114072500 +0700" stop="20261114080000 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.25.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.25.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261114080000 +0700" stop="20261114084000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.52.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.52.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261114084000 +0700" stop="20261114092000 +0700" channel="KBSWorld.id">
-    <title lang="en">Pearl in Red Ep.46.0 A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</title>
+    <title lang="en">Pearl in Red Ep.46.0</title>
     <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
   </programme>
   <programme start="20261114092000 +0700" stop="20261114103500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love on the Menu Ep.27.0 A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</title>
+    <title lang="en">Love on the Menu Ep.27.0</title>
     <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
   </programme>
   <programme start="20261114103500 +0700" stop="20261114104000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Best of Immortal Songs Ep.The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</title>
+    <title lang="en">The Best of Immortal Songs</title>
     <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
   </programme>
   <programme start="20261114104000 +0700" stop="20261114121000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons Ep.30.0 A music program featuring performances and candid conversations with a diverse range of artists to deliver deep musical resonance</title>
+    <title lang="en">The Seasons Ep.30.0</title>
     <desc lang="en">A music program featuring performances and candid conversations with a diverse range of artists to deliver deep musical resonance</desc>
   </programme>
   <programme start="20261114121000 +0700" stop="20261114132000 +0700" channel="KBSWorld.id">
-    <title lang="en">Fight For My Way Ep.4.0 Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</title>
+    <title lang="en">Fight For My Way Ep.4.0</title>
     <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
   </programme>
   <programme start="20261114132000 +0700" stop="20261114132500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Best of Immortal Songs Ep.The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</title>
+    <title lang="en">The Best of Immortal Songs</title>
     <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
   </programme>
   <programme start="20261114132500 +0700" stop="20261114142000 +0700" channel="KBSWorld.id">
-    <title lang="en">Documentary 3 Days Ep.726.0 The program condenses 72 hours of observation into 50 minutes. It captures the passage of time in a single place, revealing the “real” stories within. It is about the places we pass by, the people we overlook, and the things we forget in everyday life.</title>
+    <title lang="en">Documentary 3 Days Ep.726.0</title>
     <desc lang="en">The program condenses 72 hours of observation into 50 minutes. It captures the passage of time in a single place, revealing the “real” stories within. It is about the places we pass by, the people we overlook, and the things we forget in everyday life.</desc>
   </programme>
   <programme start="20261114142000 +0700" stop="20261114155000 +0700" channel="KBSWorld.id">
-    <title lang="en">Happy Together 2026 Ep.8.0 Prove the power of “together”! Korea's first-ever storytelling music audition, where personal stories harmonize into one song.</title>
+    <title lang="en">Happy Together 2026 Ep.8.0</title>
     <desc lang="en">Prove the power of “together”! Korea's first-ever storytelling music audition, where personal stories harmonize into one song.</desc>
   </programme>
   <programme start="20261114155000 +0700" stop="20261114172000 +0700" channel="KBSWorld.id">
-    <title lang="en">Boss in the Mirror Ep.379.0 A reality talk show that offers a candid and often humorous look at the workplace through the eyes of Korea's most outspoken bosses. Each episode follows prominent CEOs, entertainers, and professionals as they go about their daily routines and interact with their employees. Through real workplace situations, the show reveals the challenges of leadership, communication, and management.</title>
+    <title lang="en">Boss in the Mirror Ep.379.0</title>
     <desc lang="en">A reality talk show that offers a candid and often humorous look at the workplace through the eyes of Korea's most outspoken bosses. Each episode follows prominent CEOs, entertainers, and professionals as they go about their daily routines and interact with their employees. Through real workplace situations, the show reveals the challenges of leadership, communication, and management.</desc>
   </programme>
   <programme start="20261114172000 +0700" stop="20261114190000 +0700" channel="KBSWorld.id">
-    <title lang="en">Immortal Songs Ep.779.0 Legendary artists and rising performers come together, connecting generations through music. Korea's top vocalists reinterpret iconic songs in their own styles, delivering powerful and emotional performances. Don't miss this unforgettable musical competition.</title>
+    <title lang="en">Immortal Songs Ep.779.0</title>
     <desc lang="en">Legendary artists and rising performers come together, connecting generations through music. Korea's top vocalists reinterpret iconic songs in their own styles, delivering powerful and emotional performances. Don't miss this unforgettable musical competition.</desc>
   </programme>
   <programme start="20261114190000 +0700" stop="20261114201500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love on the Menu Ep.28.0 A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</title>
+    <title lang="en">Love on the Menu Ep.28.0</title>
     <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
   </programme>
   <programme start="20261114201500 +0700" stop="20261114213000 +0700" channel="KBSWorld.id">
-    <title lang="en">Love in the Moonlight Ep.9.0 Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</title>
+    <title lang="en">Love in the Moonlight Ep.9.0</title>
     <desc lang="en">Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</desc>
   </programme>
   <programme start="20261114213000 +0700" stop="20261114224500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love in the Moonlight Ep.10.0 Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</title>
+    <title lang="en">Love in the Moonlight Ep.10.0</title>
     <desc lang="en">Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</desc>
   </programme>
   <programme start="20261114224500 +0700" stop="20261114232500 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.48.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.48.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261114232500 +0700" stop="20261115000000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.49.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.49.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261115000000 +0700" stop="20261115004000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.50.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.50.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261115004000 +0700" stop="20261115011500 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.51.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.51.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261115011500 +0700" stop="20261115015000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.52.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.52.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261115015000 +0700" stop="20261115031500 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank Ep.1314.0 The best tunes in Korea! the most sensational music show on TV satisfies all your senses! Fantastic performances and Awe-inspiring harmony by the nation's top musicians! Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</title>
+    <title lang="en">Music Bank Ep.1314.0</title>
     <desc lang="en">The best tunes in Korea! the most sensational music show on TV satisfies all your senses! Fantastic performances and Awe-inspiring harmony by the nation's top musicians! Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
   </programme>
   <programme start="20261115031500 +0700" stop="20261115033000 +0700" channel="KBSWorld.id">
-    <title lang="en">K-Beauty Pop-Up Ep.3.0 Makeup Artist Liu's K-Beauty Pop-Up Store! A beauty reality show that travels to global hotspots, showcasing K-makeup to people around the world.</title>
+    <title lang="en">K-Beauty Pop-Up Ep.3.0</title>
     <desc lang="en">Makeup Artist Liu's K-Beauty Pop-Up Store! A beauty reality show that travels to global hotspots, showcasing K-makeup to people around the world.</desc>
   </programme>
   <programme start="20261115033000 +0700" stop="20261115034500 +0700" channel="KBSWorld.id">
-    <title lang="en">K-Beauty Pop-Up Ep.4.0 Makeup Artist Liu's K-Beauty Pop-Up Store! A beauty reality show that travels to global hotspots, showcasing K-makeup to people around the world.</title>
+    <title lang="en">K-Beauty Pop-Up Ep.4.0</title>
     <desc lang="en">Makeup Artist Liu's K-Beauty Pop-Up Store! A beauty reality show that travels to global hotspots, showcasing K-makeup to people around the world.</desc>
   </programme>
   <programme start="20261115034500 +0700" stop="20261115040000 +0700" channel="KBSWorld.id">
-    <title lang="en">Idol Booth Ep.6.0 &lt;Idol Booth&gt; is where fans can meet their favorite idols just as both idols and fans have always envisioned them—pretty, cute, full of member chemistry, and as vivid as photocards coming to life—right before their eyes. Set against the backdrop of photo booths—a familiar place for Gen Z and Millennials to make memories with friends and a must-visit spot for many international visitors to Korea—along with the dopamine-rushing claw machine arcades, the show captures idols at their prettiest, cutest, and most energetic moments.</title>
+    <title lang="en">Idol Booth Ep.6.0</title>
     <desc lang="en">&lt;Idol Booth&gt; is where fans can meet their favorite idols just as both idols and fans have always envisioned them—pretty, cute, full of member chemistry, and as vivid as photocards coming to life—right before their eyes. Set against the backdrop of photo booths—a familiar place for Gen Z and Millennials to make memories with friends and a must-visit spot for many international visitors to Korea—along with the dopamine-rushing claw machine arcades, the show captures idols at their prettiest, cutest, and most energetic moments.</desc>
   </programme>
   <programme start="20261115040000 +0700" stop="20261115051500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love on the Menu Ep.28.0 A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</title>
+    <title lang="en">Love on the Menu Ep.28.0</title>
     <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
   </programme>
   <programme start="20261115051500 +0700" stop="20261115065500 +0700" channel="KBSWorld.id">
-    <title lang="en">Immortal Songs Ep.779.0 Legendary artists and rising performers come together, connecting generations through music. Korea's top vocalists reinterpret iconic songs in their own styles, delivering powerful and emotional performances. Don't miss this unforgettable musical competition.</title>
+    <title lang="en">Immortal Songs Ep.779.0</title>
     <desc lang="en">Legendary artists and rising performers come together, connecting generations through music. Korea's top vocalists reinterpret iconic songs in their own styles, delivering powerful and emotional performances. Don't miss this unforgettable musical competition.</desc>
   </programme>
   <programme start="20261115065500 +0700" stop="20261115081000 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.11.0 32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</title>
+    <title lang="en">Marry Him If You Dare Ep.11.0</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
   </programme>
   <programme start="20261115081000 +0700" stop="20261115092500 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.12.0 32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</title>
+    <title lang="en">Marry Him If You Dare Ep.12.0</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
   </programme>
   <programme start="20261115092500 +0700" stop="20261115104000 +0700" channel="KBSWorld.id">
-    <title lang="en">Love on the Menu Ep.28.0 A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</title>
+    <title lang="en">Love on the Menu Ep.28.0</title>
     <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
   </programme>
   <programme start="20261115104000 +0700" stop="20261115120500 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank Ep.1314.0 The best tunes in Korea! the most sensational music show on TV satisfies all your senses! Fantastic performances and Awe-inspiring harmony by the nation's top musicians! Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</title>
+    <title lang="en">Music Bank Ep.1314.0</title>
     <desc lang="en">The best tunes in Korea! the most sensational music show on TV satisfies all your senses! Fantastic performances and Awe-inspiring harmony by the nation's top musicians! Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
   </programme>
   <programme start="20261115120500 +0700" stop="20261115122000 +0700" channel="KBSWorld.id">
-    <title lang="en">Idol Booth Ep.6.0 &lt;Idol Booth&gt; is where fans can meet their favorite idols just as both idols and fans have always envisioned them—pretty, cute, full of member chemistry, and as vivid as photocards coming to life—right before their eyes. Set against the backdrop of photo booths—a familiar place for Gen Z and Millennials to make memories with friends and a must-visit spot for many international visitors to Korea—along with the dopamine-rushing claw machine arcades, the show captures idols at their prettiest, cutest, and most energetic moments.</title>
+    <title lang="en">Idol Booth Ep.6.0</title>
     <desc lang="en">&lt;Idol Booth&gt; is where fans can meet their favorite idols just as both idols and fans have always envisioned them—pretty, cute, full of member chemistry, and as vivid as photocards coming to life—right before their eyes. Set against the backdrop of photo booths—a familiar place for Gen Z and Millennials to make memories with friends and a must-visit spot for many international visitors to Korea—along with the dopamine-rushing claw machine arcades, the show captures idols at their prettiest, cutest, and most energetic moments.</desc>
   </programme>
   <programme start="20261115122000 +0700" stop="20261115130000 +0700" channel="KBSWorld.id">
-    <title lang="en">Hit the Top Ep.32.0 In the year 1993, K-pop idol Yoo Hyunjae accidentally travels through time to the year 2017. Discovering that he is presumed dead, he begins to investigate what exactly has happened while trying to adjust to life in the 21st century.</title>
+    <title lang="en">Hit the Top Ep.32.0</title>
     <desc lang="en">In the year 1993, K-pop idol Yoo Hyunjae accidentally travels through time to the year 2017. Discovering that he is presumed dead, he begins to investigate what exactly has happened while trying to adjust to life in the 21st century.</desc>
   </programme>
   <programme start="20261115130000 +0700" stop="20261115131500 +0700" channel="KBSWorld.id">
-    <title lang="en">K-Beauty Pop-Up Ep.3.0 Makeup Artist Liu's K-Beauty Pop-Up Store! A beauty reality show that travels to global hotspots, showcasing K-makeup to people around the world.</title>
+    <title lang="en">K-Beauty Pop-Up Ep.3.0</title>
     <desc lang="en">Makeup Artist Liu's K-Beauty Pop-Up Store! A beauty reality show that travels to global hotspots, showcasing K-makeup to people around the world.</desc>
   </programme>
   <programme start="20261115131500 +0700" stop="20261115133000 +0700" channel="KBSWorld.id">
-    <title lang="en">K-Beauty Pop-Up Ep.4.0 Makeup Artist Liu's K-Beauty Pop-Up Store! A beauty reality show that travels to global hotspots, showcasing K-makeup to people around the world.</title>
+    <title lang="en">K-Beauty Pop-Up Ep.4.0</title>
     <desc lang="en">Makeup Artist Liu's K-Beauty Pop-Up Store! A beauty reality show that travels to global hotspots, showcasing K-makeup to people around the world.</desc>
   </programme>
   <programme start="20261115133000 +0700" stop="20261115143000 +0700" channel="KBSWorld.id">
-    <title lang="en">Arirang across the Sea Ep.Join Bada on this special journey, where music transcends borders and language, bringing people together through the universal power of sound.</title>
+    <title lang="en">Arirang across the Sea</title>
     <desc lang="en">Join Bada on this special journey, where music transcends borders and language, bringing people together through the universal power of sound.</desc>
   </programme>
   <programme start="20261115143000 +0700" stop="20261115160000 +0700" channel="KBSWorld.id">
-    <title lang="en">Stars' Top Recipe at Fun-Staurant Ep.342.0 Celebrities known for their cooking skills become “chef-entertainers,” revealing signature recipes and creative menu ideas to share with viewers.</title>
+    <title lang="en">Stars' Top Recipe at Fun-Staurant Ep.342.0</title>
     <desc lang="en">Celebrities known for their cooking skills become “chef-entertainers,” revealing signature recipes and creative menu ideas to share with viewers.</desc>
   </programme>
   <programme start="20261115160000 +0700" stop="20261115160500 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank K-Chart Ep.Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</title>
+    <title lang="en">Music Bank K-Chart</title>
     <desc lang="en">Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
   </programme>
   <programme start="20261115160500 +0700" stop="20261115174500 +0700" channel="KBSWorld.id">
-    <title lang="en">Two Days and One Night 4 Ep.348.0 Two-day road trip to the beautiful spots in all the corners of Korea! Instead of fancy studio, this on-the-road reality show takes place in the rural sides. While over 10 million Koreans travel abroad each year, the "2 Days and 1 Night" casts travel around Korea - to the mountains, farms, fishing villages, islands - where you can meet the welcoming smiles of our neighbors and the beautiful nature that cleanse our eyes.</title>
+    <title lang="en">Two Days and One Night 4 Ep.348.0</title>
     <desc lang="en">Two-day road trip to the beautiful spots in all the corners of Korea! Instead of fancy studio, this on-the-road reality show takes place in the rural sides. While over 10 million Koreans travel abroad each year, the "2 Days and 1 Night" casts travel around Korea - to the mountains, farms, fishing villages, islands - where you can meet the welcoming smiles of our neighbors and the beautiful nature that cleanse our eyes.</desc>
   </programme>
   <programme start="20261115174500 +0700" stop="20261115190000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Return of Superman Ep.642.0 Parenting challenges of "Superman" , the first hero that children encounter when they are born.</title>
+    <title lang="en">The Return of Superman Ep.642.0</title>
     <desc lang="en">Parenting challenges of "Superman" , the first hero that children encounter when they are born.</desc>
   </programme>
   <programme start="20261115190000 +0700" stop="20261115201500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love on the Menu Ep.29.0 A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</title>
+    <title lang="en">Love on the Menu Ep.29.0</title>
     <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
   </programme>
   <programme start="20261115201500 +0700" stop="20261115212500 +0700" channel="KBSWorld.id">
-    <title lang="en">Fight For My Way Ep.3.0 Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</title>
+    <title lang="en">Fight For My Way Ep.3.0</title>
     <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
   </programme>
   <programme start="20261115212500 +0700" stop="20261115223500 +0700" channel="KBSWorld.id">
-    <title lang="en">Fight For My Way Ep.4.0 Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</title>
+    <title lang="en">Fight For My Way Ep.4.0</title>
     <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
   </programme>
   <programme start="20261115223500 +0700" stop="20261115224500 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank K-Chart Ep.Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</title>
+    <title lang="en">Music Bank K-Chart</title>
     <desc lang="en">Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
   </programme>
   <programme start="20261115224500 +0700" stop="20261116001500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons Ep.30.0 A music program featuring performances and candid conversations with a diverse range of artists to deliver deep musical resonance</title>
+    <title lang="en">The Seasons Ep.30.0</title>
     <desc lang="en">A music program featuring performances and candid conversations with a diverse range of artists to deliver deep musical resonance</desc>
   </programme>
   <programme start="20261116001500 +0700" stop="20261116015500 +0700" channel="KBSWorld.id">
-    <title lang="en">Two Days and One Night 4 Ep.348.0 Two-day road trip to the beautiful spots in all the corners of Korea! Instead of fancy studio, this on-the-road reality show takes place in the rural sides. While over 10 million Koreans travel abroad each year, the "2 Days and 1 Night" casts travel around Korea - to the mountains, farms, fishing villages, islands - where you can meet the welcoming smiles of our neighbors and the beautiful nature that cleanse our eyes.</title>
+    <title lang="en">Two Days and One Night 4 Ep.348.0</title>
     <desc lang="en">Two-day road trip to the beautiful spots in all the corners of Korea! Instead of fancy studio, this on-the-road reality show takes place in the rural sides. While over 10 million Koreans travel abroad each year, the "2 Days and 1 Night" casts travel around Korea - to the mountains, farms, fishing villages, islands - where you can meet the welcoming smiles of our neighbors and the beautiful nature that cleanse our eyes.</desc>
   </programme>
   <programme start="20261116015500 +0700" stop="20261116031000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Return of Superman Ep.642.0 Parenting challenges of "Superman" , the first hero that children encounter when they are born.</title>
+    <title lang="en">The Return of Superman Ep.642.0</title>
     <desc lang="en">Parenting challenges of "Superman" , the first hero that children encounter when they are born.</desc>
   </programme>
   <programme start="20261116031000 +0700" stop="20261116040000 +0700" channel="KBSWorld.id">
-    <title lang="en">Documentary 3 Days Ep.726.0 The program condenses 72 hours of observation into 50 minutes. It captures the passage of time in a single place, revealing the “real” stories within. It is about the places we pass by, the people we overlook, and the things we forget in everyday life.</title>
+    <title lang="en">Documentary 3 Days Ep.726.0</title>
     <desc lang="en">The program condenses 72 hours of observation into 50 minutes. It captures the passage of time in a single place, revealing the “real” stories within. It is about the places we pass by, the people we overlook, and the things we forget in everyday life.</desc>
   </programme>
   <programme start="20261116040000 +0700" stop="20261116051500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love on the Menu Ep.29.0 A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</title>
+    <title lang="en">Love on the Menu Ep.29.0</title>
     <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
   </programme>
   <programme start="20261116051500 +0700" stop="20261116053000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons W Ep.A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</title>
+    <title lang="en">The Seasons W</title>
     <desc lang="en">A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</desc>
   </programme>
   <programme start="20261116053000 +0700" stop="20261116063000 +0700" channel="KBSWorld.id">
-    <title lang="en">Arirang across the Sea Ep.Join Bada on this special journey, where music transcends borders and language, bringing people together through the universal power of sound.</title>
+    <title lang="en">Arirang across the Sea</title>
     <desc lang="en">Join Bada on this special journey, where music transcends borders and language, bringing people together through the universal power of sound.</desc>
   </programme>
   <programme start="20261116063000 +0700" stop="20261116064500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons W Ep.A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</title>
+    <title lang="en">The Seasons W</title>
     <desc lang="en">A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</desc>
   </programme>
   <programme start="20261116064500 +0700" stop="20261116072500 +0700" channel="KBSWorld.id">
-    <title lang="en">Once Again Ep.45.0 Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</title>
+    <title lang="en">Once Again Ep.45.0</title>
     <desc lang="en">Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</desc>
   </programme>
   <programme start="20261116072500 +0700" stop="20261116080000 +0700" channel="KBSWorld.id">
-    <title lang="en">Once Again Ep.46.0 Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</title>
+    <title lang="en">Once Again Ep.46.0</title>
     <desc lang="en">Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</desc>
   </programme>
   <programme start="20261116080000 +0700" stop="20261116083500 +0700" channel="KBSWorld.id">
-    <title lang="en">Once Again Ep.47.0 Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</title>
+    <title lang="en">Once Again Ep.47.0</title>
     <desc lang="en">Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</desc>
   </programme>
   <programme start="20261116083500 +0700" stop="20261116091500 +0700" channel="KBSWorld.id">
-    <title lang="en">Once Again Ep.48.0 Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</title>
+    <title lang="en">Once Again Ep.48.0</title>
     <desc lang="en">Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</desc>
   </programme>
   <programme start="20261116091500 +0700" stop="20261116105500 +0700" channel="KBSWorld.id">
-    <title lang="en">Two Days and One Night 4 Ep.348.0 Two-day road trip to the beautiful spots in all the corners of Korea! Instead of fancy studio, this on-the-road reality show takes place in the rural sides. While over 10 million Koreans travel abroad each year, the "2 Days and 1 Night" casts travel around Korea - to the mountains, farms, fishing villages, islands - where you can meet the welcoming smiles of our neighbors and the beautiful nature that cleanse our eyes.</title>
+    <title lang="en">Two Days and One Night 4 Ep.348.0</title>
     <desc lang="en">Two-day road trip to the beautiful spots in all the corners of Korea! Instead of fancy studio, this on-the-road reality show takes place in the rural sides. While over 10 million Koreans travel abroad each year, the "2 Days and 1 Night" casts travel around Korea - to the mountains, farms, fishing villages, islands - where you can meet the welcoming smiles of our neighbors and the beautiful nature that cleanse our eyes.</desc>
   </programme>
   <programme start="20261116105500 +0700" stop="20261116121000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Return of Superman Ep.642.0 Parenting challenges of "Superman" , the first hero that children encounter when they are born.</title>
+    <title lang="en">The Return of Superman Ep.642.0</title>
     <desc lang="en">Parenting challenges of "Superman" , the first hero that children encounter when they are born.</desc>
   </programme>
   <programme start="20261116121000 +0700" stop="20261116132500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love on the Menu Ep.28.0 A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</title>
+    <title lang="en">Love on the Menu Ep.28.0</title>
     <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
   </programme>
   <programme start="20261116132500 +0700" stop="20261116144000 +0700" channel="KBSWorld.id">
-    <title lang="en">Love on the Menu Ep.29.0 A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</title>
+    <title lang="en">Love on the Menu Ep.29.0</title>
     <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
   </programme>
   <programme start="20261116144000 +0700" stop="20261116150000 +0700" channel="KBSWorld.id">
-    <title lang="en">KBS WORLD News Today Ep.KBS World Daily English News Anchor : Choi Kyu-yeon</title>
+    <title lang="en">KBS WORLD News Today</title>
     <desc lang="en">KBS World Daily English News Anchor : Choi Kyu-yeon</desc>
   </programme>
   <programme start="20261116150000 +0700" stop="20261116155500 +0700" channel="KBSWorld.id">
-    <title lang="en">Documentary 3 Days Ep.727.0 The program condenses 72 hours of observation into 50 minutes. It captures the passage of time in a single place, revealing the “real” stories within. It is about the places we pass by, the people we overlook, and the things we forget in everyday life.</title>
+    <title lang="en">Documentary 3 Days Ep.727.0</title>
     <desc lang="en">The program condenses 72 hours of observation into 50 minutes. It captures the passage of time in a single place, revealing the “real” stories within. It is about the places we pass by, the people we overlook, and the things we forget in everyday life.</desc>
   </programme>
   <programme start="20261116155500 +0700" stop="20261116172000 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank Ep.1314.0 The best tunes in Korea! the most sensational music show on TV satisfies all your senses! Fantastic performances and Awe-inspiring harmony by the nation's top musicians! Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</title>
+    <title lang="en">Music Bank Ep.1314.0</title>
     <desc lang="en">The best tunes in Korea! the most sensational music show on TV satisfies all your senses! Fantastic performances and Awe-inspiring harmony by the nation's top musicians! Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
   </programme>
   <programme start="20261116172000 +0700" stop="20261116183500 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.13.0 32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</title>
+    <title lang="en">Marry Him If You Dare Ep.13.0</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
   </programme>
   <programme start="20261116183500 +0700" stop="20261116191000 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.26.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.26.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261116191000 +0700" stop="20261116195000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.53.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.53.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261116195000 +0700" stop="20261116210500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love in the Moonlight Ep.11.0 Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</title>
+    <title lang="en">Love in the Moonlight Ep.11.0</title>
     <desc lang="en">Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</desc>
   </programme>
   <programme start="20261116210500 +0700" stop="20261116223500 +0700" channel="KBSWorld.id">
-    <title lang="en">Stars' Top Recipe at Fun-Staurant Ep.343.0 Celebrities known for their cooking skills become “chef-entertainers,” revealing signature recipes and creative menu ideas to share with viewers.</title>
+    <title lang="en">Stars' Top Recipe at Fun-Staurant Ep.343.0</title>
     <desc lang="en">Celebrities known for their cooking skills become “chef-entertainers,” revealing signature recipes and creative menu ideas to share with viewers.</desc>
   </programme>
   <programme start="20261116223500 +0700" stop="20261116233000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.25.0 Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</title>
+    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.25.0</title>
     <desc lang="en">Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</desc>
   </programme>
   <programme start="20261116233000 +0700" stop="20261116233500 +0700" channel="KBSWorld.id">
@@ -14480,35 +14337,35 @@
     <desc lang="en">No description</desc>
   </programme>
   <programme start="20261116233500 +0700" stop="20261116235000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons W Ep.A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</title>
+    <title lang="en">The Seasons W</title>
     <desc lang="en">A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</desc>
   </programme>
   <programme start="20261116235000 +0700" stop="20261117013000 +0700" channel="KBSWorld.id">
-    <title lang="en">Two Days and One Night 4 Ep.348.0 Two-day road trip to the beautiful spots in all the corners of Korea! Instead of fancy studio, this on-the-road reality show takes place in the rural sides. While over 10 million Koreans travel abroad each year, the "2 Days and 1 Night" casts travel around Korea - to the mountains, farms, fishing villages, islands - where you can meet the welcoming smiles of our neighbors and the beautiful nature that cleanse our eyes.</title>
+    <title lang="en">Two Days and One Night 4 Ep.348.0</title>
     <desc lang="en">Two-day road trip to the beautiful spots in all the corners of Korea! Instead of fancy studio, this on-the-road reality show takes place in the rural sides. While over 10 million Koreans travel abroad each year, the "2 Days and 1 Night" casts travel around Korea - to the mountains, farms, fishing villages, islands - where you can meet the welcoming smiles of our neighbors and the beautiful nature that cleanse our eyes.</desc>
   </programme>
   <programme start="20261117013000 +0700" stop="20261117020500 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.26.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.26.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261117020500 +0700" stop="20261117024500 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.53.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.53.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261117024500 +0700" stop="20261117040000 +0700" channel="KBSWorld.id">
-    <title lang="en">Love in the Moonlight Ep.11.0 Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</title>
+    <title lang="en">Love in the Moonlight Ep.11.0</title>
     <desc lang="en">Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</desc>
   </programme>
   <programme start="20261117040000 +0700" stop="20261117053000 +0700" channel="KBSWorld.id">
-    <title lang="en">Stars' Top Recipe at Fun-Staurant Ep.343.0 Celebrities known for their cooking skills become “chef-entertainers,” revealing signature recipes and creative menu ideas to share with viewers.</title>
+    <title lang="en">Stars' Top Recipe at Fun-Staurant Ep.343.0</title>
     <desc lang="en">Celebrities known for their cooking skills become “chef-entertainers,” revealing signature recipes and creative menu ideas to share with viewers.</desc>
   </programme>
   <programme start="20261117053000 +0700" stop="20261117061000 +0700" channel="KBSWorld.id">
-    <title lang="en">Pearl in Red Ep.47.0 A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</title>
+    <title lang="en">Pearl in Red Ep.47.0</title>
     <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
   </programme>
   <programme start="20261117061000 +0700" stop="20261117070500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.25.0 Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</title>
+    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.25.0</title>
     <desc lang="en">Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</desc>
   </programme>
   <programme start="20261117070500 +0700" stop="20261117071000 +0700" channel="KBSWorld.id">
@@ -14516,39 +14373,39 @@
     <desc lang="en">No description</desc>
   </programme>
   <programme start="20261117071000 +0700" stop="20261117072500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons W Ep.A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</title>
+    <title lang="en">The Seasons W</title>
     <desc lang="en">A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</desc>
   </programme>
   <programme start="20261117072500 +0700" stop="20261117080000 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.26.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.26.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261117080000 +0700" stop="20261117084000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.53.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.53.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261117084000 +0700" stop="20261117092000 +0700" channel="KBSWorld.id">
-    <title lang="en">Pearl in Red Ep.47.0 A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</title>
+    <title lang="en">Pearl in Red Ep.47.0</title>
     <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
   </programme>
   <programme start="20261117092000 +0700" stop="20261117103500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love on the Menu Ep.25.0 A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</title>
+    <title lang="en">Love on the Menu Ep.25.0</title>
     <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
   </programme>
   <programme start="20261117103500 +0700" stop="20261117104000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Best of Immortal Songs Ep.The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</title>
+    <title lang="en">The Best of Immortal Songs</title>
     <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
   </programme>
   <programme start="20261117104000 +0700" stop="20261117121000 +0700" channel="KBSWorld.id">
-    <title lang="en">Stars' Top Recipe at Fun-Staurant Ep.343.0 Celebrities known for their cooking skills become “chef-entertainers,” revealing signature recipes and creative menu ideas to share with viewers.</title>
+    <title lang="en">Stars' Top Recipe at Fun-Staurant Ep.343.0</title>
     <desc lang="en">Celebrities known for their cooking skills become “chef-entertainers,” revealing signature recipes and creative menu ideas to share with viewers.</desc>
   </programme>
   <programme start="20261117121000 +0700" stop="20261117132500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love in the Moonlight Ep.11.0 Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</title>
+    <title lang="en">Love in the Moonlight Ep.11.0</title>
     <desc lang="en">Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</desc>
   </programme>
   <programme start="20261117132500 +0700" stop="20261117142000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.25.0 Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</title>
+    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.25.0</title>
     <desc lang="en">Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</desc>
   </programme>
   <programme start="20261117142000 +0700" stop="20261117142500 +0700" channel="KBSWorld.id">
@@ -14556,47 +14413,47 @@
     <desc lang="en">No description</desc>
   </programme>
   <programme start="20261117142500 +0700" stop="20261117144000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons W Ep.A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</title>
+    <title lang="en">The Seasons W</title>
     <desc lang="en">A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</desc>
   </programme>
   <programme start="20261117144000 +0700" stop="20261117150000 +0700" channel="KBSWorld.id">
-    <title lang="en">KBS WORLD News Today Ep.KBS World Daily English News Anchor : Choi Kyu-yeon</title>
+    <title lang="en">KBS WORLD News Today</title>
     <desc lang="en">KBS World Daily English News Anchor : Choi Kyu-yeon</desc>
   </programme>
   <programme start="20261117150000 +0700" stop="20261117154000 +0700" channel="KBSWorld.id">
-    <title lang="en">Hit the Top Ep.32.0 In the year 1993, K-pop idol Yoo Hyunjae accidentally travels through time to the year 2017. Discovering that he is presumed dead, he begins to investigate what exactly has happened while trying to adjust to life in the 21st century.</title>
+    <title lang="en">Hit the Top Ep.32.0</title>
     <desc lang="en">In the year 1993, K-pop idol Yoo Hyunjae accidentally travels through time to the year 2017. Discovering that he is presumed dead, he begins to investigate what exactly has happened while trying to adjust to life in the 21st century.</desc>
   </programme>
   <programme start="20261117154000 +0700" stop="20261117154500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Best of Immortal Songs Ep.The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</title>
+    <title lang="en">The Best of Immortal Songs</title>
     <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
   </programme>
   <programme start="20261117154500 +0700" stop="20261117172000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons Ep.30.0 A music program featuring performances and candid conversations with a diverse range of artists to deliver deep musical resonance</title>
+    <title lang="en">The Seasons Ep.30.0</title>
     <desc lang="en">A music program featuring performances and candid conversations with a diverse range of artists to deliver deep musical resonance</desc>
   </programme>
   <programme start="20261117172000 +0700" stop="20261117183500 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.14.0 32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</title>
+    <title lang="en">Marry Him If You Dare Ep.14.0</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
   </programme>
   <programme start="20261117183500 +0700" stop="20261117191000 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.27.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.27.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261117191000 +0700" stop="20261117195000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.54.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.54.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261117195000 +0700" stop="20261117210500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love in the Moonlight Ep.12.0 Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</title>
+    <title lang="en">Love in the Moonlight Ep.12.0</title>
     <desc lang="en">Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</desc>
   </programme>
   <programme start="20261117210500 +0700" stop="20261117223500 +0700" channel="KBSWorld.id">
-    <title lang="en">Happy Together 2026 Ep.9.0 Prove the power of “together”! Korea's first-ever storytelling music audition, where personal stories harmonize into one song.</title>
+    <title lang="en">Happy Together 2026 Ep.9.0</title>
     <desc lang="en">Prove the power of “together”! Korea's first-ever storytelling music audition, where personal stories harmonize into one song.</desc>
   </programme>
   <programme start="20261117223500 +0700" stop="20261117233000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.26.0 Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</title>
+    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.26.0</title>
     <desc lang="en">Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</desc>
   </programme>
   <programme start="20261117233000 +0700" stop="20261117233500 +0700" channel="KBSWorld.id">
@@ -14604,35 +14461,35 @@
     <desc lang="en">No description</desc>
   </programme>
   <programme start="20261117233500 +0700" stop="20261117235000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons W Ep.A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</title>
+    <title lang="en">The Seasons W</title>
     <desc lang="en">A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</desc>
   </programme>
   <programme start="20261117235000 +0700" stop="20261118013000 +0700" channel="KBSWorld.id">
-    <title lang="en">Immortal Songs Ep.779.0 Legendary artists and rising performers come together, connecting generations through music. Korea's top vocalists reinterpret iconic songs in their own styles, delivering powerful and emotional performances. Don't miss this unforgettable musical competition.</title>
+    <title lang="en">Immortal Songs Ep.779.0</title>
     <desc lang="en">Legendary artists and rising performers come together, connecting generations through music. Korea's top vocalists reinterpret iconic songs in their own styles, delivering powerful and emotional performances. Don't miss this unforgettable musical competition.</desc>
   </programme>
   <programme start="20261118013000 +0700" stop="20261118020500 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.27.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.27.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261118020500 +0700" stop="20261118024500 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.54.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.54.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261118024500 +0700" stop="20261118040000 +0700" channel="KBSWorld.id">
-    <title lang="en">Love in the Moonlight Ep.12.0 Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</title>
+    <title lang="en">Love in the Moonlight Ep.12.0</title>
     <desc lang="en">Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</desc>
   </programme>
   <programme start="20261118040000 +0700" stop="20261118053000 +0700" channel="KBSWorld.id">
-    <title lang="en">Happy Together 2026 Ep.9.0 Prove the power of “together”! Korea's first-ever storytelling music audition, where personal stories harmonize into one song.</title>
+    <title lang="en">Happy Together 2026 Ep.9.0</title>
     <desc lang="en">Prove the power of “together”! Korea's first-ever storytelling music audition, where personal stories harmonize into one song.</desc>
   </programme>
   <programme start="20261118053000 +0700" stop="20261118061000 +0700" channel="KBSWorld.id">
-    <title lang="en">Pearl in Red Ep.48.0 A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</title>
+    <title lang="en">Pearl in Red Ep.48.0</title>
     <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
   </programme>
   <programme start="20261118061000 +0700" stop="20261118070500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.26.0 Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</title>
+    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.26.0</title>
     <desc lang="en">Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</desc>
   </programme>
   <programme start="20261118070500 +0700" stop="20261118071000 +0700" channel="KBSWorld.id">
@@ -14640,39 +14497,39 @@
     <desc lang="en">No description</desc>
   </programme>
   <programme start="20261118071000 +0700" stop="20261118072500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons W Ep.A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</title>
+    <title lang="en">The Seasons W</title>
     <desc lang="en">A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</desc>
   </programme>
   <programme start="20261118072500 +0700" stop="20261118080000 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.27.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.27.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261118080000 +0700" stop="20261118084000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.54.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.54.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261118084000 +0700" stop="20261118092000 +0700" channel="KBSWorld.id">
-    <title lang="en">Pearl in Red Ep.48.0 A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</title>
+    <title lang="en">Pearl in Red Ep.48.0</title>
     <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
   </programme>
   <programme start="20261118092000 +0700" stop="20261118103500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love on the Menu Ep.26.0 A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</title>
+    <title lang="en">Love on the Menu Ep.26.0</title>
     <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
   </programme>
   <programme start="20261118103500 +0700" stop="20261118104000 +0700" channel="KBSWorld.id">
-    <title lang="en">ROUND PLAYLIST Ep.The program is intended to promote exchanges between Korea and ASEAN countries by utilizing popular music.</title>
+    <title lang="en">ROUND PLAYLIST</title>
     <desc lang="en">The program is intended to promote exchanges between Korea and ASEAN countries by utilizing popular music.</desc>
   </programme>
   <programme start="20261118104000 +0700" stop="20261118121000 +0700" channel="KBSWorld.id">
-    <title lang="en">Happy Together 2026 Ep.9.0 Prove the power of “together”! Korea's first-ever storytelling music audition, where personal stories harmonize into one song.</title>
+    <title lang="en">Happy Together 2026 Ep.9.0</title>
     <desc lang="en">Prove the power of “together”! Korea's first-ever storytelling music audition, where personal stories harmonize into one song.</desc>
   </programme>
   <programme start="20261118121000 +0700" stop="20261118132500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love in the Moonlight Ep.12.0 Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</title>
+    <title lang="en">Love in the Moonlight Ep.12.0</title>
     <desc lang="en">Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</desc>
   </programme>
   <programme start="20261118132500 +0700" stop="20261118142000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.26.0 Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</title>
+    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.26.0</title>
     <desc lang="en">Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</desc>
   </programme>
   <programme start="20261118142000 +0700" stop="20261118142500 +0700" channel="KBSWorld.id">
@@ -14680,155 +14537,155 @@
     <desc lang="en">No description</desc>
   </programme>
   <programme start="20261118142500 +0700" stop="20261118144000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons W Ep.A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</title>
+    <title lang="en">The Seasons W</title>
     <desc lang="en">A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</desc>
   </programme>
   <programme start="20261118144000 +0700" stop="20261118150000 +0700" channel="KBSWorld.id">
-    <title lang="en">KBS WORLD News Today Ep.KBS World Daily English News Anchor : Choi Kyu-yeon</title>
+    <title lang="en">KBS WORLD News Today</title>
     <desc lang="en">KBS World Daily English News Anchor : Choi Kyu-yeon</desc>
   </programme>
   <programme start="20261118150000 +0700" stop="20261118154000 +0700" channel="KBSWorld.id">
-    <title lang="en">Once Again Ep.45.0 Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</title>
+    <title lang="en">Once Again Ep.45.0</title>
     <desc lang="en">Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</desc>
   </programme>
   <programme start="20261118154000 +0700" stop="20261118161500 +0700" channel="KBSWorld.id">
-    <title lang="en">Once Again Ep.46.0 Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</title>
+    <title lang="en">Once Again Ep.46.0</title>
     <desc lang="en">Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</desc>
   </programme>
   <programme start="20261118161500 +0700" stop="20261118165000 +0700" channel="KBSWorld.id">
-    <title lang="en">Once Again Ep.47.0 Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</title>
+    <title lang="en">Once Again Ep.47.0</title>
     <desc lang="en">Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</desc>
   </programme>
   <programme start="20261118165000 +0700" stop="20261118172500 +0700" channel="KBSWorld.id">
-    <title lang="en">Once Again Ep.48.0 Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</title>
+    <title lang="en">Once Again Ep.48.0</title>
     <desc lang="en">Turbulent divorces of Mr. and Mrs. Song's children unravel into heartwarming stories of familial love and affection.</desc>
   </programme>
   <programme start="20261118172500 +0700" stop="20261118183500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Return of Superman Ep.642.0 Parenting challenges of "Superman" , the first hero that children encounter when they are born.</title>
+    <title lang="en">The Return of Superman Ep.642.0</title>
     <desc lang="en">Parenting challenges of "Superman" , the first hero that children encounter when they are born.</desc>
   </programme>
   <programme start="20261118183500 +0700" stop="20261118191000 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.28.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.28.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261118191000 +0700" stop="20261118195000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.55.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.55.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261118195000 +0700" stop="20261118205000 +0700" channel="KBSWorld.id">
-    <title lang="en">Arirang across the Sea Ep.Join Bada on this special journey, where music transcends borders and language, bringing people together through the universal power of sound.</title>
+    <title lang="en">Arirang across the Sea</title>
     <desc lang="en">Join Bada on this special journey, where music transcends borders and language, bringing people together through the universal power of sound.</desc>
   </programme>
   <programme start="20261118205000 +0700" stop="20261118212000 +0700" channel="KBSWorld.id">
-    <title lang="en">My Day Trip Ep.A special day as a gift to me! A one-day local trip project that creates a travel plan anyone can see, feel, taste, and experience the charm of the region.</title>
+    <title lang="en">My Day Trip</title>
     <desc lang="en">A special day as a gift to me! A one-day local trip project that creates a travel plan anyone can see, feel, taste, and experience the charm of the region.</desc>
   </programme>
   <programme start="20261118212000 +0700" stop="20261118224000 +0700" channel="KBSWorld.id">
-    <title lang="en">Problem Child in House Ep.72.0 A collection of outrageous problems that you have never heard of! A great 'knowledge talk show' where problematic children who are struggling and fighting in the emotional rooftop room gain true wisdom about life and the world.</title>
+    <title lang="en">Problem Child in House Ep.72.0</title>
     <desc lang="en">A collection of outrageous problems that you have never heard of! A great 'knowledge talk show' where problematic children who are struggling and fighting in the emotional rooftop room gain true wisdom about life and the world.</desc>
   </programme>
   <programme start="20261118224000 +0700" stop="20261119001000 +0700" channel="KBSWorld.id">
-    <title lang="en">Stars' Top Recipe at Fun-Staurant Ep.343.0 Celebrities known for their cooking skills become “chef-entertainers,” revealing signature recipes and creative menu ideas to share with viewers.</title>
+    <title lang="en">Stars' Top Recipe at Fun-Staurant Ep.343.0</title>
     <desc lang="en">Celebrities known for their cooking skills become “chef-entertainers,” revealing signature recipes and creative menu ideas to share with viewers.</desc>
   </programme>
   <programme start="20261119001000 +0700" stop="20261119013000 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank Ep.1314.0 The best tunes in Korea! the most sensational music show on TV satisfies all your senses! Fantastic performances and Awe-inspiring harmony by the nation's top musicians! Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</title>
+    <title lang="en">Music Bank Ep.1314.0</title>
     <desc lang="en">The best tunes in Korea! the most sensational music show on TV satisfies all your senses! Fantastic performances and Awe-inspiring harmony by the nation's top musicians! Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
   </programme>
   <programme start="20261119013000 +0700" stop="20261119020500 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.28.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.28.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261119020500 +0700" stop="20261119024500 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.55.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.55.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261119024500 +0700" stop="20261119040000 +0700" channel="KBSWorld.id">
-    <title lang="en">Problem Child in House Ep.72.0 A collection of outrageous problems that you have never heard of! A great 'knowledge talk show' where problematic children who are struggling and fighting in the emotional rooftop room gain true wisdom about life and the world.</title>
+    <title lang="en">Problem Child in House Ep.72.0</title>
     <desc lang="en">A collection of outrageous problems that you have never heard of! A great 'knowledge talk show' where problematic children who are struggling and fighting in the emotional rooftop room gain true wisdom about life and the world.</desc>
   </programme>
   <programme start="20261119040000 +0700" stop="20261119050000 +0700" channel="KBSWorld.id">
-    <title lang="en">Arirang across the Sea Ep.Join Bada on this special journey, where music transcends borders and language, bringing people together through the universal power of sound.</title>
+    <title lang="en">Arirang across the Sea</title>
     <desc lang="en">Join Bada on this special journey, where music transcends borders and language, bringing people together through the universal power of sound.</desc>
   </programme>
   <programme start="20261119050000 +0700" stop="20261119053000 +0700" channel="KBSWorld.id">
-    <title lang="en">My Day Trip Ep.A special day as a gift to me! A one-day local trip project that creates a travel plan anyone can see, feel, taste, and experience the charm of the region.</title>
+    <title lang="en">My Day Trip</title>
     <desc lang="en">A special day as a gift to me! A one-day local trip project that creates a travel plan anyone can see, feel, taste, and experience the charm of the region.</desc>
   </programme>
   <programme start="20261119053000 +0700" stop="20261119061000 +0700" channel="KBSWorld.id">
-    <title lang="en">Pearl in Red Ep.49.0 A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</title>
+    <title lang="en">Pearl in Red Ep.49.0</title>
     <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
   </programme>
   <programme start="20261119061000 +0700" stop="20261119072500 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.13.0 32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</title>
+    <title lang="en">Marry Him If You Dare Ep.13.0</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
   </programme>
   <programme start="20261119072500 +0700" stop="20261119080000 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.28.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.28.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261119080000 +0700" stop="20261119084000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.55.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.55.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261119084000 +0700" stop="20261119092000 +0700" channel="KBSWorld.id">
-    <title lang="en">Pearl in Red Ep.49.0 A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</title>
+    <title lang="en">Pearl in Red Ep.49.0</title>
     <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
   </programme>
   <programme start="20261119092000 +0700" stop="20261119103500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love on the Menu Ep.27.0 A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</title>
+    <title lang="en">Love on the Menu Ep.27.0</title>
     <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
   </programme>
   <programme start="20261119103500 +0700" stop="20261119104000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Best of Immortal Songs Ep.The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</title>
+    <title lang="en">The Best of Immortal Songs</title>
     <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
   </programme>
   <programme start="20261119104000 +0700" stop="20261119114000 +0700" channel="KBSWorld.id">
-    <title lang="en">Arirang across the Sea Ep.Join Bada on this special journey, where music transcends borders and language, bringing people together through the universal power of sound.</title>
+    <title lang="en">Arirang across the Sea</title>
     <desc lang="en">Join Bada on this special journey, where music transcends borders and language, bringing people together through the universal power of sound.</desc>
   </programme>
   <programme start="20261119114000 +0700" stop="20261119121000 +0700" channel="KBSWorld.id">
-    <title lang="en">My Day Trip Ep.A special day as a gift to me! A one-day local trip project that creates a travel plan anyone can see, feel, taste, and experience the charm of the region.</title>
+    <title lang="en">My Day Trip</title>
     <desc lang="en">A special day as a gift to me! A one-day local trip project that creates a travel plan anyone can see, feel, taste, and experience the charm of the region.</desc>
   </programme>
   <programme start="20261119121000 +0700" stop="20261119132500 +0700" channel="KBSWorld.id">
-    <title lang="en">Problem Child in House Ep.72.0 A collection of outrageous problems that you have never heard of! A great 'knowledge talk show' where problematic children who are struggling and fighting in the emotional rooftop room gain true wisdom about life and the world.</title>
+    <title lang="en">Problem Child in House Ep.72.0</title>
     <desc lang="en">A collection of outrageous problems that you have never heard of! A great 'knowledge talk show' where problematic children who are struggling and fighting in the emotional rooftop room gain true wisdom about life and the world.</desc>
   </programme>
   <programme start="20261119132500 +0700" stop="20261119144000 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.13.0 32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</title>
+    <title lang="en">Marry Him If You Dare Ep.13.0</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
   </programme>
   <programme start="20261119144000 +0700" stop="20261119150000 +0700" channel="KBSWorld.id">
-    <title lang="en">KBS WORLD News Today Ep.KBS World Daily English News Anchor : Choi Kyu-yeon</title>
+    <title lang="en">KBS WORLD News Today</title>
     <desc lang="en">KBS World Daily English News Anchor : Choi Kyu-yeon</desc>
   </programme>
   <programme start="20261119150000 +0700" stop="20261119160000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.25.0 Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</title>
+    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.25.0</title>
     <desc lang="en">Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</desc>
   </programme>
   <programme start="20261119160000 +0700" stop="20261119165500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.26.0 Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</title>
+    <title lang="en">The Jingbirok: A Memoir of Imjin War Ep.26.0</title>
     <desc lang="en">Inspired by the historical memoir 'Jingbirok', the drama traces the turbulent events at the royal court from the eve of the Imjin War to the Battle of Noryang, where Admiral Yi Sun-sin made his final stand.</desc>
   </programme>
   <programme start="20261119165500 +0700" stop="20261119172500 +0700" channel="KBSWorld.id">
-    <title lang="en">My Day Trip Ep.A special day as a gift to me! A one-day local trip project that creates a travel plan anyone can see, feel, taste, and experience the charm of the region.</title>
+    <title lang="en">My Day Trip</title>
     <desc lang="en">A special day as a gift to me! A one-day local trip project that creates a travel plan anyone can see, feel, taste, and experience the charm of the region.</desc>
   </programme>
   <programme start="20261119172500 +0700" stop="20261119183500 +0700" channel="KBSWorld.id">
-    <title lang="en">Problem Child in House Ep.72.0 A collection of outrageous problems that you have never heard of! A great 'knowledge talk show' where problematic children who are struggling and fighting in the emotional rooftop room gain true wisdom about life and the world.</title>
+    <title lang="en">Problem Child in House Ep.72.0</title>
     <desc lang="en">A collection of outrageous problems that you have never heard of! A great 'knowledge talk show' where problematic children who are struggling and fighting in the emotional rooftop room gain true wisdom about life and the world.</desc>
   </programme>
   <programme start="20261119183500 +0700" stop="20261119191000 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.29.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.29.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261119191000 +0700" stop="20261119195000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.56.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.56.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261119195000 +0700" stop="20261119210000 +0700" channel="KBSWorld.id">
-    <title lang="en">Fight For My Way Ep.5.0 Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</title>
+    <title lang="en">Fight For My Way Ep.5.0</title>
     <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
   </programme>
   <programme start="20261119210000 +0700" stop="20261119210500 +0700" channel="KBSWorld.id">
@@ -14836,39 +14693,39 @@
     <desc lang="en">No description</desc>
   </programme>
   <programme start="20261119210500 +0700" stop="20261119223500 +0700" channel="KBSWorld.id">
-    <title lang="en">Boss in the Mirror Ep.379.0 A reality talk show that offers a candid and often humorous look at the workplace through the eyes of Korea's most outspoken bosses. Each episode follows prominent CEOs, entertainers, and professionals as they go about their daily routines and interact with their employees. Through real workplace situations, the show reveals the challenges of leadership, communication, and management.</title>
+    <title lang="en">Boss in the Mirror Ep.379.0</title>
     <desc lang="en">A reality talk show that offers a candid and often humorous look at the workplace through the eyes of Korea's most outspoken bosses. Each episode follows prominent CEOs, entertainers, and professionals as they go about their daily routines and interact with their employees. Through real workplace situations, the show reveals the challenges of leadership, communication, and management.</desc>
   </programme>
   <programme start="20261119223500 +0700" stop="20261119224000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Best of Immortal Songs Ep.The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</title>
+    <title lang="en">The Best of Immortal Songs</title>
     <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
   </programme>
   <programme start="20261119224000 +0700" stop="20261119235500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love in the Moonlight Ep.11.0 Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</title>
+    <title lang="en">Love in the Moonlight Ep.11.0</title>
     <desc lang="en">Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</desc>
   </programme>
   <programme start="20261119235500 +0700" stop="20261120011000 +0700" channel="KBSWorld.id">
-    <title lang="en">Love in the Moonlight Ep.12.0 Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</title>
+    <title lang="en">Love in the Moonlight Ep.12.0</title>
     <desc lang="en">Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</desc>
   </programme>
   <programme start="20261120011000 +0700" stop="20261120012500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons W Ep.A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</title>
+    <title lang="en">The Seasons W</title>
     <desc lang="en">A talk show brings you music and stories that will "get rid of all your worries and all your concerns."</desc>
   </programme>
   <programme start="20261120012500 +0700" stop="20261120013000 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank K-Chart Ep.Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</title>
+    <title lang="en">Music Bank K-Chart</title>
     <desc lang="en">Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
   </programme>
   <programme start="20261120013000 +0700" stop="20261120020500 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.29.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.29.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261120020500 +0700" stop="20261120024500 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.56.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.56.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261120024500 +0700" stop="20261120035500 +0700" channel="KBSWorld.id">
-    <title lang="en">Fight For My Way Ep.5.0 Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</title>
+    <title lang="en">Fight For My Way Ep.5.0</title>
     <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
   </programme>
   <programme start="20261120035500 +0700" stop="20261120040000 +0700" channel="KBSWorld.id">
@@ -14876,91 +14733,91 @@
     <desc lang="en">No description</desc>
   </programme>
   <programme start="20261120040000 +0700" stop="20261120053000 +0700" channel="KBSWorld.id">
-    <title lang="en">Boss in the Mirror Ep.379.0 A reality talk show that offers a candid and often humorous look at the workplace through the eyes of Korea's most outspoken bosses. Each episode follows prominent CEOs, entertainers, and professionals as they go about their daily routines and interact with their employees. Through real workplace situations, the show reveals the challenges of leadership, communication, and management.</title>
+    <title lang="en">Boss in the Mirror Ep.379.0</title>
     <desc lang="en">A reality talk show that offers a candid and often humorous look at the workplace through the eyes of Korea's most outspoken bosses. Each episode follows prominent CEOs, entertainers, and professionals as they go about their daily routines and interact with their employees. Through real workplace situations, the show reveals the challenges of leadership, communication, and management.</desc>
   </programme>
   <programme start="20261120053000 +0700" stop="20261120061000 +0700" channel="KBSWorld.id">
-    <title lang="en">Pearl in Red Ep.50.0 A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</title>
+    <title lang="en">Pearl in Red Ep.50.0</title>
     <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
   </programme>
   <programme start="20261120061000 +0700" stop="20261120072500 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.14.0 32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</title>
+    <title lang="en">Marry Him If You Dare Ep.14.0</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
   </programme>
   <programme start="20261120072500 +0700" stop="20261120080000 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.29.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.29.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261120080000 +0700" stop="20261120084000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.56.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.56.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261120084000 +0700" stop="20261120092000 +0700" channel="KBSWorld.id">
-    <title lang="en">Pearl in Red Ep.50.0 A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</title>
+    <title lang="en">Pearl in Red Ep.50.0</title>
     <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
   </programme>
   <programme start="20261120092000 +0700" stop="20261120103500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love on the Menu Ep.28.0 A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</title>
+    <title lang="en">Love on the Menu Ep.28.0</title>
     <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
   </programme>
   <programme start="20261120103500 +0700" stop="20261120104000 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank K-Chart Ep.Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</title>
+    <title lang="en">Music Bank K-Chart</title>
     <desc lang="en">Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
   </programme>
   <programme start="20261120104000 +0700" stop="20261120121000 +0700" channel="KBSWorld.id">
-    <title lang="en">Boss in the Mirror Ep.379.0 A reality talk show that offers a candid and often humorous look at the workplace through the eyes of Korea's most outspoken bosses. Each episode follows prominent CEOs, entertainers, and professionals as they go about their daily routines and interact with their employees. Through real workplace situations, the show reveals the challenges of leadership, communication, and management.</title>
+    <title lang="en">Boss in the Mirror Ep.379.0</title>
     <desc lang="en">A reality talk show that offers a candid and often humorous look at the workplace through the eyes of Korea's most outspoken bosses. Each episode follows prominent CEOs, entertainers, and professionals as they go about their daily routines and interact with their employees. Through real workplace situations, the show reveals the challenges of leadership, communication, and management.</desc>
   </programme>
   <programme start="20261120121000 +0700" stop="20261120132000 +0700" channel="KBSWorld.id">
-    <title lang="en">Fight For My Way Ep.5.0 Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</title>
+    <title lang="en">Fight For My Way Ep.5.0</title>
     <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
   </programme>
   <programme start="20261120132000 +0700" stop="20261120132500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Best of Immortal Songs Ep.The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</title>
+    <title lang="en">The Best of Immortal Songs</title>
     <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
   </programme>
   <programme start="20261120132500 +0700" stop="20261120144000 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.14.0 32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</title>
+    <title lang="en">Marry Him If You Dare Ep.14.0</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
   </programme>
   <programme start="20261120144000 +0700" stop="20261120150000 +0700" channel="KBSWorld.id">
-    <title lang="en">KBS WORLD News Today Ep.KBS World Daily English News Anchor : Choi Kyu-yeon</title>
+    <title lang="en">KBS WORLD News Today</title>
     <desc lang="en">KBS World Daily English News Anchor : Choi Kyu-yeon</desc>
   </programme>
   <programme start="20261120150000 +0700" stop="20261120150500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Best of Immortal Songs Ep.The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</title>
+    <title lang="en">The Best of Immortal Songs</title>
     <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
   </programme>
   <programme start="20261120150500 +0700" stop="20261120151500 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank K-Chart Ep.Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</title>
+    <title lang="en">Music Bank K-Chart</title>
     <desc lang="en">Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
   </programme>
   <programme start="20261120151500 +0700" stop="20261120163500 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank Ep.1315.0 The best tunes in Korea! the most sensational music show on TV satisfies all your senses! Fantastic performances and Awe-inspiring harmony by the nation's top musicians! Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</title>
+    <title lang="en">Music Bank Ep.1315.0</title>
     <desc lang="en">The best tunes in Korea! the most sensational music show on TV satisfies all your senses! Fantastic performances and Awe-inspiring harmony by the nation's top musicians! Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
   </programme>
   <programme start="20261120163500 +0700" stop="20261120174000 +0700" channel="KBSWorld.id">
-    <title lang="en">Listen Page Ep.1.0 An immersive live music talk show that explores not only music, but the stories behind it.</title>
+    <title lang="en">Listen Page Ep.1.0</title>
     <desc lang="en">An immersive live music talk show that explores not only music, but the stories behind it.</desc>
   </programme>
   <programme start="20261120174000 +0700" stop="20261120175500 +0700" channel="KBSWorld.id">
-    <title lang="en">Got The Spot Ep.1.0 Introducing global audiences to Korea's tourist destinations, where tradition meets modern trends.</title>
+    <title lang="en">Got The Spot Ep.1.0</title>
     <desc lang="en">Introducing global audiences to Korea's tourist destinations, where tradition meets modern trends.</desc>
   </programme>
   <programme start="20261120175500 +0700" stop="20261120183500 +0700" channel="KBSWorld.id">
-    <title lang="en">Documentary 3 Days Ep.727.0 The program condenses 72 hours of observation into 50 minutes. It captures the passage of time in a single place, revealing the “real” stories within. It is about the places we pass by, the people we overlook, and the things we forget in everyday life.</title>
+    <title lang="en">Documentary 3 Days Ep.727.0</title>
     <desc lang="en">The program condenses 72 hours of observation into 50 minutes. It captures the passage of time in a single place, revealing the “real” stories within. It is about the places we pass by, the people we overlook, and the things we forget in everyday life.</desc>
   </programme>
   <programme start="20261120183500 +0700" stop="20261120191000 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.30.0 A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</title>
+    <title lang="en">Mission: Mompossible Ep.30.0</title>
     <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
   </programme>
   <programme start="20261120191000 +0700" stop="20261120195000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.57.0 A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</title>
+    <title lang="en">A Trap Called Desire Ep.57.0</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261120195000 +0700" stop="20261120210000 +0700" channel="KBSWorld.id">
-    <title lang="en">Fight For My Way Ep.6.0 Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</title>
+    <title lang="en">Fight For My Way Ep.6.0</title>
     <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
   </programme>
   <programme start="20261120210000 +0700" stop="20261120210500 +0700" channel="KBSWorld.id">
@@ -14968,23 +14825,20 @@
     <desc lang="en">No description</desc>
   </programme>
   <programme start="20261120210500 +0700" stop="20261120223500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Seasons Ep.31.0 A music program featuring performances and candid conversations with a diverse range of artists to deliver deep musical resonance</title>
+    <title lang="en">The Seasons Ep.31.0</title>
     <desc lang="en">A music program featuring performances and candid conversations with a diverse range of artists to deliver deep musical resonance</desc>
   </programme>
   <programme start="20261120223500 +0700" stop="20261120224000 +0700" channel="KBSWorld.id">
-    <title lang="en">The Best of Immortal Songs Ep.The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</title>
+    <title lang="en">The Best of Immortal Songs</title>
     <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
   </programme>
   <programme start="20261120224000 +0700" stop="20261120235500 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.13.0 32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</title>
+    <title lang="en">Marry Him If You Dare Ep.13.0</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
   </programme>
   <programme start="20261120235500 +0700" stop="20261121011000 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.14.0 32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</title>
+    <title lang="en">Marry Him If You Dare Ep.14.0</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
-  </programme>
-  <programme start="20261113031500 +0700" stop="20261113033000 +0700" channel="Indonesiana_MMF.id">
-    <title lang="id">IMAJI MAJI - EPS5</title>
   </programme>
   <programme start="20261113033000 +0700" stop="20261113040000 +0700" channel="Indonesiana_MMF.id">
     <title lang="id">DISTANCE PARADE - EPS3 RUHMIRAH AKU RITUALKU DAN MERAH</title>
