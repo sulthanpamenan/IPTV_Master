@@ -621,71 +621,89 @@ def fetch_epg_cltv36(target):
         res = HTTP_SESSION.get(target["url"], timeout=15)
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, "html.parser")
+            
             retired_heading = soup.find(lambda tag: tag.name in ["h2", "h3"] and "RETIRED" in tag.get_text().upper())
-            wrappers = soup.select(".elementor-widget-wrap.elementor-element-populated")
+            
+            sections = soup.select("section.elementor-section")
+            if not sections:
+                sections = soup.select(".elementor-widget-wrap.elementor-element-populated")
 
-            for wrap in wrappers:
-                if retired_heading and retired_heading in wrap.parents: 
+            for sec in sections:
+                if retired_heading and retired_heading in sec.parents:
                     continue
-                
-                h2_tag = wrap.find(["h2", "h3"], class_="elementor-heading-title")
-                if not h2_tag: 
+
+                h2_tag = sec.find(["h2", "h3"], class_="elementor-heading-title")
+                if not h2_tag:
                     continue
                 
                 title = clean_text_str(h2_tag.get_text(strip=True))
-                if not title or "RETIRED" in title.upper() or title.upper() == "CLTV PROGRAMS": 
+                if not title or "RETIRED" in title.upper() or title.upper() == "CLTV PROGRAMS":
                     continue
+
+                sec_text = sec.get_text(" ", strip=True)
+                strong_tags = sec.find_all("strong")
+                schedule_blocks = []
+                
+                for strong in strong_tags:
+                    s_text = strong.get_text(strip=True)
+                    if TIME_PATTERN_AMPM.search(s_text) or any(d in s_text.upper() for d in ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY", "DAILY", "MON - FRI"]):
+                        schedule_blocks.append(s_text)
+
+                if not schedule_blocks:
+                    schedule_blocks.append(sec_text)
 
                 desc_text = ""
-                for p in wrap.find_all("p"):
+                for p in sec.find_all("p"):
                     p_str = p.get_text(strip=True)
-                    if p_str and not TIME_PATTERN_AMPM.search(p_str) and "NN" not in p_str and len(p_str) > 15:
-                        desc_text = clean_text_str(p_str)
-                        break
+                    if p_str and not TIME_PATTERN_AMPM.search(p_str) and not any(d in p_str.upper() for d in ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]):
+                        if len(p_str) > 15 and p_str not in schedule_blocks:
+                            desc_text = clean_text_str(p_str)
+                            break
 
-                full_wrap_text = wrap.get_text(" ", strip=True)
-                
-                upper_text = full_wrap_text.upper()
-                is_match_day = False
-                
-                if "DAILY" in upper_text or target_weekday_name in upper_text:
-                    is_match_day = True
-                elif ("MONDAY - FRIDAY" in upper_text or "MON - FRI" in upper_text or "MONDAY – FRIDAY" in upper_text) and not is_weekend:
-                    is_match_day = True
-                elif ("MONDAY - SATURDAY" in upper_text or "MONDAY – SATURDAY" in upper_text) and target_weekday_name != "SUNDAY":
-                    is_match_day = True
-                elif not any(day in upper_text for day in ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]):
-                    is_match_day = True
+                for sched_str in schedule_blocks:
+                    upper_sched = sched_str.upper()
+                    
+                    is_match_day = False
+                    if "DAILY" in upper_sched or target_weekday_name in upper_sched:
+                        is_match_day = True
+                    elif ("MONDAY - FRIDAY" in upper_sched or "MON - FRI" in upper_sched or "MONDAY – FRIDAY" in upper_sched) and not is_weekend:
+                        is_match_day = True
+                    elif ("MONDAY - SATURDAY" in upper_sched or "MONDAY – SATURDAY" in upper_sched) and target_weekday_name != "SUNDAY":
+                        is_match_day = True
+                    elif not any(day in upper_sched for day in ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]):
+                        is_match_day = True
 
-                if not is_match_day:
-                    continue
+                    if not is_match_day:
+                        continue
 
-                time_matches = TIME_PATTERN_AMPM.findall(full_wrap_text.replace("NN", "PM").replace("nn", "pm"))
-                
-                if time_matches and len(time_matches) >= 2:
-                    try:
-                        start_str = time_matches[0].upper().replace(" ", "")
-                        stop_str = time_matches[1].upper().replace(" ", "")
-                        
-                        start_time = datetime.strptime(start_str.zfill(7), "%I:%M%p").time()
-                        stop_time = datetime.strptime(stop_str.zfill(7), "%I:%M%p").time()
-                        
-                        start_dt = datetime.combine(base_date, start_time).replace(tzinfo=today_local.tzinfo)
-                        stop_dt = datetime.combine(base_date, stop_time).replace(tzinfo=today_local.tzinfo)
-                        
-                        if stop_dt <= start_dt:
-                            stop_dt += timedelta(days=1)
+                    time_matches = TIME_PATTERN_AMPM.findall(sched_str.replace("NN", "PM").replace("nn", "pm"))
+                    if time_matches and len(time_matches) >= 2:
+                        try:
+                            start_str = time_matches[0].upper().replace(" ", "")
+                            stop_str = time_matches[1].upper().replace(" ", "")
+                            
+                            start_time = datetime.strptime(start_str.zfill(7), "%I:%M%p").time()
+                            stop_time = datetime.strptime(stop_str.zfill(7), "%I:%M%p").time()
+                            
+                            start_dt = datetime.combine(base_date, start_time).replace(tzinfo=today_local.tzinfo)
+                            stop_dt = datetime.combine(base_date, stop_time).replace(tzinfo=today_local.tzinfo)
+                            
+                            if stop_dt <= start_dt:
+                                stop_dt += timedelta(days=1)
 
-                        programmes.append({
-                            "channel": epg_id, 
-                            "start": format_xmltv_date(start_dt, offset), 
-                            "stop": format_xmltv_date(stop_dt, offset), 
-                            "title": title, 
-                            "desc": desc_text, 
-                            "lang": "en"
-                        })
-                    except Exception:
-                        pass
+                            prog_entry = {
+                                "channel": epg_id, 
+                                "start": format_xmltv_date(start_dt, offset), 
+                                "stop": format_xmltv_date(stop_dt, offset), 
+                                "title": title, 
+                                "desc": desc_text, 
+                                "lang": "en"
+                            }
+                            
+                            if prog_entry not in programmes:
+                                programmes.append(prog_entry)
+                        except Exception:
+                            pass
 
             programmes.sort(key=lambda x: x["start"])
             print(f"[✓] CLTV36: Successfully loaded {len(programmes)} programs for today ({target_weekday_name})!")
