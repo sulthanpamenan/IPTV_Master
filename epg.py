@@ -1018,7 +1018,10 @@ def fetch_epg_kbsworld(target):
                 ep_info = ""
                 for col_name in df.columns:
                     col_str = str(col_name).lower()
-                    if any(k in col_str for k in ["sub", "ep", "episode", "no", "number"]) and col_str != "title":
+                    if col_str in ["title", "synop", "duration", "date", "_1"]:
+                        continue
+                    
+                    if any(k in col_str for k in ["sub", "ep", "episode", "number"]) or col_str == "no":
                         val = str(getattr(row, str(col_name), "")).strip()
                         if val and val.lower() not in ["nan", "none", ""]:
                             if not ep_info:
