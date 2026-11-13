@@ -1010,7 +1010,29 @@ def fetch_epg_kbsworld(target):
             try:
                 date_str = str(row.Date).strip()
                 time_str = str(getattr(row, "_1")).strip()
-                title = str(row.Title).strip()
+                
+                title_base = str(getattr(row, "Title", "")).strip()
+                if not title_base or title_base.lower() == "nan":
+                    continue
+
+                ep_info = ""
+                for col_name in df.columns:
+                    col_str = str(col_name).lower()
+                    if any(k in col_str for k in ["sub", "ep", "episode", "no", "number"]) and col_str != "title":
+                        val = str(getattr(row, str(col_name), "")).strip()
+                        if val and val.lower() not in ["nan", "none", ""]:
+                            if not ep_info:
+                                ep_info = val
+                            elif val not in ep_info:
+                                ep_info += f" {val}"
+
+                if ep_info and ep_info.lower() not in title_base.lower():
+                    if not ep_info.lower().startswith("ep"):
+                        title = f"{title_base} Ep.{ep_info}"
+                    else:
+                        title = f"{title_base} {ep_info}"
+                else:
+                    title = title_base
 
                 synop_val = getattr(row, "Synop", "No description")
                 synop = str(synop_val).strip() if pd.notna(synop_val) else "No description"
