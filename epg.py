@@ -614,6 +614,8 @@ def fetch_epg_cltv36(target):
     
     today_local = get_now_in_channel_tz(offset)
     base_date = today_local.date()
+    target_weekday_name = today_local.strftime("%A").upper()
+    is_weekend = today_local.weekday() >= 5
 
     try:
         res = HTTP_SESSION.get(target["url"], timeout=15)
@@ -622,17 +624,16 @@ def fetch_epg_cltv36(target):
             retired_heading = soup.find(lambda tag: tag.name in ["h2", "h3"] and "RETIRED" in tag.get_text().upper())
             wrappers = soup.select(".elementor-widget-wrap.elementor-element-populated")
 
-            extracted_progs = []
-
             for wrap in wrappers:
                 if retired_heading and retired_heading in wrap.parents: 
                     continue
+                
                 h2_tag = wrap.find(["h2", "h3"], class_="elementor-heading-title")
                 if not h2_tag: 
                     continue
                 
                 title = clean_text_str(h2_tag.get_text(strip=True))
-                if not title or "RETIRED" in title.upper(): 
+                if not title or "RETIRED" in title.upper() or title.upper() == "CLTV PROGRAMS": 
                     continue
 
                 desc_text = ""
@@ -643,63 +644,51 @@ def fetch_epg_cltv36(target):
                         break
 
                 full_wrap_text = wrap.get_text(" ", strip=True)
-                time_matches = TIME_PATTERN_AMPM.findall(full_wrap_text.replace("NN", "PM").replace("nn", "pm"))
+                
+                upper_text = full_wrap_text.upper()
+                is_match_day = False
+                
+                if "DAILY" in upper_text or target_weekday_name in upper_text:
+                    is_match_day = True
+                elif ("MONDAY - FRIDAY" in upper_text or "MON - FRI" in upper_text or "MONDAY – FRIDAY" in upper_text) and not is_weekend:
+                    is_match_day = True
+                elif ("MONDAY - SATURDAY" in upper_text or "MONDAY – SATURDAY" in upper_text) and target_weekday_name != "SUNDAY":
+                    is_match_day = True
+                elif not any(day in upper_text for day in ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]):
+                    is_match_day = True
 
+                if not is_match_day:
+                    continue
+
+                time_matches = TIME_PATTERN_AMPM.findall(full_wrap_text.replace("NN", "PM").replace("nn", "pm"))
+                
                 if time_matches and len(time_matches) >= 2:
                     try:
                         start_str = time_matches[0].upper().replace(" ", "")
                         stop_str = time_matches[1].upper().replace(" ", "")
+                        
                         start_time = datetime.strptime(start_str.zfill(7), "%I:%M%p").time()
                         stop_time = datetime.strptime(stop_str.zfill(7), "%I:%M%p").time()
                         
-                        extracted_progs.append({
-                            "title": title,
-                            "desc": desc_text,
-                            "start_time": start_time,
-                            "stop_time": stop_time
-                        })
-                    except Exception:
-                        extracted_progs.append({
-                            "title": title,
-                            "desc": desc_text,
-                            "fallback": True
-                        })
-                else:
-                    extracted_progs.append({
-                        "title": title,
-                        "desc": desc_text,
-                        "fallback": True
-                    })
-
-            current_start = datetime.combine(base_date, datetime.min.time()).replace(hour=6, minute=0, tzinfo=today_local.tzinfo)
-            
-            for idx, prog in enumerate(extracted_progs):
-                start_dt = current_start
-                stop_dt = start_dt + timedelta(hours=1)
-                
-                if not prog.get("fallback"):
-                    try:
-                        st = prog["start_time"]
-                        et = prog["stop_time"]
-                        start_dt = datetime.combine(base_date, st).replace(tzinfo=today_local.tzinfo)
-                        stop_dt = datetime.combine(base_date, et).replace(tzinfo=today_local.tzinfo)
+                        start_dt = datetime.combine(base_date, start_time).replace(tzinfo=today_local.tzinfo)
+                        stop_dt = datetime.combine(base_date, stop_time).replace(tzinfo=today_local.tzinfo)
+                        
                         if stop_dt <= start_dt:
                             stop_dt += timedelta(days=1)
+
+                        programmes.append({
+                            "channel": epg_id, 
+                            "start": format_xmltv_date(start_dt, offset), 
+                            "stop": format_xmltv_date(stop_dt, offset), 
+                            "title": title, 
+                            "desc": desc_text, 
+                            "lang": "en"
+                        })
                     except Exception:
                         pass
 
-                programmes.append({
-                    "channel": epg_id, 
-                    "start": format_xmltv_date(start_dt, offset), 
-                    "stop": format_xmltv_date(stop_dt, offset), 
-                    "title": prog["title"], 
-                    "desc": prog["desc"], 
-                    "lang": "en"
-                })
-
-                current_start = stop_dt
-
-            print(f"[✓] CLTV36: Successfully loaded {len(programmes)} programs (All pulled successfully)!")
+            programmes.sort(key=lambda x: x["start"])
+            print(f"[✓] CLTV36: Successfully loaded {len(programmes)} programs for today ({target_weekday_name})!")
     except Exception as e: 
         print(f"[!] CLTV36 Error: {e}")
         
