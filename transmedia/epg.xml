@@ -67,12 +67,97 @@
     <category lang="id">General</category>
   </programme>
   <programme start="20261113200000 +0700" stop="20261113220000 +0700" channel="transtv">
-    <title lang="id">BIOSKOP TRANSTV  - BLACK WATER: ABYSS</title>
+    <title lang="id">BIOSKOP TRANSTV  - PEPPERMINT</title>
     <desc lang="id" />
     <category lang="id">General</category>
   </programme>
   <programme start="20261113220000 +0700" stop="20261113233000 +0700" channel="transtv">
-    <title lang="id">BIOSKOP TRANSTV  - THE BLACK DEMON</title>
+    <title lang="id">BIOSKOP TRANSTV  - MONKEY MAN</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114050000 +0700" stop="20261114063000 +0700" channel="transtv">
+    <title lang="id">ISLAM ITU INDAH</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114063000 +0700" stop="20261114073000 +0700" channel="transtv">
+    <title lang="id">INSERT PAGI</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114073000 +0700" stop="20261114090000 +0700" channel="transtv">
+    <title lang="id">KAJIAN HATI</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114090000 +0700" stop="20261114100000 +0700" channel="transtv">
+    <title lang="id">ARJUNA MENCARI CINTA</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114100000 +0700" stop="20261114113000 +0700" channel="transtv">
+    <title lang="id">AMBYAR IN WEEKEND</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114113000 +0700" stop="20261114123000 +0700" channel="transtv">
+    <title lang="id">INSERT</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114123000 +0700" stop="20261114133000 +0700" channel="transtv">
+    <title lang="id">THE LITTLE TALKCHOW</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114133000 +0700" stop="20261114140000 +0700" channel="transtv">
+    <title lang="id">MASAK ANTI RIBET</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114140000 +0700" stop="20261114150000 +0700" channel="transtv">
+    <title lang="id">TANAH AIR BETA</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114150000 +0700" stop="20261114160000 +0700" channel="transtv">
+    <title lang="id">INSERT INVESTIGASI</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114160000 +0700" stop="20261114170000 +0700" channel="transtv">
+    <title lang="id">SEHARI JADI RATU</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114170000 +0700" stop="20261114180000 +0700" channel="transtv">
+    <title lang="id">BIKIN LAPER</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114180000 +0700" stop="20261114190000 +0700" channel="transtv">
+    <title lang="id">INSERT STORY</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114190000 +0700" stop="20261114200000 +0700" channel="transtv">
+    <title lang="id">KEJORA SHOW</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114200000 +0700" stop="20261114220000 +0700" channel="transtv">
+    <title lang="id">TRANSTV FESTIVAL</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114220000 +0700" stop="20261115000000 +0700" channel="transtv">
+    <title lang="id">BIOSKOP TRANSTV  - DONT BREATHE</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261114000000 +0700" stop="20261114013000 +0700" channel="transtv">
+    <title lang="id">BIOSKOP TRANSTV  - PRIMAL</title>
     <desc lang="id" />
     <category lang="id">General</category>
   </programme>
