@@ -406,7 +406,6 @@ def get_or_refresh_indonesiana_token(channel_code):
                             test_headers = {"authorization": f"Bearer {saved_token}", "accept": "application/json"}
                             test_res = requests.get(f"https://api.indonesianatv.app/v1/users/live-streams/{channel_code}/programs?limit=1", headers=test_headers, timeout=8)
                             if test_res.status_code == 200 and test_res.json().get("success"):
-                                print(f"[✓] Indonesiana TV: Token valid loaded from GitHub Gist.")
                                 return saved_token
                         except Exception:
                             pass
