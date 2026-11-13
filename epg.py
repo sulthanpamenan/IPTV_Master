@@ -1,5 +1,6 @@
 import base64
 import html
+import io
 import json
 import os
 import re
@@ -14,6 +15,9 @@ from bs4 import BeautifulSoup
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+import urllib3
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
@@ -66,6 +70,9 @@ EPG_TARGET_SOURCES = [
     # 5. INDONESIANA TV
     {"id": "Indonesiana_MMF.id", "name": "Indonesiana TV MMF", "code": "MMF", "utc_offset": "+0700"},
     {"id": "Indonesiana_MKU.id", "name": "Indonesiana TV MKU", "code": "MKU", "utc_offset": "+0700"},
+
+    # 6. KBS WORLD
+    {"id": "KBSWorld.id", "name": "KBS World", "utc_offset": "+0000"}
 ]
 
 HTTP_SESSION = requests.Session()
@@ -965,11 +972,84 @@ def fetch_epg_redbull_all(targets):
                 all_programmes.extend(progs)
     return channels, all_programmes
 
+# --- 9. KBS WORLD ---
+def fetch_epg_kbsworld(target):
+    epg_id = target["id"]
+    channels = [{"id": epg_id, "name": target["name"]}]
+    programmes = []
+
+    start_date = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+    end_date = (datetime.now() + timedelta(days=7)).strftime("%Y-%m-%d")
+
+    url = "https://kbsworld.kbs.co.kr/schedule/down_schedule_db.php"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+        "Referer": "https://kbsworld.kbs.co.kr/schedule/list.php",
+    }
+    params = {
+        "wlang": "e",
+        "down_time_add": "-2",
+        "start_date": start_date,
+        "end_date": end_date,
+    }
+
+    session = requests.Session()
+    print(f"[✓] KBS World: Downloading schedule data from {start_date} to {end_date}...")
+
+    try:
+        session.get("https://kbsworld.kbs.co.kr/", headers=headers, verify=False, timeout=10)
+        response = session.get(url, headers=headers, params=params, verify=False, timeout=20)
+        response.raise_for_status()
+
+        dfs = pd.read_html(io.StringIO(response.text))
+        if not dfs or len(dfs[0]) == 0:
+            print("[!] KBS World: Table data is empty or failed to parse.")
+            return channels, programmes
+
+        df = dfs[0]
+        print(f"[✓] KBS World: Successfully loaded {len(df)} rows of schedule data.")
+
+        for row in df.itertuples(index=False):
+            try:
+                date_str = str(row.Date).strip()
+                time_str = str(getattr(row, "_1")).strip()
+                title = str(row.Title).strip()
+
+                synop_val = getattr(row, "Synop", "No description")
+                synop = str(synop_val).strip() if pd.notna(synop_val) else "No description"
+
+                duration_val = getattr(row, "Duration", 30)
+                duration_min = int(duration_val) if pd.notna(duration_val) else 30
+
+                dt_start = datetime.strptime(f"{date_str} {time_str}", "%Y%m%d %H:%M")
+                dt_end = dt_start + timedelta(minutes=duration_min)
+
+                start_formatted = dt_start.strftime("%Y%m%d%H%M00 +0000")
+                stop_formatted = dt_end.strftime("%Y%m%d%H%M00 +0000")
+
+                programmes.append({
+                    "channel": epg_id,
+                    "start": start_formatted,
+                    "stop": stop_formatted,
+                    "title": title,
+                    "desc": synop,
+                    "lang": "en"
+                })
+            except Exception:
+                continue
+
+        print(f"[✓] KBS World: Successfully processed {len(programmes)} valid programs!")
+    except Exception as e:
+        print(f"[!] KBS World Error: {e}")
+
+    return channels, programmes
+
 # --- ROUTER & EXECUTION ---
 def process_single_target(target):
     t_id = target["id"]
     if t_id == "TPChannel.th": return fetch_epg_tpchannel(target)
     elif t_id == "CLTV36.ph": return fetch_epg_cltv36(target)
+    elif t_id == "KBSWorld.id": return fetch_epg_kbsworld(target)
     elif t_id.startswith("Indonesiana_"): return fetch_epg_indonesiana(target)
     elif t_id.endswith(".kz"): return fetch_epg_qazaqstan(target)
     return [], []
@@ -1004,7 +1084,7 @@ def generate_xmltv():
     all_channels.extend(mnc_channels)
     all_programmes.extend(mnc_programmes)
 
-    # 5. Fetch Other Sources (TP Channel, CLTV36, Qazaqstan Network)
+    # 5. Fetch Other Sources (TP Channel, CLTV36, KBS World, Qazaqstan Network)
     other_targets = [t for t in EPG_TARGET_SOURCES if "rrn" not in t and not t["id"].startswith("Indonesiana_")]
     with ThreadPoolExecutor(max_workers=9) as executor:
         for ch_list, progs in executor.map(process_single_target, other_targets):
