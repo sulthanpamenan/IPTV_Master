@@ -275,41 +275,35 @@ def fetch_single_dens_channel(channel_info):
         res = HTTP_SESSION.get(url, timeout=10)
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, "html.parser")
-            schedule_items = soup.find_all('div', class_='item-schedule')
+            epg_list = []
+
+            for script in soup.find_all("script"):
+                if script.string and "tvEpg" in script.string:
+                    matches = re.findall(r"(tvEpg\w*)\s*=\s*(\[.*?\]);", script.string)
+                    for _, json_str in matches:
+                        try:
+                            parsed_data = json.loads(json_str)
+                            if isinstance(parsed_data, list):
+                                epg_list.extend(parsed_data)
+                        except json.JSONDecodeError:
+                            continue
+
             raw_progs = []
+            for item in epg_list:
+                title = item.get("title")
+                desc = item.get("description") or ""
+                start_time_str = item.get("start_time")
 
-            for item in schedule_items:
-                x_content_b64 = item.get('data-x-content')
-                if not x_content_b64:
-                    continue
-
-                try:
-                    decoded_bytes = base64.b64decode(x_content_b64)
-                    schedule_data = json.loads(decoded_bytes.decode('utf-8'))
-
-                    programs = (
-                        schedule_data
-                        if isinstance(schedule_data, list)
-                        else [schedule_data]
-                    )
-
-                    for prog in programs:
-                        title = prog.get('title')
-                        desc = prog.get('description') or ""
-                        start_time_str = prog.get('start_time') or prog.get('start')
-
-                        if start_time_str and title:
-                            try:
-                                start_dt = datetime.strptime(str(start_time_str).strip(), "%Y-%m-%d %H:%M:%S").replace(tzinfo=wib_tz)
-                                raw_progs.append({
-                                    "start_dt": start_dt,
-                                    "title": clean_text_str(title),
-                                    "desc": clean_text_str(desc)
-                                })
-                            except ValueError:
-                                continue
-                except Exception:
-                    continue
+                if start_time_str and title:
+                    try:
+                        start_dt = datetime.strptime(str(start_time_str).strip(), "%Y-%m-%d %H:%M:%S").replace(tzinfo=wib_tz)
+                        raw_progs.append({
+                            "start_dt": start_dt, 
+                            "title": clean_text_str(title), 
+                            "desc": clean_text_str(desc)
+                        })
+                    except ValueError:
+                        continue
 
             if raw_progs:
                 raw_progs.sort(key=lambda x: x["start_dt"])
@@ -317,9 +311,9 @@ def fetch_single_dens_channel(channel_info):
                     curr, start_dt = raw_progs[i], raw_progs[i]["start_dt"]
                     if i + 1 < len(raw_progs):
                         stop_dt = raw_progs[i + 1]["start_dt"]
-                        if stop_dt <= start_dt:
+                        if stop_dt <= start_dt: 
                             stop_dt += timedelta(days=1)
-                    else:
+                    else: 
                         stop_dt = start_dt + timedelta(hours=1)
 
                     programmes.append({
@@ -331,7 +325,7 @@ def fetch_single_dens_channel(channel_info):
                         "lang": "id"
                     })
                 print(f"[✓] Dens.TV [{channel_info['name']}]: Successfully loaded {len(programmes)} programs!")
-    except Exception:
+    except Exception: 
         pass
         
     return channel_info, programmes
