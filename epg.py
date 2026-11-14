@@ -200,7 +200,7 @@ def scrape_single_tivie_channel(ch):
                         continue
 
         if programmes:
-            print(f"[✓] Tivie.id [{ch_name}]: Loaded {len(programmes)} programs!")
+            print(f"[✓] Tivie.id [{ch_name}]: Successfully loaded {len(programmes)} programs!")
             
     except Exception as e:
         print(f"[!] Tivie Error [{ch_name}]: {e}")
@@ -328,7 +328,7 @@ def fetch_single_dens_channel(channel_info):
                         "desc": curr["desc"],
                         "lang": "id"
                     })
-                print(f"[✓] Dens.TV [{channel_info['name']}]: Loaded {len(programmes)} programs!")
+                print(f"[✓] Dens.TV [{channel_info['name']}]: Successfully loaded {len(programmes)} programs!")
     except Exception: 
         pass
         
@@ -807,7 +807,7 @@ def fetch_single_mnc_epg(ch_info):
             break
 
     if programmes:
-        print(f"[✓] MNC Vision [{ch_name}]: Loaded {len(programmes)} programs total!")
+        print(f"[✓] MNC Vision [{ch_name}]: Successfully loaded {len(programmes)} programs.")
         return [{"id": ch_id, "name": ch_name}], programmes
 
     return [], []
@@ -817,7 +817,7 @@ def fetch_all_mncvision_parallel():
     if not channels_list:
         return [], []
 
-    print(f"[*] Starting precision extraction for {len(channels_list)} MNC Vision channels...")
+    print(f"[*] Starting parallel EPG extraction for {len(channels_list)} MNC Vision channels...")
     all_channels, all_programmes = [], []
     with ThreadPoolExecutor(max_workers=20) as executor:
         results = executor.map(fetch_single_mnc_epg, channels_list)
@@ -921,7 +921,7 @@ def fetch_epg_qazaqstan(target):
                         })
                     except Exception:
                         continue
-                print(f"[✓] {target['name']}: Successfully extracted {len(programmes)} valid programs!")
+                print(f"[✓] {target['name']}: Successfully loaded {len(programmes)} programs.")
                 break
         except Exception:
             continue
@@ -963,7 +963,7 @@ def fetch_single_redbull_channel(t):
                         "lang": "en"
                     })
             
-            print(f"[✓] Red Bull TV [{t['name']}]: Loaded {len(programmes)} programs successfully!")
+            print(f"[✓] Red Bull TV [{t['name']}]: Successfully loaded {len(programmes)} programs.")
     except Exception as e:
         print(f"[!] Red Bull TV Error [{t['name']}]: {e}")
         
@@ -1072,7 +1072,7 @@ def fetch_epg_kbsworld(target):
             except Exception:
                 continue
 
-        print(f"[✓] KBS World: Successfully processed {len(programmes)} valid programs!")
+        print(f"[✓] KBS World: Successfully loaded {len(programmes)} programs.")
     except Exception as e:
         print(f"[!] KBS World Error: {e}")
 
