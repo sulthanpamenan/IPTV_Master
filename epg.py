@@ -182,10 +182,6 @@ def scrape_single_tivie_channel(ch):
                                 
                                 category = ""
                                 title = name
-                                if ":" in name and not name.startswith("AFC"):
-                                    parts = name.split(":", 1)
-                                    category = parts[0].strip()
-                                    title = parts[1].strip()
 
                                 programmes.append({
                                     "channel": ch_id,
