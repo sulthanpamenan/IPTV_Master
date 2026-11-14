@@ -111,7 +111,7 @@ def parse_cltv36_day_matches(day_text, target_weekday_name, is_weekend):
     if ("MONDAY - SATURDAY" in dt or "MONDAY – SATURDAY" in dt) and t_day != "SUNDAY": return True
     return False
 
-# --- 1. TIVIE.ID MODULE ---
+# --- 1. TIVIE.ID ---
 TIVIE_MASTER_FALLBACK = [
     {"id": "antv", "name": "ANTV"}, {"id": "btv", "name": "BTV"},
     {"id": "cnnindonesia", "name": "CNN Indonesia"}, {"id": "garudatv", "name": "Garuda TV"},
@@ -198,14 +198,14 @@ def scrape_single_tivie_channel(ch):
                         continue
 
                     title = prog_title
-                    category = cat_str if cat_str else "General"
+                    description = cat_str if cat_str else ""
 
                     if not any(p['time'] == t_str and p['title'] == title for p in raw_list):
                         raw_list.append({
                             "time": t_str,
                             "title": title,
-                            "desc": "",
-                            "category": category
+                            "desc": description,
+                            "category": cat_str
                         })
 
         for idx in range(len(raw_list)):
