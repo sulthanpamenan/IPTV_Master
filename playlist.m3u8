@@ -1454,14 +1454,14 @@ http://107.150.60.122/live/cctv16hd.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/VL_Sports.png" group-title="Sports",VL Sports
 
-#EXTINF:-1 tvg-id="MNC_spotv-hd_427.id" tvg-name="SPOTV HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/SPOTV.png" group-title="Sports",SPOTV
+#EXTINF:-1 tvg-id="Tivie_spotv.id" tvg-name="SpoTV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/SpoTV.png" group-title="Sports",SpoTV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ec7ee27d83764e4b845c48cca31c8eef:9c0e4191203fccb0fde34ee29999129e
 https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
 
-#EXTINF:-1 tvg-id="MNC_spotv-2-hd_428.id" tvg-name="SPOTV 2 HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/SPOTV_2.png" group-title="Sports",SPOTV 2
+#EXTINF:-1 tvg-id="Tivie_spotv2.id" tvg-name="SpoTV2" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/SpoTV2.png" group-title="Sports",SpoTV2
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1596,7 +1596,7 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/T_Sports_7.png" group-title="Sports",T Sports 7
 
-#EXTINF:-1 tvg-id="MNC_bein-sports-1-hd_417.id" tvg-name="beIN Sports 1 HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/beIN_Sports_1.png" group-title="Sports",beIN Sports 1
+#EXTINF:-1 tvg-id="Tivie_beinsports1.id" tvg-name="beIN Sports 1" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/beIN_Sports_1.png" group-title="Sports",beIN Sports 1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1604,7 +1604,7 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd
 
-#EXTINF:-1 tvg-id="MNC_bein-sports-2-hd_418.id" tvg-name="beIN Sports 2 HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/beIN_Sports_2.png" group-title="Sports",beIN Sports 2
+#EXTINF:-1 tvg-id="Tivie_beinsports2.id" tvg-name="beIN Sports 2" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/beIN_Sports_2.png" group-title="Sports",beIN Sports 2
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1612,7 +1612,7 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
 
-#EXTINF:-1 tvg-id="MNC_bein-sports-3-hd_419.id" tvg-name="beIN Sports 3 HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/beIN_Sports_3.png" group-title="Sports",beIN Sports 3
+#EXTINF:-1 tvg-id="Tivie_beinsports3.id" tvg-name="beIN Sports 3" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Sports/beIN_Sports_3.png" group-title="Sports",beIN Sports 3
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2315,7 +2315,7 @@ https://tfyn0grauqmtofaauqmt1gy3145djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.co
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/Bioskop_Indonesia.png" group-title="Movies",Bioskop Indonesia
 
-#EXTINF:-1 tvg-id="MNC_imc_14.id" tvg-name="IMC" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/IMC.png" group-title="Movies",IMC
+#EXTINF:-1 tvg-id="Tivie_imc.id" tvg-name="IMC" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/IMC.png" group-title="Movies",IMC
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/Flix.png" group-title="Movies",Flix
 
@@ -2350,37 +2350,37 @@ https://linear-798.frequency.stream/mt/plex/798/hls/master/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/HBO_Pop.png" group-title="Movies",HBO Pop
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/HBO.png" group-title="Movies",HBO
+#EXTINF:-1 tvg-id="Tivie_hbo.id" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/HBO.png" group-title="Movies",HBO
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 https://cdnbal1.indihometv.com/atm/DASH/hbo/manifest.mpd
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/HBO_Hits.png" group-title="Movies",HBO Hits
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
-https://cdnbal1.indihometv.com/atm/DASH/hbohits/manifest.mpd
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/HBO_Family.png" group-title="Movies",HBO Family
+#EXTINF:-1 tvg-id="Tivie_hbofamily.id" tvg-name="HBO Family" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/HBO_Family.png" group-title="Movies",HBO Family
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 https://cdnbal1.indihometv.com/atm/DASH/hbofamily/manifest.mpd
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/HBO_Signature.png" group-title="Movies",HBO Signature
+#EXTINF:-1 tvg-id="Tivie_hbohits.id" tvg-name="HBO Hits" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/HBO_Hits.png" group-title="Movies",HBO Hits
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
+https://cdnbal1.indihometv.com/atm/DASH/hbohits/manifest.mpd
+
+#EXTINF:-1 tvg-id="Tivie_hbosignature.id" tvg-name="HBO Signature" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/HBO_Signature.png" group-title="Movies",HBO Signature
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 https://cdnbal1.indihometv.com/atm/DASH/hbosignature/manifest.mpd
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/Cinemax.png" group-title="Movies",Cinemax
+#EXTINF:-1 tvg-id="Tivie_cinemax.id" tvg-name="Cinemax" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/Cinemax.png" group-title="Movies",Cinemax
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
 https://cdnbal1.indihometv.com/atm/DASH/cinemax/manifest.mpd
 
-#EXTINF:-1 tvg-id="MNC_studio-universal-hd_406.id" tvg-name="Studio Universal HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/STUDIO_UNIVERSAL.png" group-title="Movies",STUDIO UNIVERSAL
+#EXTINF:-1 tvg-id="Tivie_studiouniversal.id" tvg-name="Studio Universal" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/Studio_Universal.png" group-title="Movies",Studio Universal
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -2388,9 +2388,9 @@ https://cdnbal1.indihometv.com/atm/DASH/cinemax/manifest.mpd
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/dc63bd198bc44193b570e0567ff5b22c/index.mpd
 
-#EXTINF:-1 tvg-id="MNC_galaxy_13.id" tvg-name="Galaxy" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/GALAXY.png" group-title="Movies",GALAXY
+#EXTINF:-1 tvg-id="Tivie_galaxy.id" tvg-name="Galaxy" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/GALAXY.png" group-title="Movies",GALAXY
 
-#EXTINF:-1 tvg-id="MNC_galaxy-premium_12.id" tvg-name="Galaxy Premium" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/GALAXY_Premium.png" group-title="Movies",GALAXY Premium
+#EXTINF:-1 tvg-id="Tivie_galaxypremium.id" tvg-name="Galaxy Premium" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/GALAXY_Premium.png" group-title="Movies",GALAXY Premium
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -2422,9 +2422,9 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/782400332c96440598260730a864bc6f/in
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/bde0a6d8d3fd4d77ae5093ad2e6699dc/index.mpd
 
-#EXTINF:-1 tvg-id="MNC_hits-movies-hd_409.id" tvg-name="HITS MOVIES HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/HITS_Movies.png" group-title="Movies",HITS Movies
+#EXTINF:-1 tvg-id="Tivie_hitsmovies.id" tvg-name="HITS Movies" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/HITS_Movies.png" group-title="Movies",HITS Movies
 
-#EXTINF:-1 tvg-id="MNC_axn-hd_447.id" tvg-name="AXN HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/AXN.png" group-title="Movies",AXN
+#EXTINF:-1 tvg-id="Tivie_axn.id" tvg-name="AXN" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/AXN.png" group-title="Movies",AXN
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2432,7 +2432,7 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/bde0a6d8d3fd4d77ae5093ad2e6699dc/in
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/456143d3b12140e1a872b25f067ddb62/index.mpd
 
-#EXTINF:-1 tvg-id="MNC_rock-action_248.id" tvg-name="Rock Action" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/ROCK_Action.png" group-title="Movies",ROCK Action
+#EXTINF:-1 tvg-id="Tivie_rockaction.id" tvg-name="Rock Action" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/ROCK_Action.png" group-title="Movies",ROCK Action
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2446,14 +2446,14 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/010bb28c19b64975b318d3b00f58b18b/ind
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h70/wedotv_movie.m3u8
 
-#EXTINF:-1 tvg-id="MNC_tvn-movies-hd_415.id" tvg-name="tvN Movies HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/tvN_Movies.png" group-title="Movies",tvN Movies
+#EXTINF:-1 tvg-id="Tivie_tvnmovies.id" tvg-name="tvN Movies" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/tvN_Movies.png" group-title="Movies",tvN Movies
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/New_K-Movies.png" group-title="Movies",New K-Movies
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/CCTV-6.png" group-title="Movies",CCTV-6
 http://107.150.60.122/live/cctv6hd.m3u8
 
-#EXTINF:-1 tvg-id="MNC_thrill_19.id" tvg-name="Thrill" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/Thrill.png" group-title="Movies",Thrill
+#EXTINF:-1 tvg-id="Tivie_thrill.id" tvg-name="Thrill" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/Thrill.png" group-title="Movies",Thrill
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2463,7 +2463,7 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/3c619ecc120b46e999d1eaa627cc544f/in
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/PopC-TV.png" group-title="Movies",PopC-TV
 
-#EXTINF:-1 tvg-id="MNC_ccm_22.id" tvg-name="CCM" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/CCM.png" group-title="Movies",Celestial Classic Movies
+#EXTINF:-1 tvg-id="Tivie_ccm.id" tvg-name="CCM" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/CCM.png" group-title="Movies",Celestial Classic Movies
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -2471,7 +2471,7 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/3c619ecc120b46e999d1eaa627cc544f/in
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Referer=https://visionplus.id
 https://live-channel4-cdn.visionplus.id/out/v1/6bdbe6ce7f034807aba5f09bed048b05/index.mpd
 
-#EXTINF:-1 tvg-id="MNC_celestial-movies_20.id" tvg-name="Celestial Movies" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/Celestial_Movies.png" group-title="Movies",Celestial Movies
+#EXTINF:-1 tvg-id="Tivie_celestialmovies.id" tvg-name="Celestial Movies" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/Celestial_Movies.png" group-title="Movies",Celestial Movies
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2523,13 +2523,13 @@ https://live.metshop.top/huya/11602075
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h18/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/CinemaWorld.png" group-title="Movies",CinemaWorld
+#EXTINF:-1 tvg-id="Tivie_cinemaworld.id" tvg-name="CinemaWorld" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/CinemaWorld.png" group-title="Movies",CinemaWorld
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/Sony_MAX.png" group-title="Movies",Sony MAX
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/BollywooD_HD.png" group-title="Movies",BollywooD HD
 
-#EXTINF:-1 tvg-id="MNC_zee-bioskop_23.id" tvg-name="Zee Bioskop" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/Zee_Bioskop.png" group-title="Movies",Zee Bioskop
+#EXTINF:-1 tvg-id="Tivie_zeebioskop.id" tvg-name="Zee Bioskop" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Movies/Zee_Bioskop.png" group-title="Movies",Zee Bioskop
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2559,7 +2559,7 @@ https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://tv.garden&Referer=https://tv.garden/
 https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Drama/K-Plus.png" group-title="Drama",K+
+#EXTINF:-1 tvg-id="Tivie_kplus.id" tvg-name="K-Plus" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Drama/K-Plus.png" group-title="Drama",K+
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
@@ -2592,7 +2592,7 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h68/wedotv_amor.m3u8
 
 <=================== Classic TV ===================>
 
-#EXTINF:-1 tvg-id="MNC_hits_160.id" tvg-name="HITS" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Classic_TV/HITS.png" group-title="Classic TV",HITS
+#EXTINF:-1 tvg-id="Tivie_hits.id" tvg-name="HITS" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Classic_TV/HITS.png" group-title="Classic TV",HITS
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -2677,7 +2677,7 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/e992e986a88346c18a5dcc4fbcdae6b9/in
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/Paramount_x_Showtime.png" group-title="Entertainment",Paramount x Showtime
 
-#EXTINF:-1 tvg-id="MNC_rock-entertainment_240.id" tvg-name="Rock Entertainment" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/ROCK_Entertainment.png" group-title="Entertainment",ROCK Entertainment
+#EXTINF:-1 tvg-id="Tivie_rockentertainment.id" tvg-name="Rock Entertainment" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/ROCK_Entertainment.png" group-title="Entertainment",ROCK Entertainment
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2687,7 +2687,7 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/4cae4723d4d54a7fb71020bd7939a202/in
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/USA_Network.png" group-title="Entertainment",USA Network
 
-#EXTINF:-1 tvg-id="MNC_lifetime_167.id" tvg-name="Lifetime" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/Lifetime.png" group-title="Entertainment",Lifetime
+#EXTINF:-1 tvg-id="Tivie_lifetime.id" tvg-name="Lifetime" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/Lifetime.png" group-title="Entertainment",Lifetime
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2695,9 +2695,9 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/4cae4723d4d54a7fb71020bd7939a202/in
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Referer=https://www.visionplus.id/
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/1880fc1b32d3449196e80345f6cd5918/index.mpd
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/HITS_Now.png" group-title="Entertainment",HITS Now
+#EXTINF:-1 tvg-id="Tivie_hitsnow.id" tvg-name="HITS Now" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/HITS_Now.png" group-title="Entertainment",HITS Now
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/Warner_TV.png" group-title="Entertainment",Warner TV
+#EXTINF:-1 tvg-id="Tivie_warner.id" tvg-name="Warner TV" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/Warner_TV.png" group-title="Entertainment",Warner TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=IndiHomeTV/8.7.12 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com/
@@ -2754,14 +2754,14 @@ https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://v.kr.kollus.com&Referer=https://v.kr.kollus.com/
 https://amdlive-ch01-g-ctnd-com.akamaized.net/arirang_1gch/smil:arirang_1gch.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="MNC_tvn-hd_446.id" tvg-name="tvN HD" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/tvN.png" group-title="Entertainment",tvN
+#EXTINF:-1 tvg-id="Tivie_tvn.id" tvg-name="tvN" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/tvN.png" group-title="Entertainment",tvN
 
 #EXTINF:-1 tvg-id="KBSWorld.id" tvg-name="KBS World" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/KBS_World.png" group-title="Entertainment",KBS World
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://world.gscdn.kbs.co.kr/world-01/world-01_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDEvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5NDcyNzk3N319fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=EnvwTmfJX6jmkoCJr0NmxlCleKFYbmpOuMOdz6fquEPrNQhFgJPsgCYDUQ6SkuAFfFhEK4R3kJ78mH41bsOHjyWwRHhEj~t~-v5c6wNht095wjOLjsSc0xSEhYX8s3xTYmwclCKnPwFP6i-VaS1kfEQa-y-nwcH~JBIlEqTfqpsOvNhrZmagb4ovFPegbJ-e80U6KQsW3rcJFi8hC~fo5pFQBwAU3CXBJvdEsm3npI7mXP2rfarQOZ1d6oovc4MFiBgU~H2beBITEXll5Y524aMCyT12Goyrjl0OHi7zKdDByJbFTcaMh5v6uYezsGTYBjJIcGjXdIrucVjJhaUqxA__
 
-#EXTINF:-1 tvg-id="MNC_kix_161.id" tvg-name="KIX" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/KIX.png" group-title="Entertainment",KIX
+#EXTINF:-1 tvg-id="Tivie_kix.id" tvg-name="KIX" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Entertainment/KIX.png" group-title="Entertainment",KIX
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
