@@ -111,7 +111,7 @@ def parse_cltv36_day_matches(day_text, target_weekday_name, is_weekend):
     if ("MONDAY - SATURDAY" in dt or "MONDAY – SATURDAY" in dt) and t_day != "SUNDAY": return True
     return False
 
-# --- 1. TIVIE.ID ---
+# --- 1. TIVIE.ID MODULE ---
 TIVIE_MASTER_FALLBACK = [
     {"id": "antv", "name": "ANTV"}, {"id": "btv", "name": "BTV"},
     {"id": "cnnindonesia", "name": "CNN Indonesia"}, {"id": "garudatv", "name": "Garuda TV"},
@@ -275,35 +275,41 @@ def fetch_single_dens_channel(channel_info):
         res = HTTP_SESSION.get(url, timeout=10)
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, "html.parser")
-            epg_list = []
-
-            for script in soup.find_all("script"):
-                if script.string and "tvEpg" in script.string:
-                    matches = re.findall(r"(tvEpg\w*)\s*=\s*(\[.*?\]);", script.string)
-                    for _, json_str in matches:
-                        try:
-                            parsed_data = json.loads(json_str)
-                            if isinstance(parsed_data, list):
-                                epg_list.extend(parsed_data)
-                        except json.JSONDecodeError:
-                            continue
-
+            schedule_items = soup.find_all('div', class_='item-schedule')
             raw_progs = []
-            for item in epg_list:
-                title = item.get("title")
-                desc = item.get("description") or ""
-                start_time_str = item.get("start_time")
 
-                if start_time_str and title:
-                    try:
-                        start_dt = datetime.strptime(str(start_time_str).strip(), "%Y-%m-%d %H:%M:%S").replace(tzinfo=wib_tz)
-                        raw_progs.append({
-                            "start_dt": start_dt, 
-                            "title": clean_text_str(title), 
-                            "desc": clean_text_str(desc)
-                        })
-                    except ValueError:
-                        continue
+            for item in schedule_items:
+                x_content_b64 = item.get('data-x-content')
+                if not x_content_b64:
+                    continue
+
+                try:
+                    decoded_bytes = base64.b64decode(x_content_b64)
+                    schedule_data = json.loads(decoded_bytes.decode('utf-8'))
+
+                    programs = (
+                        schedule_data
+                        if isinstance(schedule_data, list)
+                        else [schedule_data]
+                    )
+
+                    for prog in programs:
+                        title = prog.get('title')
+                        desc = prog.get('description') or ""
+                        start_time_str = prog.get('start_time') or prog.get('start')
+
+                        if start_time_str and title:
+                            try:
+                                start_dt = datetime.strptime(str(start_time_str).strip(), "%Y-%m-%d %H:%M:%S").replace(tzinfo=wib_tz)
+                                raw_progs.append({
+                                    "start_dt": start_dt,
+                                    "title": clean_text_str(title),
+                                    "desc": clean_text_str(desc)
+                                })
+                            except ValueError:
+                                continue
+                except Exception:
+                    continue
 
             if raw_progs:
                 raw_progs.sort(key=lambda x: x["start_dt"])
@@ -311,9 +317,9 @@ def fetch_single_dens_channel(channel_info):
                     curr, start_dt = raw_progs[i], raw_progs[i]["start_dt"]
                     if i + 1 < len(raw_progs):
                         stop_dt = raw_progs[i + 1]["start_dt"]
-                        if stop_dt <= start_dt: 
+                        if stop_dt <= start_dt:
                             stop_dt += timedelta(days=1)
-                    else: 
+                    else:
                         stop_dt = start_dt + timedelta(hours=1)
 
                     programmes.append({
@@ -325,7 +331,7 @@ def fetch_single_dens_channel(channel_info):
                         "lang": "id"
                     })
                 print(f"[✓] Dens.TV [{channel_info['name']}]: Successfully loaded {len(programmes)} programs!")
-    except Exception: 
+    except Exception:
         pass
         
     return channel_info, programmes
@@ -503,7 +509,7 @@ def fetch_epg_indonesiana_with_token(target, auth_token):
 
     return channels, programmes
 
-# --- 4. TP CHANNEL ---
+# --- 4. TP CHANNEL MODULE ---
 def fetch_epg_tpchannel(target):
     epg_id, offset = target["id"], target.get("utc_offset", "+0700")
     channels = [{"id": epg_id, "name": target["name"]}]
@@ -570,7 +576,7 @@ def fetch_epg_tpchannel(target):
         
     return channels, programmes
 
-# --- 5. CLTV36 ---
+# --- 5. CLTV36 MODULE ---
 def fetch_epg_cltv36(target):
     epg_id, offset = target["id"], target.get("utc_offset", "+0800")
     channels = [{"id": epg_id, "name": target["name"]}]
@@ -679,7 +685,7 @@ def fetch_epg_cltv36(target):
         
     return channels, programmes
 
-# --- 6. MNC VISION ---
+# --- 6. MNC VISION MODULE ---
 def get_mnc_channel_options():
     url = "https://www.mncvision.id/schedule/table"
     EXCLUDED_MNC_IDS = {
@@ -825,7 +831,7 @@ def fetch_all_mncvision_parallel():
     print(f"[✓] MNC Vision: Successfully extracted {len(all_channels)} active channels & {len(all_programmes)} programs!")
     return all_channels, all_programmes
 
-# --- 7. QAZAQSTAN NETWORK ---
+# --- 7. QAZAQSTAN NETWORK MODULE ---
 def fetch_epg_qazaqstan(target):
     epg_id, offset = target["id"], target.get("utc_offset", "+0500")
     channels = [{"id": epg_id, "name": target["name"]}]
@@ -924,7 +930,7 @@ def fetch_epg_qazaqstan(target):
 
     return channels, programmes
 
-# --- 8. RED BULL TV ---
+# --- 8. RED BULL TV MODULE ---
 def fetch_single_redbull_channel(t):
     api_url = f"https://tv-api.redbull.com/guides/v5.1/rbtv/id_ID/id/{t['rrn']}"
     programmes = []
@@ -976,7 +982,7 @@ def fetch_epg_redbull_all(targets):
                 all_programmes.extend(progs)
     return channels, all_programmes
 
-# --- 9. KBS WORLD ---
+# --- 9. KBS WORLD MODULE ---
 def fetch_epg_kbsworld(target):
     epg_id = target["id"]
     channels = [{"id": epg_id, "name": target["name"]}]
