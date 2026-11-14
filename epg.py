@@ -200,7 +200,7 @@ def scrape_single_tivie_channel(ch):
                         continue
 
         if programmes:
-            print(f"[✓] Tivie.id [{ch_name}]: Loaded {len(programmes)} programs via JSON-LD Schema.")
+            print(f"[✓] Tivie.id [{ch_name}]: Loaded {len(programmes)} programs!")
             
     except Exception as e:
         print(f"[!] Tivie Error [{ch_name}]: {e}")
