@@ -333,20 +333,11 @@
   <channel id="MNC_bein-sports-1_309.id">
     <display-name>beIN Sports 1</display-name>
   </channel>
-  <channel id="MNC_bein-sports-1-hd_417.id">
-    <display-name>beIN Sports 1 HD</display-name>
-  </channel>
   <channel id="MNC_bein-sports-2_310.id">
     <display-name>beIN Sports 2</display-name>
   </channel>
-  <channel id="MNC_bein-sports-2-hd_418.id">
-    <display-name>beIN Sports 2 HD</display-name>
-  </channel>
   <channel id="MNC_bein-sports-3_311.id">
     <display-name>beIN Sports 3</display-name>
-  </channel>
-  <channel id="MNC_bein-sports-3-hd_419.id">
-    <display-name>beIN Sports 3 HD</display-name>
   </channel>
   <channel id="MNC_bein-sports-4_312.id">
     <display-name>beIN SPORTS 4</display-name>
@@ -366,14 +357,8 @@
   <channel id="MNC_cbeebies_41.id">
     <display-name>CBeebies</display-name>
   </channel>
-  <channel id="MNC_ccm_22.id">
-    <display-name>CCM</display-name>
-  </channel>
   <channel id="MNC_celebrities-tv_96.id">
     <display-name>Celebrities TV</display-name>
-  </channel>
-  <channel id="MNC_celestial-movies_20.id">
-    <display-name>Celestial Movies</display-name>
   </channel>
   <channel id="MNC_cgtn_353.id">
     <display-name>CGTN</display-name>
@@ -414,12 +399,6 @@
   <channel id="MNC_fox-news_335.id">
     <display-name>FOX News</display-name>
   </channel>
-  <channel id="MNC_galaxy_13.id">
-    <display-name>Galaxy</display-name>
-  </channel>
-  <channel id="MNC_galaxy-premium_12.id">
-    <display-name>Galaxy Premium</display-name>
-  </channel>
   <channel id="MNC_global-trekker_201.id">
     <display-name>Global Trekker</display-name>
   </channel>
@@ -432,14 +411,8 @@
   <channel id="MNC_history_206.id">
     <display-name>History</display-name>
   </channel>
-  <channel id="MNC_hits_160.id">
-    <display-name>HITS</display-name>
-  </channel>
   <channel id="MNC_hits-movies_11.id">
     <display-name>HITS MOVIES</display-name>
-  </channel>
-  <channel id="MNC_hits-movies-hd_409.id">
-    <display-name>HITS MOVIES HD</display-name>
   </channel>
   <channel id="MNC_idx_100.id">
     <display-name>IDX</display-name>
@@ -447,23 +420,14 @@
   <channel id="MNC_idx-hd_436.id">
     <display-name>IDX HD</display-name>
   </channel>
-  <channel id="MNC_imc_14.id">
-    <display-name>IMC</display-name>
-  </channel>
   <channel id="MNC_kids-tv_46.id">
     <display-name>Kids TV</display-name>
   </channel>
   <channel id="MNC_kids-tv-hd_471.id">
     <display-name>Kids TV HD</display-name>
   </channel>
-  <channel id="MNC_kix_161.id">
-    <display-name>KIX</display-name>
-  </channel>
   <channel id="MNC_life_91.id">
     <display-name>LIFE</display-name>
-  </channel>
-  <channel id="MNC_lifetime_167.id">
-    <display-name>Lifetime</display-name>
   </channel>
   <channel id="MNC_love-nature_204.id">
     <display-name>Love Nature</display-name>
@@ -507,12 +471,6 @@
   <channel id="MNC_outdoor-channel-hd_460.id">
     <display-name>Outdoor channel HD</display-name>
   </channel>
-  <channel id="MNC_rock-action_248.id">
-    <display-name>Rock Action</display-name>
-  </channel>
-  <channel id="MNC_rock-entertainment_240.id">
-    <display-name>Rock Entertainment</display-name>
-  </channel>
   <channel id="MNC_soccer-channel_101.id">
     <display-name>Soccer Channel</display-name>
   </channel>
@@ -549,17 +507,8 @@
   <channel id="MNC_spotv-2_308.id">
     <display-name>SPOTV 2</display-name>
   </channel>
-  <channel id="MNC_spotv-2-hd_428.id">
-    <display-name>SPOTV 2 HD</display-name>
-  </channel>
-  <channel id="MNC_spotv-hd_427.id">
-    <display-name>SPOTV HD</display-name>
-  </channel>
   <channel id="MNC_studio-universal_26.id">
     <display-name>Studio Universal</display-name>
-  </channel>
-  <channel id="MNC_studio-universal-hd_406.id">
-    <display-name>Studio Universal HD</display-name>
   </channel>
   <channel id="MNC_superrix_10.id">
     <display-name>Superrix</display-name>
@@ -570,20 +519,11 @@
   <channel id="MNC_tawaf-tv_105.id">
     <display-name>Tawaf TV</display-name>
   </channel>
-  <channel id="MNC_thrill_19.id">
-    <display-name>Thrill</display-name>
-  </channel>
   <channel id="MNC_tvn_158.id">
     <display-name>tvN</display-name>
   </channel>
-  <channel id="MNC_tvn-hd_446.id">
-    <display-name>tvN HD</display-name>
-  </channel>
   <channel id="MNC_tvn-movies_25.id">
     <display-name>tvN Movies</display-name>
-  </channel>
-  <channel id="MNC_tvn-movies-hd_415.id">
-    <display-name>tvN Movies HD</display-name>
   </channel>
   <channel id="MNC_uniques_6.id">
     <display-name>UNIQUES</display-name>
@@ -596,9 +536,6 @@
   </channel>
   <channel id="MNC_vision-prime-hd_1.id">
     <display-name>Vision Prime HD</display-name>
-  </channel>
-  <channel id="MNC_zee-bioskop_23.id">
-    <display-name>Zee Bioskop</display-name>
   </channel>
   <channel id="MNC_zoomoo_39.id">
     <display-name>Zoomoo</display-name>
@@ -675,10 +612,6 @@
   <channel id="Indonesiana_MKU.id">
     <display-name>Indonesiana TV MKU</display-name>
   </channel>
-  <programme start="20261114011500 +0700" stop="20261114040000 +0700" channel="Tivie_antv.id">
-    <title lang="id">Garis Tangan</title>
-    <desc lang="id">Dipandu oleh seorang pembawa acara, para pria dan wanita lajang mengikuti sejumlah permainan menantang dalam usaha untuk menemukan pasangan sejati.</desc>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="Tivie_antv.id">
     <title lang="id">Karma</title>
   </programme>
@@ -718,17 +651,6 @@
   <programme start="20261114234500 +0700" stop="20261115000000 +0700" channel="Tivie_antv.id">
     <title lang="id">Bioskop Asia: Longling Mystery Grotto</title>
     <desc lang="id">Hu Bayi dan lelaki gemuk itu merupakan sahabat lama Shirley Yang. Mereka berjanji membantu Shirley Yang menemukan Naskah Lunas yang tersembunyi di Gua Long Ling beserta resep rahasia kuno untuk mengobati penyakit aneh bangsa Shirley Yang. Selama proses tersebut, mereka bertemu dengan raja naga berkepala besi. Makamnya penuh dengan pemicu, serigala, dan laba-laba raksasa.</desc>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="Tivie_btv.id">
-    <title lang="id">Berita Kriminal</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="Tivie_btv.id">
-    <title lang="id">Berita Satu Sore</title>
-    <desc lang="id">Program Berita di Sore hari yang akan menyajikan berita ter-update dan terkini di setiap sorenya dan dikemas secara menarik.</desc>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="Tivie_btv.id">
-    <title lang="id">Berita Satu Malam</title>
-    <desc lang="id">Program Berita di Malam hari yang akan menyajikan berita ter-update dan terkini di setiap malamnya dan dikemas secara menarik.</desc>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="Tivie_btv.id">
     <title lang="id">Berita Satu Utama</title>
@@ -813,12 +735,6 @@
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="Tivie_btv.id">
     <title lang="id">Supercar Championship</title>
   </programme>
-  <programme start="20261114021500 +0700" stop="20261114031500 +0700" channel="Tivie_cnnindonesia.id">
-    <title lang="id">CNN Indonesia Newsroom</title>
-  </programme>
-  <programme start="20261114031500 +0700" stop="20261114034500 +0700" channel="Tivie_cnnindonesia.id">
-    <title lang="id">Redaksi Malam</title>
-  </programme>
   <programme start="20261114034500 +0700" stop="20261114041500 +0700" channel="Tivie_cnnindonesia.id">
     <title lang="id">CNN Indonesia News Update</title>
     <desc lang="id">Berita perkembangan terkini seputar berbagai peristiwa yang terjadi di Indonesia dan mancanegara.</desc>
@@ -897,16 +813,6 @@
   </programme>
   <programme start="20261114224500 +0700" stop="20261115000000 +0700" channel="Tivie_cnnindonesia.id">
     <title lang="id">CNN Indonesia Prime News</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Tivie_garudatv.id">
-    <title lang="id">Amazing Syafaat</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="Tivie_garudatv.id">
-    <title lang="id">Info Miss Wow</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="Tivie_garudatv.id">
-    <title lang="id">Cara Cari Pahala</title>
-    <desc lang="id">Sang guru mengisahkan perjalanan dan petualangan kegiatan berdakwah yang belum pernah di ekspose secara utuh oleh media massa mainstream, setiap episodenya menjadi menarik karena berbagai factor seputar pelaku, penikmat, maupun proses penelusuran dan pencarian jalan keluar dari permasalahan yang pelik.</desc>
   </programme>
   <programme start="20261114050000 +0700" stop="20261114060000 +0700" channel="Tivie_garudatv.id">
     <title lang="id">Harmoni Indonesia</title>
@@ -1013,10 +919,6 @@
   <programme start="20261114234500 +0700" stop="20261115000000 +0700" channel="Tivie_gtv.id">
     <title lang="id">UEFA Nations League 2026/27: Norwegia vs Wales</title>
   </programme>
-  <programme start="20261114011500 +0700" stop="20261114030000 +0700" channel="Tivie_indosiar.id">
-    <title lang="id">Mega Film Asia: Punish Evil</title>
-    <desc lang="id">Kapten Polisi Chang Yong menemukan sekelompok penjahat yang telah merampok sejumlah besar uang tunai dan menyembunyikannya di dalam kota.</desc>
-  </programme>
   <programme start="20261114030000 +0700" stop="20261114043000 +0700" channel="Tivie_indosiar.id">
     <title lang="id">Mega Film Asia: The Five Venoms</title>
     <desc lang="id">Seorang guru yang tengah sekarat mengutus murid terakhirnya untuk mencari 5 mantan muridnya, yang masing-masing menguasai keahlian kung fu dengan gaya yang berbeda.</desc>
@@ -1114,15 +1016,6 @@
   <programme start="20261114234500 +0700" stop="20261115000000 +0700" channel="Tivie_inews.id">
     <title lang="id">UEFA Nations League 2026/27: Georgia vs Hungaria</title>
   </programme>
-  <programme start="20261114010000 +0700" stop="20261114030000 +0700" channel="Tivie_kompastv.id">
-    <title lang="id">Kompas Petang</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="Tivie_kompastv.id">
-    <title lang="id">Kompas Malam</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="Tivie_kompastv.id">
-    <title lang="id">Kalam Hati</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="Tivie_kompastv.id">
     <title lang="id">Borgol</title>
   </programme>
@@ -1189,14 +1082,6 @@
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="Tivie_kompastv.id">
     <title lang="id">Kilas Kompas</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114024500 +0700" channel="Tivie_mdtv.id">
-    <title lang="id">Inilah Kisahnya</title>
-    <desc lang="id">Program yang akan menyajikan dan menggali rentetan ragam kejadian dalam kehidupan, serta menguliknya secara objektif dari berbagai sudut pandang.</desc>
-  </programme>
-  <programme start="20261114024500 +0700" stop="20261114034500 +0700" channel="Tivie_mdtv.id">
-    <title lang="id">Di Balik Mitos</title>
-    <desc lang="id">Program yang menghadirkan berita dari dalam dan luar negeri mengenai mitos yang berkembang di masyarakat. Disertakan dengan liputan yang mendalam dan mengungkap kebenaran tentang sesuatu yang pamali.</desc>
-  </programme>
   <programme start="20261114060500 +0700" stop="20261114070000 +0700" channel="Tivie_mdtv.id">
     <title lang="id">Jelajah Masjid Nusantara</title>
   </programme>
@@ -1246,12 +1131,6 @@
   </programme>
   <programme start="20261114235000 +0700" stop="20261115000000 +0700" channel="Tivie_mdtv.id">
     <title lang="id">Customs Protection</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Tivie_mentaritv.id">
-    <title lang="id">Goyang Lidah Bang Madun</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="Tivie_mentaritv.id">
-    <title lang="id">Just for Laughs Gags</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="Tivie_mentaritv.id">
     <title lang="id">Minibods</title>
@@ -1310,21 +1189,6 @@
   </programme>
   <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="Tivie_mentaritv.id">
     <title lang="id">Pokémon Horizons: The Series</title>
-  </programme>
-  <programme start="20261114020500 +0700" stop="20261114030000 +0700" channel="Tivie_metrotv.id">
-    <title lang="id">Metro Hari Ini</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114030500 +0700" channel="Tivie_metrotv.id">
-    <title lang="id">Headline News</title>
-  </programme>
-  <programme start="20261114030500 +0700" stop="20261114033000 +0700" channel="Tivie_metrotv.id">
-    <title lang="id">Metro Hari Ini</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="Tivie_metrotv.id">
-    <title lang="id">Melawan Lupa</title>
-  </programme>
-  <programme start="20261114040000 +0700" stop="20261114040500 +0700" channel="Tivie_metrotv.id">
-    <title lang="id">Headline News</title>
   </programme>
   <programme start="20261114040500 +0700" stop="20261114043000 +0700" channel="Tivie_metrotv.id">
     <title lang="id">Metro Xin Wen</title>
@@ -1528,12 +1392,6 @@
   <programme start="20261114204500 +0700" stop="20261115000000 +0700" channel="Tivie_moji.id">
     <title lang="id">Gondanglegi Cup 2026</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Tivie_nusantaratv.id">
-    <title lang="id">Soundcore Senandung Sunda</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="Tivie_nusantaratv.id">
-    <title lang="id">Ooh I See</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114060000 +0700" channel="Tivie_nusantaratv.id">
     <title lang="id">NTV Prime</title>
   </programme>
@@ -1639,13 +1497,6 @@
   <programme start="20261114234500 +0700" stop="20261115000000 +0700" channel="Tivie_rcti.id">
     <title lang="id">UEFA Nations League 2026/27: Norwegia vs Wales</title>
   </programme>
-  <programme start="20261114013000 +0700" stop="20261114030000 +0700" channel="Tivie_rtv.id">
-    <title lang="id">Movinesia</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="Tivie_rtv.id">
-    <title lang="id">Ustadz On The Road</title>
-    <desc lang="id">Menghadirkan tausiyah dan kajian Islam dari berbagai lokasi.</desc>
-  </programme>
   <programme start="20261114033000 +0700" stop="20261114050000 +0700" channel="Tivie_rtv.id">
     <title lang="id">Super Wings</title>
     <desc lang="id">Jett yang suka bersenang-senang Jett mengantarkan paket untuk anak-anak di seluruh dunia dalam serial animasi ini. Jett bekerja sama dengan Super Wings, sekelompok pesawat yang dapat berubah menjadi robot, untuk mengatasi tantangan baru dan mengatasi masalah yang mengajarkan keterampilan pemecahan masalah dan pentingnya keanekaragaman budaya. Awak Super Wings termasuk direktur misi Jimbo, helikopter penyelamat Dizy, guru gadget Donnie, dan ahli navigator Jerome - bagian penting dari grup karena pesawat melakukan perjalanan ke 52 kota di 45 negara dalam petualangan mereka, membutuhkan seseorang yang dapat membantu navigasi .</desc>
@@ -1720,12 +1571,6 @@
   <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="Tivie_rtv.id">
     <title lang="id">BESTI - Best Informasi</title>
   </programme>
-  <programme start="20261114014500 +0700" stop="20261114030000 +0700" channel="Tivie_sctv.id">
-    <title lang="id">Sinema Malam</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="Tivie_sctv.id">
-    <title lang="id">Sinema Dini Hari</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="Tivie_sctv.id">
     <title lang="id">Barakallah</title>
     <desc lang="id">Barakallah adalah program tausiah yang dipandu Abdel Achrian bersama Ustaz Solmed dan Ustaz Taufiqurrahman yang akan fokus membahas seputar permasalahan yang sering dialami oleh masyarakat hingga problematika kehidupan rumah tangga.</desc>
@@ -1769,9 +1614,6 @@
   <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="Tivie_sctv.id">
     <title lang="id">FTV Prime Time: Pembantu Tak Pernah Ingkar Janji</title>
     <desc lang="id">Menayangkan sederet film televisi pilihan dengan judul dan genre beragam, dibintangi oleh aktor dan aktris Indonesia.</desc>
-  </programme>
-  <programme start="20261114013000 +0700" stop="20261114033000 +0700" channel="Tivie_sinpotv.id">
-    <title lang="id">Sorotan Dunia</title>
   </programme>
   <programme start="20261114033000 +0700" stop="20261114043000 +0700" channel="Tivie_sinpotv.id">
     <title lang="id">Mamah &amp; Aa</title>
@@ -1827,12 +1669,6 @@
   </programme>
   <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="Tivie_sinpotv.id">
     <title lang="id">Ruang Kepresidenan</title>
-  </programme>
-  <programme start="20261114014500 +0700" stop="20261114024500 +0700" channel="Tivie_transtv.id">
-    <title lang="id">Berchandya</title>
-  </programme>
-  <programme start="20261114024500 +0700" stop="20261114040000 +0700" channel="Tivie_transtv.id">
-    <title lang="id">Bro &amp; Bray</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="Tivie_transtv.id">
     <title lang="id">Perjalanan 3 Wanita</title>
@@ -1891,13 +1727,6 @@
   <programme start="20261114220000 +0700" stop="20261115000000 +0700" channel="Tivie_transtv.id">
     <title lang="id">Bioskop TransTV: Don't Breathe</title>
     <desc lang="id">Demi mendapatkan peruntungan yang besar, tiga orang pencuri menyusup ke dalam rumah seorang pria buta. Namun, pria itu ternyata tak selemah yang mereka duga.</desc>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114031500 +0700" channel="Tivie_trans7.id">
-    <title lang="id">On The Spot</title>
-    <desc lang="id">Menyimak berbagai fakta dan keunikan dari seluruh dunia yang sering kali tak terpikirkan oleh kita sebelumnya, dengan cuplikan-cuplikan video disertai detail penjelasan yang menarik.</desc>
-  </programme>
-  <programme start="20261114031500 +0700" stop="20261114040000 +0700" channel="Tivie_trans7.id">
-    <title lang="id">LOL :) ComediHa!</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114044500 +0700" channel="Tivie_trans7.id">
     <title lang="id">Apa Kata Dunia</title>
@@ -1984,12 +1813,6 @@
     <title lang="id">Dracin</title>
     <desc lang="id">Menghadirkan program-program terbaik spesial untuk Anda.</desc>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="Tivie_tvone.id">
-    <title lang="id">Kabar Utama</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="Tivie_tvone.id">
-    <title lang="id">Kabar Merah Putih</title>
-  </programme>
   <programme start="20261114033000 +0700" stop="20261114041500 +0700" channel="Tivie_tvone.id">
     <title lang="id">Kabar Arena Pagi</title>
   </programme>
@@ -2052,10 +1875,6 @@
   </programme>
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="Tivie_tvone.id">
     <title lang="id">Kabar Utama</title>
-  </programme>
-  <programme start="20261114000000 +0700" stop="20261114040000 +0700" channel="Tivie_tvri.id">
-    <title lang="id">FIFA World Cup 2026</title>
-    <desc lang="id">Biasa disebut sebagai "Piala Dunia", FIFA World Cup merupakan kejuaraan sepak bola 4 tahunan yang diikuti oleh tim nasional senior putra anggota Federasi Sepak Bola Internasional (FIFA).</desc>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="Tivie_tvri.id">
     <title lang="id">Jejak Islam</title>
@@ -2141,9 +1960,6 @@
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="Tivie_tvri.id">
     <title lang="id">Klik Indonesia Malam</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114040000 +0700" channel="Tivie_vtv.id">
-    <title lang="id">Petualangan Superblox</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="Tivie_vtv.id">
     <title lang="id">Sunny Bunnies</title>
     <desc lang="id">Sunny Bunnies, lima makhluk yang bisa hidup apabila terkena cahaya, menjalani serangkaian petualangan seru sehari-hari untuk mempelajari berbagai hal menarik yang ada di sekitar mereka.</desc>
@@ -2201,12 +2017,6 @@
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="Tivie_vtv.id">
     <title lang="id">Mr. Bean</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114033000 +0700" channel="Tivie_sindonews.id">
-    <title lang="id">Sindo Prime</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="Tivie_sindonews.id">
-    <title lang="id">iNews Malam</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="Tivie_sindonews.id">
     <title lang="id">Sindo Sore</title>
   </programme>
@@ -2263,14 +2073,6 @@
   </programme>
   <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="Tivie_sindonews.id">
     <title lang="id">iNews Room Weekend</title>
-  </programme>
-  <programme start="20261114021500 +0700" stop="20261114031000 +0700" channel="Tivie_axn.id">
-    <title lang="id">S.W.A.T. S8, Ep. 17</title>
-    <desc lang="id">When three of L.A.'s finest are targeted and gunned down in the street, Hondo and 20-Squad enlist the help of LAPD psychologist Dr. Wendy Hughes to assist in stopping a murderous rampage, reopening old wounds tied to the department's failed response to a school shooting.</desc>
-  </programme>
-  <programme start="20261114031000 +0700" stop="20261114040500 +0700" channel="Tivie_axn.id">
-    <title lang="id">Elsbeth S2, Ep. 18</title>
-    <desc lang="id">Elsbeth menelusuri masa lalu Hakim Milton Crawford yang semakin dekat untuk menjadi hakim federal.</desc>
   </programme>
   <programme start="20261114040500 +0700" stop="20261114050000 +0700" channel="Tivie_axn.id">
     <title lang="id">The Rainmaker, Ep. 10</title>
@@ -2426,9 +2228,6 @@
   <programme start="20261114224500 +0700" stop="20261115000000 +0700" channel="Tivie_beinsports1.id">
     <title lang="id">Uganda vs Botswana - AFCON Qualifiers</title>
   </programme>
-  <programme start="20261114012000 +0700" stop="20261114024500 +0700" channel="Tivie_beinsports2.id">
-    <title lang="id">Pretoria P1 Day 5 QF Match 7 - Premier Padel</title>
-  </programme>
   <programme start="20261114024500 +0700" stop="20261114050000 +0700" channel="Tivie_beinsports2.id">
     <title lang="id">Morocco vs Niger - AFCON Qualifiers</title>
   </programme>
@@ -2476,9 +2275,6 @@
   </programme>
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="Tivie_beinsports2.id">
     <title lang="id">Dubai P1 Day 5 SF2 - Men - Premier Padel</title>
-  </programme>
-  <programme start="20261114014500 +0700" stop="20261114040000 +0700" channel="Tivie_beinsports3.id">
-    <title lang="id">Egypt vs Malawi - AFCON Qualifiers</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="Tivie_beinsports3.id">
     <title lang="id">Transvulcania - Mass Participation</title>
@@ -2530,10 +2326,6 @@
   </programme>
   <programme start="20261114215000 +0700" stop="20261115000000 +0700" channel="Tivie_beinsports3.id">
     <title lang="id">Tottenham vs Everton - Women's Super League</title>
-  </programme>
-  <programme start="20261114020500 +0700" stop="20261114034000 +0700" channel="Tivie_ccm.id">
-    <title lang="id">The Merry Wife</title>
-    <desc lang="id">Li Ching adalah gadis berumur 17 tahun yang menikahi gurunya yang berumur 35 tahun. Kelucuan terjadi ketika Li memutuskan untuk bersekolah di tempat sang suami bekerja dan berupaya menutupi hubungan mereka.</desc>
   </programme>
   <programme start="20261114034000 +0700" stop="20261114052000 +0700" channel="Tivie_ccm.id">
     <title lang="id">The Web of Death</title>
@@ -2683,10 +2475,6 @@
     <title lang="id">Passed by Censor</title>
     <desc lang="id">Di sebuah penjara di Istanbul, Zakir ditugaskan membaca dan menyensor surat-surat yang diterima para narapidana. Diberi tugas menulis untuk kelas malamnya, Zakir menggunakan foto istri seorang narapidana sebagai inspirasi, tetapi fantasinya segera berubah menjadi delusi.</desc>
   </programme>
-  <programme start="20261114014500 +0700" stop="20261114032000 +0700" channel="Tivie_cinemax.id">
-    <title lang="id">Ninja Assassin</title>
-    <desc lang="id">Dilatih sejak kecil dengan cara Klan Ozunu, pembunuh bayaran mematikan Raizo dibuntuti oleh rekan-rekan prajuritnya karena berhasil melepaskan diri dari mereka dan kepala keluarga mereka.</desc>
-  </programme>
   <programme start="20261114032000 +0700" stop="20261114050500 +0700" channel="Tivie_cinemax.id">
     <title lang="id">Dirty Angels</title>
     <desc lang="id">Setelah penarikan pasukan AS dari Afghanistan pada tahun 2021, sekelompok tentara wanita dikirim kembali untuk menyelamatkan sekelompok remaja yang diculik.</desc>
@@ -2734,10 +2522,6 @@
   <programme start="20261114231000 +0700" stop="20261115000000 +0700" channel="Tivie_cinemax.id">
     <title lang="id">No Country for Old Men</title>
     <desc lang="id">Kekerasan dan kekacauan terjadi setelah seorang pemburu tak sengaja menemukan uang tunai bernilai lebih dari dua juta dolar di dekat Rio Grande dan terlibat dalam sebuah transaksi narkoba yang berakhir kacau.</desc>
-  </programme>
-  <programme start="20261114023500 +0700" stop="20261114041000 +0700" channel="Tivie_galaxy.id">
-    <title lang="id">Hunting Games</title>
-    <desc lang="id">Saat sekelompok mantan anggota militer disewa untuk mengambil kembali sebuah tas berisi uang curian, misi mereka menjadi lebih sulit setelah seorang pemburu menemukan tas tersebut terlebih dahulu.</desc>
   </programme>
   <programme start="20261114041000 +0700" stop="20261114055000 +0700" channel="Tivie_galaxy.id">
     <title lang="id">No Visitors</title>
@@ -2787,10 +2571,6 @@
     <title lang="id">Born to Dance</title>
     <desc lang="id">Tu adalah seorang pemuda ambisius yang bermimpi menjadi penari hip-hop profesional. Kala sang ayah melarangnya, ia malah memutuskan untuk menjadikan tarian sebagai jalan hidupnya.</desc>
   </programme>
-  <programme start="20261114021000 +0700" stop="20261114034500 +0700" channel="Tivie_galaxypremium.id">
-    <title lang="id">The Bronze</title>
-    <desc lang="id">Seorang atlet senam mantan peraih medali perunggu nan kasar harus mempertahankan ketenarannya kala seorang atlet baru yang masih muda mulai dikenal di kotanya.</desc>
-  </programme>
   <programme start="20261114034500 +0700" stop="20261114052000 +0700" channel="Tivie_galaxypremium.id">
     <title lang="id">Once Upon a Time in Mexico</title>
     <desc lang="id">El Mariachi, seorang pria bersenjata, direkrut oleh agen CIA Sheldon Sands untuk menghentikan gembong narkoba membunuh Presiden Meksiko, tetapi dia memiliki rencana yang berbeda dalam pikirannya.</desc>
@@ -2839,10 +2619,6 @@
     <title lang="id">Meet the Blacks</title>
     <desc lang="id">Saat Carl Black dan keluarganya pindah dari Chicago dengan harapan baik, kedatangan mereka di Beverly Hills bertepatan dengan pembersihan tahunan kota itu yang mana semua kejahatan menjadi legal selama dua belas jam.</desc>
   </programme>
-  <programme start="20261114023500 +0700" stop="20261114041000 +0700" channel="Tivie_hbo.id">
-    <title lang="id">The Fallout</title>
-    <desc lang="id">Vada, seorang siswi SMA, menghadapi dampak emosional yang dialaminya setelah tragedi di sekolah. Hubungannya dengan keluarga, teman, dan pandangannya terhadap dunia berubah selamanya.</desc>
-  </programme>
   <programme start="20261114041000 +0700" stop="20261114055500 +0700" channel="Tivie_hbo.id">
     <title lang="id">Black Phone 2</title>
     <desc lang="id">Setelah lolos dari penculikan mengerikan, Finn yang kini berusia 17 tahun masih berjuang melewati trauma masa lalunya.</desc>
@@ -2886,14 +2662,6 @@
   <programme start="20261114214000 +0700" stop="20261115000000 +0700" channel="Tivie_hbo.id">
     <title lang="id">One Battle After Another</title>
     <desc lang="id">Bob, seorang revolusioner yang sudah kehilangan kejayaannya, hidup dalam keadaan paranoia akibat pengaruh narkoba. Ketika musuh bebuyutannya muncul kembali dan putrinya menghilang, Bob harus menemukannya.</desc>
-  </programme>
-  <programme start="20261114021500 +0700" stop="20261114031000 +0700" channel="Tivie_hbofamily.id">
-    <title lang="id">All Her Fault, Ep. 5</title>
-    <desc lang="id">News from Alcaras throws suspicion on the whole family as a secret threatens to tear them apart.</desc>
-  </programme>
-  <programme start="20261114031000 +0700" stop="20261114035500 +0700" channel="Tivie_hbofamily.id">
-    <title lang="id">The Titan Games S2, Ep. 11</title>
-    <desc lang="id">Kompetisi adu kekuatan fisik dan mental melewati berbagai rintangan. Peserta yang berhasil menang setiap minggunya akan bergabung dengan Titans untuk mempertahankan gelar dari para kompetitor baru.</desc>
   </programme>
   <programme start="20261114035500 +0700" stop="20261114042000 +0700" channel="Tivie_hbofamily.id">
     <title lang="id">Sesame Street S55, Ep. 19</title>
@@ -3066,10 +2834,6 @@
   <programme start="20261114235000 +0700" stop="20261115000000 +0700" channel="Tivie_hbofamily.id">
     <title lang="id">BEN 10 S2</title>
   </programme>
-  <programme start="20261114014000 +0700" stop="20261114030000 +0700" channel="Tivie_hbohits.id">
-    <title lang="id">Like a Boss</title>
-    <desc lang="id">Sepasang sahabat merintis usaha kosmetik bersama. Namun, mereka memiliki karakter yang berbeda, yang satu lebih praktikal, sedangkan yang lainnya ingin cepat kaya dan hidup mewah.</desc>
-  </programme>
   <programme start="20261114030000 +0700" stop="20261114050000 +0700" channel="Tivie_hbohits.id">
     <title lang="id">M3GAN 2.0</title>
     <desc lang="id">Dua tahun setelah amukan M3GAN, penciptanya, Gemma, menggunakan kembali ciptaannya yang terkenal itu untuk mengalahkan Amelia.</desc>
@@ -3172,10 +2936,6 @@
   </programme>
   <programme start="20261114235500 +0700" stop="20261115000000 +0700" channel="Tivie_hbosignature.id">
     <title lang="id">Youth, Ep. 6</title>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114033000 +0700" channel="Tivie_hits.id">
-    <title lang="id">Xena: Warrior Princess S1, Ep. 2</title>
-    <desc lang="id">Xena terluka saat melindungi sekelompok petani, lalu dibawa ke rumah Darius untuk pemulihan. Di sisi lain, Gabrielle yang menunggu Xena diselamatkan oleh putra seorang panglima perang yang meneror para petani.</desc>
   </programme>
   <programme start="20261114033000 +0700" stop="20261114043000 +0700" channel="Tivie_hits.id">
     <title lang="id">Xena: Warrior Princess S1, Ep. 3</title>
@@ -3306,10 +3066,6 @@
     <title lang="id">The Usual Suspects</title>
     <desc lang="id">Verbal Kint berusaha meyakinkan FBI tentang keberadaan seorang gembong penjahat yang telah menyeret ia dan rekan-rekannya dalam kasus pencurian bernilai jutaan dolar.</desc>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114033000 +0700" channel="Tivie_hitsnow.id">
-    <title lang="id">Survivor S51, Ep. 8</title>
-    <desc lang="id">Survivor 51 introduces the "Open Era," featuring a fresh cast of 21 players in Fiji competing over 26 days. Host Jeff Probst teased that any twist, advantage, or idol from the show's 50-season history can return at any time without warning, creating an unpredictable, shape-shifting game.</desc>
-  </programme>
   <programme start="20261114033000 +0700" stop="20261114043000 +0700" channel="Tivie_hitsnow.id">
     <title lang="id">Snapped: Killer Couples S17, Ep. 1</title>
     <desc lang="id">When police are called to a seemingly routine domestic disturbance at a mansion in Louisville, Ky., a bizarre tale of he said/he said unravels as after one man reveals a body is buried in their basement.</desc>
@@ -3390,10 +3146,6 @@
     <title lang="id">Celebrity Family Feud S12, Ep. 6</title>
     <desc lang="id">Steve Harvey hosts a new season of Celebrity Family Feud, where famous faces and their families go head-to-head. Teams compete to guess survey answers and win a grand prize of $25,000 for their favorite charities.</desc>
   </programme>
-  <programme start="20261114022500 +0700" stop="20261114035000 +0700" channel="Tivie_imc.id">
-    <title lang="id">Pokun Roxy</title>
-    <desc lang="id">Acong, Bedul, dan Jupe, menyusun sebuah rencana untuk mengambil keuntungan dari kasus Pokun Roxy. Mereka menyebarkan desas-desus dengan menyatakan bahwa mereka dapat memotret dua hantu tersebut menggunakan ponsel.</desc>
-  </programme>
   <programme start="20261114035000 +0700" stop="20261114052000 +0700" channel="Tivie_imc.id">
     <title lang="id">5 Cewek Jagoan</title>
     <desc lang="id">Yanti menghubungi keempat temannya yang memiliki keahlian khusus untuk menyelamatkan sang adik dan dirinya, serta Hardi dan ibunya yang disandera oleh Broto dan gengnya.</desc>
@@ -3445,10 +3197,6 @@
   <programme start="20261114231000 +0700" stop="20261115000000 +0700" channel="Tivie_imc.id">
     <title lang="id">Daerah Terlarang</title>
     <desc lang="id">Pada suatu sore, Reza, Denny, Lin, dan Desy pergi ke Puncak untuk syuting film horor. Namun, mobil mereka mogok saat melewati sebuah rumah nan angker. Mereka pun diteror oleh sesosok pocong penunggu rumah tersebut.</desc>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114034500 +0700" channel="Tivie_kplus.id">
-    <title lang="id">Show Champion, Ep. 616</title>
-    <desc lang="id">Dibawakan oleh berbagai MC tamu, Show Champion menampilkan lagu-lagu hits paling populer di Korea dan pendatang baru super yang akan datang di kancah musik K-Pop.</desc>
   </programme>
   <programme start="20261114034500 +0700" stop="20261114050000 +0700" channel="Tivie_kplus.id">
     <title lang="id">Hide, Ep. 4</title>
@@ -3534,10 +3282,6 @@
     <title lang="id">Show Champion, Ep. 617</title>
     <desc lang="id">Dibawakan oleh berbagai MC tamu, Show Champion menampilkan lagu-lagu hits paling populer di Korea dan pendatang baru super yang akan datang di kancah musik K-Pop.</desc>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114040000 +0700" channel="Tivie_kix.id">
-    <title lang="id">Punish Evil</title>
-    <desc lang="id">Kapten Polisi Chang Yong menemukan sekelompok penjahat yang telah merampok sejumlah besar uang tunai dan menyembunyikannya di dalam kota.</desc>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114054500 +0700" channel="Tivie_kix.id">
     <title lang="id">Agent of Death</title>
     <desc lang="id">Agen CIA Tara dapat berubah bentuk secara genetik menjadi orang lain untuk misi tertentu. Ketika ayahnya meninggal secara misterius, dia mempertanyakan pengendalinya.</desc>
@@ -3588,10 +3332,6 @@
   <programme start="20261114225500 +0700" stop="20261115000000 +0700" channel="Tivie_kix.id">
     <title lang="id">Korat Fight: The Dream</title>
     <desc lang="id">Setelah KO dalam pertandingan kejuaraan, seorang petarung Muay Thai terbangun di alam mimpi surealis yang lahir dari ketakutan terpendamnya. Dibimbing oleh seorang pemuda misterius, ia harus melawan iblis batinnya melalui Muay Thai gaya Korat.</desc>
-  </programme>
-  <programme start="20261114013500 +0700" stop="20261114032000 +0700" channel="Tivie_lifetime.id">
-    <title lang="id">You Better Watch Out</title>
-    <desc lang="id">Aubrey bergegas pergi ke Chicago pada Malam Natal untuk menyambut kelahiran bayi saudara perempuannya. Namun, pesawatnya tertahan karena badai salju dan ia pun terdampar semalaman di bandara sebuah kota kecil.</desc>
   </programme>
   <programme start="20261114032000 +0700" stop="20261114050500 +0700" channel="Tivie_lifetime.id">
     <title lang="id">Secret Life of the Pastor's Wife</title>
@@ -3673,10 +3413,6 @@
     <title lang="id">Couples Retreat Murder</title>
     <desc lang="id">Demi menyelamatkan pernikahan, Becky dan Jim pergi ke tempat berlibur yang juga didatangi oleh mantan kekasih Becky. Namun, keadaan bertambah buruk kala salah satu tamu menghilang dan sang tuan rumah ditemukan tewas.</desc>
   </programme>
-  <programme start="20261114021500 +0700" stop="20261114041000 +0700" channel="Tivie_rockaction.id">
-    <title lang="id">Transcendence</title>
-    <desc lang="id">Seorang ilmuwan riset yang brilian namun kontroversial menjadi terobsesi untuk menciptakan mesin yang menyerupai manusia, hingga ambisinya itu berujung pada konsekuensi berbahaya.</desc>
-  </programme>
   <programme start="20261114041000 +0700" stop="20261114055500 +0700" channel="Tivie_rockaction.id">
     <title lang="id">Maximum Risk</title>
     <desc lang="id">Saat mencari jawaban atas kematian saudara kembar yang keberadaannya baru ia ketahui, seorang polisi Prancis dan tunangan saudaranya itu diburu oleh agen FBI korup serta mafia Rusia.</desc>
@@ -3721,10 +3457,6 @@
   </programme>
   <programme start="20261114235000 +0700" stop="20261115000000 +0700" channel="Tivie_rockaction.id">
     <title lang="id">The Holcroft Covenant</title>
-  </programme>
-  <programme start="20261114012000 +0700" stop="20261114031500 +0700" channel="Tivie_rockentertainment.id">
-    <title lang="id">Kindergarten Cop</title>
-    <desc lang="id">Seorang polisi menyamar sebagai guru TK untuk melacak seorang bandar narkoba.</desc>
   </programme>
   <programme start="20261114031500 +0700" stop="20261114051000 +0700" channel="Tivie_rockentertainment.id">
     <title lang="id">Back to the Future Part III</title>
@@ -3771,9 +3503,6 @@
   <programme start="20261114232500 +0700" stop="20261115000000 +0700" channel="Tivie_rockentertainment.id">
     <title lang="id">Around the World in 80 Days</title>
     <desc lang="id">Seorang pencuri Cina bergabung dengan orang Inggris eksentrik yang berencana mengelilingi dunia dalam 80 hari untuk memenangkan taruhan. Sepanjang jalan, mereka menghadapi beberapa rintangan dan seorang detektif bertekad untuk menghalangi mereka.</desc>
-  </programme>
-  <programme start="20261114010000 +0700" stop="20261114030000 +0700" channel="Tivie_spotv.id">
-    <title lang="id">2026 PYCL | Philippines S2 Rd 2 Dream Skin Radiants vs Konjac Zero Phoenix Force</title>
   </programme>
   <programme start="20261114030000 +0700" stop="20261114050000 +0700" channel="Tivie_spotv.id">
     <title lang="id">2026 PYCL | Philippines S2 Rd 2 Gfoxx Paragon vs Dentacare Pearly Whites</title>
@@ -3847,10 +3576,6 @@
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="Tivie_spotv2.id">
     <title lang="id">2026 E1 World Championship | Miami GP Race Off</title>
   </programme>
-  <programme start="20261114010000 +0700" stop="20261114024500 +0700" channel="Tivie_studiouniversal.id">
-    <title lang="id">How to Train Your Dragon: The Hidden World</title>
-    <desc lang="id">Menghadapi ancaman yang tak tertandingi, Hiccup dan Toothless berjuang melindungi semua yang mereka cintai bersama Light Fury perempuan saat mereka melakukan perjalanan ke dunia tersembunyi yang mistis.</desc>
-  </programme>
   <programme start="20261114024500 +0700" stop="20261114044500 +0700" channel="Tivie_studiouniversal.id">
     <title lang="id">Central Intelligence</title>
     <desc lang="id">Kehidupan biasa-biasa saja seorang akuntan berubah mengancam jiwanya setelah ia bertemu kembali dengan seorang kutu buku yang diganggu semasa SMA, yang sekarang menjadi agen CIA yang mematikan.</desc>
@@ -3892,10 +3617,6 @@
   <programme start="20261114220500 +0700" stop="20261115000000 +0700" channel="Tivie_studiouniversal.id">
     <title lang="id">Robin Hood</title>
     <desc lang="id">Kisah seorang pemanah di pasukan Richard Coeur de Lion yang berperang melawan penjajah Norman dan menjadi pahlawan legendaris yang dikenal sebagai Robin Hood.</desc>
-  </programme>
-  <programme start="20261114021000 +0700" stop="20261114040000 +0700" channel="Tivie_thrill.id">
-    <title lang="id">Whisper of Silent Body</title>
-    <desc lang="id">Delapan anggota AKB48 berkumpul di sebuah kuil untuk membagikan kisah pribadi yang paling misterius dan menyeramkan, seperti cerita hantu, legenda urban, atau aktivitas gaib yang beredar di masyarakat Jepang.</desc>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114053500 +0700" channel="Tivie_thrill.id">
     <title lang="id">Jealousy</title>
@@ -3948,9 +3669,6 @@
   <programme start="20261114231000 +0700" stop="20261115000000 +0700" channel="Tivie_thrill.id">
     <title lang="id">Apartment 212</title>
     <desc lang="id">Jennifer memulai hidup baru jauh dari mantan suami yang kasar, tetapi ia terjerumus dalam paranoia dan ketakutan saat ada sesuatu yang memakannya sedikit demi sedikit saat ia tidur.</desc>
-  </programme>
-  <programme start="20261114013000 +0700" stop="20261114034000 +0700" channel="Tivie_tvn.id">
-    <title lang="id">World Dice Tour S4, Ep. 3</title>
   </programme>
   <programme start="20261114034000 +0700" stop="20261114050000 +0700" channel="Tivie_tvn.id">
     <title lang="id">The Judge Returns, Ep. 14</title>
@@ -4047,14 +3765,6 @@
   <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="Tivie_tvnmovies.id">
     <title lang="id">Rebound</title>
     <desc lang="id">Seorang pelatih basket pemula memimpin enam pemain tak berpengalaman untuk bertanding selama delapan hari berturut-turut dan mengubah hal yang mustahil menjadi mungkin.</desc>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114025500 +0700" channel="Tivie_warner.id">
-    <title lang="id">Storage Hunters S5, Ep. 11</title>
-    <desc lang="id">Brandon and Lori win a beautiful pristine horse trailer; but the real treasure turns out to be what's inside.</desc>
-  </programme>
-  <programme start="20261114025500 +0700" stop="20261114034500 +0700" channel="Tivie_warner.id">
-    <title lang="id">The Mentalist S6, Ep. 8</title>
-    <desc lang="id">Jane finally thinks he knows Red John's identity.</desc>
   </programme>
   <programme start="20261114034500 +0700" stop="20261114043500 +0700" channel="Tivie_warner.id">
     <title lang="id">Titans S1, Ep. 10</title>
@@ -4159,10 +3869,6 @@
   <programme start="20261114224000 +0700" stop="20261115000000 +0700" channel="Tivie_warner.id">
     <title lang="id">Birds of Prey (And the Fantabulous Emancipation of One Harley Quinn)</title>
     <desc lang="id">Margot Robbie kembali memerankan Harley Quinn dalam sebuah kisah yang sama rumitnya dengan Harley sendiri, dan diceritakan dengan cara yang hanya bisa dilakukan oleh Harley.</desc>
-  </programme>
-  <programme start="20261114000000 +0700" stop="20261114030000 +0700" channel="Tivie_zeebioskop.id">
-    <title lang="id">English Vinglish</title>
-    <desc lang="id">Setiap hari, Shashi diejek dan diolok-olok oleh suami dan putrinya karena tak mampu memahami dan berbicara dalam bahasa Inggris. Namun, segalanya berubah saat ia berkunjung ke rumah saudari perempuannya di Manhattan.</desc>
   </programme>
   <programme start="20261114030000 +0700" stop="20261114060000 +0700" channel="Tivie_zeebioskop.id">
     <title lang="id">Tarla</title>
@@ -4491,12 +4197,6 @@
   <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="Dens_densknowledge.id">
     <title lang="id">Scenic Relaxation</title>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="Dens_channel-jowo.id">
-    <title lang="id">Ragam Desa # Eps 55</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="Dens_channel-jowo.id">
-    <title lang="id">Punakawan # Eps 56</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114060000 +0700" channel="Dens_channel-jowo.id">
     <title lang="id">Wayang Orang # Bagong Tumandang</title>
   </programme>
@@ -4575,9 +4275,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_channel-jowo.id">
     <title lang="id">Ki Radyo Harsono # Kalimasodo Kawedar1</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Dens_berita-satu.id">
-    <title lang="id">The Schedule Is Not Available</title>
-  </programme>
   <programme start="20261114030000 +0700" stop="20261114043000 +0700" channel="Dens_berita-satu.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
@@ -4644,9 +4341,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_berita-satu.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Dens_elshinta-tv.id">
-    <title lang="id">The Schedule Is Not Available</title>
-  </programme>
   <programme start="20261114030000 +0700" stop="20261114043000 +0700" channel="Dens_elshinta-tv.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
@@ -4711,9 +4405,6 @@
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_elshinta-tv.id">
-    <title lang="id">The Schedule Is Not Available</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Dens_magna-channel.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
   <programme start="20261114030000 +0700" stop="20261114043000 +0700" channel="Dens_magna-channel.id">
@@ -4854,9 +4545,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_jak-tv.id">
     <title lang="id">Skakmat</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Dens_rodjatv.id">
-    <title lang="id">The Schedule Is Not Available</title>
-  </programme>
   <programme start="20261114030000 +0700" stop="20261114043000 +0700" channel="Dens_rodjatv.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
@@ -4921,9 +4609,6 @@
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_rodjatv.id">
-    <title lang="id">The Schedule Is Not Available</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Dens_daai-tv.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
   <programme start="20261114030000 +0700" stop="20261114043000 +0700" channel="Dens_daai-tv.id">
@@ -4992,9 +4677,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_daai-tv.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
-  <programme start="20261114014000 +0700" stop="20261114030000 +0700" channel="Dens_my-cinema-europe-hd.id">
-    <title lang="id">The Restoration</title>
-  </programme>
   <programme start="20261114030000 +0700" stop="20261114044000 +0700" channel="Dens_my-cinema-europe-hd.id">
     <title lang="id">Eichmann's Fate - Love, Betrayal, Death</title>
   </programme>
@@ -5036,9 +4718,6 @@
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_my-cinema-europe-hd.id">
     <title lang="id">Ashes</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Dens_crema-tv.id">
-    <title lang="id">The Schedule Is Not Available</title>
   </programme>
   <programme start="20261114030000 +0700" stop="20261114043000 +0700" channel="Dens_crema-tv.id">
     <title lang="id">The Schedule Is Not Available</title>
@@ -5139,12 +4818,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_qwest-tv.id">
     <title lang="id">Itâ€™s Showtime! by Qwest TV</title>
   </programme>
-  <programme start="20261114015000 +0700" stop="20261114033300 +0700" channel="Dens_stingray-classica.id">
-    <title lang="id">Martha Argerich â€“ A Birthday Celebration III</title>
-  </programme>
-  <programme start="20261114033300 +0700" stop="20261114040100 +0700" channel="Dens_stingray-classica.id">
-    <title lang="id">Copland - Appalachian Spring</title>
-  </programme>
   <programme start="20261114040100 +0700" stop="20261114043600 +0700" channel="Dens_stingray-classica.id">
     <title lang="id">Bach - Partita for Violin No. 2 (BWV 1004)</title>
   </programme>
@@ -5220,12 +4893,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_stingray-classica.id">
     <title lang="id">Beethoven - String Quartets Nos. 1, 9 &amp; 10</title>
   </programme>
-  <programme start="20261114020535 +0700" stop="20261114030622 +0700" channel="Dens_dance-tv.id">
-    <title lang="id">Giuseppe Ottaviani | Luminosity | ADE 2019 | Netherlands</title>
-  </programme>
-  <programme start="20261114030622 +0700" stop="20261114040347 +0700" channel="Dens_dance-tv.id">
-    <title lang="id">Fedde Le Grand | Parookaville 2020 | NRW (Germany)</title>
-  </programme>
   <programme start="20261114040347 +0700" stop="20261114053032 +0700" channel="Dens_dance-tv.id">
     <title lang="id">De Sluwe Vos | Loveland Festival 2023 | Amsterdam (Netherlands)</title>
   </programme>
@@ -5279,15 +4946,6 @@
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_dance-tv.id">
     <title lang="id">SIT | UNTOLD X Festival 2025 | Cluj-Napoca (Romania)</title>
-  </programme>
-  <programme start="20261114023500 +0700" stop="20261114030000 +0700" channel="Dens_motorvision.id">
-    <title lang="id">Go Green! Icelandic Hill Rally</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114032500 +0700" channel="Dens_motorvision.id">
-    <title lang="id">Perfect Ride Akureyri, Part 1</title>
-  </programme>
-  <programme start="20261114032500 +0700" stop="20261114040000 +0700" channel="Dens_motorvision.id">
-    <title lang="id">4x4 Vesoul, France</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114042500 +0700" channel="Dens_motorvision.id">
     <title lang="id">Tuning Season Review</title>
@@ -5415,12 +5073,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_motorvision.id">
     <title lang="id">NZ Jetsprint Championship 2026 The Canon</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Dens_cna.id">
-    <title lang="id">Pause With Purpose S2, Ep 3</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="Dens_cna.id">
-    <title lang="id">Asia Tonight</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="Dens_cna.id">
     <title lang="id">Singapore Hour</title>
   </programme>
@@ -5540,15 +5192,6 @@
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_cna.id">
     <title lang="id">Call Us Wunderkind, Ep 2</title>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="Dens_nhk-world-japan.id">
-    <title lang="id">Japan Delish</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="Dens_nhk-world-japan.id">
-    <title lang="id">NHK Newsline</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="Dens_nhk-world-japan.id">
-    <title lang="id">Design X Stories</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="Dens_nhk-world-japan.id">
     <title lang="id">NHK Newsline</title>
@@ -5748,12 +5391,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_nhk-world-japan.id">
     <title lang="id">Sumopedia</title>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="Dens_al-jazeera-english.id">
-    <title lang="id">Counting The Cost</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="Dens_al-jazeera-english.id">
-    <title lang="id">Let's Focus</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="Dens_al-jazeera-english.id">
     <title lang="id">NewsHour</title>
   </programme>
@@ -5849,18 +5486,6 @@
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_al-jazeera-english.id">
     <title lang="id">Fault Lines: Killing At Sea</title>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114024500 +0700" channel="Dens_trt-world.id">
-    <title lang="id">SCORELINE</title>
-  </programme>
-  <programme start="20261114024500 +0700" stop="20261114030000 +0700" channel="Dens_trt-world.id">
-    <title lang="id">DEBRIEF</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="Dens_trt-world.id">
-    <title lang="id">NEWS</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="Dens_trt-world.id">
-    <title lang="id">MONEY TALKS</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="Dens_trt-world.id">
     <title lang="id">NEWS</title>
@@ -5985,15 +5610,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_trt-world.id">
     <title lang="id">ROUNDTABLE</title>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="Dens_russia-today-rt.id">
-    <title lang="id">The Schedule Is Not Available</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="Dens_russia-today-rt.id">
-    <title lang="id">The Schedule Is Not Available</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="Dens_russia-today-rt.id">
-    <title lang="id">The Schedule Is Not Available</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="Dens_russia-today-rt.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
@@ -6117,9 +5733,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_russia-today-rt.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Dens_wion.id">
-    <title lang="id">The Schedule Is Not Available</title>
-  </programme>
   <programme start="20261114030000 +0700" stop="20261114043000 +0700" channel="Dens_wion.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
@@ -6184,9 +5797,6 @@
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_wion.id">
-    <title lang="id">The Schedule Is Not Available</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Dens_freedom.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
   <programme start="20261114030000 +0700" stop="20261114043000 +0700" channel="Dens_freedom.id">
@@ -6254,12 +5864,6 @@
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_freedom.id">
     <title lang="id">The Schedule Is Not Available</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114040000 +0700" channel="Dens_al-jazeera-arabic.id">
-    <title lang="id">Daily Roundup</title>
-  </programme>
-  <programme start="20261114040000 +0700" stop="20261114040500 +0700" channel="Dens_al-jazeera-arabic.id">
-    <title lang="id">News Bulletin</title>
   </programme>
   <programme start="20261114040500 +0700" stop="20261114045000 +0700" channel="Dens_al-jazeera-arabic.id">
     <title lang="id">Maghreb Roundup</title>
@@ -6360,9 +5964,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_al-jazeera-arabic.id">
     <title lang="id">South</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Dens_cctv-4.id">
-    <title lang="id">The Schedule Is Not Available</title>
-  </programme>
   <programme start="20261114030000 +0700" stop="20261114043000 +0700" channel="Dens_cctv-4.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
@@ -6428,21 +6029,6 @@
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_cctv-4.id">
     <title lang="id">The Schedule Is Not Available</title>
-  </programme>
-  <programme start="20261114024000 +0700" stop="20261114030000 +0700" channel="Dens_france-24.id">
-    <title lang="id">Eye On Africa (L)</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114031500 +0700" channel="Dens_france-24.id">
-    <title lang="id">News (L)</title>
-  </programme>
-  <programme start="20261114031500 +0700" stop="20261114033000 +0700" channel="Dens_france-24.id">
-    <title lang="id">The 51%</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114034200 +0700" channel="Dens_france-24.id">
-    <title lang="id">News (L)</title>
-  </programme>
-  <programme start="20261114034200 +0700" stop="20261114040000 +0700" channel="Dens_france-24.id">
-    <title lang="id">Eye On Africa (L)</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114041500 +0700" channel="Dens_france-24.id">
     <title lang="id">News (L)</title>
@@ -6714,15 +6300,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_france-24.id">
     <title lang="id">Global Grid (L)</title>
   </programme>
-  <programme start="20261114022600 +0700" stop="20261114025000 +0700" channel="Dens_tv5monde-asie.id">
-    <title lang="id">ALLONS-Y FRANCO !</title>
-  </programme>
-  <programme start="20261114025000 +0700" stop="20261114030000 +0700" channel="Dens_tv5monde-asie.id">
-    <title lang="id">L'INVITÃ‰</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="Dens_tv5monde-asie.id">
-    <title lang="id">MAGAZINE</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="Dens_tv5monde-asie.id">
     <title lang="id">LE JOURNAL DE LA RTBF</title>
   </programme>
@@ -6857,18 +6434,6 @@
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_tv5monde-asie.id">
     <title lang="id">OPJ</title>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="Dens_dw-tv.id">
-    <title lang="id">Eco Africa: The Environment</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="Dens_dw-tv.id">
-    <title lang="id">DW News</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="Dens_dw-tv.id">
-    <title lang="id">The Day: News In Review</title>
-  </programme>
-  <programme start="20261114040000 +0700" stop="20261114040200 +0700" channel="Dens_dw-tv.id">
-    <title lang="id">DW News</title>
   </programme>
   <programme start="20261114040200 +0700" stop="20261114041500 +0700" channel="Dens_dw-tv.id">
     <title lang="id">DW News Focus</title>
@@ -7062,9 +6627,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_dw-tv.id">
     <title lang="id">Love Matters</title>
   </programme>
-  <programme start="20261114000000 +0700" stop="20261114024500 +0700" channel="Dens_dim-tv.id">
-    <title lang="id">Tour de Ukraine (12+)</title>
-  </programme>
   <programme start="20261114024500 +0700" stop="20261114053000 +0700" channel="Dens_dim-tv.id">
     <title lang="id">F s The Train (12+)</title>
   </programme>
@@ -7118,12 +6680,6 @@
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_dim-tv.id">
     <title lang="id">F s A Citizen (12+)</title>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="Dens_cgtn-documentary.id">
-    <title lang="id">Pixel Collage</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="Dens_cgtn-documentary.id">
-    <title lang="id">Bridging Cultures Through...</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="Dens_cgtn-documentary.id">
     <title lang="id">Yellow River Wetlands..., Ep 1</title>
@@ -7221,9 +6777,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_cgtn-documentary.id">
     <title lang="id">The Blue World, Ep 4</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Dens_tbn.id">
-    <title lang="id">The Schedule Is Not Available</title>
-  </programme>
   <programme start="20261114030000 +0700" stop="20261114043000 +0700" channel="Dens_tbn.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
@@ -7288,9 +6841,6 @@
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_tbn.id">
-    <title lang="id">The Schedule Is Not Available</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Dens_sunna-tv.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
   <programme start="20261114030000 +0700" stop="20261114043000 +0700" channel="Dens_sunna-tv.id">
@@ -7359,9 +6909,6 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_sunna-tv.id">
     <title lang="id">The Schedule Is Not Available</title>
   </programme>
-  <programme start="20261114015149 +0700" stop="20261114033056 +0700" channel="Dens_wedotvmovies.id">
-    <title lang="id">Snowkissed</title>
-  </programme>
   <programme start="20261114033056 +0700" stop="20261114051719 +0700" channel="Dens_wedotvmovies.id">
     <title lang="id">Pocket Dial Murder</title>
   </programme>
@@ -7397,12 +6944,6 @@
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_wedotvmovies.id">
     <title lang="id">Love Afloat</title>
-  </programme>
-  <programme start="20261114021215 +0700" stop="20261114030541 +0700" channel="Dens_wedotvamor.id">
-    <title lang="id">La Trepadora</title>
-  </programme>
-  <programme start="20261114030541 +0700" stop="20261114035706 +0700" channel="Dens_wedotvamor.id">
-    <title lang="id">Te Tengo en Salsa</title>
   </programme>
   <programme start="20261114035706 +0700" stop="20261114044843 +0700" channel="Dens_wedotvamor.id">
     <title lang="id">Te Tengo en Salsa</title>
@@ -7475,12 +7016,6 @@
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_wedotvamor.id">
     <title lang="id">El Desprecio</title>
-  </programme>
-  <programme start="20261114020716 +0700" stop="20261114030003 +0700" channel="Dens_wedotvbig-stories.id">
-    <title lang="id">Most Haunted - S23:E07 - Ancient High House</title>
-  </programme>
-  <programme start="20261114030003 +0700" stop="20261114035604 +0700" channel="Dens_wedotvbig-stories.id">
-    <title lang="id">Most Haunted - S23:E08 - Leopard Inn Part 1</title>
   </programme>
   <programme start="20261114035604 +0700" stop="20261114045121 +0700" channel="Dens_wedotvbig-stories.id">
     <title lang="id">Most Haunted - S23:E09 - Leopard Inn Part 2</title>
@@ -7574,12 +7109,6 @@
   </programme>
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_wedotvbig-stories.id">
     <title lang="id">Harry &amp; Meghan: A Very Modern Romance</title>
-  </programme>
-  <programme start="20261114001225 +0700" stop="20261114032953 +0700" channel="Dens_wedosports.id">
-    <title lang="id">UCI Pump Track World Championships - S01:E01 - Beijing</title>
-  </programme>
-  <programme start="20261114032953 +0700" stop="20261114035607 +0700" channel="Dens_wedosports.id">
-    <title lang="id">Total Combat - S06:E46 - 27 October 2026</title>
   </programme>
   <programme start="20261114035607 +0700" stop="20261114041434 +0700" channel="Dens_wedosports.id">
     <title lang="id">The Road to Del Mar 2025 - S01:E01 - Breeders Cup Show</title>
@@ -8394,12 +7923,6 @@
     <title lang="en">GP Ice Race</title>
     <desc lang="en">Watch Max Verstappen enjoy his first track action of 2022 with ice speedway star Franky Zorn.</desc>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="MNC_abc-australia_350.id">
-    <title lang="id">If You're Listening</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="MNC_abc-australia_350.id">
-    <title lang="id">Weekend Breakfast</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="MNC_abc-australia_350.id">
     <title lang="id">Weekend Breakfast</title>
   </programme>
@@ -8466,9 +7989,6 @@
   <programme start="20261114223000 +0700" stop="20261115000500 +0700" channel="MNC_abc-australia_350.id">
     <title lang="id">The Pool</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114040000 +0700" channel="MNC_al-quran-al-kareem_93.id">
-    <title lang="id">Live From Mekkah</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114060000 +0700" channel="MNC_al-quran-al-kareem_93.id">
     <title lang="id">Live From Mekkah</title>
   </programme>
@@ -8498,15 +8018,6 @@
   </programme>
   <programme start="20261114220000 +0700" stop="20261115000000 +0700" channel="MNC_al-quran-al-kareem_93.id">
     <title lang="id">Live From Mekkah</title>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="MNC_animax_157.id">
-    <title lang="id">Ragna Crimson, Ep 15</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="MNC_animax_157.id">
-    <title lang="id">Why Raeliana Ended Up..., Ep 2</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="MNC_animax_157.id">
-    <title lang="id">Why Raeliana Ended Up..., Ep 3</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="MNC_animax_157.id">
     <title lang="id">Suicide Squad Isekai, Ep 9</title>
@@ -8621,18 +8132,6 @@
   </programme>
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="MNC_animax_157.id">
     <title lang="id">Witch Watch, Ep 7</title>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114025000 +0700" channel="MNC_arirang_351.id">
-    <title lang="id">Exploring Korean Literature C</title>
-  </programme>
-  <programme start="20261114025000 +0700" stop="20261114030000 +0700" channel="MNC_arirang_351.id">
-    <title lang="id">The Living Sea Of Jeju</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="MNC_arirang_351.id">
-    <title lang="id">Moo No Plan</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="MNC_arirang_351.id">
-    <title lang="id">Arirang Special</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="MNC_arirang_351.id">
     <title lang="id">Simply K-Pop Gateway To Korea</title>
@@ -8757,12 +8256,6 @@
   <programme start="20261114235000 +0700" stop="20261115000000 +0700" channel="MNC_arirang_351.id">
     <title lang="id">Fishing In The Museum</title>
   </programme>
-  <programme start="20261114021500 +0700" stop="20261114031000 +0700" channel="MNC_axn_154.id">
-    <title lang="id">S.W.A.T. S8, Ep 17</title>
-  </programme>
-  <programme start="20261114031000 +0700" stop="20261114040500 +0700" channel="MNC_axn_154.id">
-    <title lang="id">Elsbeth S2, Ep 18</title>
-  </programme>
   <programme start="20261114040500 +0700" stop="20261114050000 +0700" channel="MNC_axn_154.id">
     <title lang="id">The Rainmaker S1, Ep 10</title>
   </programme>
@@ -8829,12 +8322,6 @@
   <programme start="20261114233000 +0700" stop="20261115012500 +0700" channel="MNC_axn_154.id">
     <title lang="id">Hurry Up Tomorrow</title>
   </programme>
-  <programme start="20261114021500 +0700" stop="20261114031500 +0700" channel="MNC_bbc-earth_200.id">
-    <title lang="id">Frozen Planet S2, Ep 1</title>
-  </programme>
-  <programme start="20261114031500 +0700" stop="20261114040500 +0700" channel="MNC_bbc-earth_200.id">
-    <title lang="id">Secret Amazon S1, Ep 1</title>
-  </programme>
   <programme start="20261114040500 +0700" stop="20261114050000 +0700" channel="MNC_bbc-earth_200.id">
     <title lang="id">Deadliest Weather S5, Ep 9</title>
   </programme>
@@ -8896,12 +8383,6 @@
     <title lang="id">Frozen Planet S2, Ep 1</title>
   </programme>
   <programme start="20261114232000 +0700" stop="20261115001500 +0700" channel="MNC_bbc-earth_200.id">
-    <title lang="id">Secret Amazon S1, Ep 1</title>
-  </programme>
-  <programme start="20261114021500 +0700" stop="20261114031500 +0700" channel="MNC_bbc-earth-hd_461.id">
-    <title lang="id">Frozen Planet S2, Ep 1</title>
-  </programme>
-  <programme start="20261114031500 +0700" stop="20261114040500 +0700" channel="MNC_bbc-earth-hd_461.id">
     <title lang="id">Secret Amazon S1, Ep 1</title>
   </programme>
   <programme start="20261114040500 +0700" stop="20261114050000 +0700" channel="MNC_bbc-earth-hd_461.id">
@@ -8966,15 +8447,6 @@
   </programme>
   <programme start="20261114232000 +0700" stop="20261115001500 +0700" channel="MNC_bbc-earth-hd_461.id">
     <title lang="id">Secret Amazon S1, Ep 1</title>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="MNC_bbc-world-news_332.id">
-    <title lang="id">World Today With M. Moshiri</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="MNC_bbc-world-news_332.id">
-    <title lang="id">The Context USA</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="MNC_bbc-world-news_332.id">
-    <title lang="id">The Context USA</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="MNC_bbc-world-news_332.id">
     <title lang="id">The Context</title>
@@ -9150,66 +8622,6 @@
   <programme start="20261114224500 +0700" stop="20261115010000 +0700" channel="MNC_bein-sports-1_309.id">
     <title lang="id">AFCON Qual. '27: UGA Vs BOT (L)</title>
   </programme>
-  <programme start="20261114022200 +0700" stop="20261114043000 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">LaLiga 2 '26/27: LEG Vs BUR (L)</title>
-  </programme>
-  <programme start="20261114043000 +0700" stop="20261114063000 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">LFCTV 2026/27: CRY Vs LIV</title>
-  </programme>
-  <programme start="20261114063000 +0700" stop="20261114070000 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">LFCTV HL 2026/27: FEN Vs LIV</title>
-  </programme>
-  <programme start="20261114070000 +0700" stop="20261114073000 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">LFC Trending 2026/27, Ep 12</title>
-  </programme>
-  <programme start="20261114073000 +0700" stop="20261114080000 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">Mini Match LaLiga: BET Vs OSA</title>
-  </programme>
-  <programme start="20261114080000 +0700" stop="20261114083000 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">Mini Match LaLiga: ESP Vs ATM</title>
-  </programme>
-  <programme start="20261114083000 +0700" stop="20261114090000 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">Mini Match LaLiga: BET Vs BAR</title>
-  </programme>
-  <programme start="20261114090000 +0700" stop="20261114110000 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">AFCON Qual. '27: MAR Vs NIG</title>
-  </programme>
-  <programme start="20261114110000 +0700" stop="20261114130000 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">LaLiga 2 2026/27: LEG Vs BUR</title>
-  </programme>
-  <programme start="20261114130000 +0700" stop="20261114140000 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">Asian Le Mans Series 2026/27</title>
-  </programme>
-  <programme start="20261114140000 +0700" stop="20261114145000 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">Asian Le Mans Cup 2026/2027</title>
-  </programme>
-  <programme start="20261114145000 +0700" stop="20261114174500 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">Asian Le Mans Cup 2026/2027 (L)</title>
-  </programme>
-  <programme start="20261114174500 +0700" stop="20261114175500 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">LaLiga Goals Galore 2024/25</title>
-  </programme>
-  <programme start="20261114175500 +0700" stop="20261114185200 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">European Le Mans Series HL 2026</title>
-  </programme>
-  <programme start="20261114185200 +0700" stop="20261114195200 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">FIA World Endurance C'ship HL</title>
-  </programme>
-  <programme start="20261114195200 +0700" stop="20261114220000 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">LaLiga 2 '26/27: VLD Vs CAS (L)</title>
-  </programme>
-  <programme start="20261114220000 +0700" stop="20261114223000 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">Formula Regional European HL</title>
-  </programme>
-  <programme start="20261114223000 +0700" stop="20261114224500 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">LaLiga Goals Galore 2024/25</title>
-  </programme>
-  <programme start="20261114224500 +0700" stop="20261115010000 +0700" channel="MNC_bein-sports-1-hd_417.id">
-    <title lang="id">AFCON Qual. '27: UGA Vs BOT (L)</title>
-  </programme>
-  <programme start="20261114012000 +0700" stop="20261114024500 +0700" channel="MNC_bein-sports-2_310.id">
-    <title lang="id">Premier Padel 2026: Pretoria</title>
-  </programme>
   <programme start="20261114024500 +0700" stop="20261114050000 +0700" channel="MNC_bein-sports-2_310.id">
     <title lang="id">AFCON Qual. '27: MAR Vs NIG (L)</title>
   </programme>
@@ -9257,60 +8669,6 @@
   </programme>
   <programme start="20261114233000 +0700" stop="20261115010000 +0700" channel="MNC_bein-sports-2_310.id">
     <title lang="id">Premier Padel 2026: Dubai (L)</title>
-  </programme>
-  <programme start="20261114012000 +0700" stop="20261114024500 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">Premier Padel 2026: Pretoria</title>
-  </programme>
-  <programme start="20261114024500 +0700" stop="20261114050000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">AFCON Qual. '27: MAR Vs NIG (L)</title>
-  </programme>
-  <programme start="20261114050000 +0700" stop="20261114052000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">HSBC SVNS Series 2026</title>
-  </programme>
-  <programme start="20261114052000 +0700" stop="20261114054500 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">HSBC SVNS Series 2026</title>
-  </programme>
-  <programme start="20261114054500 +0700" stop="20261114061000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">HSBC SVNS Series 2026</title>
-  </programme>
-  <programme start="20261114061000 +0700" stop="20261114080000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">UWCL 2026/27: BKH Vs CHE</title>
-  </programme>
-  <programme start="20261114080000 +0700" stop="20261114095000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">UWCL 2026/27: INT Vs MCI</title>
-  </programme>
-  <programme start="20261114095000 +0700" stop="20261114105000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">WSL Highlights 2026/27</title>
-  </programme>
-  <programme start="20261114105000 +0700" stop="20261114124000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">UWCL 2026/27: PSG Vs FCB</title>
-  </programme>
-  <programme start="20261114124000 +0700" stop="20261114143000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">UWCL 2026/27: BAR Vs ARS</title>
-  </programme>
-  <programme start="20261114143000 +0700" stop="20261114160000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">Premier Padel 2026: Dubai</title>
-  </programme>
-  <programme start="20261114160000 +0700" stop="20261114173000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">Premier Padel 2026: Dubai</title>
-  </programme>
-  <programme start="20261114173000 +0700" stop="20261114190000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">Premier Padel 2026: Dubai</title>
-  </programme>
-  <programme start="20261114190000 +0700" stop="20261114203000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">Premier Padel 2026: Dubai (L)</title>
-  </programme>
-  <programme start="20261114203000 +0700" stop="20261114220000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">Premier Padel 2026: Dubai (L)</title>
-  </programme>
-  <programme start="20261114220000 +0700" stop="20261114233000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">Premier Padel 2026: Dubai (L)</title>
-  </programme>
-  <programme start="20261114233000 +0700" stop="20261115010000 +0700" channel="MNC_bein-sports-2-hd_418.id">
-    <title lang="id">Premier Padel 2026: Dubai (L)</title>
-  </programme>
-  <programme start="20261114014500 +0700" stop="20261114040000 +0700" channel="MNC_bein-sports-3_311.id">
-    <title lang="id">AFCON Qual. '27: EGY Vs MWI (L)</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="MNC_bein-sports-3_311.id">
     <title lang="id">Transvulcania</title>
@@ -9363,60 +8721,6 @@
   <programme start="20261114215000 +0700" stop="20261115000500 +0700" channel="MNC_bein-sports-3_311.id">
     <title lang="id">WSL 2026/27: TOT Vs EVE (L)</title>
   </programme>
-  <programme start="20261114014500 +0700" stop="20261114040000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">AFCON Qual. '27: EGY Vs MWI (L)</title>
-  </programme>
-  <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">Transvulcania</title>
-  </programme>
-  <programme start="20261114043000 +0700" stop="20261114050000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">MUTV Treble 20: MUN Vs BAR</title>
-  </programme>
-  <programme start="20261114050000 +0700" stop="20261114070000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">MUTV 2026/27: MUN Vs AVL</title>
-  </programme>
-  <programme start="20261114070000 +0700" stop="20261114073000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">MUTV Match Day: MUN Vs AVL</title>
-  </programme>
-  <programme start="20261114073000 +0700" stop="20261114080000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">UCL Magazine Show 2026/27</title>
-  </programme>
-  <programme start="20261114080000 +0700" stop="20261114083000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">UWCL Highlights 2026/27</title>
-  </programme>
-  <programme start="20261114083000 +0700" stop="20261114093000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">UCL Highlights 2026/27</title>
-  </programme>
-  <programme start="20261114093000 +0700" stop="20261114103000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">UEL/UECL Highlights 2026/27</title>
-  </programme>
-  <programme start="20261114103000 +0700" stop="20261114110000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">MUTV Treble 20: MUN Vs BAR</title>
-  </programme>
-  <programme start="20261114110000 +0700" stop="20261114130000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">MUTV 2026/27: MUN Vs AVL</title>
-  </programme>
-  <programme start="20261114130000 +0700" stop="20261114133000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">MUTV Match Day: MUN Vs AVL</title>
-  </programme>
-  <programme start="20261114133000 +0700" stop="20261114140000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">UCL Magazine Show 2026/27</title>
-  </programme>
-  <programme start="20261114140000 +0700" stop="20261114155000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">AFCON Qual. 2027: CPV Vs LBR</title>
-  </programme>
-  <programme start="20261114155000 +0700" stop="20261114174000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">AFCON Qual. 2027: GAB Vs LES</title>
-  </programme>
-  <programme start="20261114174000 +0700" stop="20261114193500 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">UWCL 2026/27: ROM Vs SFC</title>
-  </programme>
-  <programme start="20261114193500 +0700" stop="20261114215000 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">WSL 2026/27: MUN Vs CRY (L)</title>
-  </programme>
-  <programme start="20261114215000 +0700" stop="20261115000500 +0700" channel="MNC_bein-sports-3-hd_419.id">
-    <title lang="id">WSL 2026/27: TOT Vs EVE (L)</title>
-  </programme>
   <programme start="20261114013000 +0700" stop="20261114050000 +0700" channel="MNC_bein-sports-4_312.id">
     <title lang="id">beIN Sports 4</title>
   </programme>
@@ -9447,9 +8751,6 @@
   <programme start="20261114220000 +0700" stop="20261115000000 +0700" channel="MNC_bein-sports-4_312.id">
     <title lang="id">beIN Sports 4</title>
   </programme>
-  <programme start="20261114000000 +0700" stop="20261114030000 +0700" channel="MNC_bein-sports-5_313.id">
-    <title lang="id">beIN Sports 5</title>
-  </programme>
   <programme start="20261114030000 +0700" stop="20261114050000 +0700" channel="MNC_bein-sports-5_313.id">
     <title lang="id">beIN Sports 5</title>
   </programme>
@@ -9479,9 +8780,6 @@
   </programme>
   <programme start="20261114220000 +0700" stop="20261115000000 +0700" channel="MNC_bein-sports-5_313.id">
     <title lang="id">beIN Sports 5</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114040000 +0700" channel="MNC_bloomberg_338.id">
-    <title lang="id">Bloomberg The Close</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="MNC_bloomberg_338.id">
     <title lang="id">Bloomberg: Balance Of Power</title>
@@ -9564,9 +8862,6 @@
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="MNC_bloomberg_338.id">
     <title lang="id">The David Rubenstein Show</title>
   </programme>
-  <programme start="20261114022300 +0700" stop="20261114034700 +0700" channel="MNC_buddy-stars_9.id">
-    <title lang="id">Timescape</title>
-  </programme>
   <programme start="20261114034700 +0700" stop="20261114052900 +0700" channel="MNC_buddy-stars_9.id">
     <title lang="id">House Of Wonder</title>
   </programme>
@@ -9606,9 +8901,6 @@
   <programme start="20261114231200 +0700" stop="20261115010000 +0700" channel="MNC_buddy-stars_9.id">
     <title lang="id">Least Of These: Christmas Story</title>
   </programme>
-  <programme start="20261114022300 +0700" stop="20261114034700 +0700" channel="MNC_buddy-stars-hd_403.id">
-    <title lang="id">Timescape</title>
-  </programme>
   <programme start="20261114034700 +0700" stop="20261114052900 +0700" channel="MNC_buddy-stars-hd_403.id">
     <title lang="id">House Of Wonder</title>
   </programme>
@@ -9647,39 +8939,6 @@
   </programme>
   <programme start="20261114231200 +0700" stop="20261115010000 +0700" channel="MNC_buddy-stars-hd_403.id">
     <title lang="id">Least Of These: Christmas Story</title>
-  </programme>
-  <programme start="20261114024000 +0700" stop="20261114025000 +0700" channel="MNC_cbeebies_41.id">
-    <title lang="id">Thomas &amp; Friends S24, Ep 4</title>
-  </programme>
-  <programme start="20261114025000 +0700" stop="20261114025700 +0700" channel="MNC_cbeebies_41.id">
-    <title lang="id">Nikhil &amp; Jay S1, Ep 10</title>
-  </programme>
-  <programme start="20261114025700 +0700" stop="20261114030500 +0700" channel="MNC_cbeebies_41.id">
-    <title lang="id">Sarah And Duck S3, Ep 25</title>
-  </programme>
-  <programme start="20261114030500 +0700" stop="20261114031100 +0700" channel="MNC_cbeebies_41.id">
-    <title lang="id">Stan Can S1, Ep 49</title>
-  </programme>
-  <programme start="20261114031100 +0700" stop="20261114032000 +0700" channel="MNC_cbeebies_41.id">
-    <title lang="id">Stan Can S1, Ep 48</title>
-  </programme>
-  <programme start="20261114032000 +0700" stop="20261114032500 +0700" channel="MNC_cbeebies_41.id">
-    <title lang="id">Funny Talking Animals S1, Ep 7</title>
-  </programme>
-  <programme start="20261114032500 +0700" stop="20261114033800 +0700" channel="MNC_cbeebies_41.id">
-    <title lang="id">Jojo &amp; Gran Gran S1, Ep 33</title>
-  </programme>
-  <programme start="20261114033800 +0700" stop="20261114034500 +0700" channel="MNC_cbeebies_41.id">
-    <title lang="id">Bluey S3, Ep 45</title>
-  </programme>
-  <programme start="20261114034500 +0700" stop="20261114035000 +0700" channel="MNC_cbeebies_41.id">
-    <title lang="id">Bluey S3, Ep 46</title>
-  </programme>
-  <programme start="20261114035000 +0700" stop="20261114040000 +0700" channel="MNC_cbeebies_41.id">
-    <title lang="id">Bluey S3, Ep 47</title>
-  </programme>
-  <programme start="20261114040000 +0700" stop="20261114040700 +0700" channel="MNC_cbeebies_41.id">
-    <title lang="id">Hey Duggee S2, Ep 32</title>
   </programme>
   <programme start="20261114040700 +0700" stop="20261114041400 +0700" channel="MNC_cbeebies_41.id">
     <title lang="id">Hey Duggee S2, Ep 31</title>
@@ -9750,54 +9009,6 @@
   <programme start="20261114063900 +0700" stop="20261114064600 +0700" channel="MNC_cbeebies_41.id">
     <title lang="id">Bluey S3, Ep 34</title>
   </programme>
-  <programme start="20261114020500 +0700" stop="20261114034000 +0700" channel="MNC_ccm_22.id">
-    <title lang="id">The Merry Wife</title>
-  </programme>
-  <programme start="20261114034000 +0700" stop="20261114052000 +0700" channel="MNC_ccm_22.id">
-    <title lang="id">The Web Of Death</title>
-  </programme>
-  <programme start="20261114052000 +0700" stop="20261114065500 +0700" channel="MNC_ccm_22.id">
-    <title lang="id">Double Bliss</title>
-  </programme>
-  <programme start="20261114065500 +0700" stop="20261114083500 +0700" channel="MNC_ccm_22.id">
-    <title lang="id">The Boxer From The Temple</title>
-  </programme>
-  <programme start="20261114083500 +0700" stop="20261114100500 +0700" channel="MNC_ccm_22.id">
-    <title lang="id">The Enchanting Ghost</title>
-  </programme>
-  <programme start="20261114100500 +0700" stop="20261114113500 +0700" channel="MNC_ccm_22.id">
-    <title lang="id">The Land Of Many Perfumes</title>
-  </programme>
-  <programme start="20261114113500 +0700" stop="20261114131000 +0700" channel="MNC_ccm_22.id">
-    <title lang="id">Return Of The Phoenix</title>
-  </programme>
-  <programme start="20261114131000 +0700" stop="20261114145500 +0700" channel="MNC_ccm_22.id">
-    <title lang="id">The Rebel Intruders</title>
-  </programme>
-  <programme start="20261114145500 +0700" stop="20261114163000 +0700" channel="MNC_ccm_22.id">
-    <title lang="id">A Friend From Inner Space</title>
-  </programme>
-  <programme start="20261114163000 +0700" stop="20261114182000 +0700" channel="MNC_ccm_22.id">
-    <title lang="id">Return Of The Sentimental...</title>
-  </programme>
-  <programme start="20261114182000 +0700" stop="20261114200000 +0700" channel="MNC_ccm_22.id">
-    <title lang="id">The Perfumed Arrow</title>
-  </programme>
-  <programme start="20261114200000 +0700" stop="20261114214500 +0700" channel="MNC_ccm_22.id">
-    <title lang="id">Princess Iron Fan</title>
-  </programme>
-  <programme start="20261114214500 +0700" stop="20261114232500 +0700" channel="MNC_ccm_22.id">
-    <title lang="id">Scandal</title>
-  </programme>
-  <programme start="20261114232500 +0700" stop="20261115010500 +0700" channel="MNC_ccm_22.id">
-    <title lang="id">Buddha's Palm</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="MNC_celebrities-tv_96.id">
-    <title lang="id">KOPI: Kupas Obrolan Problem...</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="MNC_celebrities-tv_96.id">
-    <title lang="id">Tamu Tak Diundang</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="MNC_celebrities-tv_96.id">
     <title lang="id">Jangan Baper</title>
   </programme>
@@ -9851,57 +9062,6 @@
   </programme>
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="MNC_celebrities-tv_96.id">
     <title lang="id">HighEnd On TV</title>
-  </programme>
-  <programme start="20261114010500 +0700" stop="20261114024500 +0700" channel="MNC_celestial-movies_20.id">
-    <title lang="id">The Illegal Immigrant</title>
-  </programme>
-  <programme start="20261114024500 +0700" stop="20261114045000 +0700" channel="MNC_celestial-movies_20.id">
-    <title lang="id">Infernal Affairs 2</title>
-  </programme>
-  <programme start="20261114045000 +0700" stop="20261114062500 +0700" channel="MNC_celestial-movies_20.id">
-    <title lang="id">Never Leave</title>
-  </programme>
-  <programme start="20261114062500 +0700" stop="20261114080000 +0700" channel="MNC_celestial-movies_20.id">
-    <title lang="id">Shark Busters</title>
-  </programme>
-  <programme start="20261114080000 +0700" stop="20261114094500 +0700" channel="MNC_celestial-movies_20.id">
-    <title lang="id">Challenge Of The Gamesters</title>
-  </programme>
-  <programme start="20261114094500 +0700" stop="20261114111000 +0700" channel="MNC_celestial-movies_20.id">
-    <title lang="id">Bangkok Storm</title>
-  </programme>
-  <programme start="20261114111000 +0700" stop="20261114124500 +0700" channel="MNC_celestial-movies_20.id">
-    <title lang="id">Young Heroes Of Chaotic Times</title>
-  </programme>
-  <programme start="20261114124500 +0700" stop="20261114142500 +0700" channel="MNC_celestial-movies_20.id">
-    <title lang="id">Hong Kong Playboys</title>
-  </programme>
-  <programme start="20261114142500 +0700" stop="20261114162000 +0700" channel="MNC_celestial-movies_20.id">
-    <title lang="id">The Lost Bladesman</title>
-  </programme>
-  <programme start="20261114162000 +0700" stop="20261114174500 +0700" channel="MNC_celestial-movies_20.id">
-    <title lang="id">From Beijing With Love</title>
-  </programme>
-  <programme start="20261114174500 +0700" stop="20261114200000 +0700" channel="MNC_celestial-movies_20.id">
-    <title lang="id">The Stormriders</title>
-  </programme>
-  <programme start="20261114200000 +0700" stop="20261114213500 +0700" channel="MNC_celestial-movies_20.id">
-    <title lang="id">When Fortune Smiles</title>
-  </programme>
-  <programme start="20261114213500 +0700" stop="20261114231500 +0700" channel="MNC_celestial-movies_20.id">
-    <title lang="id">Love In A Fallen City</title>
-  </programme>
-  <programme start="20261114231500 +0700" stop="20261115004500 +0700" channel="MNC_celestial-movies_20.id">
-    <title lang="id">Punish Evil</title>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="MNC_cgtn_353.id">
-    <title lang="id">World Insight With Tian Wei</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="MNC_cgtn_353.id">
-    <title lang="id">The World Today</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="MNC_cgtn_353.id">
-    <title lang="id">Dialogue</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="MNC_cgtn_353.id">
     <title lang="id">Global Business</title>
@@ -10014,9 +9174,6 @@
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="MNC_cgtn_353.id">
     <title lang="id">The Agenda</title>
   </programme>
-  <programme start="20261114020900 +0700" stop="20261114034700 +0700" channel="MNC_cineedge_8.id">
-    <title lang="id">Ticker</title>
-  </programme>
   <programme start="20261114034700 +0700" stop="20261114053400 +0700" channel="MNC_cineedge_8.id">
     <title lang="id">The Numbers Station</title>
   </programme>
@@ -10053,9 +9210,6 @@
   <programme start="20261114224300 +0700" stop="20261115002900 +0700" channel="MNC_cineedge_8.id">
     <title lang="id">Deadly Vendetta</title>
   </programme>
-  <programme start="20261114020900 +0700" stop="20261114034700 +0700" channel="MNC_cineedge-hd_402.id">
-    <title lang="id">Ticker</title>
-  </programme>
   <programme start="20261114034700 +0700" stop="20261114053400 +0700" channel="MNC_cineedge-hd_402.id">
     <title lang="id">The Numbers Station</title>
   </programme>
@@ -10091,12 +9245,6 @@
   </programme>
   <programme start="20261114224300 +0700" stop="20261115002900 +0700" channel="MNC_cineedge-hd_402.id">
     <title lang="id">Deadly Vendetta</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="MNC_cnbc_337.id">
-    <title lang="id">Power Lunch</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="MNC_cnbc_337.id">
-    <title lang="id">Closing Bell</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="MNC_cnbc_337.id">
     <title lang="id">Closing Bell: Overtime</title>
@@ -10166,12 +9314,6 @@
   </programme>
   <programme start="20261114230000 +0700" stop="20261115010000 +0700" channel="MNC_cnbc_337.id">
     <title lang="id">Late Night With Seth Meyers</title>
-  </programme>
-  <programme start="20261114021000 +0700" stop="20261114030500 +0700" channel="MNC_crime-investigation_207.id">
-    <title lang="id">Fugitive Hunters: Mexico, Ep 3</title>
-  </programme>
-  <programme start="20261114030500 +0700" stop="20261114040000 +0700" channel="MNC_crime-investigation_207.id">
-    <title lang="id">Undercover: On Tape, Ep 3</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="MNC_crime-investigation_207.id">
     <title lang="id">Ozark Law S1, Ep 3</title>
@@ -10253,15 +9395,6 @@
   </programme>
   <programme start="20261114233500 +0700" stop="20261115002500 +0700" channel="MNC_crime-investigation_207.id">
     <title lang="id">Fugitive Hunters: Mexico, Ep 12</title>
-  </programme>
-  <programme start="20261114024000 +0700" stop="20261114030500 +0700" channel="MNC_dreamworks_47.id">
-    <title lang="id">The Adv. Of Puss In Boots</title>
-  </programme>
-  <programme start="20261114030500 +0700" stop="20261114033000 +0700" channel="MNC_dreamworks_47.id">
-    <title lang="id">The Adv. Of Puss In Boots</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="MNC_dreamworks_47.id">
-    <title lang="id">Go, Dog. Go!</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="MNC_dreamworks_47.id">
     <title lang="id">Casper's Scare School</title>
@@ -10385,15 +9518,6 @@
   </programme>
   <programme start="20261114200000 +0700" stop="20261114202500 +0700" channel="MNC_dreamworks_47.id">
     <title lang="id">Trolls: The Beat Goes On!</title>
-  </programme>
-  <programme start="20261114024000 +0700" stop="20261114030500 +0700" channel="MNC_dreamworks-hd_473.id">
-    <title lang="id">The Adv. Of Puss In Boots</title>
-  </programme>
-  <programme start="20261114030500 +0700" stop="20261114033000 +0700" channel="MNC_dreamworks-hd_473.id">
-    <title lang="id">The Adv. Of Puss In Boots</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="MNC_dreamworks-hd_473.id">
-    <title lang="id">Go, Dog. Go!</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="MNC_dreamworks-hd_473.id">
     <title lang="id">Casper's Scare School</title>
@@ -10560,24 +9684,6 @@
   <programme start="20261114223000 +0700" stop="20261115003000 +0700" channel="MNC_entertainment_86.id">
     <title lang="id">Road To Kilau Raya: Suara Hati</title>
   </programme>
-  <programme start="20261114023700 +0700" stop="20261114030000 +0700" channel="MNC_euronews_333.id">
-    <title lang="id">Europe Conversation</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114031200 +0700" channel="MNC_euronews_333.id">
-    <title lang="id">The European Debrief</title>
-  </programme>
-  <programme start="20261114031200 +0700" stop="20261114033100 +0700" channel="MNC_euronews_333.id">
-    <title lang="id">News</title>
-  </programme>
-  <programme start="20261114033100 +0700" stop="20261114033800 +0700" channel="MNC_euronews_333.id">
-    <title lang="id">The European Debrief</title>
-  </programme>
-  <programme start="20261114033800 +0700" stop="20261114034900 +0700" channel="MNC_euronews_333.id">
-    <title lang="id">Made In Europe</title>
-  </programme>
-  <programme start="20261114034900 +0700" stop="20261114040000 +0700" channel="MNC_euronews_333.id">
-    <title lang="id">Made In Europe</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="MNC_euronews_333.id">
     <title lang="id">The European Debrief</title>
   </programme>
@@ -10680,15 +9786,6 @@
   <programme start="20261114113500 +0700" stop="20261114120000 +0700" channel="MNC_euronews_333.id">
     <title lang="id">The Ring</title>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="MNC_fight-sports_304.id">
-    <title lang="id">Judo For The World S1, Ep 5</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="MNC_fight-sports_304.id">
-    <title lang="id">Knockouts!: Hopkins Vs Pascal</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="MNC_fight-sports_304.id">
-    <title lang="id">FS Grand Sumo S12, Ep 3</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="MNC_fight-sports_304.id">
     <title lang="id">Prison Fighters S1, Ep 1</title>
   </programme>
@@ -10760,12 +9857,6 @@
   </programme>
   <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="MNC_fight-sports_304.id">
     <title lang="id">FS MMA: Sonnen Vs Suloev</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="MNC_food-travel_95.id">
-    <title lang="id">Tukang Makan</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="MNC_food-travel_95.id">
-    <title lang="id">Untung Ada Rudy</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114053000 +0700" channel="MNC_food-travel_95.id">
     <title lang="id">Cantik-Cantik Tukang Dodol</title>
@@ -10845,12 +9936,6 @@
   <programme start="20261114223000 +0700" stop="20261115010000 +0700" channel="MNC_food-travel_95.id">
     <title lang="id">MasterChef Indonesia S11</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="MNC_food-travel-hd_459.id">
-    <title lang="id">Tukang Makan</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="MNC_food-travel-hd_459.id">
-    <title lang="id">Untung Ada Rudy</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114053000 +0700" channel="MNC_food-travel-hd_459.id">
     <title lang="id">Cantik-Cantik Tukang Dodol</title>
   </programme>
@@ -10929,12 +10014,6 @@
   <programme start="20261114223000 +0700" stop="20261115010000 +0700" channel="MNC_food-travel-hd_459.id">
     <title lang="id">MasterChef Indonesia S11</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="MNC_fox-news_335.id">
-    <title lang="id">America Reports</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="MNC_fox-news_335.id">
-    <title lang="id">The Story</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="MNC_fox-news_335.id">
     <title lang="id">The Will Cain Show</title>
   </programme>
@@ -10994,90 +10073,6 @@
   </programme>
   <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="MNC_fox-news_335.id">
     <title lang="id">Saturday In America</title>
-  </programme>
-  <programme start="20261114023500 +0700" stop="20261114041000 +0700" channel="MNC_galaxy_13.id">
-    <title lang="id">Hunting Games</title>
-  </programme>
-  <programme start="20261114041000 +0700" stop="20261114055000 +0700" channel="MNC_galaxy_13.id">
-    <title lang="id">No Visitors</title>
-  </programme>
-  <programme start="20261114055000 +0700" stop="20261114073000 +0700" channel="MNC_galaxy_13.id">
-    <title lang="id">Chosen</title>
-  </programme>
-  <programme start="20261114073000 +0700" stop="20261114090500 +0700" channel="MNC_galaxy_13.id">
-    <title lang="id">Among The Shadows</title>
-  </programme>
-  <programme start="20261114090500 +0700" stop="20261114104500 +0700" channel="MNC_galaxy_13.id">
-    <title lang="id">Dead Awake</title>
-  </programme>
-  <programme start="20261114104500 +0700" stop="20261114122000 +0700" channel="MNC_galaxy_13.id">
-    <title lang="id">The Retaliators</title>
-  </programme>
-  <programme start="20261114122000 +0700" stop="20261114135000 +0700" channel="MNC_galaxy_13.id">
-    <title lang="id">Beneath Us</title>
-  </programme>
-  <programme start="20261114135000 +0700" stop="20261114153000 +0700" channel="MNC_galaxy_13.id">
-    <title lang="id">Murder Syndicate</title>
-  </programme>
-  <programme start="20261114153000 +0700" stop="20261114171000 +0700" channel="MNC_galaxy_13.id">
-    <title lang="id">Don't Suck</title>
-  </programme>
-  <programme start="20261114171000 +0700" stop="20261114190000 +0700" channel="MNC_galaxy_13.id">
-    <title lang="id">The Great War</title>
-  </programme>
-  <programme start="20261114190000 +0700" stop="20261114202500 +0700" channel="MNC_galaxy_13.id">
-    <title lang="id">The Curse Of The Clown Motel</title>
-  </programme>
-  <programme start="20261114202500 +0700" stop="20261114222000 +0700" channel="MNC_galaxy_13.id">
-    <title lang="id">Call Me King</title>
-  </programme>
-  <programme start="20261114222000 +0700" stop="20261115000000 +0700" channel="MNC_galaxy_13.id">
-    <title lang="id">Born To Dance</title>
-  </programme>
-  <programme start="20261114021000 +0700" stop="20261114034500 +0700" channel="MNC_galaxy-premium_12.id">
-    <title lang="id">The Bronze</title>
-  </programme>
-  <programme start="20261114034500 +0700" stop="20261114052000 +0700" channel="MNC_galaxy-premium_12.id">
-    <title lang="id">Once Upon A Time In Mexico</title>
-  </programme>
-  <programme start="20261114052000 +0700" stop="20261114070000 +0700" channel="MNC_galaxy-premium_12.id">
-    <title lang="id">Envy</title>
-  </programme>
-  <programme start="20261114070000 +0700" stop="20261114083500 +0700" channel="MNC_galaxy-premium_12.id">
-    <title lang="id">Legion</title>
-  </programme>
-  <programme start="20261114083500 +0700" stop="20261114102500 +0700" channel="MNC_galaxy-premium_12.id">
-    <title lang="id">Hollywood Homicide</title>
-  </programme>
-  <programme start="20261114102500 +0700" stop="20261114121000 +0700" channel="MNC_galaxy-premium_12.id">
-    <title lang="id">That's My Boy</title>
-  </programme>
-  <programme start="20261114121000 +0700" stop="20261114134500 +0700" channel="MNC_galaxy-premium_12.id">
-    <title lang="id">Zombieland: Double Tap</title>
-  </programme>
-  <programme start="20261114134500 +0700" stop="20261114151500 +0700" channel="MNC_galaxy-premium_12.id">
-    <title lang="id">Kill 'Em All</title>
-  </programme>
-  <programme start="20261114151500 +0700" stop="20261114170000 +0700" channel="MNC_galaxy-premium_12.id">
-    <title lang="id">Men In Black: International</title>
-  </programme>
-  <programme start="20261114170000 +0700" stop="20261114191500 +0700" channel="MNC_galaxy-premium_12.id">
-    <title lang="id">The Good Shepherd</title>
-  </programme>
-  <programme start="20261114191500 +0700" stop="20261114210000 +0700" channel="MNC_galaxy-premium_12.id">
-    <title lang="id">Life</title>
-  </programme>
-  <programme start="20261114210000 +0700" stop="20261114224500 +0700" channel="MNC_galaxy-premium_12.id">
-    <title lang="id">Blumhouse's Fantasy Island</title>
-  </programme>
-  <programme start="20261114224500 +0700" stop="20261115001500 +0700" channel="MNC_galaxy-premium_12.id">
-    <title lang="id">Meet The Blacks</title>
-  </programme>
-  <programme start="20261114021000 +0700" stop="20261114025000 +0700" channel="MNC_global-trekker_201.id">
-    <title lang="id">Visionaries Ft. Reeves, Ep 3</title>
-  </programme>
-  <programme start="20261114025000 +0700" stop="20261114033500 +0700" channel="MNC_global-trekker_201.id">
-    <title lang="id">Visionaries Ft. Reeves, Ep 1</title>
   </programme>
   <programme start="20261114033500 +0700" stop="20261114042000 +0700" channel="MNC_global-trekker_201.id">
     <title lang="id">Visionaries Ft. Reeves, Ep 2</title>
@@ -11153,12 +10148,6 @@
   </programme>
   <programme start="20261114234000 +0700" stop="20261115003500 +0700" channel="MNC_global-trekker_201.id">
     <title lang="id">Wild Portugal, Ep 2</title>
-  </programme>
-  <programme start="20261114021000 +0700" stop="20261114025000 +0700" channel="MNC_global-trekker-hd_462.id">
-    <title lang="id">Visionaries Ft. Reeves, Ep 3</title>
-  </programme>
-  <programme start="20261114025000 +0700" stop="20261114033500 +0700" channel="MNC_global-trekker-hd_462.id">
-    <title lang="id">Visionaries Ft. Reeves, Ep 1</title>
   </programme>
   <programme start="20261114033500 +0700" stop="20261114042000 +0700" channel="MNC_global-trekker-hd_462.id">
     <title lang="id">Visionaries Ft. Reeves, Ep 2</title>
@@ -11301,9 +10290,6 @@
   <programme start="20261114210000 +0700" stop="20261115040000 +0700" channel="MNC_hanacaraka-tv_90.id">
     <title lang="id">Wayang Kulit: Semarang (L)</title>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114032000 +0700" channel="MNC_history_206.id">
-    <title lang="id">Mega-Brands That... S2, Ep 9</title>
-  </programme>
   <programme start="20261114032000 +0700" stop="20261114041500 +0700" channel="MNC_history_206.id">
     <title lang="id">Food That Built World S4, Ep 47</title>
   </programme>
@@ -11379,90 +10365,6 @@
   <programme start="20261114234000 +0700" stop="20261115003500 +0700" channel="MNC_history_206.id">
     <title lang="id">The UnXplained S8, Ep 4</title>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114033000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Xena: Warrior... S1, Ep 2</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114043000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Xena: Warrior... S1, Ep 3</title>
-  </programme>
-  <programme start="20261114043000 +0700" stop="20261114053000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Xena: Warrior... S1, Ep 4</title>
-  </programme>
-  <programme start="20261114053000 +0700" stop="20261114063000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Murder, She Wrote S10, Ep 5</title>
-  </programme>
-  <programme start="20261114063000 +0700" stop="20261114073000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Murder, She Wrote S10, Ep 6</title>
-  </programme>
-  <programme start="20261114073000 +0700" stop="20261114080000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">The Twilight Zone S1, Ep 7</title>
-  </programme>
-  <programme start="20261114080000 +0700" stop="20261114083000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">The Twilight Zone S1, Ep 8</title>
-  </programme>
-  <programme start="20261114083000 +0700" stop="20261114090000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">The Twilight Zone S1, Ep 9</title>
-  </programme>
-  <programme start="20261114090000 +0700" stop="20261114100000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Mission Impossible S3, Ep 24</title>
-  </programme>
-  <programme start="20261114100000 +0700" stop="20261114110000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Mission Impossible S3, Ep 25</title>
-  </programme>
-  <programme start="20261114110000 +0700" stop="20261114113000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Frasier S8, Ep 15</title>
-  </programme>
-  <programme start="20261114113000 +0700" stop="20261114120000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Frasier S8, Ep 16</title>
-  </programme>
-  <programme start="20261114120000 +0700" stop="20261114123000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Frasier S8, Ep 17</title>
-  </programme>
-  <programme start="20261114123000 +0700" stop="20261114130000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Frasier S8, Ep 18</title>
-  </programme>
-  <programme start="20261114130000 +0700" stop="20261114133000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Frasier S8, Ep 19</title>
-  </programme>
-  <programme start="20261114133000 +0700" stop="20261114143000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Law &amp; Order: SVU S12, Ep 10</title>
-  </programme>
-  <programme start="20261114143000 +0700" stop="20261114153000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Law &amp; Order: SVU S12, Ep 11</title>
-  </programme>
-  <programme start="20261114153000 +0700" stop="20261114163000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Law &amp; Order: SVU S12, Ep 12</title>
-  </programme>
-  <programme start="20261114163000 +0700" stop="20261114173000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Beverly Hills 90210 S1, Ep 3</title>
-  </programme>
-  <programme start="20261114173000 +0700" stop="20261114183000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Beverly Hills 90210 S1, Ep 4</title>
-  </programme>
-  <programme start="20261114183000 +0700" stop="20261114193000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Beverly Hills 90210 S1, Ep 5</title>
-  </programme>
-  <programme start="20261114193000 +0700" stop="20261114203000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Murder, She Wrote S10, Ep 5</title>
-  </programme>
-  <programme start="20261114203000 +0700" stop="20261114213000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">Murder, She Wrote S10, Ep 6</title>
-  </programme>
-  <programme start="20261114213000 +0700" stop="20261114220000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">I Dream Of Jeannie S5, Ep 6</title>
-  </programme>
-  <programme start="20261114220000 +0700" stop="20261114223000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">I Dream Of Jeannie S5, Ep 7</title>
-  </programme>
-  <programme start="20261114223000 +0700" stop="20261114230000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">I Dream Of Jeannie S5, Ep 8</title>
-  </programme>
-  <programme start="20261114230000 +0700" stop="20261114233000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">I Dream Of Jeannie S5, Ep 9</title>
-  </programme>
-  <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="MNC_hits_160.id">
-    <title lang="id">I Dream Of Jeannie S5, Ep 10</title>
-  </programme>
   <programme start="20261114020000 +0700" stop="20261114044500 +0700" channel="MNC_hits-movies_11.id">
     <title lang="id">Goodfellas</title>
   </programme>
@@ -11492,42 +10394,6 @@
   </programme>
   <programme start="20261114231500 +0700" stop="20261115011500 +0700" channel="MNC_hits-movies_11.id">
     <title lang="id">The Usual Suspects</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114044500 +0700" channel="MNC_hits-movies-hd_409.id">
-    <title lang="id">Goodfellas</title>
-  </programme>
-  <programme start="20261114044500 +0700" stop="20261114071500 +0700" channel="MNC_hits-movies-hd_409.id">
-    <title lang="id">Eat Pray Love</title>
-  </programme>
-  <programme start="20261114071500 +0700" stop="20261114093000 +0700" channel="MNC_hits-movies-hd_409.id">
-    <title lang="id">Witness</title>
-  </programme>
-  <programme start="20261114093000 +0700" stop="20261114121500 +0700" channel="MNC_hits-movies-hd_409.id">
-    <title lang="id">Goodfellas</title>
-  </programme>
-  <programme start="20261114121500 +0700" stop="20261114144500 +0700" channel="MNC_hits-movies-hd_409.id">
-    <title lang="id">Eat Pray Love</title>
-  </programme>
-  <programme start="20261114144500 +0700" stop="20261114170000 +0700" channel="MNC_hits-movies-hd_409.id">
-    <title lang="id">Witness</title>
-  </programme>
-  <programme start="20261114170000 +0700" stop="20261114190000 +0700" channel="MNC_hits-movies-hd_409.id">
-    <title lang="id">I Am Legend</title>
-  </programme>
-  <programme start="20261114190000 +0700" stop="20261114211500 +0700" channel="MNC_hits-movies-hd_409.id">
-    <title lang="id">Glory</title>
-  </programme>
-  <programme start="20261114211500 +0700" stop="20261114231500 +0700" channel="MNC_hits-movies-hd_409.id">
-    <title lang="id">Teenage Mutant Ninja Turtles 2</title>
-  </programme>
-  <programme start="20261114231500 +0700" stop="20261115011500 +0700" channel="MNC_hits-movies-hd_409.id">
-    <title lang="id">The Usual Suspects</title>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="MNC_idx_100.id">
-    <title lang="id">IDXTainment</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="MNC_idx_100.id">
-    <title lang="id">Technobizz</title>
   </programme>
   <programme start="20261114033000 +0700" stop="20261114043000 +0700" channel="MNC_idx_100.id">
     <title lang="id">OMG IDX</title>
@@ -11613,12 +10479,6 @@
   <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="MNC_idx_100.id">
     <title lang="id">New Top Files</title>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="MNC_idx-hd_436.id">
-    <title lang="id">IDXTainment</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="MNC_idx-hd_436.id">
-    <title lang="id">Technobizz</title>
-  </programme>
   <programme start="20261114033000 +0700" stop="20261114043000 +0700" channel="MNC_idx-hd_436.id">
     <title lang="id">OMG IDX</title>
   </programme>
@@ -11702,57 +10562,6 @@
   </programme>
   <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="MNC_idx-hd_436.id">
     <title lang="id">New Top Files</title>
-  </programme>
-  <programme start="20261114022500 +0700" stop="20261114035000 +0700" channel="MNC_imc_14.id">
-    <title lang="id">Pokun Roxy</title>
-  </programme>
-  <programme start="20261114035000 +0700" stop="20261114052000 +0700" channel="MNC_imc_14.id">
-    <title lang="id">5 Cewek Jagoan</title>
-  </programme>
-  <programme start="20261114052000 +0700" stop="20261114064500 +0700" channel="MNC_imc_14.id">
-    <title lang="id">Dia Yang Tercinta</title>
-  </programme>
-  <programme start="20261114064500 +0700" stop="20261114083000 +0700" channel="MNC_imc_14.id">
-    <title lang="id">Ken Arok-Ken Dedes</title>
-  </programme>
-  <programme start="20261114083000 +0700" stop="20261114094500 +0700" channel="MNC_imc_14.id">
-    <title lang="id">Cewek Gokil</title>
-  </programme>
-  <programme start="20261114094500 +0700" stop="20261114111500 +0700" channel="MNC_imc_14.id">
-    <title lang="id">Cowok Bikin Pusing</title>
-  </programme>
-  <programme start="20261114111500 +0700" stop="20261114134000 +0700" channel="MNC_imc_14.id">
-    <title lang="id">Soekarno</title>
-  </programme>
-  <programme start="20261114134000 +0700" stop="20261114152000 +0700" channel="MNC_imc_14.id">
-    <title lang="id">Ratu Kostmopolitan</title>
-  </programme>
-  <programme start="20261114152000 +0700" stop="20261114170500 +0700" channel="MNC_imc_14.id">
-    <title lang="id">48 Jam Untuk Indah</title>
-  </programme>
-  <programme start="20261114170500 +0700" stop="20261114182500 +0700" channel="MNC_imc_14.id">
-    <title lang="id">Jones: Jomblo Ngenes</title>
-  </programme>
-  <programme start="20261114182500 +0700" stop="20261114200000 +0700" channel="MNC_imc_14.id">
-    <title lang="id">Senggol-Senggolan</title>
-  </programme>
-  <programme start="20261114200000 +0700" stop="20261114215000 +0700" channel="MNC_imc_14.id">
-    <title lang="id">Kuntilanak 3</title>
-  </programme>
-  <programme start="20261114215000 +0700" stop="20261114231000 +0700" channel="MNC_imc_14.id">
-    <title lang="id">Video Maut</title>
-  </programme>
-  <programme start="20261114231000 +0700" stop="20261115004000 +0700" channel="MNC_imc_14.id">
-    <title lang="id">Daerah Terlarang</title>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="MNC_kids-tv_46.id">
-    <title lang="id">Morphle</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="MNC_kids-tv_46.id">
-    <title lang="id">Kamen Rider ZEZTZ</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="MNC_kids-tv_46.id">
-    <title lang="id">Titus The Detective</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="MNC_kids-tv_46.id">
     <title lang="id">Main Bareng Entong</title>
@@ -11841,15 +10650,6 @@
   <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="MNC_kids-tv_46.id">
     <title lang="id">Main Bareng Entong</title>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="MNC_kids-tv-hd_471.id">
-    <title lang="id">Morphle</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="MNC_kids-tv-hd_471.id">
-    <title lang="id">Kamen Rider ZEZTZ</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="MNC_kids-tv-hd_471.id">
-    <title lang="id">Titus The Detective</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="MNC_kids-tv-hd_471.id">
     <title lang="id">Main Bareng Entong</title>
   </programme>
@@ -11937,54 +10737,6 @@
   <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="MNC_kids-tv-hd_471.id">
     <title lang="id">Main Bareng Entong</title>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114040000 +0700" channel="MNC_kix_161.id">
-    <title lang="id">Punish Evil</title>
-  </programme>
-  <programme start="20261114040000 +0700" stop="20261114054500 +0700" channel="MNC_kix_161.id">
-    <title lang="id">Agent Of Death</title>
-  </programme>
-  <programme start="20261114054500 +0700" stop="20261114072500 +0700" channel="MNC_kix_161.id">
-    <title lang="id">A Sealed Book</title>
-  </programme>
-  <programme start="20261114072500 +0700" stop="20261114085500 +0700" channel="MNC_kix_161.id">
-    <title lang="id">The Macaque Monkey</title>
-  </programme>
-  <programme start="20261114085500 +0700" stop="20261114103000 +0700" channel="MNC_kix_161.id">
-    <title lang="id">Robot Apocalypse</title>
-  </programme>
-  <programme start="20261114103000 +0700" stop="20261114120000 +0700" channel="MNC_kix_161.id">
-    <title lang="id">Punish Evil</title>
-  </programme>
-  <programme start="20261114120000 +0700" stop="20261114134500 +0700" channel="MNC_kix_161.id">
-    <title lang="id">Agent Of Death</title>
-  </programme>
-  <programme start="20261114134500 +0700" stop="20261114152500 +0700" channel="MNC_kix_161.id">
-    <title lang="id">A Sealed Book</title>
-  </programme>
-  <programme start="20261114152500 +0700" stop="20261114165500 +0700" channel="MNC_kix_161.id">
-    <title lang="id">The Macaque Monkey</title>
-  </programme>
-  <programme start="20261114165500 +0700" stop="20261114183000 +0700" channel="MNC_kix_161.id">
-    <title lang="id">Robot Apocalypse</title>
-  </programme>
-  <programme start="20261114183000 +0700" stop="20261114200000 +0700" channel="MNC_kix_161.id">
-    <title lang="id">Punish Evil</title>
-  </programme>
-  <programme start="20261114200000 +0700" stop="20261114210500 +0700" channel="MNC_kix_161.id">
-    <title lang="id">Earthfall</title>
-  </programme>
-  <programme start="20261114210500 +0700" stop="20261114225500 +0700" channel="MNC_kix_161.id">
-    <title lang="id">Blind War</title>
-  </programme>
-  <programme start="20261114225500 +0700" stop="20261115004000 +0700" channel="MNC_kix_161.id">
-    <title lang="id">Korat Fight: The Dream</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="MNC_life_91.id">
-    <title lang="id">Rumah CGN Keluarga</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="MNC_life_91.id">
-    <title lang="id">Bukan Untuk Orang Sempurna</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="MNC_life_91.id">
     <title lang="id">Sentuhan Kasih</title>
   </programme>
@@ -12069,78 +10821,6 @@
   <programme start="20261114233000 +0700" stop="20261115003000 +0700" channel="MNC_life_91.id">
     <title lang="id">Semua Kitab Suci</title>
   </programme>
-  <programme start="20261114013500 +0700" stop="20261114032000 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">You Better Watch Out</title>
-  </programme>
-  <programme start="20261114032000 +0700" stop="20261114050500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">Secret Life Of Pastor's Wife</title>
-  </programme>
-  <programme start="20261114050500 +0700" stop="20261114064500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">Dancing With A Murderer</title>
-  </programme>
-  <programme start="20261114064500 +0700" stop="20261114075500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">Casting 1147km, Ep 8</title>
-  </programme>
-  <programme start="20261114075500 +0700" stop="20261114082500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">Meals In Minutes S4, Ep 1</title>
-  </programme>
-  <programme start="20261114082500 +0700" stop="20261114085500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">Meals In Minutes S4, Ep 2</title>
-  </programme>
-  <programme start="20261114085500 +0700" stop="20261114092500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">Meals In Minutes S4, Ep 3</title>
-  </programme>
-  <programme start="20261114092500 +0700" stop="20261114102500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">Dr. Pimple: Breaking S1, Ep 1</title>
-  </programme>
-  <programme start="20261114102500 +0700" stop="20261114112500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">Dr. Pimple: Breaking S1, Ep 2</title>
-  </programme>
-  <programme start="20261114112500 +0700" stop="20261114122500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">The Mother Flip S1, Ep 10</title>
-  </programme>
-  <programme start="20261114122500 +0700" stop="20261114125500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">1,000 Ways To Dine, Ep 1</title>
-  </programme>
-  <programme start="20261114125500 +0700" stop="20261114132500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">1,000 Ways To Dine, Ep 2</title>
-  </programme>
-  <programme start="20261114132500 +0700" stop="20261114135500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">1,000 Ways To Dine, Ep 3</title>
-  </programme>
-  <programme start="20261114135500 +0700" stop="20261114142500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">1,000 Ways To Dine, Ep 4</title>
-  </programme>
-  <programme start="20261114142500 +0700" stop="20261114153000 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">MasterChef Australia S18, Ep 25</title>
-  </programme>
-  <programme start="20261114153000 +0700" stop="20261114163000 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">MasterChef Australia S18, Ep 26</title>
-  </programme>
-  <programme start="20261114163000 +0700" stop="20261114173500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">MasterChef Australia S18, Ep 27</title>
-  </programme>
-  <programme start="20261114173500 +0700" stop="20261114185500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">MasterChef Australia S18, Ep 28</title>
-  </programme>
-  <programme start="20261114185500 +0700" stop="20261114195500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">MasterChef Australia S18, Ep 29</title>
-  </programme>
-  <programme start="20261114195500 +0700" stop="20261114210000 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">MasterChef Australia S18, Ep 30</title>
-  </programme>
-  <programme start="20261114210000 +0700" stop="20261114223500 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">The Killer Inside: Ruth Finley</title>
-  </programme>
-  <programme start="20261114223500 +0700" stop="20261115001000 +0700" channel="MNC_lifetime_167.id">
-    <title lang="id">Couples Retreat Murder</title>
-  </programme>
-  <programme start="20261114021500 +0700" stop="20261114031000 +0700" channel="MNC_love-nature_204.id">
-    <title lang="id">Wildlife Icons S1, Ep 1</title>
-  </programme>
-  <programme start="20261114031000 +0700" stop="20261114040500 +0700" channel="MNC_love-nature_204.id">
-    <title lang="id">Europe's Wild Kingdoms S1, Ep 1</title>
-  </programme>
   <programme start="20261114040500 +0700" stop="20261114050000 +0700" channel="MNC_love-nature_204.id">
     <title lang="id">Europe's Wild Kingdoms S1, Ep 2</title>
   </programme>
@@ -12210,12 +10890,6 @@
   <programme start="20261114233500 +0700" stop="20261115002500 +0700" channel="MNC_love-nature_204.id">
     <title lang="id">Chasing The Rains S1, Ep 2</title>
   </programme>
-  <programme start="20261114021500 +0700" stop="20261114031000 +0700" channel="MNC_love-nature-hd_463.id">
-    <title lang="id">Wildlife Icons S1, Ep 1</title>
-  </programme>
-  <programme start="20261114031000 +0700" stop="20261114040500 +0700" channel="MNC_love-nature-hd_463.id">
-    <title lang="id">Europe's Wild Kingdoms S1, Ep 1</title>
-  </programme>
   <programme start="20261114040500 +0700" stop="20261114050000 +0700" channel="MNC_love-nature-hd_463.id">
     <title lang="id">Europe's Wild Kingdoms S1, Ep 2</title>
   </programme>
@@ -12284,15 +10958,6 @@
   </programme>
   <programme start="20261114233500 +0700" stop="20261115002500 +0700" channel="MNC_love-nature-hd_463.id">
     <title lang="id">Chasing The Rains S1, Ep 2</title>
-  </programme>
-  <programme start="20261114023100 +0700" stop="20261114025900 +0700" channel="MNC_moonbug_40.id">
-    <title lang="id">The Sharksons</title>
-  </programme>
-  <programme start="20261114025900 +0700" stop="20261114032900 +0700" channel="MNC_moonbug_40.id">
-    <title lang="id">KiiYii</title>
-  </programme>
-  <programme start="20261114032900 +0700" stop="20261114040000 +0700" channel="MNC_moonbug_40.id">
-    <title lang="id">KiiYii</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114042800 +0700" channel="MNC_moonbug_40.id">
     <title lang="id">Playtime With Twinkle</title>
@@ -12516,12 +11181,6 @@
   <programme start="20261114223000 +0700" stop="20261115010000 +0700" channel="MNC_music-tv-hd_444.id">
     <title lang="id">Ratu Dendang Dangdut</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="MNC_muslim-tv_92.id">
-    <title lang="id">Cahaya Lentera Hati</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114040000 +0700" channel="MNC_muslim-tv_92.id">
-    <title lang="id">Tukang Bubur Pengen Naik Haji</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="MNC_muslim-tv_92.id">
     <title lang="id">Amanah Wali S4</title>
   </programme>
@@ -12572,24 +11231,6 @@
   </programme>
   <programme start="20261114233000 +0700" stop="20261115003000 +0700" channel="MNC_muslim-tv_92.id">
     <title lang="id">Siraman Qolbu, Ust. Dhanu</title>
-  </programme>
-  <programme start="20261114023500 +0700" stop="20261114025800 +0700" channel="MNC_nhk-world-premium_354.id">
-    <title lang="id">Delicious Japan!</title>
-  </programme>
-  <programme start="20261114025800 +0700" stop="20261114030000 +0700" channel="MNC_nhk-world-premium_354.id">
-    <title lang="id">World Weather</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114032500 +0700" channel="MNC_nhk-world-premium_354.id">
-    <title lang="id">Grand Sumo '26 Tournament HL</title>
-  </programme>
-  <programme start="20261114032500 +0700" stop="20261114035200 +0700" channel="MNC_nhk-world-premium_354.id">
-    <title lang="id">NHK Regional Showcases</title>
-  </programme>
-  <programme start="20261114035200 +0700" stop="20261114035500 +0700" channel="MNC_nhk-world-premium_354.id">
-    <title lang="id">Mini Program</title>
-  </programme>
-  <programme start="20261114035500 +0700" stop="20261114040000 +0700" channel="MNC_nhk-world-premium_354.id">
-    <title lang="id">World Weather</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114050000 +0700" channel="MNC_nhk-world-premium_354.id">
     <title lang="id">News: Good Morning, Japan</title>
@@ -12699,18 +11340,6 @@
   <programme start="20261114190000 +0700" stop="20261114200000 +0700" channel="MNC_nhk-world-premium_354.id">
     <title lang="id">Saturday Watch 9</title>
   </programme>
-  <programme start="20261114024000 +0700" stop="20261114025500 +0700" channel="MNC_nick-jr-hd_472.id">
-    <title lang="id">PAW Patrol</title>
-  </programme>
-  <programme start="20261114025500 +0700" stop="20261114031500 +0700" channel="MNC_nick-jr-hd_472.id">
-    <title lang="id">Rubble &amp; Crew</title>
-  </programme>
-  <programme start="20261114031500 +0700" stop="20261114034000 +0700" channel="MNC_nick-jr-hd_472.id">
-    <title lang="id">Rubble &amp; Crew</title>
-  </programme>
-  <programme start="20261114034000 +0700" stop="20261114040000 +0700" channel="MNC_nick-jr-hd_472.id">
-    <title lang="id">Dora</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114042500 +0700" channel="MNC_nick-jr-hd_472.id">
     <title lang="id">Dora</title>
   </programme>
@@ -12812,15 +11441,6 @@
   </programme>
   <programme start="20261114161500 +0700" stop="20261114164000 +0700" channel="MNC_nick-jr-hd_472.id">
     <title lang="id">Barbapapa: Big Happy Family!</title>
-  </programme>
-  <programme start="20261114023500 +0700" stop="20261114030000 +0700" channel="MNC_nickelodeon_49.id">
-    <title lang="id">Danger Force</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114032500 +0700" channel="MNC_nickelodeon_49.id">
-    <title lang="id">iCarly</title>
-  </programme>
-  <programme start="20261114032500 +0700" stop="20261114035000 +0700" channel="MNC_nickelodeon_49.id">
-    <title lang="id">iCarly</title>
   </programme>
   <programme start="20261114035000 +0700" stop="20261114041500 +0700" channel="MNC_nickelodeon_49.id">
     <title lang="id">Victorious</title>
@@ -12941,18 +11561,6 @@
   </programme>
   <programme start="20261114183500 +0700" stop="20261114190000 +0700" channel="MNC_nickelodeon_49.id">
     <title lang="id">The Thundermans: Undercover</title>
-  </programme>
-  <programme start="20261114024000 +0700" stop="20261114025500 +0700" channel="MNC_nickelodeon-jr_37.id">
-    <title lang="id">PAW Patrol</title>
-  </programme>
-  <programme start="20261114025500 +0700" stop="20261114031500 +0700" channel="MNC_nickelodeon-jr_37.id">
-    <title lang="id">Rubble &amp; Crew</title>
-  </programme>
-  <programme start="20261114031500 +0700" stop="20261114034000 +0700" channel="MNC_nickelodeon-jr_37.id">
-    <title lang="id">Rubble &amp; Crew</title>
-  </programme>
-  <programme start="20261114034000 +0700" stop="20261114040000 +0700" channel="MNC_nickelodeon-jr_37.id">
-    <title lang="id">Dora</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114042500 +0700" channel="MNC_nickelodeon-jr_37.id">
     <title lang="id">Dora</title>
@@ -13260,15 +11868,6 @@
   <programme start="20261114223800 +0700" stop="20261115003600 +0700" channel="MNC_originals-hd_401.id">
     <title lang="id">Damascena_ The Transition</title>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="MNC_outdoor-channel_202.id">
-    <title lang="id">Extreme Animal Transport, Ep 8</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="MNC_outdoor-channel_202.id">
-    <title lang="id">Brave Wilderness S2, Ep 5</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="MNC_outdoor-channel_202.id">
-    <title lang="id">Brave Wilderness S2, Ep 6</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="MNC_outdoor-channel_202.id">
     <title lang="id">Brave Wilderness S2, Ep 7</title>
   </programme>
@@ -13368,15 +11967,6 @@
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="MNC_outdoor-channel_202.id">
     <title lang="id">Experience Australia S1, Ep 10</title>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="MNC_outdoor-channel-hd_460.id">
-    <title lang="id">Extreme Animal Transport, Ep 8</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="MNC_outdoor-channel-hd_460.id">
-    <title lang="id">Brave Wilderness S2, Ep 5</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="MNC_outdoor-channel-hd_460.id">
-    <title lang="id">Brave Wilderness S2, Ep 6</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="MNC_outdoor-channel-hd_460.id">
     <title lang="id">Brave Wilderness S2, Ep 7</title>
   </programme>
@@ -13475,84 +12065,6 @@
   </programme>
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="MNC_outdoor-channel-hd_460.id">
     <title lang="id">Experience Australia S1, Ep 10</title>
-  </programme>
-  <programme start="20261114021500 +0700" stop="20261114041000 +0700" channel="MNC_rock-action_248.id">
-    <title lang="id">Transcendence</title>
-  </programme>
-  <programme start="20261114041000 +0700" stop="20261114055500 +0700" channel="MNC_rock-action_248.id">
-    <title lang="id">Maximum Risk</title>
-  </programme>
-  <programme start="20261114055500 +0700" stop="20261114071500 +0700" channel="MNC_rock-action_248.id">
-    <title lang="id">Death Race 2000</title>
-  </programme>
-  <programme start="20261114071500 +0700" stop="20261114090500 +0700" channel="MNC_rock-action_248.id">
-    <title lang="id">Ghost Rider</title>
-  </programme>
-  <programme start="20261114090500 +0700" stop="20261114105500 +0700" channel="MNC_rock-action_248.id">
-    <title lang="id">Daylight</title>
-  </programme>
-  <programme start="20261114105500 +0700" stop="20261114123000 +0700" channel="MNC_rock-action_248.id">
-    <title lang="id">Fist From Shaolin</title>
-  </programme>
-  <programme start="20261114123000 +0700" stop="20261114140000 +0700" channel="MNC_rock-action_248.id">
-    <title lang="id">American Psycho</title>
-  </programme>
-  <programme start="20261114140000 +0700" stop="20261114161500 +0700" channel="MNC_rock-action_248.id">
-    <title lang="id">L.A. Confidential</title>
-  </programme>
-  <programme start="20261114161500 +0700" stop="20261114181000 +0700" channel="MNC_rock-action_248.id">
-    <title lang="id">Transcendence</title>
-  </programme>
-  <programme start="20261114181000 +0700" stop="20261114195500 +0700" channel="MNC_rock-action_248.id">
-    <title lang="id">Maximum Risk</title>
-  </programme>
-  <programme start="20261114195500 +0700" stop="20261114214500 +0700" channel="MNC_rock-action_248.id">
-    <title lang="id">Wanted: Dead Or Alive</title>
-  </programme>
-  <programme start="20261114214500 +0700" stop="20261114235000 +0700" channel="MNC_rock-action_248.id">
-    <title lang="id">Widows</title>
-  </programme>
-  <programme start="20261114235000 +0700" stop="20261115014500 +0700" channel="MNC_rock-action_248.id">
-    <title lang="id">The Holcroft Covenant</title>
-  </programme>
-  <programme start="20261114012000 +0700" stop="20261114031500 +0700" channel="MNC_rock-entertainment_240.id">
-    <title lang="id">Kindergarten Cop</title>
-  </programme>
-  <programme start="20261114031500 +0700" stop="20261114051000 +0700" channel="MNC_rock-entertainment_240.id">
-    <title lang="id">Back To The Future, Pt 3</title>
-  </programme>
-  <programme start="20261114051000 +0700" stop="20261114064000 +0700" channel="MNC_rock-entertainment_240.id">
-    <title lang="id">Alvin And The Chipmunks</title>
-  </programme>
-  <programme start="20261114064000 +0700" stop="20261114081500 +0700" channel="MNC_rock-entertainment_240.id">
-    <title lang="id">Moby Dick, Pt 1</title>
-  </programme>
-  <programme start="20261114081500 +0700" stop="20261114095500 +0700" channel="MNC_rock-entertainment_240.id">
-    <title lang="id">Moby Dick, Pt 2</title>
-  </programme>
-  <programme start="20261114095500 +0700" stop="20261114114500 +0700" channel="MNC_rock-entertainment_240.id">
-    <title lang="id">The Librarian: Quest For Spear</title>
-  </programme>
-  <programme start="20261114114500 +0700" stop="20261114134500 +0700" channel="MNC_rock-entertainment_240.id">
-    <title lang="id">Peter Pan</title>
-  </programme>
-  <programme start="20261114134500 +0700" stop="20261114154000 +0700" channel="MNC_rock-entertainment_240.id">
-    <title lang="id">Back To The Future, Pt 3</title>
-  </programme>
-  <programme start="20261114154000 +0700" stop="20261114173000 +0700" channel="MNC_rock-entertainment_240.id">
-    <title lang="id">Kindergarten Cop</title>
-  </programme>
-  <programme start="20261114173000 +0700" stop="20261114193000 +0700" channel="MNC_rock-entertainment_240.id">
-    <title lang="id">Around The World In 80 Days</title>
-  </programme>
-  <programme start="20261114193000 +0700" stop="20261114212500 +0700" channel="MNC_rock-entertainment_240.id">
-    <title lang="id">Back To The Future, Pt 3</title>
-  </programme>
-  <programme start="20261114212500 +0700" stop="20261114232500 +0700" channel="MNC_rock-entertainment_240.id">
-    <title lang="id">Peter Pan</title>
-  </programme>
-  <programme start="20261114232500 +0700" stop="20261115013000 +0700" channel="MNC_rock-entertainment_240.id">
-    <title lang="id">Around The World In 80 Days</title>
   </programme>
   <programme start="20261114023000 +0700" stop="20261114044500 +0700" channel="MNC_soccer-channel_101.id">
     <title lang="id">UNL: NED Vs GRE (L)</title>
@@ -13779,9 +12291,6 @@
   <programme start="20261114230000 +0700" stop="20261115020000 +0700" channel="MNC_sportstars-2-hd_422.id">
     <title lang="id">The Championship Wimbledon</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114040000 +0700" channel="MNC_sportstars-3_99.id">
-    <title lang="id">AFC Champions League Two</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114060000 +0700" channel="MNC_sportstars-3_99.id">
     <title lang="id">UEFA Nations League</title>
   </programme>
@@ -13812,9 +12321,6 @@
   <programme start="20261114220000 +0700" stop="20261115000000 +0700" channel="MNC_sportstars-3_99.id">
     <title lang="id">V-League Men</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114040000 +0700" channel="MNC_sportstars-3-hd_423.id">
-    <title lang="id">AFC Champions League Two</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114060000 +0700" channel="MNC_sportstars-3-hd_423.id">
     <title lang="id">UEFA Nations League</title>
   </programme>
@@ -13844,9 +12350,6 @@
   </programme>
   <programme start="20261114220000 +0700" stop="20261115000000 +0700" channel="MNC_sportstars-3-hd_423.id">
     <title lang="id">V-League Men</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114040000 +0700" channel="MNC_sportstars-4_88.id">
-    <title lang="id">AFC Champions League Two</title>
   </programme>
   <programme start="20261114023000 +0700" stop="20261114044500 +0700" channel="MNC_sportstars-4_88.id">
     <title lang="id">UEFA Nations League (L)</title>
@@ -13913,9 +12416,6 @@
   </programme>
   <programme start="20261114234500 +0700" stop="20261115020000 +0700" channel="MNC_sportstars-4_88.id">
     <title lang="id">UEFA Nations League (L)</title>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114040000 +0700" channel="MNC_sportstars-4-hd_424.id">
-    <title lang="id">AFC Champions League Two</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114060000 +0700" channel="MNC_sportstars-4-hd_424.id">
     <title lang="id">UEFA Nations League</title>
@@ -13992,9 +12492,6 @@
   <programme start="20261114234500 +0700" stop="20261115020000 +0700" channel="MNC_sportstars-hd_421.id">
     <title lang="id">UEFA Nations League (L)</title>
   </programme>
-  <programme start="20261114010000 +0700" stop="20261114030000 +0700" channel="MNC_spotv_307.id">
-    <title lang="id">2026 PYCL Philippines</title>
-  </programme>
   <programme start="20261114030000 +0700" stop="20261114050000 +0700" channel="MNC_spotv_307.id">
     <title lang="id">2026 PYCL Philippines</title>
   </programme>
@@ -14046,9 +12543,6 @@
   <programme start="20261114220000 +0700" stop="20261115000000 +0700" channel="MNC_spotv_307.id">
     <title lang="id">A-League Men: MAC Vs BRI</title>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114031500 +0700" channel="MNC_spotv-2_308.id">
-    <title lang="id">2026 Global Champions League</title>
-  </programme>
   <programme start="20261114031500 +0700" stop="20261114041500 +0700" channel="MNC_spotv-2_308.id">
     <title lang="id">2026 MotoGP Of Qatar</title>
   </programme>
@@ -14078,96 +12572,6 @@
   </programme>
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="MNC_spotv-2_308.id">
     <title lang="id">2026 E1 World C'ship Miami (L)</title>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114031500 +0700" channel="MNC_spotv-2-hd_428.id">
-    <title lang="id">2026 Global Champions League</title>
-  </programme>
-  <programme start="20261114031500 +0700" stop="20261114041500 +0700" channel="MNC_spotv-2-hd_428.id">
-    <title lang="id">2026 MotoGP Of Qatar</title>
-  </programme>
-  <programme start="20261114041500 +0700" stop="20261114083000 +0700" channel="MNC_spotv-2-hd_428.id">
-    <title lang="id">WTT Champions Frankfurt 2026</title>
-  </programme>
-  <programme start="20261114083000 +0700" stop="20261114130000 +0700" channel="MNC_spotv-2-hd_428.id">
-    <title lang="id">WTT Champions Frankfurt 2026</title>
-  </programme>
-  <programme start="20261114130000 +0700" stop="20261114170000 +0700" channel="MNC_spotv-2-hd_428.id">
-    <title lang="id">2026 Dubai T100: Women (L)</title>
-  </programme>
-  <programme start="20261114170000 +0700" stop="20261114173000 +0700" channel="MNC_spotv-2-hd_428.id">
-    <title lang="id">MotoGP Inside The Fluo VR46</title>
-  </programme>
-  <programme start="20261114173000 +0700" stop="20261114181500 +0700" channel="MNC_spotv-2-hd_428.id">
-    <title lang="id">MotoGP Inside The Fluo VR46</title>
-  </programme>
-  <programme start="20261114181500 +0700" stop="20261114210000 +0700" channel="MNC_spotv-2-hd_428.id">
-    <title lang="id">WTT Champions Frankfurt 2026</title>
-  </programme>
-  <programme start="20261114210000 +0700" stop="20261114230000 +0700" channel="MNC_spotv-2-hd_428.id">
-    <title lang="id">2026 E1 World C'ship Miami (L)</title>
-  </programme>
-  <programme start="20261114230000 +0700" stop="20261114233000 +0700" channel="MNC_spotv-2-hd_428.id">
-    <title lang="id">MotoGP Inside Ducati Lenovo</title>
-  </programme>
-  <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="MNC_spotv-2-hd_428.id">
-    <title lang="id">2026 E1 World C'ship Miami (L)</title>
-  </programme>
-  <programme start="20261114010000 +0700" stop="20261114030000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">2026 PYCL Philippines</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114050000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">2026 PYCL Philippines</title>
-  </programme>
-  <programme start="20261114050000 +0700" stop="20261114070000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">Roshn Saudi League: NSR Vs KHL</title>
-  </programme>
-  <programme start="20261114070000 +0700" stop="20261114083000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">2026 Asian Tournament: Iloilo</title>
-  </programme>
-  <programme start="20261114083000 +0700" stop="20261114100000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">2026 Asian Tournament: Iloilo</title>
-  </programme>
-  <programme start="20261114100000 +0700" stop="20261114113000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">2026 Asian Tournament: Iloilo</title>
-  </programme>
-  <programme start="20261114113000 +0700" stop="20261114120000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">Asia-Pacific Amateur C'ship '26</title>
-  </programme>
-  <programme start="20261114120000 +0700" stop="20261114123000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">ALM Mini Match: MCY Vs WSW</title>
-  </programme>
-  <programme start="20261114123000 +0700" stop="20261114130000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">ALM Mini Match: PER Vs NEW</title>
-  </programme>
-  <programme start="20261114130000 +0700" stop="20261114140000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">CelcomDigi STL GP Melaka HL</title>
-  </programme>
-  <programme start="20261114140000 +0700" stop="20261114153000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">CelcomDigi STL GP Melaka (L)</title>
-  </programme>
-  <programme start="20261114153000 +0700" stop="20261114170000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">CelcomDigi STL GP Melaka (L)</title>
-  </programme>
-  <programme start="20261114170000 +0700" stop="20261114173000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">2026 Hong Kong Cyclothon HL</title>
-  </programme>
-  <programme start="20261114173000 +0700" stop="20261114180000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">2026/27 ALM Weekly Highlights</title>
-  </programme>
-  <programme start="20261114180000 +0700" stop="20261114190000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">The Open Official Film 2026</title>
-  </programme>
-  <programme start="20261114190000 +0700" stop="20261114203000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">CelcomDigi STL GP Melaka (L)</title>
-  </programme>
-  <programme start="20261114203000 +0700" stop="20261114220000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">CelcomDigi STL GP Melaka (L)</title>
-  </programme>
-  <programme start="20261114220000 +0700" stop="20261115000000 +0700" channel="MNC_spotv-hd_427.id">
-    <title lang="id">A-League Men: MAC Vs BRI</title>
-  </programme>
-  <programme start="20261114010000 +0700" stop="20261114024500 +0700" channel="MNC_studio-universal_26.id">
-    <title lang="id">How To Train...: Hidden World</title>
   </programme>
   <programme start="20261114024500 +0700" stop="20261114044500 +0700" channel="MNC_studio-universal_26.id">
     <title lang="id">Central Intelligence</title>
@@ -14201,45 +12605,6 @@
   </programme>
   <programme start="20261114220500 +0700" stop="20261115002500 +0700" channel="MNC_studio-universal_26.id">
     <title lang="id">Robin Hood</title>
-  </programme>
-  <programme start="20261114010000 +0700" stop="20261114024500 +0700" channel="MNC_studio-universal-hd_406.id">
-    <title lang="id">How To Train...: Hidden World</title>
-  </programme>
-  <programme start="20261114024500 +0700" stop="20261114044500 +0700" channel="MNC_studio-universal-hd_406.id">
-    <title lang="id">Central Intelligence</title>
-  </programme>
-  <programme start="20261114044500 +0700" stop="20261114060000 +0700" channel="MNC_studio-universal-hd_406.id">
-    <title lang="id">The Land Before Time</title>
-  </programme>
-  <programme start="20261114060000 +0700" stop="20261114080500 +0700" channel="MNC_studio-universal-hd_406.id">
-    <title lang="id">The Mummy</title>
-  </programme>
-  <programme start="20261114080500 +0700" stop="20261114101000 +0700" channel="MNC_studio-universal-hd_406.id">
-    <title lang="id">Notting Hill</title>
-  </programme>
-  <programme start="20261114101000 +0700" stop="20261114122000 +0700" channel="MNC_studio-universal-hd_406.id">
-    <title lang="id">Lost World: Jurassic Park</title>
-  </programme>
-  <programme start="20261114122000 +0700" stop="20261114141500 +0700" channel="MNC_studio-universal-hd_406.id">
-    <title lang="id">The Mummy: Dragon Emperor</title>
-  </programme>
-  <programme start="20261114141500 +0700" stop="20261114171500 +0700" channel="MNC_studio-universal-hd_406.id">
-    <title lang="id">Casino</title>
-  </programme>
-  <programme start="20261114171500 +0700" stop="20261114183000 +0700" channel="MNC_studio-universal-hd_406.id">
-    <title lang="id">The Land Before Time</title>
-  </programme>
-  <programme start="20261114183000 +0700" stop="20261114201500 +0700" channel="MNC_studio-universal-hd_406.id">
-    <title lang="id">How To Train Your Dragon</title>
-  </programme>
-  <programme start="20261114201500 +0700" stop="20261114220500 +0700" channel="MNC_studio-universal-hd_406.id">
-    <title lang="id">The Great Wall</title>
-  </programme>
-  <programme start="20261114220500 +0700" stop="20261115002500 +0700" channel="MNC_studio-universal-hd_406.id">
-    <title lang="id">Robin Hood</title>
-  </programme>
-  <programme start="20261114004100 +0700" stop="20261114025300 +0700" channel="MNC_superrix_10.id">
-    <title lang="id">Lost Souls: The Return</title>
   </programme>
   <programme start="20261114025300 +0700" stop="20261114043600 +0700" channel="MNC_superrix_10.id">
     <title lang="id">A Lover Betrayed</title>
@@ -14277,9 +12642,6 @@
   <programme start="20261114232600 +0700" stop="20261115011700 +0700" channel="MNC_superrix_10.id">
     <title lang="id">The Decoy Bride</title>
   </programme>
-  <programme start="20261114004100 +0700" stop="20261114025300 +0700" channel="MNC_superrix-hd_404.id">
-    <title lang="id">Lost Souls: The Return</title>
-  </programme>
   <programme start="20261114025300 +0700" stop="20261114043600 +0700" channel="MNC_superrix-hd_404.id">
     <title lang="id">A Lover Betrayed</title>
   </programme>
@@ -14315,15 +12677,6 @@
   </programme>
   <programme start="20261114232600 +0700" stop="20261115011700 +0700" channel="MNC_superrix-hd_404.id">
     <title lang="id">The Decoy Bride</title>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114030000 +0700" channel="MNC_tawaf-tv_105.id">
-    <title lang="id">DMI TV</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114033000 +0700" channel="MNC_tawaf-tv_105.id">
-    <title lang="id">DMI TV</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="MNC_tawaf-tv_105.id">
-    <title lang="id">DMI TV</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="MNC_tawaf-tv_105.id">
     <title lang="id">DMI TV</title>
@@ -14433,51 +12786,6 @@
   <programme start="20261114233000 +0700" stop="20261115000000 +0700" channel="MNC_tawaf-tv_105.id">
     <title lang="id">DMI TV</title>
   </programme>
-  <programme start="20261114021000 +0700" stop="20261114040000 +0700" channel="MNC_thrill_19.id">
-    <title lang="id">Whisper Of Silent Body</title>
-  </programme>
-  <programme start="20261114040000 +0700" stop="20261114053500 +0700" channel="MNC_thrill_19.id">
-    <title lang="id">Jealousy</title>
-  </programme>
-  <programme start="20261114053500 +0700" stop="20261114070500 +0700" channel="MNC_thrill_19.id">
-    <title lang="id">Creepy Pasta</title>
-  </programme>
-  <programme start="20261114070500 +0700" stop="20261114084000 +0700" channel="MNC_thrill_19.id">
-    <title lang="id">The Revenge</title>
-  </programme>
-  <programme start="20261114084000 +0700" stop="20261114101000 +0700" channel="MNC_thrill_19.id">
-    <title lang="id">Malee</title>
-  </programme>
-  <programme start="20261114101000 +0700" stop="20261114120000 +0700" channel="MNC_thrill_19.id">
-    <title lang="id">Whisper Of Silent Body</title>
-  </programme>
-  <programme start="20261114120000 +0700" stop="20261114133500 +0700" channel="MNC_thrill_19.id">
-    <title lang="id">Jealousy</title>
-  </programme>
-  <programme start="20261114133500 +0700" stop="20261114150500 +0700" channel="MNC_thrill_19.id">
-    <title lang="id">Creepy Pasta</title>
-  </programme>
-  <programme start="20261114150500 +0700" stop="20261114164000 +0700" channel="MNC_thrill_19.id">
-    <title lang="id">The Revenge</title>
-  </programme>
-  <programme start="20261114164000 +0700" stop="20261114181000 +0700" channel="MNC_thrill_19.id">
-    <title lang="id">Malee</title>
-  </programme>
-  <programme start="20261114181000 +0700" stop="20261114200000 +0700" channel="MNC_thrill_19.id">
-    <title lang="id">Whisper Of Silent Body</title>
-  </programme>
-  <programme start="20261114200000 +0700" stop="20261114213000 +0700" channel="MNC_thrill_19.id">
-    <title lang="id">Rooftop</title>
-  </programme>
-  <programme start="20261114213000 +0700" stop="20261114231000 +0700" channel="MNC_thrill_19.id">
-    <title lang="id">Fate Jealous Greed</title>
-  </programme>
-  <programme start="20261114231000 +0700" stop="20261115005500 +0700" channel="MNC_thrill_19.id">
-    <title lang="id">Apartment 212</title>
-  </programme>
-  <programme start="20261114013000 +0700" stop="20261114034000 +0700" channel="MNC_tvn_158.id">
-    <title lang="id">World Dice Tour S4, Ep 3</title>
-  </programme>
   <programme start="20261114034000 +0700" stop="20261114050000 +0700" channel="MNC_tvn_158.id">
     <title lang="id">The Judge Returns, Ep 14</title>
   </programme>
@@ -14520,51 +12828,6 @@
   <programme start="20261114234500 +0700" stop="20261115015000 +0700" channel="MNC_tvn_158.id">
     <title lang="id">Europe Outside: Italy, Ep 4</title>
   </programme>
-  <programme start="20261114013000 +0700" stop="20261114034000 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">World Dice Tour S4, Ep 3</title>
-  </programme>
-  <programme start="20261114034000 +0700" stop="20261114050000 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">The Judge Returns, Ep 14</title>
-  </programme>
-  <programme start="20261114050000 +0700" stop="20261114065000 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">GBRB: Joy Pops Laugh..., Ep 5</title>
-  </programme>
-  <programme start="20261114065000 +0700" stop="20261114072000 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">Chansung's Cooking, Ep 5</title>
-  </programme>
-  <programme start="20261114072000 +0700" stop="20261114084000 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">My Bias, My Boss, Ep 9</title>
-  </programme>
-  <programme start="20261114084000 +0700" stop="20261114100000 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">My Bias, My Boss, Ep 10</title>
-  </programme>
-  <programme start="20261114100000 +0700" stop="20261114112000 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">The Judge Returns, Ep 14</title>
-  </programme>
-  <programme start="20261114112000 +0700" stop="20261114133000 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">World Dice Tour S4, Ep 3</title>
-  </programme>
-  <programme start="20261114133000 +0700" stop="20261114154000 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">Europe Outside: Italy, Ep 4</title>
-  </programme>
-  <programme start="20261114154000 +0700" stop="20261114172000 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">GBRB: Joy Pops Laugh..., Ep 5</title>
-  </programme>
-  <programme start="20261114172000 +0700" stop="20261114185000 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">Sixth Sense: B-Side, Ep 7</title>
-  </programme>
-  <programme start="20261114185000 +0700" stop="20261114201000 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">The Judge Returns, Ep 14</title>
-  </programme>
-  <programme start="20261114201000 +0700" stop="20261114221000 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">Undercover Chef: Friends, Ep 2</title>
-  </programme>
-  <programme start="20261114221000 +0700" stop="20261114234500 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">Painfully Delicious!, Ep 1</title>
-  </programme>
-  <programme start="20261114234500 +0700" stop="20261115015000 +0700" channel="MNC_tvn-hd_446.id">
-    <title lang="id">Europe Outside: Italy, Ep 4</title>
-  </programme>
   <programme start="20261114023500 +0700" stop="20261114041500 +0700" channel="MNC_tvn-movies_25.id">
     <title lang="id">The Noisy Mansion</title>
   </programme>
@@ -14599,42 +12862,6 @@
     <title lang="id">The King's Warden</title>
   </programme>
   <programme start="20261114230000 +0700" stop="20261115010500 +0700" channel="MNC_tvn-movies_25.id">
-    <title lang="id">Rebound</title>
-  </programme>
-  <programme start="20261114023500 +0700" stop="20261114041500 +0700" channel="MNC_tvn-movies-hd_415.id">
-    <title lang="id">The Noisy Mansion</title>
-  </programme>
-  <programme start="20261114041500 +0700" stop="20261114055500 +0700" channel="MNC_tvn-movies-hd_415.id">
-    <title lang="id">My Lovely Angel</title>
-  </programme>
-  <programme start="20261114055500 +0700" stop="20261114073000 +0700" channel="MNC_tvn-movies-hd_415.id">
-    <title lang="id">Salmokji: Whispering Water</title>
-  </programme>
-  <programme start="20261114073000 +0700" stop="20261114093000 +0700" channel="MNC_tvn-movies-hd_415.id">
-    <title lang="id">Waiting For Rain</title>
-  </programme>
-  <programme start="20261114093000 +0700" stop="20261114113000 +0700" channel="MNC_tvn-movies-hd_415.id">
-    <title lang="id">Unforgettable</title>
-  </programme>
-  <programme start="20261114113000 +0700" stop="20261114134500 +0700" channel="MNC_tvn-movies-hd_415.id">
-    <title lang="id">Cobweb</title>
-  </programme>
-  <programme start="20261114134500 +0700" stop="20261114152000 +0700" channel="MNC_tvn-movies-hd_415.id">
-    <title lang="id">Drive</title>
-  </programme>
-  <programme start="20261114152000 +0700" stop="20261114171500 +0700" channel="MNC_tvn-movies-hd_415.id">
-    <title lang="id">Hello Ghost</title>
-  </programme>
-  <programme start="20261114171500 +0700" stop="20261114190500 +0700" channel="MNC_tvn-movies-hd_415.id">
-    <title lang="id">Devils</title>
-  </programme>
-  <programme start="20261114190500 +0700" stop="20261114210000 +0700" channel="MNC_tvn-movies-hd_415.id">
-    <title lang="id">My Love, My Bride</title>
-  </programme>
-  <programme start="20261114210000 +0700" stop="20261114230000 +0700" channel="MNC_tvn-movies-hd_415.id">
-    <title lang="id">The King's Warden</title>
-  </programme>
-  <programme start="20261114230000 +0700" stop="20261115010500 +0700" channel="MNC_tvn-movies-hd_415.id">
     <title lang="id">Rebound</title>
   </programme>
   <programme start="20261114023800 +0700" stop="20261114043100 +0700" channel="MNC_uniques_6.id">
@@ -14709,9 +12936,6 @@
   <programme start="20261114231500 +0700" stop="20261115005300 +0700" channel="MNC_uniques-hd_405.id">
     <title lang="id">Ryde</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114040000 +0700" channel="MNC_vision-prime_94.id">
-    <title lang="id">Ternyata Ini Cinta</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114060000 +0700" channel="MNC_vision-prime_94.id">
     <title lang="id">Terikat Janji</title>
   </programme>
@@ -14757,9 +12981,6 @@
   <programme start="20261114220000 +0700" stop="20261115000000 +0700" channel="MNC_vision-prime_94.id">
     <title lang="id">Anjaana Anjaani</title>
   </programme>
-  <programme start="20261114020000 +0700" stop="20261114040000 +0700" channel="MNC_vision-prime-hd_1.id">
-    <title lang="id">Ternyata Ini Cinta</title>
-  </programme>
   <programme start="20261114040000 +0700" stop="20261114060000 +0700" channel="MNC_vision-prime-hd_1.id">
     <title lang="id">Terikat Janji</title>
   </programme>
@@ -14804,57 +13025,6 @@
   </programme>
   <programme start="20261114220000 +0700" stop="20261115000000 +0700" channel="MNC_vision-prime-hd_1.id">
     <title lang="id">Anjaana Anjaani</title>
-  </programme>
-  <programme start="20261114000000 +0700" stop="20261114030000 +0700" channel="MNC_zee-bioskop_23.id">
-    <title lang="id">English Vinglish</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114060000 +0700" channel="MNC_zee-bioskop_23.id">
-    <title lang="id">Tarla</title>
-  </programme>
-  <programme start="20261114060000 +0700" stop="20261114083000 +0700" channel="MNC_zee-bioskop_23.id">
-    <title lang="id">Jawani Janeman</title>
-  </programme>
-  <programme start="20261114083000 +0700" stop="20261114090000 +0700" channel="MNC_zee-bioskop_23.id">
-    <title lang="id">Song Fillers</title>
-  </programme>
-  <programme start="20261114090000 +0700" stop="20261114120000 +0700" channel="MNC_zee-bioskop_23.id">
-    <title lang="id">Raksha Bandhan</title>
-  </programme>
-  <programme start="20261114120000 +0700" stop="20261114150000 +0700" channel="MNC_zee-bioskop_23.id">
-    <title lang="id">Tarla</title>
-  </programme>
-  <programme start="20261114150000 +0700" stop="20261114180000 +0700" channel="MNC_zee-bioskop_23.id">
-    <title lang="id">English Vinglish</title>
-  </programme>
-  <programme start="20261114180000 +0700" stop="20261114210000 +0700" channel="MNC_zee-bioskop_23.id">
-    <title lang="id">Thank God</title>
-  </programme>
-  <programme start="20261114210000 +0700" stop="20261115000000 +0700" channel="MNC_zee-bioskop_23.id">
-    <title lang="id">Hi Papa</title>
-  </programme>
-  <programme start="20261114023000 +0700" stop="20261114024500 +0700" channel="MNC_zoomoo_39.id">
-    <title lang="id">Pop Safari S1, Ep 27</title>
-  </programme>
-  <programme start="20261114024500 +0700" stop="20261114025000 +0700" channel="MNC_zoomoo_39.id">
-    <title lang="id">What's For Dinner? S1, Ep 63</title>
-  </programme>
-  <programme start="20261114025000 +0700" stop="20261114025500 +0700" channel="MNC_zoomoo_39.id">
-    <title lang="id">What's For Dinner? S1, Ep 64</title>
-  </programme>
-  <programme start="20261114025500 +0700" stop="20261114030000 +0700" channel="MNC_zoomoo_39.id">
-    <title lang="id">What's For Dinner? S1, Ep 66</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114031500 +0700" channel="MNC_zoomoo_39.id">
-    <title lang="id">ZooMoo's Got Brains S2, Ep 24</title>
-  </programme>
-  <programme start="20261114031500 +0700" stop="20261114033000 +0700" channel="MNC_zoomoo_39.id">
-    <title lang="id">ZooMoo's Got Brains S2, Ep 25</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114034500 +0700" channel="MNC_zoomoo_39.id">
-    <title lang="id">ZooMoo's Got Brains S2, Ep 26</title>
-  </programme>
-  <programme start="20261114034500 +0700" stop="20261114040000 +0700" channel="MNC_zoomoo_39.id">
-    <title lang="id">ZooMoo's Got Brains S2, Ep 27</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114041500 +0700" channel="MNC_zoomoo_39.id">
     <title lang="id">Animal All Stars S1, Ep 31</title>
@@ -14940,17 +13110,17 @@
   <programme start="20261114104500 +0700" stop="20261114110000 +0700" channel="MNC_zoomoo_39.id">
     <title lang="id">Jelly Jamm S1, Ep 42</title>
   </programme>
-  <programme start="20261114080000 +0800" stop="20261114110000 +0800" channel="CLTV36.ph">
-    <title lang="en">CLTV36 Teleskwela</title>
-    <desc lang="en">Provides students in Pampanga, from Grade 1 to Grade 12, a safe place to continue their learning through innovative teaching modules using television as a medium.</desc>
+  <programme start="20261115083000 +0800" stop="20261115090000 +0800" channel="CLTV36.ph">
+    <title lang="en">Kalusugang SiguraDOH</title>
+    <desc lang="en">Kalusugang SiguraDOH is a program of the Dept of Health Region 3 to promote its advocacies and programs. The program features various health concerns and the programs of the Department of Health, giving the audience information on how to live a healthy life. Topics range from family planning, mental health, polio vaccine and food safety.</desc>
   </programme>
-  <programme start="20261114130000 +0800" stop="20261114150000 +0800" channel="CLTV36.ph">
-    <title lang="en">CLTV36 Teleskwela</title>
-    <desc lang="en">Provides students in Pampanga, from Grade 1 to Grade 12, a safe place to continue their learning through innovative teaching modules using television as a medium.</desc>
+  <programme start="20261115150000 +0800" stop="20261115153000 +0800" channel="CLTV36.ph">
+    <title lang="en">UN In Action</title>
+    <desc lang="en">“UN in Action” reports on the work of the United Nations and its Agencies around the world. They illustrate UN peacekeeping efforts as well as projects aimed at reducing poverty and human suffering, fighting disease, providing humanitarian assistance and stimulating economic growth.</desc>
   </programme>
-  <programme start="20261114200000 +0800" stop="20261114203000 +0800" channel="CLTV36.ph">
-    <title lang="en">Let’s Talk Heart to Heart</title>
-    <desc lang="en">“Let’s Talk Heart to Heart” aims to educate viewers regarding current cardiac conditions most especially the risk factors causing cardiovascular diseases through the Philippine Heart Association (PHA) advocacies.</desc>
+  <programme start="20261115153000 +0800" stop="20261115160000 +0800" channel="CLTV36.ph">
+    <title lang="en">Discover Japan</title>
+    <desc lang="en">Discover the charm of Japan on video.Discover Japanoffers a comprehensive view of Japanese culture, nature, science and technology and tourism.</desc>
   </programme>
   <programme start="20261114060500 +0500" stop="20261114070000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Соңғы хат</title>
@@ -14992,13 +13162,9 @@
     <title lang="kk">Құрылтай</title>
     <desc lang="kk">Бағдарлама</desc>
   </programme>
-  <programme start="20261114180000 +0500" stop="20261114200000 +0500" channel="Qazaqstan.kz">
+  <programme start="20261114180000 +0500" stop="20261114223000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Мелек</title>
-    <desc lang="kk">Қазірэфирде</desc>
-  </programme>
-  <programme start="20261114200000 +0500" stop="20261114223000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">SuperStar KZ</title>
-    <desc lang="kk">Мегажоба</desc>
+    <desc lang="kk">Телехикая</desc>
   </programme>
   <programme start="20261114223000 +0500" stop="20261114232000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Ғажайып мұра</title>
@@ -15007,26 +13173,6 @@
   <programme start="20261114232000 +0500" stop="20261115010500 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Бес қару</title>
     <desc lang="kk">Көркем фильм</desc>
-  </programme>
-  <programme start="20261114015000 +0500" stop="20261114024500 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Көңіл толқыны</title>
-    <desc lang="kk">Концерт</desc>
-  </programme>
-  <programme start="20261114024500 +0500" stop="20261114030000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Ізгілік формуласы</title>
-    <desc lang="kk">«28 ілмек» ұйымының ізгі еңбегі туралы шығарылым</desc>
-  </programme>
-  <programme start="20261114030000 +0500" stop="20261114030500 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Әнұран</title>
-    <desc lang="kk">Бағдарлама</desc>
-  </programme>
-  <programme start="20261114030500 +0500" stop="20261114032500 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Ақсауыт</title>
-    <desc lang="kk">Бүркіт. Арнайы жасақ</desc>
-  </programme>
-  <programme start="20261114032500 +0500" stop="20261114040000 +0500" channel="Qazaqstan.kz">
-    <title lang="kk">Парасат майданы</title>
-    <desc lang="kk">1994 жылы 14 қарашада Швеция референдум арқылы ЕО құрамына енді</desc>
   </programme>
   <programme start="20261114040000 +0500" stop="20261114044500 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Құдаша қыз</title>
@@ -15088,13 +13234,9 @@
     <title lang="kk">Құрылтай</title>
     <desc lang="kk">Бағдарлама</desc>
   </programme>
-  <programme start="20261114180000 +0500" stop="20261114200000 +0500" channel="QazaqstanInt.kz">
+  <programme start="20261114180000 +0500" stop="20261114223000 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Мелек</title>
-    <desc lang="kk">Қазірэфирде</desc>
-  </programme>
-  <programme start="20261114200000 +0500" stop="20261114223000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">SuperStar KZ</title>
-    <desc lang="kk">Мегажоба</desc>
+    <desc lang="kk">Телехикая</desc>
   </programme>
   <programme start="20261114223000 +0500" stop="20261114232000 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Ғажайып мұра</title>
@@ -15103,26 +13245,6 @@
   <programme start="20261114232000 +0500" stop="20261115010500 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Бес қару</title>
     <desc lang="kk">Көркем фильм</desc>
-  </programme>
-  <programme start="20261114015000 +0500" stop="20261114024500 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Көңіл толқыны</title>
-    <desc lang="kk">Концерт</desc>
-  </programme>
-  <programme start="20261114024500 +0500" stop="20261114030000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Ізгілік формуласы</title>
-    <desc lang="kk">«28 ілмек» ұйымының ізгі еңбегі туралы шығарылым</desc>
-  </programme>
-  <programme start="20261114030000 +0500" stop="20261114030500 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Әнұран</title>
-    <desc lang="kk">Бағдарлама</desc>
-  </programme>
-  <programme start="20261114030500 +0500" stop="20261114032500 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Ақсауыт</title>
-    <desc lang="kk">Бүркіт. Арнайы жасақ</desc>
-  </programme>
-  <programme start="20261114032500 +0500" stop="20261114040000 +0500" channel="QazaqstanInt.kz">
-    <title lang="kk">Парасат майданы</title>
-    <desc lang="kk">1994 жылы 14 қарашада Швеция референдум арқылы ЕО құрамына енді</desc>
   </programme>
   <programme start="20261114040000 +0500" stop="20261114044500 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Құдаша қыз</title>
@@ -15212,7 +13334,7 @@
   </programme>
   <programme start="20261114193000 +0500" stop="20261114200000 +0500" channel="AbaiTV.kz">
     <title lang="kk">Ақын әлемі</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">Бағдарлама. Ерболат Әміренов</desc>
   </programme>
   <programme start="20261114200000 +0500" stop="20261114210000 +0500" channel="AbaiTV.kz">
     <title lang="kk">Вечные ценности</title>
@@ -15220,7 +13342,7 @@
   </programme>
   <programme start="20261114210000 +0500" stop="20261114220000 +0500" channel="AbaiTV.kz">
     <title lang="kk">ЗАМАН-АРТ</title>
-    <desc lang="kk">Бағдарлама. «Қазақтың ұлттық киімдері: Сән мен салттың айырмасы»</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114220000 +0500" stop="20261114232500 +0500" channel="AbaiTV.kz">
     <title lang="kk">Фильм</title>
@@ -15269,21 +13391,21 @@
     <title lang="kk">Конькимен жүгіру</title>
     <desc lang="kk">Әлем кубогының кезеңі</desc>
   </programme>
-  <programme start="20261114145000 +0500" stop="20261114162500 +0500" channel="Qazsport.kz">
+  <programme start="20261114145000 +0500" stop="20261114150500 +0500" channel="Qazsport.kz">
     <title lang="kk">Sport review</title>
     <desc lang="kk">Ақпараттық-сараптамалық бағдарламасы</desc>
+  </programme>
+  <programme start="20261114150500 +0500" stop="20261114162500 +0500" channel="Qazsport.kz">
+    <title lang="kk">Конькимен жүгіру</title>
+    <desc lang="kk">Әлем кубогының кезеңі</desc>
   </programme>
   <programme start="20261114162500 +0500" stop="20261114165500 +0500" channel="Qazsport.kz">
     <title lang="kk">УЕФА Чемпиондар Лигасының журналы</title>
     <desc lang="kk">Футбол</desc>
   </programme>
-  <programme start="20261114165500 +0500" stop="20261114185000 +0500" channel="Qazsport.kz">
+  <programme start="20261114165500 +0500" stop="20261114210000 +0500" channel="Qazsport.kz">
     <title lang="kk">Жетісу - Берел</title>
     <desc lang="kk">Волейбол. Қазақстан чемпионаты (Әйелдер)</desc>
-  </programme>
-  <programme start="20261114185000 +0500" stop="20261114210000 +0500" channel="Qazsport.kz">
-    <title lang="kk">Косово – Израиль</title>
-    <desc lang="kk">Футбол. УЕФА Ұлттар Лигасы</desc>
   </programme>
   <programme start="20261114210000 +0500" stop="20261114225500 +0500" channel="Qazsport.kz">
     <title lang="kk">Дзюдо</title>
@@ -15292,14 +13414,6 @@
   <programme start="20261114225500 +0500" stop="20261115003500 +0500" channel="Qazsport.kz">
     <title lang="kk">Чехия – Испания</title>
     <desc lang="kk">Футбол. УЕФА Ұлттар Лигасы</desc>
-  </programme>
-  <programme start="20261114003500 +0500" stop="20261114024500 +0500" channel="Qazsport.kz">
-    <title lang="kk">Португалия – Дания</title>
-    <desc lang="kk">Футбол. УЕФА Ұлттар Лигасы</desc>
-  </programme>
-  <programme start="20261114024500 +0500" stop="20261114031500 +0500" channel="Qazsport.kz">
-    <title lang="kk">УЕФА Ұлттар Лигасының шолуы</title>
-    <desc lang="kk">Футбол</desc>
   </programme>
   <programme start="20261114031500 +0500" stop="20261114041500 +0500" channel="Qazsport.kz">
     <title lang="kk">Әнұран</title>
@@ -15374,7 +13488,7 @@
   </programme>
   <programme start="20261114191500 +0500" stop="20261114200500 +0500" channel="AqtobeTV.kz">
     <title lang="kk">"ЖЕЛІДЕ 103"</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">Ақпараттық-әлеуметтік хабар</desc>
   </programme>
   <programme start="20261114200500 +0500" stop="20261114205000 +0500" channel="AqtobeTV.kz">
     <title lang="kk">"ШАБДАЛЫ"</title>
@@ -15382,7 +13496,7 @@
   </programme>
   <programme start="20261114205000 +0500" stop="20261114215000 +0500" channel="AqtobeTV.kz">
     <title lang="kk">"ҚАЗАҚША PODCAST"</title>
-    <desc lang="kk">Ақпараттық-танымдық хабар</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114215000 +0500" stop="20261114232000 +0500" channel="AqtobeTV.kz">
     <title lang="kk">"КӨКСЕРЕК" Көркем фильм</title>
@@ -15411,11 +13525,11 @@
   <programme start="20261114140000 +0500" stop="20261114170000 +0500" channel="AltaiTV.kz">
     <title lang="kk">Эфирдің күндізгі жабылуы</title>
   </programme>
-  <programme start="20261114170000 +0500" stop="20261114194000 +0500" channel="AltaiTV.kz">
+  <programme start="20261114170000 +0500" stop="20261114200500 +0500" channel="AltaiTV.kz">
     <title lang="kk">МУЛЬТИХИКАЯ</title>
   </programme>
-  <programme start="20261114194000 +0500" stop="20261114235700 +0500" channel="AltaiTV.kz">
-    <title lang="kk">"СПЕЦИАЛЬНЫЙ РЕПОРТАЖ" ақпараттық-танымдық бағдарлама</title>
+  <programme start="20261114200500 +0500" stop="20261114235700 +0500" channel="AltaiTV.kz">
+    <title lang="kk">КОНЦЕРТТІК БАҒДАРЛАМА</title>
     <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114235700 +0500" stop="20261115000000 +0500" channel="AltaiTV.kz">
@@ -15445,18 +13559,15 @@
   <programme start="20261114184000 +0500" stop="20261114192000 +0500" channel="AtyrauTV.kz">
     <title lang="kk">"ЖҰМЫСЫМ ОСЫНДАЙ" - танымдық бағдарлама, қайталау</title>
   </programme>
-  <programme start="20261114192000 +0500" stop="20261114194000 +0500" channel="AtyrauTV.kz">
+  <programme start="20261114192000 +0500" stop="20261114200000 +0500" channel="AtyrauTV.kz">
     <title lang="kk">"ДОС БОЛАЙЫҚ!" - подкаст</title>
-  </programme>
-  <programme start="20261114194000 +0500" stop="20261114200000 +0500" channel="AtyrauTV.kz">
-    <title lang="kk">"АРНАЙЫ ЖОБА" -ақпаратты - сараптамалық бағдарлама</title>
-    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114200000 +0500" stop="20261114203000 +0500" channel="AtyrauTV.kz">
     <title lang="kk">"ДАРЫН" - интелектуалдық теле жоба</title>
   </programme>
   <programme start="20261114203000 +0500" stop="20261114234000 +0500" channel="AtyrauTV.kz">
     <title lang="kk">"ӘКЕМНІҢ АРМАНЫ",концерт</title>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114234000 +0500" stop="20261114235500 +0500" channel="AtyrauTV.kz">
     <title lang="kk">ӘН ШАШУ</title>
@@ -15515,10 +13626,11 @@
   </programme>
   <programme start="20261114194000 +0500" stop="20261114201000 +0500" channel="ErtisTV.kz">
     <title lang="kk">Талбесік</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">Мәдени-танымдық бағдарлама.</desc>
   </programme>
   <programme start="20261114201000 +0500" stop="20261114230000 +0500" channel="ErtisTV.kz">
     <title lang="kk">Апош Сарбаздың концерті</title>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114230000 +0500" stop="20261115000000 +0500" channel="ErtisTV.kz">
     <title lang="kk">Шет елдегі қазақ балалары</title>
@@ -15596,7 +13708,7 @@
   </programme>
   <programme start="20261114193000 +0500" stop="20261114200000 +0500" channel="JambylTV.kz">
     <title lang="kk">ТАРАЗ. ТҰЛҒА. ТАЛАНТ</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">танымдық бағдарлама</desc>
   </programme>
   <programme start="20261114200000 +0500" stop="20261114203000 +0500" channel="JambylTV.kz">
     <title lang="kk">БАҚЫТ МЕКЕНІ</title>
@@ -15604,7 +13716,7 @@
   </programme>
   <programme start="20261114203000 +0500" stop="20261114213000 +0500" channel="JambylTV.kz">
     <title lang="kk">КҮЙ КЕРУЕНІ</title>
-    <desc lang="kk">танымдық бағдарлама</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114213000 +0500" stop="20261114221000 +0500" channel="JambylTV.kz">
     <title lang="kk">ЗАМАНДАСТАР</title>
@@ -15658,15 +13770,15 @@
   <programme start="20261114170000 +0500" stop="20261114190500 +0500" channel="KoksheTV.kz">
     <title lang="kk">"КОНЦЕРТ"</title>
   </programme>
-  <programme start="20261114190500 +0500" stop="20261114191000 +0500" channel="KoksheTV.kz">
+  <programme start="20261114190500 +0500" stop="20261114203500 +0500" channel="KoksheTV.kz">
     <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
   </programme>
-  <programme start="20261114191000 +0500" stop="20261114203500 +0500" channel="KoksheTV.kz">
-    <title lang="kk">"ДАРХАН БАТЫР" 12 бөлім. /Бағдарлама</title>
+  <programme start="20261114203500 +0500" stop="20261114204000 +0500" channel="KoksheTV.kz">
+    <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
+  </programme>
+  <programme start="20261114204000 +0500" stop="20261114213000 +0500" channel="KoksheTV.kz">
+    <title lang="kk">"АҚ ПЕН ҚАРА" ақпараттық бағдарлама</title>
     <desc lang="kk">Қазірэфирде</desc>
-  </programme>
-  <programme start="20261114203500 +0500" stop="20261114213000 +0500" channel="KoksheTV.kz">
-    <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
   </programme>
   <programme start="20261114213000 +0500" stop="20261114213500 +0500" channel="KoksheTV.kz">
     <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
@@ -15729,7 +13841,7 @@
   </programme>
   <programme start="20261114193000 +0500" stop="20261114200000 +0500" channel="MangystauTV.kz">
     <title lang="kk">"Құтты қоныс"</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">Ақпараттық</desc>
   </programme>
   <programme start="20261114200000 +0500" stop="20261114201500 +0500" channel="MangystauTV.kz">
     <title lang="kk">"Маңғыстау мақтаныштары"</title>
@@ -15740,7 +13852,7 @@
   </programme>
   <programme start="20261114203000 +0500" stop="20261114212000 +0500" channel="MangystauTV.kz">
     <title lang="kk">"Маңғыстауда жасалған"</title>
-    <desc lang="kk">Ақпараттық</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114212000 +0500" stop="20261114221000 +0500" channel="MangystauTV.kz">
     <title lang="kk">"Мақамы мәшһүр Маңғыстау"</title>
@@ -15823,7 +13935,7 @@
   </programme>
   <programme start="20261114192000 +0500" stop="20261114200000 +0500" channel="OntustikTV.kz">
     <title lang="kk">«Менің әлемім»</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">ойын-сауықтық бағдарлама</desc>
   </programme>
   <programme start="20261114200000 +0500" stop="20261114203500 +0500" channel="OntustikTV.kz">
     <title lang="kk">«Апта айнасы»</title>
@@ -15835,7 +13947,7 @@
   </programme>
   <programme start="20261114210000 +0500" stop="20261114222500 +0500" channel="OntustikTV.kz">
     <title lang="kk">«Ән шашу»</title>
-    <desc lang="kk">музыкалық бағдарлама</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114222500 +0500" stop="20261114235500 +0500" channel="OntustikTV.kz">
     <title lang="kk">«Транссібір экспресі»</title>
@@ -15847,11 +13959,11 @@
   <programme start="20261114140000 +0500" stop="20261114191000 +0500" channel="QostanaiTV.kz">
     <title lang="kk">Техникалық үзіліс (14:00-17:00)</title>
   </programme>
-  <programme start="20261114191000 +0500" stop="20261114193000 +0500" channel="QostanaiTV.kz">
+  <programme start="20261114191000 +0500" stop="20261114210000 +0500" channel="QostanaiTV.kz">
     <title lang="kk">«ОРТА ДӘЛІЗ» д.ф. («PTRK.KZ»)</title>
   </programme>
-  <programme start="20261114193000 +0500" stop="20261114203000 +0500" channel="QostanaiTV.kz">
-    <title lang="kk">«ТУҒАН ЖЕР ТҰЛҒАЛАРЫ» (танымдық бағдарлама)</title>
+  <programme start="20261114210000 +0500" stop="20261114220000 +0500" channel="QostanaiTV.kz">
+    <title lang="kk">«АPТА-АQPARAT» (Апталық ақпараттық-сараптамалық бағдарлама)</title>
     <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114070000 +0500" stop="20261114070500 +0500" channel="QyzyljarTV.kz">
@@ -15901,13 +14013,13 @@
   </programme>
   <programme start="20261114190000 +0500" stop="20261114200000 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">ДӘУІР ДАНАЛАРЫ</title>
-    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114200000 +0500" stop="20261114203000 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">КІТАП ОҚИЫҚ</title>
   </programme>
   <programme start="20261114203000 +0500" stop="20261114214000 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">ҚР жұлдыздарының қатысуымен концерт</title>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114214000 +0500" stop="20261114230000 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">ТЕЛ ӨСКЕН ҰЛ</title>
@@ -15971,10 +14083,13 @@
   </programme>
   <programme start="20261114192500 +0500" stop="20261114200000 +0500" channel="QyzylordaTV.kz">
     <title lang="kk">"БАЛА ОРДА"</title>
-    <desc lang="kk">Қазірэфирде</desc>
   </programme>
-  <programme start="20261114200000 +0500" stop="20261114223500 +0500" channel="QyzylordaTV.kz">
+  <programme start="20261114200000 +0500" stop="20261114210000 +0500" channel="QyzylordaTV.kz">
     <title lang="kk">"Фериха" т/с. /19-сер./</title>
+  </programme>
+  <programme start="20261114210000 +0500" stop="20261114223500 +0500" channel="QyzylordaTV.kz">
+    <title lang="kk">"Жарқын жүздесу" бағдарламасы</title>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114223500 +0500" stop="20261114232000 +0500" channel="QyzylordaTV.kz">
     <title lang="kk">"Топырақ пен Хауа" т/с. /200-сер., 2-маусым/</title>
@@ -16053,7 +14168,7 @@
   </programme>
   <programme start="20261114193000 +0500" stop="20261114195000 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">«ДАТ». «Шарықта, шахтер!»</title>
-    <desc lang="kk">Қазірэфирде</desc>
+    <desc lang="kk">Ақпараттық-сараптамалық бағдарлама</desc>
   </programme>
   <programme start="20261114195000 +0500" stop="20261114200000 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">Бейнеклип</title>
@@ -16069,7 +14184,7 @@
   </programme>
   <programme start="20261114210500 +0500" stop="20261114220500 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">«Інжу-маржан»</title>
-    <desc lang="kk">Мәдени-танымдық кеш</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114220500 +0500" stop="20261114230000 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">«Дәуір даналары». Мұстафа Шоқай</title>
@@ -16082,18 +14197,6 @@
   <programme start="20261114234000 +0500" stop="20261115000000 +0500" channel="SemeiTV.kz">
     <title lang="kk">"Инелік" 8-бөлім Телехикая</title>
     <desc lang="kk">Қазірэфирде</desc>
-  </programme>
-  <programme start="20261114020500 +0700" stop="20261114024500 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.52</title>
-    <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
-  </programme>
-  <programme start="20261114024500 +0700" stop="20261114035500 +0700" channel="KBSWorld.id">
-    <title lang="en">Fight For My Way Ep.4</title>
-    <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
-  </programme>
-  <programme start="20261114035500 +0700" stop="20261114040000 +0700" channel="KBSWorld.id">
-    <title lang="en">National Heritage Pilgrimage De O Ep.57</title>
-    <desc lang="en">No description</desc>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114053000 +0700" channel="KBSWorld.id">
     <title lang="en">The Seasons Ep.30</title>
@@ -16990,18 +15093,6 @@
   <programme start="20261121232000 +0700" stop="20261122000000 +0700" channel="KBSWorld.id">
     <title lang="en">A Trap Called Desire Ep.54</title>
     <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
-  </programme>
-  <programme start="20261114020000 +0700" stop="20261114030000 +0700" channel="Indonesiana_MMF.id">
-    <title lang="id">RITUS NUSANTARA - SUMATRA BARAT</title>
-  </programme>
-  <programme start="20261114030000 +0700" stop="20261114031500 +0700" channel="Indonesiana_MMF.id">
-    <title lang="id">SUKU LAMPUNG PESISIR - EPS2 JEJAK RAJA SKALA BRAK</title>
-  </programme>
-  <programme start="20261114031500 +0700" stop="20261114033000 +0700" channel="Indonesiana_MMF.id">
-    <title lang="id">IMAJI MAJI - EPS6</title>
-  </programme>
-  <programme start="20261114033000 +0700" stop="20261114040000 +0700" channel="Indonesiana_MMF.id">
-    <title lang="id">DISTANCE PARADE - EPS4 TIGA DIMENSI TERBATAS</title>
   </programme>
   <programme start="20261114040000 +0700" stop="20261114043000 +0700" channel="Indonesiana_MMF.id">
     <title lang="id">SANG GILANG - EPS2</title>
