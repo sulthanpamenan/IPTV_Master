@@ -598,13 +598,14 @@
   <programme start="20261114050000 +0700" stop="20261114060000 +0700" channel="Tivie_antv.id">
     <title lang="id">Bikin Mewek</title>
   </programme>
-  <programme start="20261114060000 +0700" stop="20261114080000 +0700" channel="Tivie_antv.id">
+  <programme start="20261114060000 +0700" stop="20261114073000 +0700" channel="Tivie_antv.id">
     <title lang="id">Radha Mohan</title>
   </programme>
-  <programme start="20261114080000 +0700" stop="20261114093000 +0700" channel="Tivie_antv.id">
-    <title lang="id">Jaane Anjaane</title>
+  <programme start="20261114073000 +0700" stop="20261114103000 +0700" channel="Tivie_antv.id">
+    <title lang="id">Anjaam</title>
+    <category lang="id">Mega Bollywood</category>
   </programme>
-  <programme start="20261114093000 +0700" stop="20261114130000 +0700" channel="Tivie_antv.id">
+  <programme start="20261114103000 +0700" stop="20261114130000 +0700" channel="Tivie_antv.id">
     <title lang="id">Ra.One</title>
     <category lang="id">Mega Bollywood</category>
   </programme>
@@ -940,10 +941,10 @@
   <programme start="20261114190000 +0700" stop="20261114210000 +0700" channel="Tivie_gtv.id">
     <title lang="id">Pada Zaman Dahulu</title>
   </programme>
-  <programme start="20261114210000 +0700" stop="20261114220000 +0700" channel="Tivie_gtv.id">
+  <programme start="20261114210000 +0700" stop="20261114214500 +0700" channel="Tivie_gtv.id">
     <title lang="id">Legenda Nusantara</title>
   </programme>
-  <programme start="20261114220000 +0700" stop="20261114224500 +0700" channel="Tivie_gtv.id">
+  <programme start="20261114214500 +0700" stop="20261114224500 +0700" channel="Tivie_gtv.id">
     <title lang="id">Deadly Pursuit</title>
   </programme>
   <programme start="20261114224500 +0700" stop="20261114234500 +0700" channel="Tivie_gtv.id">
@@ -1003,7 +1004,8 @@
     <title lang="id">Bintang Pantura 2026</title>
   </programme>
   <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="Tivie_indosiar.id">
-    <title lang="id">AFC U17 Asian Cup 2027 Qualifiers</title>
+    <title lang="id">Indonesia vs Kamboja</title>
+    <category lang="id">AFC U17 Asian Cup 2027 Qualifiers</category>
   </programme>
   <programme start="20261114000000 +0700" stop="20261114003000 +0700" channel="Tivie_inews.id">
     <title lang="id">Home Shopping</title>
@@ -1076,7 +1078,7 @@
     <title lang="id">iNews Sport</title>
   </programme>
   <programme start="20261114234500 +0700" stop="20261115004500 +0700" channel="Tivie_inews.id">
-    <title lang="id">Norwegia vs Wales</title>
+    <title lang="id">Georgia vs Hungaria</title>
     <category lang="id">UEFA Nations League 2026/27</category>
   </programme>
   <programme start="20261114000000 +0700" stop="20261114010000 +0700" channel="Tivie_kompastv.id">
@@ -1641,8 +1643,12 @@
     <title lang="id">The Next Door Detective</title>
     <category lang="id">Microdrama+</category>
   </programme>
-  <programme start="20261114230000 +0700" stop="20261115000000 +0700" channel="Tivie_rcti.id">
+  <programme start="20261114230000 +0700" stop="20261114234500 +0700" channel="Tivie_rcti.id">
     <title lang="id">Tiger and Crane</title>
+  </programme>
+  <programme start="20261114234500 +0700" stop="20261115004500 +0700" channel="Tivie_rcti.id">
+    <title lang="id">Norwegia vs Wales</title>
+    <category lang="id">UEFA Nations League 2026/27</category>
   </programme>
   <programme start="20261114000000 +0700" stop="20261114003000 +0700" channel="Tivie_rtv.id">
     <title lang="id">Canda Empire</title>
@@ -1766,10 +1772,10 @@
     <title lang="id">Indonesia vs Kamboja</title>
     <category lang="id">AFC U17 Asian Cup 2027 Qualifiers</category>
   </programme>
-  <programme start="20261114173000 +0700" stop="20261114200000 +0700" channel="Tivie_sctv.id">
+  <programme start="20261114173000 +0700" stop="20261114194500 +0700" channel="Tivie_sctv.id">
     <title lang="id">Cinta Seluas Samudra</title>
   </programme>
-  <programme start="20261114200000 +0700" stop="20261114213000 +0700" channel="Tivie_sctv.id">
+  <programme start="20261114194500 +0700" stop="20261114213000 +0700" channel="Tivie_sctv.id">
     <title lang="id">Wajah Cinta yang Lain</title>
   </programme>
   <programme start="20261114213000 +0700" stop="20261114230000 +0700" channel="Tivie_sctv.id">
@@ -1910,7 +1916,7 @@
     <title lang="id">TransTV Festival</title>
   </programme>
   <programme start="20261114220000 +0700" stop="20261114230000 +0700" channel="Tivie_transtv.id">
-    <title lang="id">Blumhouse's Fantasy Island</title>
+    <title lang="id">Don't Breathe</title>
     <category lang="id">Bioskop TransTV</category>
   </programme>
   <programme start="20261114000000 +0700" stop="20261114001500 +0700" channel="Tivie_trans7.id">
@@ -1922,11 +1928,14 @@
   <programme start="20261114004500 +0700" stop="20261114013000 +0700" channel="Tivie_trans7.id">
     <title lang="id">Sport7</title>
   </programme>
-  <programme start="20261114013000 +0700" stop="20261114023000 +0700" channel="Tivie_trans7.id">
+  <programme start="20261114013000 +0700" stop="20261114020000 +0700" channel="Tivie_trans7.id">
     <title lang="id">Best Fishing</title>
   </programme>
-  <programme start="20261114023000 +0700" stop="20261114031500 +0700" channel="Tivie_trans7.id">
+  <programme start="20261114020000 +0700" stop="20261114023000 +0700" channel="Tivie_trans7.id">
     <title lang="id">Dracin</title>
+  </programme>
+  <programme start="20261114023000 +0700" stop="20261114031500 +0700" channel="Tivie_trans7.id">
+    <title lang="id">On The Spot</title>
   </programme>
   <programme start="20261114031500 +0700" stop="20261114040000 +0700" channel="Tivie_trans7.id">
     <title lang="id">LOL :) ComediHa!</title>
@@ -1998,7 +2007,7 @@
     <title lang="id">The Police</title>
   </programme>
   <programme start="20261114233000 +0700" stop="20261115003000 +0700" channel="Tivie_trans7.id">
-    <title lang="id">FTV</title>
+    <title lang="id">Dracin</title>
   </programme>
   <programme start="20261114000000 +0700" stop="20261114013000 +0700" channel="Tivie_tvone.id">
     <title lang="id">Kabar Petang</title>
@@ -6125,473 +6134,405 @@
   <programme start="20261114235950 +0700" stop="20261115005950 +0700" channel="Dens_wedosports.id">
     <title lang="id">Sport Confidential - S06:E46 - 27 October 2026</title>
   </programme>
-  <programme start="20261114021233 +0700" stop="20261114025636 +0700" channel="RedBullTV.global">
-    <title lang="en">SNOWBOARDING: Volare: Valentino Guseli – A Prodigy</title>
-    <desc lang="en">Valentino Guseli shares his journey mastering three snowboard disciplines: big air, slopestyle and halfpipe.</desc>
-  </programme>
-  <programme start="20261114025636 +0700" stop="20261114033921 +0700" channel="RedBullTV.global">
-    <title lang="en">SNOWBOARDING: Paved – Burton &amp; Red Bull Media House</title>
-    <desc lang="en">A history lesson, a hangout and a backcountry odyssey co-produced by Burton and Red Bull Media House.</desc>
-  </programme>
-  <programme start="20261114033921 +0700" stop="20261114044743 +0700" channel="RedBullTV.global">
-    <title lang="en">SNOW: Pressure Drop – Cinematic Skiing and Snowboarding</title>
-    <desc lang="en">Follow elite skiers and snowboarders in a cinematic ride through risk, beauty and the pursuit of perfection.</desc>
-  </programme>
-  <programme start="20261114044743 +0700" stop="20261114050342 +0700" channel="RedBullTV.global">
-    <title lang="en">SKATE: Skate Tales – Madars Apse's Global Journey</title>
-    <desc lang="en">Madars and Nico Hiraga explore how San Francisco is shaping skateboarding’s new generation.</desc>
-  </programme>
-  <programme start="20261114050342 +0700" stop="20261114051845 +0700" channel="RedBullTV.global">
-    <title lang="en">SKATE: Skate Tales – Madars Apse's Global Journey</title>
-    <desc lang="en">Madars travels to Brazil to uncover Tiago Lemos’s rise from the streets to global skate stardom.</desc>
-  </programme>
-  <programme start="20261114051845 +0700" stop="20261114053406 +0700" channel="RedBullTV.global">
-    <title lang="en">SKATE: Skate Tales – Madars Apse's Global Journey</title>
-    <desc lang="en">Madars heads to Montréal to experience the chaos and creativity of the legendary Dime Glory Challenge.</desc>
-  </programme>
-  <programme start="20261114053406 +0700" stop="20261114055123 +0700" channel="RedBullTV.global">
-    <title lang="en">SKATE: Skate Tales – Madars Apse's Global Journey</title>
-    <desc lang="en">Madars follows the Dern Brothers from Florida to California to see how they cracked skateboarding on YouTube.</desc>
-  </programme>
-  <programme start="20261114055123 +0700" stop="20261114062523 +0700" channel="RedBullTV.global">
-    <title lang="en">SKATE: Red Bull Drop In Tour</title>
-    <desc lang="en">Friends ride South America’s vibrant streets and ramps, showing the raw energy of the country's skate culture.</desc>
-  </programme>
-  <programme start="20261114062523 +0700" stop="20261114064548 +0700" channel="RedBullTV.global">
-    <title lang="en">SKATE: Greetings From – International Lines</title>
-    <desc lang="en">Meet Brandon Valjalo and 30 more top dogs from South Africa's biggest skate scene in our super city report.</desc>
-  </programme>
-  <programme start="20261114064548 +0700" stop="20261114065911 +0700" channel="RedBullTV.global">
-    <title lang="en">SKATE: Greetings From – International Lines</title>
-    <desc lang="en">Enjoy a different side of American skateboarding culture, ripping up the Virginia skate scene with the locals.</desc>
-  </programme>
-  <programme start="20261114065911 +0700" stop="20261114072212 +0700" channel="RedBullTV.global">
-    <title lang="en">SKATE: Greetings From – International Lines</title>
-    <desc lang="en">San Francisco shaped modern skateboarding like no other place, discover why it's a must-visit for skaters.</desc>
-  </programme>
-  <programme start="20261114072212 +0700" stop="20261114074949 +0700" channel="RedBullTV.global">
-    <title lang="en">CLIMBING: Natural Heights – Hidden Stories of Big Names</title>
-    <desc lang="en">With another title in sight Janja Garnbret shifts her focus outdoors, is it new motivation or added pressure?</desc>
-  </programme>
-  <programme start="20261114074949 +0700" stop="20261114081355 +0700" channel="RedBullTV.global">
-    <title lang="en">CLIMBING: Natural Heights – Hidden Stories of Big Names</title>
-    <desc lang="en">In Flatanger, Norway, Jakob Schubert tackles the first ascent of 'B.I.G.' (9c) with unyielding resolve.</desc>
-  </programme>
-  <programme start="20261114081355 +0700" stop="20261114083759 +0700" channel="RedBullTV.global">
-    <title lang="en">CLIMBING: Natural Heights – Hidden Stories of Big Names</title>
-    <desc lang="en">Nika Potapova wants to become a pro climber, but no matter the sacrifices the outcome is far from guaranteed.</desc>
-  </programme>
-  <programme start="20261114083759 +0700" stop="20261114101645 +0700" channel="RedBullTV.global">
-    <title lang="en">CLIMBING: Fine Lines – Life Lessons From Adventurers</title>
-    <desc lang="en">Take an introspective journey on the lessons life has taught 20 legends why risk is so vital to their lives.</desc>
-  </programme>
-  <programme start="20261114101645 +0700" stop="20261114104045 +0700" channel="RedBullTV.global">
-    <title lang="en">DANCE: Take the Title – South Africa's Elite Talent</title>
-    <desc lang="en">With unique styles like Amapiano and Pantsula, see how Red Bull Dance Your Style was started in South Africa.</desc>
-  </programme>
-  <programme start="20261114104045 +0700" stop="20261114110445 +0700" channel="RedBullTV.global">
-    <title lang="en">DANCE: Take the Title – South Africa's Elite Talent</title>
-    <desc lang="en">The Red Bull Dance Your Style 2021 country tour, national finals and cancelled World Final were unique!</desc>
-  </programme>
-  <programme start="20261114110445 +0700" stop="20261114112845 +0700" channel="RedBullTV.global">
-    <title lang="en">DANCE: Take the Title – South Africa's Elite Talent</title>
-    <desc lang="en">Follow the Red Bull Dance Your Style competitors on the 2023 tour as they compete and share their stories.</desc>
-  </programme>
-  <programme start="20261114112845 +0700" stop="20261114115321 +0700" channel="RedBullTV.global">
-    <title lang="en">DANCE: Take the Title – South Africa's Elite Talent</title>
-    <desc lang="en">Watch the Red Bull Dance Your Style National Final as the 16 top compete for a spot at the World Final.</desc>
-  </programme>
-  <programme start="20261114115321 +0700" stop="20261114120755 +0700" channel="RedBullTV.global">
+  <programme start="20261114120755 +0700" stop="20261114123311 +0700" channel="RedBullTV.global">
     <title lang="en">DANCE: What it Takes to Break – Phil Wizard's Skills</title>
-    <desc lang="en">B-Boys Phil Wizard and Lee learn the secrets of Menno's creativity before battling in a test of originality.</desc>
+    <desc lang="en">B-Boy Hong 10 trains Phil before challenging him to an unlimited rounds break battle in Seoul, South Korea.</desc>
   </programme>
-  <programme start="20261114015047 +0700" stop="20261114021640 +0700" channel="RedBullPadel.global">
-    <title lang="en">Germany Premier Padel P2 highlights</title>
-    <desc lang="en">Watch the highlights from the Germany Premier Padel P2 tournament.</desc>
+  <programme start="20261114123311 +0700" stop="20261114124640 +0700" channel="RedBullTV.global">
+    <title lang="en">ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
+    <desc lang="en">Red Bull Soapbox 2017 fan-favourite teams are some of wildest and wackiest homemade gravity-powered vehicles.</desc>
   </programme>
-  <programme start="20261114021640 +0700" stop="20261114024246 +0700" channel="RedBullPadel.global">
-    <title lang="en">Madrid P1 Premier Padel highlights</title>
-    <desc lang="en">Watch the highlights from the Madrid P1 Premier Padel tournament.</desc>
+  <programme start="20261114124640 +0700" stop="20261114130000 +0700" channel="RedBullTV.global">
+    <title lang="en">ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
+    <desc lang="en">Catch the seven greatest crashes at race of pure fun, incredible costumes and brilliant designs.</desc>
   </programme>
-  <programme start="20261114024246 +0700" stop="20261114030731 +0700" channel="RedBullPadel.global">
+  <programme start="20261114130000 +0700" stop="20261114132243 +0700" channel="RedBullTV.global">
+    <title lang="en">BIKE: Paradigm – Raw MTB Talent Reaching New Heights</title>
+    <desc lang="en">The precision of slopestyle, massive airs of freeride and the raw speed of downhill mean nonstop MTB action.</desc>
+  </programme>
+  <programme start="20261114132243 +0700" stop="20261114141723 +0700" channel="RedBullTV.global">
+    <title lang="en">BIKE: Hard Enduro 2025: The Hardest Season Yet?</title>
+    <desc lang="en">Go behind the scenes of the 2025 season of Red Bull Erzbergrodeo, Red Bull Romaniacs and Red Bull Outliers.</desc>
+  </programme>
+  <programme start="20261114141723 +0700" stop="20261114150959 +0700" channel="RedBullTV.global">
+    <title lang="en">BIKE: Men's Red Bull Rampage 2025 Utah – Highlights</title>
+    <desc lang="en">Watch the 18 male mountain bike athletes showcase skill and creativity in this invitation-only freeride event.</desc>
+  </programme>
+  <programme start="20261114150959 +0700" stop="20261114160200 +0700" channel="RedBullTV.global">
+    <title lang="en">BIKE: Women's Red Bull Rampage 2025 Utah – Highlights</title>
+    <desc lang="en">12 female MTB athletes competed in this invitation-only freeride event, showcasing their skill and creativity.</desc>
+  </programme>
+  <programme start="20261114160200 +0700" stop="20261114162738 +0700" channel="RedBullTV.global">
+    <title lang="en">BIKE: Asa Vermette's Ascent – A Breakout Year in MTB</title>
+    <desc lang="en">Follow young rising star Asa Vermette on his debut at Red Bull Hardline, downhill MTB's toughest race.</desc>
+  </programme>
+  <programme start="20261114162738 +0700" stop="20261114164609 +0700" channel="RedBullTV.global">
+    <title lang="en">BIKR: Red Bull Rampage 2024 – 10 Best Runs</title>
+    <desc lang="en">Jaw-dropping lines, insane tricks: relive the best runs from the men and women at Red Bull Rampage 2024.</desc>
+  </programme>
+  <programme start="20261114164609 +0700" stop="20261114172621 +0700" channel="RedBullTV.global">
+    <title lang="en">MOTORSPORT: More Than Machine – All-access WRC Show</title>
+    <desc lang="en">The WRC lands in Paraguay for the very first time, bringing fresh challenges and high stakes for co-drivers.</desc>
+  </programme>
+  <programme start="20261114172621 +0700" stop="20261114181105 +0700" channel="RedBullTV.global">
+    <title lang="en">MOTORSPORT: More Than Machine – All-access WRC Show</title>
+    <desc lang="en">The WRC season enters the 'summer of speed' and a new contender emerges: Oliver Solberg.</desc>
+  </programme>
+  <programme start="20261114181105 +0700" stop="20261114185628 +0700" channel="RedBullTV.global">
+    <title lang="en">MOTORSPORT: More Than Machine – All-access WRC Show</title>
+    <desc lang="en">The 2025 season concludes with a dramatic double-header in Japan and Saudi Arabia. Who will come out on top?</desc>
+  </programme>
+  <programme start="20261114185628 +0700" stop="20261114193533 +0700" channel="RedBullTV.global">
+    <title lang="en">MOTORSPORT: More Than Machine – All-access WRC Show</title>
+    <desc lang="en">Mārtiņš Sesks fights to prove his speed and claim his permanent spot in the World Rally Championship.</desc>
+  </programme>
+  <programme start="20261114193533 +0700" stop="20261114195748 +0700" channel="RedBullTV.global">
+    <title lang="en">ATHLETICS: Michelle Khare's Great World Race – Marathon</title>
+    <desc lang="en">Michelle faces the final stretch. With everything on the line, will she make it to the final finish?</desc>
+  </programme>
+  <programme start="20261114195748 +0700" stop="20261114203834 +0700" channel="RedBullTV.global">
+    <title lang="en">ATHLETICS: Michelle Khare's Great World Race – Marathon</title>
+    <desc lang="en">Michelle begins The Great World Race, racing from Cape Town to Antarctica, after months of elite training.</desc>
+  </programme>
+  <programme start="20261114203834 +0700" stop="20261114211051 +0700" channel="RedBullTV.global">
+    <title lang="en">ATHLETICS: Michelle Khare's Great World Race – Marathon</title>
+    <desc lang="en">Michelle battles extreme heat, but also forms powerful bonds with fellow racers as setbacks threaten the race.</desc>
+  </programme>
+  <programme start="20261114211051 +0700" stop="20261114213727 +0700" channel="RedBullTV.global">
+    <title lang="en">FITNESS: Red Bull Rancher Strong 2025 Texas</title>
+    <desc lang="en">Competitors try an obstacle course designed around the rancher lifestyle to determine WHO is Rancher Strong.</desc>
+  </programme>
+  <programme start="20261114213727 +0700" stop="20261114223158 +0700" channel="RedBullTV.global">
+    <title lang="en">ATHLETICS: Resilience – The Els Visser Ironman Story</title>
+    <desc lang="en">When a shipwreck changes everything, the journey from med student to champion triathlete begins.</desc>
+  </programme>
+  <programme start="20261114223158 +0700" stop="20261114230623 +0700" channel="RedBullTV.global">
+    <title lang="en">FITNESS: Beyond the ROX – Strength in Motion</title>
+    <desc lang="en">After years of training, Jake Dearden reaches the Elite 15. Can he prove he belongs in the 2024/25 season?</desc>
+  </programme>
+  <programme start="20261114230623 +0700" stop="20261114232712 +0700" channel="RedBullTV.global">
+    <title lang="en">SNOW: NST Snow Super Sessions 2026 – Utah</title>
+    <desc lang="en">Results from three NST Snow Super Sessions determine who goes on to YETI Natural Selection Snow in Revelstoke.</desc>
+  </programme>
+  <programme start="20261114121445 +0700" stop="20261114123930 +0700" channel="RedBullPadel.global">
     <title lang="en">Meet padel stars Coello, Sanchez, Chingotto and Salazar</title>
     <desc lang="en">Four stars. Four cities. One sport. Hear emotional journeys from the padel court to the heart of the game.</desc>
   </programme>
-  <programme start="20261114030731 +0700" stop="20261114033336 +0700" channel="RedBullPadel.global">
+  <programme start="20261114123930 +0700" stop="20261114130537 +0700" channel="RedBullPadel.global">
+    <title lang="en">Madrid P1 Premier Padel highlights</title>
+    <desc lang="en">Watch the highlights from the Madrid P1 Premier Padel tournament.</desc>
+  </programme>
+  <programme start="20261114130537 +0700" stop="20261114133141 +0700" channel="RedBullPadel.global">
     <title lang="en">Bordeaux Premier Padel P2 highlights</title>
     <desc lang="en">Watch the highlights from the Bordeaux Premier Padel P2 tournament.</desc>
   </programme>
-  <programme start="20261114033336 +0700" stop="20261114035926 +0700" channel="RedBullPadel.global">
-    <title lang="en">Tarragona P1 Premier Padel highlights</title>
-    <desc lang="en">Watch the highlights from Tarragona, Spain as the P1 Premier Padel took centre stage.</desc>
-  </programme>
-  <programme start="20261114035926 +0700" stop="20261114042552 +0700" channel="RedBullPadel.global">
+  <programme start="20261114133141 +0700" stop="20261114135807 +0700" channel="RedBullPadel.global">
     <title lang="en">Meet padel stars Fernández, Triay, Lebrón and Yanguas</title>
     <desc lang="en">Four padel players give an inside look into their lives and what makes the sport a global phenomenon.</desc>
   </programme>
-  <programme start="20261114042552 +0700" stop="20261114045141 +0700" channel="RedBullPadel.global">
+  <programme start="20261114135807 +0700" stop="20261114142358 +0700" channel="RedBullPadel.global">
+    <title lang="en">Tarragona P1 Premier Padel highlights</title>
+    <desc lang="en">Watch the highlights from Tarragona, Spain as the P1 Premier Padel took centre stage.</desc>
+  </programme>
+  <programme start="20261114142358 +0700" stop="20261114144947 +0700" channel="RedBullPadel.global">
     <title lang="en">Italy Major Premier Padel highlights</title>
     <desc lang="en">Watch the highlights from the Italy Major Premier Padel tournament held at Foro Italico in Rome.</desc>
   </programme>
-  <programme start="20261114045141 +0700" stop="20261114051746 +0700" channel="RedBullPadel.global">
-    <title lang="en">Paris Major Premier Padel highlights</title>
-    <desc lang="en">Watch the highlights from the Paris Major Premier Padel tournament held at Roland-Garros stadium.</desc>
-  </programme>
-  <programme start="20261114051746 +0700" stop="20261114054413 +0700" channel="RedBullPadel.global">
-    <title lang="en">Meet padel stars Fernández, Triay, Lebrón and Yanguas</title>
-    <desc lang="en">Four padel players give an inside look into their lives and what makes the sport a global phenomenon.</desc>
-  </programme>
-  <programme start="20261114054413 +0700" stop="20261114061017 +0700" channel="RedBullPadel.global">
-    <title lang="en">Bordeaux Premier Padel P2 highlights</title>
-    <desc lang="en">Watch the highlights from the Bordeaux Premier Padel P2 tournament.</desc>
-  </programme>
-  <programme start="20261114061017 +0700" stop="20261114063625 +0700" channel="RedBullPadel.global">
+  <programme start="20261114144947 +0700" stop="20261114151555 +0700" channel="RedBullPadel.global">
     <title lang="en">Malaga Premier Padel P1 highlights</title>
     <desc lang="en">Watch the highlights from the Malaga Premier Padel P1 tournament.</desc>
   </programme>
-  <programme start="20261114063625 +0700" stop="20261114070215 +0700" channel="RedBullPadel.global">
+  <programme start="20261114151555 +0700" stop="20261114154145 +0700" channel="RedBullPadel.global">
     <title lang="en">Tarragona P1 Premier Padel highlights</title>
     <desc lang="en">Watch the highlights from Tarragona, Spain as the P1 Premier Padel took centre stage.</desc>
   </programme>
-  <programme start="20261114070215 +0700" stop="20261114072820 +0700" channel="RedBullPadel.global">
-    <title lang="en">Paris Major Premier Padel highlights</title>
-    <desc lang="en">Watch the highlights from the Paris Major Premier Padel tournament held at Roland-Garros stadium.</desc>
-  </programme>
-  <programme start="20261114072820 +0700" stop="20261114075424 +0700" channel="RedBullPadel.global">
-    <title lang="en">Bordeaux Premier Padel P2 highlights</title>
-    <desc lang="en">Watch the highlights from the Bordeaux Premier Padel P2 tournament.</desc>
-  </programme>
-  <programme start="20261114075424 +0700" stop="20261114082031 +0700" channel="RedBullPadel.global">
+  <programme start="20261114154145 +0700" stop="20261114160752 +0700" channel="RedBullPadel.global">
     <title lang="en">Madrid P1 Premier Padel highlights</title>
     <desc lang="en">Watch the highlights from the Madrid P1 Premier Padel tournament.</desc>
   </programme>
-  <programme start="20261114082031 +0700" stop="20261114084621 +0700" channel="RedBullPadel.global">
-    <title lang="en">Tarragona P1 Premier Padel highlights</title>
-    <desc lang="en">Watch the highlights from Tarragona, Spain as the P1 Premier Padel took centre stage.</desc>
+  <programme start="20261114160752 +0700" stop="20261114163341 +0700" channel="RedBullPadel.global">
+    <title lang="en">Italy Major Premier Padel highlights</title>
+    <desc lang="en">Watch the highlights from the Italy Major Premier Padel tournament held at Foro Italico in Rome.</desc>
   </programme>
-  <programme start="20261114084621 +0700" stop="20261114091214 +0700" channel="RedBullPadel.global">
+  <programme start="20261114163341 +0700" stop="20261114165933 +0700" channel="RedBullPadel.global">
     <title lang="en">Germany Premier Padel P2 highlights</title>
     <desc lang="en">Watch the highlights from the Germany Premier Padel P2 tournament.</desc>
   </programme>
-  <programme start="20261114091214 +0700" stop="20261114093822 +0700" channel="RedBullPadel.global">
-    <title lang="en">Malaga Premier Padel P1 highlights</title>
-    <desc lang="en">Watch the highlights from the Malaga Premier Padel P1 tournament.</desc>
+  <programme start="20261114165933 +0700" stop="20261114172419 +0700" channel="RedBullPadel.global">
+    <title lang="en">Meet padel stars Coello, Sanchez, Chingotto and Salazar</title>
+    <desc lang="en">Four stars. Four cities. One sport. Hear emotional journeys from the padel court to the heart of the game.</desc>
   </programme>
-  <programme start="20261114093822 +0700" stop="20261114100426 +0700" channel="RedBullPadel.global">
+  <programme start="20261114172419 +0700" stop="20261114175023 +0700" channel="RedBullPadel.global">
     <title lang="en">Bordeaux Premier Padel P2 highlights</title>
     <desc lang="en">Watch the highlights from the Bordeaux Premier Padel P2 tournament.</desc>
   </programme>
-  <programme start="20261114100426 +0700" stop="20261114103033 +0700" channel="RedBullPadel.global">
+  <programme start="20261114175023 +0700" stop="20261114181631 +0700" channel="RedBullPadel.global">
+    <title lang="en">Malaga Premier Padel P1 highlights</title>
+    <desc lang="en">Watch the highlights from the Malaga Premier Padel P1 tournament.</desc>
+  </programme>
+  <programme start="20261114181631 +0700" stop="20261114184116 +0700" channel="RedBullPadel.global">
+    <title lang="en">Meet padel stars Coello, Sanchez, Chingotto and Salazar</title>
+    <desc lang="en">Four stars. Four cities. One sport. Hear emotional journeys from the padel court to the heart of the game.</desc>
+  </programme>
+  <programme start="20261114184116 +0700" stop="20261114190706 +0700" channel="RedBullPadel.global">
+    <title lang="en">Tarragona P1 Premier Padel highlights</title>
+    <desc lang="en">Watch the highlights from Tarragona, Spain as the P1 Premier Padel took centre stage.</desc>
+  </programme>
+  <programme start="20261114190706 +0700" stop="20261114193311 +0700" channel="RedBullPadel.global">
+    <title lang="en">Paris Major Premier Padel highlights</title>
+    <desc lang="en">Watch the highlights from the Paris Major Premier Padel tournament held at Roland-Garros stadium.</desc>
+  </programme>
+  <programme start="20261114193311 +0700" stop="20261114195918 +0700" channel="RedBullPadel.global">
     <title lang="en">Madrid P1 Premier Padel highlights</title>
     <desc lang="en">Watch the highlights from the Madrid P1 Premier Padel tournament.</desc>
   </programme>
-  <programme start="20261114020257 +0700" stop="20261114021808 +0700" channel="RedBullBike.global">
-    <title lang="en">Erik Fedko checks out Emil Johansson's home spots</title>
-    <desc lang="en">After 2020 Crankworx Rotorua, Erik Fedko heads to Sweden to see Emil Johansson’s favourite mountain biking spots.</desc>
+  <programme start="20261114195918 +0700" stop="20261114202522 +0700" channel="RedBullPadel.global">
+    <title lang="en">Bordeaux Premier Padel P2 highlights</title>
+    <desc lang="en">Watch the highlights from the Bordeaux Premier Padel P2 tournament.</desc>
   </programme>
-  <programme start="20261114021808 +0700" stop="20261114024218 +0700" channel="RedBullBike.global">
-    <title lang="en">Lesotho</title>
-    <desc lang="en">Mountain bikers Rob Warner and Matt Jones, head to Lesotho to experience a very different kind of racing.</desc>
+  <programme start="20261114202522 +0700" stop="20261114205148 +0700" channel="RedBullPadel.global">
+    <title lang="en">Meet padel stars Fernández, Triay, Lebrón and Yanguas</title>
+    <desc lang="en">Four padel players give an inside look into their lives and what makes the sport a global phenomenon.</desc>
   </programme>
-  <programme start="20261114024218 +0700" stop="20261114025430 +0700" channel="RedBullBike.global">
-    <title lang="en">Recap show – Nové Město</title>
-    <desc lang="en">Watch a full recap of the cross-country action from Nové Město, the third stop of the UCI MTB World Cup 2022.</desc>
+  <programme start="20261114114034 +0700" stop="20261114124927 +0700" channel="RedBullBike.global">
+    <title lang="en">The Old World</title>
+    <desc lang="en">Traverse iconic European locations in a celebration of biking culture that unites MTB and BMX.</desc>
   </programme>
-  <programme start="20261114025430 +0700" stop="20261114030141 +0700" channel="RedBullBike.global">
-    <title lang="en">The power of bikes</title>
-    <desc lang="en">Endurance athlete Rebecca Rusch and adventurer Patrick Sweeney cycled up and down Mount Kilimanjaro, Tanzania.</desc>
+  <programme start="20261114124927 +0700" stop="20261114131016 +0700" channel="RedBullBike.global">
+    <title lang="en">Now or never</title>
+    <desc lang="en">With few races in the 2020 UCI MTB World Cup, the pressure to peak at the right time is immense.</desc>
   </programme>
-  <programme start="20261114030141 +0700" stop="20261114030754 +0700" channel="RedBullBike.global">
-    <title lang="en">Wee day out</title>
-    <desc lang="en">Danny MacAskill tears around rural Scotland, setting out to capture the simple fun of a ride in the country.</desc>
-  </programme>
-  <programme start="20261114030754 +0700" stop="20261114032330 +0700" channel="RedBullBike.global">
+  <programme start="20261114131016 +0700" stop="20261114132552 +0700" channel="RedBullBike.global">
     <title lang="en">Norwegian freeride with Brage Vestavik</title>
     <desc lang="en">Norway's Brage Vestavik has made a name for himself as the toughest freeride mountain biker to hit the scene.</desc>
   </programme>
-  <programme start="20261114032330 +0700" stop="20261114040913 +0700" channel="RedBullBike.global">
+  <programme start="20261114132552 +0700" stop="20261114133300 +0700" channel="RedBullBike.global">
+    <title lang="en">Harriet Burbidge-Smith – Australian style</title>
+    <desc lang="en">Enjoy the stripped-back action as Harriet Burbidge-Smith puts it down at Maydena Bike Park, Tasmania.</desc>
+  </programme>
+  <programme start="20261114133300 +0700" stop="20261114134812 +0700" channel="RedBullBike.global">
+    <title lang="en">Erik Fedko checks out Emil Johansson's home spots</title>
+    <desc lang="en">After 2020 Crankworx Rotorua, Erik Fedko heads to Sweden to see Emil Johansson’s favourite mountain biking spots.</desc>
+  </programme>
+  <programme start="20261114134812 +0700" stop="20261114141350 +0700" channel="RedBullBike.global">
+    <title lang="en">Asa Vermette's Ascent</title>
+    <desc lang="en">Follow Asa Vermette – one of mountain biking’s most exciting young riders – on his debut at Red Bull Hardline.</desc>
+  </programme>
+  <programme start="20261114141350 +0700" stop="20261114142601 +0700" channel="RedBullBike.global">
+    <title lang="en">Recap show – Nové Město</title>
+    <desc lang="en">Watch a full recap of the cross-country action from Nové Město, the third stop of the UCI MTB World Cup 2022.</desc>
+  </programme>
+  <programme start="20261114142601 +0700" stop="20261114151144 +0700" channel="RedBullBike.global">
     <title lang="en">Gamble</title>
     <desc lang="en">Raw speed, a heavy-hitting soundtrack and virgin locations – mountain bike riders show off their skills.</desc>
   </programme>
-  <programme start="20261114040913 +0700" stop="20261114042714 +0700" channel="RedBullBike.global">
-    <title lang="en">EMIL – Every Mystery I've Lived: The Next Chapter</title>
-    <desc lang="en">Despite autoimmune illness, MTB slopestyle champ Emil Johansson fights to regain his mountain bike title.</desc>
+  <programme start="20261114151144 +0700" stop="20261114152421 +0700" channel="RedBullBike.global">
+    <title lang="en">Winning strategies</title>
+    <desc lang="en">Mountain bike racers talk about how having a winning strategy makes all the difference to their performance.</desc>
   </programme>
-  <programme start="20261114042714 +0700" stop="20261114044002 +0700" channel="RedBullBike.global">
-    <title lang="en">Instinct vs science</title>
-    <desc lang="en">Does understanding the science of speed help MTB riders know when to go fast or slow down? Not necessarily.</desc>
+  <programme start="20261114152421 +0700" stop="20261114153259 +0700" channel="RedBullBike.global">
+    <title lang="en">Taking on the Dolomites</title>
+    <desc lang="en">Legendary trials rider Tom Oehler heads deep into the Italian Dolomites for a hair-raising ride.</desc>
   </programme>
-  <programme start="20261114044002 +0700" stop="20261114050512 +0700" channel="RedBullBike.global">
+  <programme start="20261114153259 +0700" stop="20261114155809 +0700" channel="RedBullBike.global">
     <title lang="en">Kriss Kyle: Out of Season</title>
     <desc lang="en">Kriss Kyle transitions from BMXer to all-around bike athlete in classic British winter weather.</desc>
   </programme>
-  <programme start="20261114050512 +0700" stop="20261114052631 +0700" channel="RedBullBike.global">
-    <title lang="en">Bas Keep: More Walls</title>
-    <desc lang="en">BMX star Sebastian Keep rides makeshift ramps and obstacles in the urban landscape of city centres in the UK.</desc>
+  <programme start="20261114155809 +0700" stop="20261114162051 +0700" channel="RedBullBike.global">
+    <title lang="en">The Road Back: Brook MacDonald</title>
+    <desc lang="en">How MTB racer Brook MacDonald makes a miraculous recovery from a crash that almost left him paralysed.</desc>
   </programme>
-  <programme start="20261114052631 +0700" stop="20261114055310 +0700" channel="RedBullBike.global">
-    <title lang="en">Progression</title>
-    <desc lang="en">Meet the riders from Red Bull Formation 2021 who are transforming the sport of freeride mountain biking.</desc>
-  </programme>
-  <programme start="20261114055310 +0700" stop="20261114060510 +0700" channel="RedBullBike.global">
-    <title lang="en">Skill vs luck</title>
-    <desc lang="en">Top MTB riders share their experiences of the benefits of having the support of a factory team behind them.</desc>
-  </programme>
-  <programme start="20261114060510 +0700" stop="20261114062938 +0700" channel="RedBullBike.global">
-    <title lang="en">Nepal</title>
-    <desc lang="en">Rob Warner and downhill pro Olly Wilkins ride around the world's tallest mountain range.</desc>
-  </programme>
-  <programme start="20261114062938 +0700" stop="20261114064432 +0700" channel="RedBullBike.global">
-    <title lang="en">It's all about the drama</title>
-    <desc lang="en">MTB riders like Kate Courtney, Finn Iles and Loïc Bruni look back over Fast Life, remembering the good and tough moments.</desc>
-  </programme>
-  <programme start="20261114064432 +0700" stop="20261114070858 +0700" channel="RedBullBike.global">
-    <title lang="en">Kenya</title>
-    <desc lang="en">Former World Cup racer Rob Warner heads to Kenya with freeride pro Matt Jones to ride Mount Kenya.</desc>
-  </programme>
-  <programme start="20261114070858 +0700" stop="20261114071511 +0700" channel="RedBullBike.global">
+  <programme start="20261114162051 +0700" stop="20261114162704 +0700" channel="RedBullBike.global">
     <title lang="en">Wee day out</title>
     <desc lang="en">Danny MacAskill tears around rural Scotland, setting out to capture the simple fun of a ride in the country.</desc>
   </programme>
-  <programme start="20261114071511 +0700" stop="20261114081917 +0700" channel="RedBullBike.global">
-    <title lang="en">Emerald Storm</title>
-    <desc lang="en">Documenting the rise of Ireland’s top MTB riders from their grassroots beginnings to the global stage.</desc>
+  <programme start="20261114162704 +0700" stop="20261114165058 +0700" channel="RedBullBike.global">
+    <title lang="en">Colombia</title>
+    <desc lang="en">In Colombia, Rob Warner and MTB star Finn Iles find one of the most stunning trails on the planet.</desc>
   </programme>
-  <programme start="20261114081917 +0700" stop="20261114084113 +0700" channel="RedBullBike.global">
-    <title lang="en">Dear 39th Street</title>
-    <desc lang="en">Justin Williams returns to 39th Street, LA to build L39ION – the world's first Black-owned cycling team.</desc>
+  <programme start="20261114165058 +0700" stop="20261114170350 +0700" channel="RedBullBike.global">
+    <title lang="en">French advantage</title>
+    <desc lang="en">MTB riders discuss the consistent success of French competitors and speculate about what gives them the edge.</desc>
   </programme>
-  <programme start="20261114084113 +0700" stop="20261114092655 +0700" channel="RedBullBike.global">
-    <title lang="en">Gamble</title>
-    <desc lang="en">Raw speed, a heavy-hitting soundtrack and virgin locations – mountain bike riders show off their skills.</desc>
+  <programme start="20261114170350 +0700" stop="20261114172151 +0700" channel="RedBullBike.global">
+    <title lang="en">EMIL – Every Mystery I've Lived: The Next Chapter</title>
+    <desc lang="en">Despite autoimmune illness, MTB slopestyle champ Emil Johansson fights to regain his mountain bike title.</desc>
   </programme>
-  <programme start="20261114015743 +0700" stop="20261114024243 +0700" channel="RedBullAdventure.global">
-    <title lang="en">The Last Ascent</title>
-    <desc lang="en">Will Gadd embarks on a mission to have one last shot at climbing the glaciers of Mount Kilimanjaro.</desc>
+  <programme start="20261114172151 +0700" stop="20261114174617 +0700" channel="RedBullBike.global">
+    <title lang="en">Kenya</title>
+    <desc lang="en">Former World Cup racer Rob Warner heads to Kenya with freeride pro Matt Jones to ride Mount Kenya.</desc>
   </programme>
-  <programme start="20261114024243 +0700" stop="20261114030559 +0700" channel="RedBullAdventure.global">
-    <title lang="en">The high road part 1</title>
-    <desc lang="en">Follow the rise of Nina Williams as she astounds the climbing world with a series of spectacular ascents.</desc>
+  <programme start="20261114174617 +0700" stop="20261114180349 +0700" channel="RedBullBike.global">
+    <title lang="en">Full recap from Red Bull Formation 2022</title>
+    <desc lang="en">Here’s what went down at the third edition of the women’s freeride MTB progression event at Virgin, Utah, USA.</desc>
   </programme>
-  <programme start="20261114030559 +0700" stop="20261114032247 +0700" channel="RedBullAdventure.global">
-    <title lang="en">Beneath the Ice</title>
-    <desc lang="en">Will Gadd uses his unmatched ice climbing skills and knowledge to lead a scientific expedition into a previously unexplored territory beneath the Greenland ice sheet.</desc>
+  <programme start="20261114180349 +0700" stop="20261114181636 +0700" channel="RedBullBike.global">
+    <title lang="en">Instinct vs science</title>
+    <desc lang="en">Does understanding the science of speed help MTB riders know when to go fast or slow down? Not necessarily.</desc>
   </programme>
-  <programme start="20261114032247 +0700" stop="20261114034610 +0700" channel="RedBullAdventure.global">
+  <programme start="20261114181636 +0700" stop="20261114184316 +0700" channel="RedBullBike.global">
+    <title lang="en">Progression</title>
+    <desc lang="en">Meet the riders from Red Bull Formation 2021 who are transforming the sport of freeride mountain biking.</desc>
+  </programme>
+  <programme start="20261114121126 +0700" stop="20261114123449 +0700" channel="RedBullAdventure.global">
     <title lang="en">United States of Joe's</title>
     <desc lang="en">A band of climbers discover thousands of sandstone boulders, and launch the American bouldering revolution.</desc>
   </programme>
-  <programme start="20261114034610 +0700" stop="20261114035857 +0700" channel="RedBullAdventure.global">
-    <title lang="en">Jason Paul’s Wild Ride</title>
-    <desc lang="en">Pro freerunner Jason Paul and friends head to Germany’s Mammut roller coaster for a unique parkour session.</desc>
-  </programme>
-  <programme start="20261114035857 +0700" stop="20261114041955 +0700" channel="RedBullAdventure.global">
-    <title lang="en">The Nose speed record part 1</title>
-    <desc lang="en">Alex Honnold and Tommy Caldwell introduce us to the speed record on The Nose route up El Capitan, California.</desc>
-  </programme>
-  <programme start="20261114041955 +0700" stop="20261114055832 +0700" channel="RedBullAdventure.global">
-    <title lang="en">Valley Uprising</title>
-    <desc lang="en">Join Alex Honnold for an inside look into how climbers carved out a counterculture lifestyle in Yosemite.</desc>
-  </programme>
-  <programme start="20261114055832 +0700" stop="20261114062343 +0700" channel="RedBullAdventure.global">
-    <title lang="en">The Nose speed record part 2</title>
-    <desc lang="en">Alex Honnold knows the ropes and is pushing for perfection, but Tommy Caldwell is new to speed climbing.</desc>
-  </programme>
-  <programme start="20261114062343 +0700" stop="20261114064659 +0700" channel="RedBullAdventure.global">
+  <programme start="20261114123449 +0700" stop="20261114125805 +0700" channel="RedBullAdventure.global">
     <title lang="en">The high road part 1</title>
     <desc lang="en">Follow the rise of Nina Williams as she astounds the climbing world with a series of spectacular ascents.</desc>
   </programme>
-  <programme start="20261114064659 +0700" stop="20261114070707 +0700" channel="RedBullAdventure.global">
-    <title lang="en">All You Need is a Ball</title>
-    <desc lang="en">Enjoy a look into how the best freestyle footballers in the world are paving the way for a new generation.</desc>
+  <programme start="20261114125805 +0700" stop="20261114131903 +0700" channel="RedBullAdventure.global">
+    <title lang="en">The Nose speed record part 1</title>
+    <desc lang="en">Alex Honnold and Tommy Caldwell introduce us to the speed record on The Nose route up El Capitan, California.</desc>
   </programme>
-  <programme start="20261114070707 +0700" stop="20261114075507 +0700" channel="RedBullAdventure.global">
-    <title lang="en">360 Ascent</title>
-    <desc lang="en">Climbers Janja Garnbret and Domen Škofic scale the tallest artificial multi-pitch route in the world.</desc>
-  </programme>
-  <programme start="20261114075507 +0700" stop="20261114081409 +0700" channel="RedBullAdventure.global">
-    <title lang="en">The high road part 2</title>
-    <desc lang="en">Nina Williams hones in on an outrageous new objective: a 15m-tall boulder called Too Big to Flail.</desc>
-  </programme>
-  <programme start="20261114081409 +0700" stop="20261114083740 +0700" channel="RedBullAdventure.global">
-    <title lang="en">Filming free solo on Les Drus in France</title>
-    <desc lang="en">Alex Honnold, Nico Hojac and team take on an epic climb and film shoot on Les Drus in the Mont Blanc massif.</desc>
-  </programme>
-  <programme start="20261114083740 +0700" stop="20261114092240 +0700" channel="RedBullAdventure.global">
-    <title lang="en">The Last Ascent</title>
-    <desc lang="en">Will Gadd embarks on a mission to have one last shot at climbing the glaciers of Mount Kilimanjaro.</desc>
-  </programme>
-  <programme start="20261114092240 +0700" stop="20261114095910 +0700" channel="RedBullAdventure.global">
-    <title lang="en">Red Bull Dual Ascent</title>
-    <desc lang="en">Sixteen world-class athletes on eight teams battle to be the fastest up a wall of six gruelling pitches.</desc>
-  </programme>
-  <programme start="20261114095910 +0700" stop="20261114102011 +0700" channel="RedBullAdventure.global">
+  <programme start="20261114131903 +0700" stop="20261114134004 +0700" channel="RedBullAdventure.global">
     <title lang="en">Fairy Flight</title>
     <desc lang="en">Valentin Delluc drops from a hot air balloon for a speedflying adventure in Turkey's magical Cappadocia.</desc>
   </programme>
-  <programme start="20261114102011 +0700" stop="20261114111236 +0700" channel="RedBullAdventure.global">
-    <title lang="en">Best moments from Copenhagen</title>
-    <desc lang="en">These are the best moments from the third event of the 2022 Red Bull Cliff Diving World Series in Denmark.</desc>
+  <programme start="20261114134004 +0700" stop="20261114140516 +0700" channel="RedBullAdventure.global">
+    <title lang="en">The Nose speed record part 2</title>
+    <desc lang="en">Alex Honnold knows the ropes and is pushing for perfection, but Tommy Caldwell is new to speed climbing.</desc>
   </programme>
-  <programme start="20261114111236 +0700" stop="20261114120036 +0700" channel="RedBullAdventure.global">
+  <programme start="20261114140516 +0700" stop="20261114142847 +0700" channel="RedBullAdventure.global">
+    <title lang="en">Filming free solo on Les Drus in France</title>
+    <desc lang="en">Alex Honnold, Nico Hojac and team take on an epic climb and film shoot on Les Drus in the Mont Blanc massif.</desc>
+  </programme>
+  <programme start="20261114142847 +0700" stop="20261114153434 +0700" channel="RedBullAdventure.global">
+    <title lang="en">K2 The Impossible Descent</title>
+    <desc lang="en">Andrzej Bargiel reaches Pakistan to descend K2, the world's second-highest peak after Mount Everest, on skis.</desc>
+  </programme>
+  <programme start="20261114153434 +0700" stop="20261114155335 +0700" channel="RedBullAdventure.global">
+    <title lang="en">The high road part 2</title>
+    <desc lang="en">Nina Williams hones in on an outrageous new objective: a 15m-tall boulder called Too Big to Flail.</desc>
+  </programme>
+  <programme start="20261114155335 +0700" stop="20261114164136 +0700" channel="RedBullAdventure.global">
     <title lang="en">360 Ascent</title>
     <desc lang="en">Climbers Janja Garnbret and Domen Škofic scale the tallest artificial multi-pitch route in the world.</desc>
   </programme>
-  <programme start="20261114120036 +0700" stop="20261114120551 +0700" channel="RedBullAdventure.global">
-    <title lang="en">Wild freerun</title>
-    <desc lang="en">Freerunner Krystian Kowalewski explores Rudawy Landscape Park in his home country of Poland.</desc>
+  <programme start="20261114164136 +0700" stop="20261114165422 +0700" channel="RedBullAdventure.global">
+    <title lang="en">Jason Paul’s Wild Ride</title>
+    <desc lang="en">Pro freerunner Jason Paul and friends head to Germany’s Mammut roller coaster for a unique parkour session.</desc>
   </programme>
-  <programme start="20261114120551 +0700" stop="20261114121126 +0700" channel="RedBullAdventure.global">
+  <programme start="20261114165422 +0700" stop="20261114172036 +0700" channel="RedBullAdventure.global">
+    <title lang="en">The Nose speed record part 3</title>
+    <desc lang="en">After weeks of practice and more than a few mishaps, Alex Honnold and Tommy Caldwell attempt the record.</desc>
+  </programme>
+  <programme start="20261114172036 +0700" stop="20261114173803 +0700" channel="RedBullAdventure.global">
+    <title lang="en">One Day, 4061m &amp; 4478m</title>
+    <desc lang="en">Most people need several days to take on two alpine challenges. Can ultrarunner Fernanda Maciel do it in one?</desc>
+  </programme>
+  <programme start="20261114173803 +0700" stop="20261114175811 +0700" channel="RedBullAdventure.global">
+    <title lang="en">All You Need is a Ball</title>
+    <desc lang="en">Enjoy a look into how the best freestyle footballers in the world are paving the way for a new generation.</desc>
+  </programme>
+  <programme start="20261114175811 +0700" stop="20261114181909 +0700" channel="RedBullAdventure.global">
+    <title lang="en">The Nose speed record part 1</title>
+    <desc lang="en">Alex Honnold and Tommy Caldwell introduce us to the speed record on The Nose route up El Capitan, California.</desc>
+  </programme>
+  <programme start="20261114181909 +0700" stop="20261114182445 +0700" channel="RedBullAdventure.global">
     <title lang="en">Dom-ination Cairo</title>
     <desc lang="en">Australian freerunner Dominic Di Tommaso does his thing at a series of iconic locations across Cairo.</desc>
   </programme>
-  <programme start="20261114021539 +0700" stop="20261114023646 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Dead Sea season opener</title>
-    <desc lang="en">Enduro riders Manuel Lettenbichler and Paul Bolton head towards the Dead Sea for the Hard Enduro season opener.</desc>
+  <programme start="20261114182445 +0700" stop="20261114184956 +0700" channel="RedBullAdventure.global">
+    <title lang="en">The Nose speed record part 2</title>
+    <desc lang="en">Alex Honnold knows the ropes and is pushing for perfection, but Tommy Caldwell is new to speed climbing.</desc>
   </programme>
-  <programme start="20261114023646 +0700" stop="20261114025310 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Taking on a brand new race</title>
-    <desc lang="en">Manuel Lettenbichler and Paul Bolton make their way to Abetone, Italy, for the new Abestone Hard Enduro race.</desc>
+  <programme start="20261114184956 +0700" stop="20261114191058 +0700" channel="RedBullAdventure.global">
+    <title lang="en">Fairy Flight</title>
+    <desc lang="en">Valentin Delluc drops from a hot air balloon for a speedflying adventure in Turkey's magical Cappadocia.</desc>
   </programme>
-  <programme start="20261114025310 +0700" stop="20261114030837 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Formula Schnitzeljagd – warming up in Austria</title>
-    <desc lang="en">F1 drivers travel over land, water and air, doing challenges along the way, as a warm-up for the Austrian GP.</desc>
+  <programme start="20261114191058 +0700" stop="20261114192959 +0700" channel="RedBullAdventure.global">
+    <title lang="en">The high road part 2</title>
+    <desc lang="en">Nina Williams hones in on an outrageous new objective: a 15m-tall boulder called Too Big to Flail.</desc>
   </programme>
-  <programme start="20261114030837 +0700" stop="20261114040313 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">The Tactician: A Cody Webb Story</title>
-    <desc lang="en">At the top of the American Hard Enduro food chain, there’s one man that everyone looks up to: Cody Webb.</desc>
+  <programme start="20261114192959 +0700" stop="20261114194810 +0700" channel="RedBullAdventure.global">
+    <title lang="en">The VR experiment</title>
+    <desc lang="en">Alex Honnold, Nico Hojac and team take on an iconic face in the Italian Dolomites while filming a VR film.</desc>
   </programme>
-  <programme start="20261114040313 +0700" stop="20261114041813 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">The rookie steps up</title>
-    <desc lang="en">Keep up with Jorge Prado as he takes on the best MX riders in the world for his debut season in MXGP.</desc>
+  <programme start="20261114194810 +0700" stop="20261114195324 +0700" channel="RedBullAdventure.global">
+    <title lang="en">Wild freerun</title>
+    <desc lang="en">Freerunner Krystian Kowalewski explores Rudawy Landscape Park in his home country of Poland.</desc>
   </programme>
-  <programme start="20261114041813 +0700" stop="20261114050217 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Nitro Rallycross</title>
-    <desc lang="en">For the fourth year in a row, the best motorcycle athletes battle it out in Travis Pastrana's spectacular competition.</desc>
+  <programme start="20261114122230 +0700" stop="20261114131731 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Erzbergrodeo Red Bull Hare Scramble</title>
+    <desc lang="en">Jonny Walker defends his title against hundreds of rivals in Hard Enduro racing's most infamous challenge.</desc>
   </programme>
-  <programme start="20261114050217 +0700" stop="20261114051814 +0700" channel="RedBullMotorsports.global">
+  <programme start="20261114131731 +0700" stop="20261114133315 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">The path to Portugal</title>
+    <desc lang="en">Mani and Paul start the season in Portugal. See how they handled the first stop, which didn’t go as planned.</desc>
+  </programme>
+  <programme start="20261114133315 +0700" stop="20261114134912 +0700" channel="RedBullMotorsports.global">
     <title lang="en">Meet Honda HRC's newest rider</title>
     <desc lang="en">Jett and Hunter put their design skills to the test, while brother Tate joins the Honda HRC team.</desc>
   </programme>
-  <programme start="20261114051814 +0700" stop="20261114060214 +0700" channel="RedBullMotorsports.global">
+  <programme start="20261114134912 +0700" stop="20261114145242 +0700" channel="RedBullMotorsports.global">
     <title lang="en">Red Bull Straight Rhythm</title>
-    <desc lang="en">Supercross's elite riders go head to head on a half-mile 'unwound' track of jumps and doubles in California.</desc>
+    <desc lang="en">This new racing format pitted a field of 32 riders in a head-to-head showdown of pure MX racing.</desc>
   </programme>
-  <programme start="20261114060214 +0700" stop="20261114062436 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Revving it up for HERO Challenge</title>
-    <desc lang="en">Manuel Lettenbichler and Paul Bolton check out the HERO Challenge track and catch up with other riders.</desc>
+  <programme start="20261114145242 +0700" stop="20261114160017 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Kenda Tennessee Knockout</title>
+    <desc lang="en">Held in the Great Smoky Mountains, America's top off-road riders faced a brutal test of man and machine.</desc>
   </programme>
-  <programme start="20261114062436 +0700" stop="20261114062635 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">GP Ice Race</title>
-    <desc lang="en">Watch Max Verstappen enjoy his first track action of 2022 with ice speedway star Franky Zorn.</desc>
+  <programme start="20261114160017 +0700" stop="20261114170423 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Erzbergrodeo Red Bull Hare Scramble</title>
+    <desc lang="en">Hard Enduro's most difficult race pushes even the best riders to their limits over 35km of hellish terrain.</desc>
   </programme>
-  <programme start="20261114062635 +0700" stop="20261114071834 +0700" channel="RedBullMotorsports.global">
+  <programme start="20261114170423 +0700" stop="20261114174827 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Red Bull Hare Scramble</title>
+    <desc lang="en">There's good reason it's considered the world's toughest enduro: relive Erzbergrodeo Red Bull Hare Scramble iconic moments.</desc>
+  </programme>
+  <programme start="20261114174827 +0700" stop="20261114184303 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">The Tactician: A Cody Webb Story</title>
+    <desc lang="en">At the top of the American Hard Enduro food chain, there’s one man that everyone looks up to: Cody Webb.</desc>
+  </programme>
+  <programme start="20261114184303 +0700" stop="20261114193507 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Red Bull Straight Rhythm</title>
+    <desc lang="en">Riders speed down a half-mile 'unwound' course: no turns, no laps, just straight track pitted with obstacles.</desc>
+  </programme>
+  <programme start="20261114193507 +0700" stop="20261114202706 +0700" channel="RedBullMotorsports.global">
     <title lang="en">Red Bull Frozen Rush</title>
     <desc lang="en">The world's first-ever off-road truck race on snow features Pro 4s navigating some slippery slopes.</desc>
   </programme>
-  <programme start="20261114071834 +0700" stop="20261114074420 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">ABC of… Drifting</title>
-    <desc lang="en">Drift driver Dave Egan gives the lowdown on the motorsport that's all about speed, style, smoke and skill.</desc>
+  <programme start="20261114202706 +0700" stop="20261114204513 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">The Motocross of Nations</title>
+    <desc lang="en">Jett and Hunter team up on the track representing Team Australia at the Motocross of Nations at Red Bud, USA.</desc>
   </programme>
-  <programme start="20261114074420 +0700" stop="20261114075428 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Motorbikes and bicycles</title>
-    <desc lang="en">Manuel Lettenbichler and Paul Bolton both get to go riding – Mani even takes on a different kind of bike.</desc>
+  <programme start="20261114204513 +0700" stop="20261114212913 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Red Bull Straight Rhythm</title>
+    <desc lang="en">Supercross's elite riders go head to head on a half-mile 'unwound' track of jumps and doubles in California.</desc>
   </programme>
-  <programme start="20261114075428 +0700" stop="20261114081040 +0700" channel="RedBullMotorsports.global">
+  <programme start="20261114212913 +0700" stop="20261114213112 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">GP Ice Race</title>
+    <desc lang="en">Watch Max Verstappen enjoy his first track action of 2022 with ice speedway star Franky Zorn.</desc>
+  </programme>
+  <programme start="20261114213112 +0700" stop="20261114223440 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Crandon World Cup</title>
+    <desc lang="en">Top racers from each pro-level class compete for the off-road title in Wisconsin, USA.</desc>
+  </programme>
+  <programme start="20261114223440 +0700" stop="20261114225051 +0700" channel="RedBullMotorsports.global">
     <title lang="en">Wanting the win</title>
     <desc lang="en">Toni Cairoli feels the pressure as he prepares to race in his home country at the competition in Trentino.</desc>
   </programme>
-  <programme start="20261114081040 +0700" stop="20261114091810 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Red Bull Straight Rhythm</title>
-    <desc lang="en">The battle of the bumps is back in Pomona, California, as the finals go down on a half-mile 'unwound' track.</desc>
+  <programme start="20261114225051 +0700" stop="20261114231437 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Moto Maverick</title>
+    <desc lang="en">Motorcycle rider Ryan Sipes examines the state of motocross and supercross racing through a cinematic lens.</desc>
   </programme>
-  <programme start="20261114091810 +0700" stop="20261114093034 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Making a mark</title>
-    <desc lang="en">Rene Hofer is the first Austrian this century to represent the most successful team in the MX World Champs.</desc>
+  <programme start="20261114231437 +0700" stop="20261114232519 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">The drive to compete</title>
+    <desc lang="en">Riders discuss how they got started and the rivalry between Antonio Cairoli and Jeffrey Herlings.</desc>
   </programme>
-  <programme start="20261114093034 +0700" stop="20261114094135 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Family affair</title>
-    <desc lang="en">Motocross riders talk about how the support of their families inspires and drives them to succeed.</desc>
+  <programme start="20261114232519 +0700" stop="20261114234017 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Whoever flinches, finishes second</title>
+    <desc lang="en">Can Tom Vialle rise to the challenge and become KTM’s lead rider in MX2?</desc>
   </programme>
-  <programme start="20261114094135 +0700" stop="20261114095721 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">The next generation</title>
-    <desc lang="en">Can world champion Antonio Cairoli win a 10th title before he's overtaken by the next generation of riders?</desc>
+  <programme start="20261114234017 +0700" stop="20261114235751 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">Family support and dedication</title>
+    <desc lang="en">Learn the story of how Tom Vialle's family are sharing in his dream for MXGP glory.</desc>
   </programme>
-  <programme start="20261114095721 +0700" stop="20261114100951 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">The view from the top</title>
-    <desc lang="en">Tony Cairoli is the most successful rider in the championship. Can he still compete at the top?</desc>
-  </programme>
-  <programme start="20261114100951 +0700" stop="20261114111217 +0700" channel="RedBullMotorsports.global">
-    <title lang="en">Erzbergfodeo Red Bull Hare Scramble</title>
-    <desc lang="en">Five hundred riders battle each other and Austria's biggest mine in Hard Enduro's biggest race of the year.</desc>
-  </programme>
-  <programme start="20261114015853 +0700" stop="20261114024829 +0700" channel="RedBullSurfing.global">
-    <title lang="en">Ítalo Ferreira's Tales</title>
-    <desc lang="en">Follow Brazilian surfer Ítalo Ferreira from Tokyo to the 2021 WSL Championship Tour.</desc>
-  </programme>
-  <programme start="20261114024829 +0700" stop="20261114031441 +0700" channel="RedBullSurfing.global">
-    <title lang="en">Leon Glatzer surfs Costa Rica</title>
-    <desc lang="en">Leon Glatzer unpacks the incredible history of Pavones and explores its thriving roots surf scene.</desc>
-  </programme>
-  <programme start="20261114031441 +0700" stop="20261114035108 +0700" channel="RedBullSurfing.global">
-    <title lang="en">Meet Kehu Butler in New Zealand</title>
-    <desc lang="en">The future of Kiwi surfing, Māori Kehu Butler, examines his culture’s past in Made In: New Zealand.</desc>
-  </programme>
-  <programme start="20261114035108 +0700" stop="20261114043901 +0700" channel="RedBullSurfing.global">
-    <title lang="en">Shaping Jordy</title>
-    <desc lang="en">Ride along with Jordy Smith and Mikey February as they cruise the South African coast in search of waves.</desc>
-  </programme>
-  <programme start="20261114043901 +0700" stop="20261114050023 +0700" channel="RedBullSurfing.global">
-    <title lang="en">That’s Caroline</title>
-    <desc lang="en">Caroline Marks is just a normal young woman – who also happens to be the face of surfing’s future.</desc>
-  </programme>
-  <programme start="20261114050023 +0700" stop="20261114051431 +0700" channel="RedBullSurfing.global">
-    <title lang="en">Aloha Mr Lenny</title>
-    <desc lang="en">Growing up among the world’s best watermen shaped him, but Kai Lenny is now taking it to the next level.</desc>
-  </programme>
-  <programme start="20261114051431 +0700" stop="20261114055513 +0700" channel="RedBullSurfing.global">
-    <title lang="en">RISS</title>
-    <desc lang="en">Ride with surfer Carissa Moore around the 2019 World Surf League Championship Tour.</desc>
-  </programme>
-  <programme start="20261114055513 +0700" stop="20261114061547 +0700" channel="RedBullSurfing.global">
-    <title lang="en">The beast awakens</title>
-    <desc lang="en">Surfer Kai heads to a Nazaré swell, but ends up fighting for his life after his biggest wipeout ever.</desc>
-  </programme>
-  <programme start="20261114061547 +0700" stop="20261114065907 +0700" channel="RedBullSurfing.global">
-    <title lang="en">Chapters</title>
-    <desc lang="en">Travel with surf star Kanoa Igarashi for insider access to the World Championship Tour.</desc>
-  </programme>
-  <programme start="20261114065907 +0700" stop="20261114075639 +0700" channel="RedBullSurfing.global">
-    <title lang="en">The Other Side of Fear</title>
-    <desc lang="en">The inspirational tale of big wave surfer and keynote speaker Mark Mathews and his journey back from disaster.</desc>
-  </programme>
-  <programme start="20261114075639 +0700" stop="20261114083307 +0700" channel="RedBullSurfing.global">
-    <title lang="en">Meet Kehu Butler in New Zealand</title>
-    <desc lang="en">The future of Kiwi surfing, Māori Kehu Butler, examines his culture’s past in Made In: New Zealand.</desc>
-  </programme>
-  <programme start="20261114083307 +0700" stop="20261114084825 +0700" channel="RedBullSurfing.global">
-    <title lang="en">The legend of Nazaré</title>
-    <desc lang="en">Kai Lenny travels to Nazaré in Portugal to train with Brazilian big wave charger Lucas 'Chumbo' Chianca.</desc>
-  </programme>
-  <programme start="20261114084825 +0700" stop="20261114093801 +0700" channel="RedBullSurfing.global">
-    <title lang="en">Ítalo Ferreira's Tales</title>
-    <desc lang="en">Follow Brazilian surfer Ítalo Ferreira from Tokyo to the 2021 WSL Championship Tour.</desc>
-  </programme>
-  <programme start="20261114093801 +0700" stop="20261114095836 +0700" channel="RedBullSurfing.global">
-    <title lang="en">The beast awakens</title>
-    <desc lang="en">Surfer Kai heads to a Nazaré swell, but ends up fighting for his life after his biggest wipeout ever.</desc>
-  </programme>
-  <programme start="20261114095836 +0700" stop="20261114111557 +0700" channel="RedBullSurfing.global">
-    <title lang="en">Shaka</title>
-    <desc lang="en">From the slopes to the waves – snowboarding legend Mathieu Crépel surfs Jaws.</desc>
-  </programme>
-  <programme start="20261114111557 +0700" stop="20261114113719 +0700" channel="RedBullSurfing.global">
-    <title lang="en">That’s Caroline</title>
-    <desc lang="en">Caroline Marks is just a normal young woman – who also happens to be the face of surfing’s future.</desc>
-  </programme>
-  <programme start="20261114113719 +0700" stop="20261114115714 +0700" channel="RedBullSurfing.global">
-    <title lang="en">Redemption at Nazaré</title>
-    <desc lang="en">The Big Wave World Tour tow surfing event is on at Nazaré – Kai Lenny‘s last chance to get a win this winter.</desc>
+  <programme start="20261114235751 +0700" stop="20261115000311 +0700" channel="RedBullMotorsports.global">
+    <title lang="en">How to install an OEM-tight seat cover</title>
+    <desc lang="en">Aaron Colton breaks down his technique for the tedious task of motorcycle seat cover installation.</desc>
   </programme>
   <programme start="20261114115714 +0700" stop="20261114124507 +0700" channel="RedBullSurfing.global">
     <title lang="en">Shaping Jordy</title>
@@ -6601,249 +6542,317 @@
     <title lang="en">Chapters</title>
     <desc lang="en">Travel with surf star Kanoa Igarashi for insider access to the World Championship Tour.</desc>
   </programme>
-  <programme start="20261114132827 +0700" stop="20261114134902 +0700" channel="RedBullSurfing.global">
+  <programme start="20261114132827 +0700" stop="20261114134901 +0700" channel="RedBullSurfing.global">
     <title lang="en">The beast awakens</title>
     <desc lang="en">Surfer Kai heads to a Nazaré swell, but ends up fighting for his life after his biggest wipeout ever.</desc>
   </programme>
-  <programme start="20261114020927 +0700" stop="20261114021649 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Pura Pura Skatepark, Bolivia</title>
-    <desc lang="en">It's the highest skatepark in the world and it was built in less than a month by more than 100 volunteers.</desc>
+  <programme start="20261114134901 +0700" stop="20261114153138 +0700" channel="RedBullSurfing.global">
+    <title lang="en">And Two If By Sea</title>
+    <desc lang="en">Twin surfers. Rival careers. Pro surfers and identical twins CJ and Damien Hobgood battle sibling rivalry.</desc>
   </programme>
-  <programme start="20261114021649 +0700" stop="20261114024216 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">ABC of... Skateboarding</title>
-    <desc lang="en">Take a look at the history of skateboarding, from the pioneers of sidewalk surfing to today's skateboarders.</desc>
+  <programme start="20261114153138 +0700" stop="20261114155230 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Becoming Bronson</title>
+    <desc lang="en">Mampukah peselancar muda 16 tahun Bronson Meydi menjadi peselancar Indonesia pertama yang lolos ke WSL Championship Tour?</desc>
   </programme>
-  <programme start="20261114024216 +0700" stop="20261114024610 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Phipps Skate Park</title>
-    <desc lang="en">Joey and Rip hit West Palm Beach’s Phipps Skate Park with Autumn Tust and stop by Post-Modern skate shop.</desc>
+  <programme start="20261114155230 +0700" stop="20261114161028 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Lucas 'Chumbo' Chianca</title>
+    <desc lang="en">Join Brazil’s Lucas 'Chumbo' Chianca as he tackles the biggest waves on Earth across two memorable winters.</desc>
   </programme>
-  <programme start="20261114024610 +0700" stop="20261114025431 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Larvikite Lines</title>
-    <desc lang="en">Torey Pudwill and friends create, shred and then donate ancient stone skate spots in Norway.</desc>
+  <programme start="20261114161028 +0700" stop="20261114164655 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Meet Kehu Butler in New Zealand</title>
+    <desc lang="en">The future of Kiwi surfing, Māori Kehu Butler, examines his culture’s past in Made In: New Zealand.</desc>
   </programme>
-  <programme start="20261114025431 +0700" stop="20261114031658 +0700" channel="RedBullSkateboarding.global">
+  <programme start="20261114164655 +0700" stop="20261114180416 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Shaka</title>
+    <desc lang="en">From the slopes to the waves – snowboarding legend Mathieu Crépel surfs Jaws.</desc>
+  </programme>
+  <programme start="20261114180416 +0700" stop="20261114185352 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Ítalo Ferreira's Tales</title>
+    <desc lang="en">Follow Brazilian surfer Ítalo Ferreira from Tokyo to the 2021 WSL Championship Tour.</desc>
+  </programme>
+  <programme start="20261114185352 +0700" stop="20261114194145 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Shaping Jordy</title>
+    <desc lang="en">Ride along with Jordy Smith and Mikey February as they cruise the South African coast in search of waves.</desc>
+  </programme>
+  <programme start="20261114194145 +0700" stop="20261114200247 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Slaying Gigantes</title>
+    <desc lang="en">Kai Lenny competes in the Gigantes de Nazaré contest before jetting home to catch a great day at Peahi (Jaws).</desc>
+  </programme>
+  <programme start="20261114200247 +0700" stop="20261114204607 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Chapters</title>
+    <desc lang="en">Travel with surf star Kanoa Igarashi for insider access to the World Championship Tour.</desc>
+  </programme>
+  <programme start="20261114204607 +0700" stop="20261114210405 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Lucas 'Chumbo' Chianca</title>
+    <desc lang="en">Join Brazil’s Lucas 'Chumbo' Chianca as he tackles the biggest waves on Earth across two memorable winters.</desc>
+  </programme>
+  <programme start="20261114210405 +0700" stop="20261114212527 +0700" channel="RedBullSurfing.global">
+    <title lang="en">That’s Caroline</title>
+    <desc lang="en">Caroline Marks is just a normal young woman – who also happens to be the face of surfing’s future.</desc>
+  </programme>
+  <programme start="20261114212527 +0700" stop="20261114224248 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Shaka</title>
+    <desc lang="en">From the slopes to the waves – snowboarding legend Mathieu Crépel surfs Jaws.</desc>
+  </programme>
+  <programme start="20261114224248 +0700" stop="20261114233041 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Shaping Jordy</title>
+    <desc lang="en">Ride along with Jordy Smith and Mikey February as they cruise the South African coast in search of waves.</desc>
+  </programme>
+  <programme start="20261114233041 +0700" stop="20261115002813 +0700" channel="RedBullSurfing.global">
+    <title lang="en">The Other Side of Fear</title>
+    <desc lang="en">The inspirational tale of big wave surfer and keynote speaker Mark Mathews and his journey back from disaster.</desc>
+  </programme>
+  <programme start="20261115002813 +0700" stop="20261115004331 +0700" channel="RedBullSurfing.global">
+    <title lang="en">The legend of Nazaré</title>
+    <desc lang="en">Kai Lenny travels to Nazaré in Portugal to train with Brazilian big wave charger Lucas 'Chumbo' Chianca.</desc>
+  </programme>
+  <programme start="20261115004331 +0700" stop="20261115010423 +0700" channel="RedBullSurfing.global">
+    <title lang="en">Becoming Bronson</title>
+    <desc lang="en">Mampukah peselancar muda 16 tahun Bronson Meydi menjadi peselancar Indonesia pertama yang lolos ke WSL Championship Tour?</desc>
+  </programme>
+  <programme start="20261115010423 +0700" stop="20261115023922 +0700" channel="RedBullSurfing.global">
+    <title lang="en">For the Dream</title>
+    <desc lang="en">Ex-pro surfer Ben Gravy sets out on his dream to become the first person to surf in all 50 US states.</desc>
+  </programme>
+  <programme start="20261114122957 +0700" stop="20261114125224 +0700" channel="RedBullSkateboarding.global">
     <title lang="en">Madars and Kilian Martin</title>
     <desc lang="en">Madars Apse meets professional freestyle skateboarder and fashion model Kilian Martin in Madrid.</desc>
   </programme>
-  <programme start="20261114031658 +0700" stop="20261114033454 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Bam Margera</title>
-    <desc lang="en">Meet icon Bam Margera as Madars Apse begins his skateboarding hall of fame journey.</desc>
-  </programme>
-  <programme start="20261114033454 +0700" stop="20261114035224 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Sergio Yuppie</title>
-    <desc lang="en">Travel to Brazil with Madars Apse to learn from downhill skateboarding legend Sergio Yuppie.</desc>
-  </programme>
-  <programme start="20261114035224 +0700" stop="20261114041945 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Douglas Miles Jr and Apache Skateboards</title>
-    <desc lang="en">Madars Apse reveals the incredible story of the community skate company thriving on a reservation in Arizona.</desc>
-  </programme>
-  <programme start="20261114041945 +0700" stop="20261114043114 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Jagger Eaton</title>
-    <desc lang="en">Ride shotgun in the Raptor as we hang with Mesa, Arizona’s very own Jagger Eaton, for a day.</desc>
-  </programme>
-  <programme start="20261114043114 +0700" stop="20261114045929 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Unknown treasures</title>
-    <desc lang="en">Skate unexplored spots of Montenegro, Albania, Kosovo and North Macedonia with Wes Kremer’s crew.</desc>
-  </programme>
-  <programme start="20261114045929 +0700" stop="20261114051227 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">TJ Rogers</title>
-    <desc lang="en">Get to know the daily life of pro skateboarder TJ Rogers, from what he eats, to how he lives and more.</desc>
-  </programme>
-  <programme start="20261114051227 +0700" stop="20261114052428 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Torey Pudwill</title>
-    <desc lang="en">Roll along with us as we chill with Grizzly Griptape and Thank You Skateboards' very own Torey Pudwill.</desc>
-  </programme>
-  <programme start="20261114052428 +0700" stop="20261114055301 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Gose Gerald &amp; Uganda Skateboard Society</title>
-    <desc lang="en">Madars Apse meets Uganda Skateboard Society founder, Gose Gerald, and his crew who invent their own tricks.</desc>
-  </programme>
-  <programme start="20261114055301 +0700" stop="20261114061206 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Hometown skating in Lisbon</title>
-    <desc lang="en">Ride with skater Gustavo Ribeiro as he shows us his hometown of Lisbon, Portugal.</desc>
-  </programme>
-  <programme start="20261114061206 +0700" stop="20261114061832 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Margielyn Didal</title>
-    <desc lang="en">Get a tour of Margielyn Didal's home, catch a sesh at her nearby skate spot and chill with the locals.</desc>
-  </programme>
-  <programme start="20261114061832 +0700" stop="20261114064519 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Vibing with Felipe Nunes</title>
-    <desc lang="en">Madars Apse travels to Brazil to skate with double-amputee and Birdhouse Skateboards pro Felipe Nunes.</desc>
-  </programme>
-  <programme start="20261114064519 +0700" stop="20261114065101 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Skatepark of Tampa</title>
-    <desc lang="en">Joey and Rip are in Skatepark of Tampa, Florida, home of the world famous Tampa Pro skate competition.</desc>
-  </programme>
-  <programme start="20261114065101 +0700" stop="20261114071357 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Skate Tales: Detroit</title>
-    <desc lang="en">Madars Apse hears the incredible story of blind skateboarder Dan Mancina's journey back to skating.</desc>
-  </programme>
-  <programme start="20261114071357 +0700" stop="20261114074118 +0700" channel="RedBullSkateboarding.global">
-    <title lang="en">Douglas Miles Jr and Apache Skateboards</title>
-    <desc lang="en">Madars Apse reveals the incredible story of the community skate company thriving on a reservation in Arizona.</desc>
-  </programme>
-  <programme start="20261114074118 +0700" stop="20261114074511 +0700" channel="RedBullSkateboarding.global">
+  <programme start="20261114125224 +0700" stop="20261114125617 +0700" channel="RedBullSkateboarding.global">
     <title lang="en">Phipps Skate Park</title>
     <desc lang="en">Joey and Rip hit West Palm Beach’s Phipps Skate Park with Autumn Tust and stop by Post-Modern skate shop.</desc>
   </programme>
-  <programme start="20261114015859 +0700" stop="20261114022212 +0700" channel="RedBullWinter.global">
-    <title lang="en">Bang on Time</title>
-    <desc lang="en">Watch freeskiers perform tricks, while the Red Bull Skydive Team perform aerial acrobatics at the same time.</desc>
+  <programme start="20261114125617 +0700" stop="20261114130243 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Margielyn Didal</title>
+    <desc lang="en">Get a tour of Margielyn Didal's home, catch a sesh at her nearby skate spot and chill with the locals.</desc>
   </programme>
-  <programme start="20261114022212 +0700" stop="20261114030421 +0700" channel="RedBullWinter.global">
-    <title lang="en">Paved</title>
-    <desc lang="en">Experience the joy as snowboarding’s elite push boundaries and chase podium dreams ahead of the 2026 season.</desc>
+  <programme start="20261114130243 +0700" stop="20261114131541 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">TJ Rogers</title>
+    <desc lang="en">Get to know the daily life of pro skateboarder TJ Rogers, from what he eats, to how he lives and more.</desc>
   </programme>
-  <programme start="20261114030421 +0700" stop="20261114031403 +0700" channel="RedBullWinter.global">
-    <title lang="en">Spring training days with Scotty James</title>
-    <desc lang="en">The sun has set on Scotty James's 2021 competitive halfpipe season, but now there's spring training.</desc>
+  <programme start="20261114131541 +0700" stop="20261114134302 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Douglas Miles Jr and Apache Skateboards</title>
+    <desc lang="en">Madars Apse reveals the incredible story of the community skate company thriving on a reservation in Arizona.</desc>
   </programme>
-  <programme start="20261114031403 +0700" stop="20261114032807 +0700" channel="RedBullWinter.global">
-    <title lang="en">Action Men</title>
-    <desc lang="en">Paddy Graham, Markus Eder and the gang rejoin forces to look back at the highs and lows of an epic ski trip.</desc>
+  <programme start="20261114134302 +0700" stop="20261114141117 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Unknown treasures</title>
+    <desc lang="en">Skate unexplored spots of Montenegro, Albania, Kosovo and North Macedonia with Wes Kremer’s crew.</desc>
   </programme>
-  <programme start="20261114032807 +0700" stop="20261114035316 +0700" channel="RedBullWinter.global">
-    <title lang="en">Dynamic Medium</title>
-    <desc lang="en">Watch American freeskier Bobby Brown chase the dynamic medium that is snow around the globe.</desc>
+  <programme start="20261114141117 +0700" stop="20261114142256 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">How a skateboard gets made</title>
+    <desc lang="en">How do you make a skateboard? Gustavo Ribeiro visits the Basque Country to see his pro board being made.</desc>
   </programme>
-  <programme start="20261114035316 +0700" stop="20261114040245 +0700" channel="RedBullWinter.global">
-    <title lang="en">Scotty James returns to Aspen to compete</title>
-    <desc lang="en">A last-minute change has Scotty James back in Colorado to compete in the FIS Snowboard World Championships.</desc>
+  <programme start="20261114142256 +0700" stop="20261114144353 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Skate Ethiopia</title>
+    <desc lang="en">Madars Apse travels to Ethiopia to discover the growing, 150-strong skate scene in Addis Ababa.</desc>
   </programme>
-  <programme start="20261114040245 +0700" stop="20261114041426 +0700" channel="RedBullWinter.global">
-    <title lang="en">Finale! On to the next one for Scotty James</title>
-    <desc lang="en">At the end of the halfpipe season, snowboarder Scotty James is already eyeing up what's next.</desc>
+  <programme start="20261114144353 +0700" stop="20261114145743 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Joey Brezinski</title>
+    <desc lang="en">See a day in the life of Joey Brezinski. Hit the road with his mobile skatepark to share the fun.</desc>
   </programme>
-  <programme start="20261114041426 +0700" stop="20261114044737 +0700" channel="RedBullWinter.global">
-    <title lang="en">Range Finder</title>
-    <desc lang="en">Snowboarders Mark Carter and Bryan Iguchi reveal how they approach life.</desc>
+  <programme start="20261114145743 +0700" stop="20261114151648 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Hometown skating in Lisbon</title>
+    <desc lang="en">Ride with skater Gustavo Ribeiro as he shows us his hometown of Lisbon, Portugal.</desc>
   </programme>
-  <programme start="20261114044737 +0700" stop="20261114060446 +0700" channel="RedBullWinter.global">
-    <title lang="en">The Art of Flight</title>
-    <desc lang="en">Travis Rice and Curt Morgan's follow-up to That's It, That's All raises the bar of snowboarding – again.</desc>
+  <programme start="20261114151648 +0700" stop="20261114152649 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Alex Sorgente</title>
+    <desc lang="en">We head down to Carlsbad, California, to tag along with skateboarder Alex Sorgente for a day in his life.</desc>
   </programme>
-  <programme start="20261114060446 +0700" stop="20261114065306 +0700" channel="RedBullWinter.global">
+  <programme start="20261114152649 +0700" stop="20261114153818 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Jagger Eaton</title>
+    <desc lang="en">Ride shotgun in the Raptor as we hang with Mesa, Arizona’s very own Jagger Eaton, for a day.</desc>
+  </programme>
+  <programme start="20261114153818 +0700" stop="20261114160506 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Vibing with Felipe Nunes</title>
+    <desc lang="en">Madars Apse travels to Brazil to skate with double-amputee and Birdhouse Skateboards pro Felipe Nunes.</desc>
+  </programme>
+  <programme start="20261114160506 +0700" stop="20261114163300 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Madars and the Fancy Lad crew</title>
+    <desc lang="en">Madars Apse is in Massachusetts to meet the group of friends redefining what's possible in skateboarding.</desc>
+  </programme>
+  <programme start="20261114163300 +0700" stop="20261114164439 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">How a skateboard gets made</title>
+    <desc lang="en">How do you make a skateboard? Gustavo Ribeiro visits the Basque Country to see his pro board being made.</desc>
+  </programme>
+  <programme start="20261114164439 +0700" stop="20261114171254 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Unknown treasures</title>
+    <desc lang="en">Skate unexplored spots of Montenegro, Albania, Kosovo and North Macedonia with Wes Kremer’s crew.</desc>
+  </programme>
+  <programme start="20261114171254 +0700" stop="20261114174127 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Gose Gerald &amp; Uganda Skateboard Society</title>
+    <desc lang="en">Madars Apse meets Uganda Skateboard Society founder, Gose Gerald, and his crew who invent their own tricks.</desc>
+  </programme>
+  <programme start="20261114174127 +0700" stop="20261114180153 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Johannesburg</title>
+    <desc lang="en">Meet Brandon Valjalo and 30 more top dogs from South Africa's biggest skate scene in our super city report.</desc>
+  </programme>
+  <programme start="20261114180153 +0700" stop="20261114181543 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Joey Brezinski</title>
+    <desc lang="en">See a day in the life of Joey Brezinski. Hit the road with his mobile skatepark to share the fun.</desc>
+  </programme>
+  <programme start="20261114181543 +0700" stop="20261114182125 +0700" channel="RedBullSkateboarding.global">
+    <title lang="en">Skatepark of Tampa</title>
+    <desc lang="en">Joey and Rip are in Skatepark of Tampa, Florida, home of the world famous Tampa Pro skate competition.</desc>
+  </programme>
+  <programme start="20261114114706 +0700" stop="20261114123525 +0700" channel="RedBullWinter.global">
     <title lang="en">The Collective</title>
     <desc lang="en">Undiscovered peaks and midnight-raids on inner-city handrails – that's the Skiing is Collective spirit.</desc>
   </programme>
-  <programme start="20261114065306 +0700" stop="20261114070258 +0700" channel="RedBullWinter.global">
+  <programme start="20261114123525 +0700" stop="20261114135235 +0700" channel="RedBullWinter.global">
+    <title lang="en">The Art of Flight</title>
+    <desc lang="en">Travis Rice and Curt Morgan's follow-up to That's It, That's All raises the bar of snowboarding – again.</desc>
+  </programme>
+  <programme start="20261114135235 +0700" stop="20261114140228 +0700" channel="RedBullWinter.global">
     <title lang="en">Back in Switzerland with Scotty James</title>
     <desc lang="en">It's spring break in Switzerland for Scotty James and there's nothing but blue skies and empty halfpipes.</desc>
   </programme>
-  <programme start="20261114070258 +0700" stop="20261114071307 +0700" channel="RedBullWinter.global">
-    <title lang="en">The mountains are calling and Scotty James must go</title>
-    <desc lang="en">Kicking off in Australia last September, we join Scotty James as he packs his bags and heads to Switzerland.</desc>
-  </programme>
-  <programme start="20261114071307 +0700" stop="20261114075516 +0700" channel="RedBullWinter.global">
-    <title lang="en">Paved</title>
-    <desc lang="en">Experience the joy as snowboarding’s elite push boundaries and chase podium dreams ahead of the 2026 season.</desc>
-  </programme>
-  <programme start="20261114075516 +0700" stop="20261114081738 +0700" channel="RedBullWinter.global">
-    <title lang="en">Colorado</title>
-    <desc lang="en">Welcome to the land of Dumb &amp; Dumber jokes. Mark and Craig McMorris lead a crew of up-and-comers in Colorado.</desc>
-  </programme>
-  <programme start="20261114081738 +0700" stop="20261114082710 +0700" channel="RedBullWinter.global">
-    <title lang="en">New York cover shoot</title>
-    <desc lang="en">From the mountains to the runway, Eileen Gu finds her feet in the two worlds of skiing and modelling.</desc>
-  </programme>
-  <programme start="20261114082710 +0700" stop="20261114084146 +0700" channel="RedBullWinter.global">
-    <title lang="en">Eileen Gu</title>
-    <desc lang="en">Witness the dazzling trajectory of a skier who's redefining what it means to be a modern champion.</desc>
-  </programme>
-  <programme start="20261114084146 +0700" stop="20261114084853 +0700" channel="RedBullWinter.global">
-    <title lang="en">How to create the perfect cable cam shot</title>
-    <desc lang="en">John Jackson and the Pirate film crew are in deep powder in Japan capturing amazing cable cam shots.</desc>
-  </programme>
-  <programme start="20261114084853 +0700" stop="20261114085837 +0700" channel="RedBullWinter.global">
+  <programme start="20261114140228 +0700" stop="20261114141212 +0700" channel="RedBullWinter.global">
     <title lang="en">Splitboarding in the Swiss Alps with Scotty James</title>
     <desc lang="en">Earn some turns with Scotty James as the crew climb into the Swiss backcountry for a splitboarding adventure.</desc>
   </programme>
-  <programme start="20261114085837 +0700" stop="20261114090819 +0700" channel="RedBullWinter.global">
+  <programme start="20261114141212 +0700" stop="20261114142141 +0700" channel="RedBullWinter.global">
+    <title lang="en">Scotty James returns to Aspen to compete</title>
+    <desc lang="en">A last-minute change has Scotty James back in Colorado to compete in the FIS Snowboard World Championships.</desc>
+  </programme>
+  <programme start="20261114142141 +0700" stop="20261114142927 +0700" channel="RedBullWinter.global">
+    <title lang="en">How to capture riding in scenic landscapes</title>
+    <desc lang="en">How do the Pirate film crew shoot the world’s best riders in the most magical places on Earth?</desc>
+  </programme>
+  <programme start="20261114142927 +0700" stop="20261114145147 +0700" channel="RedBullWinter.global">
+    <title lang="en">Finland</title>
+    <desc lang="en">Snowboarders Mark and Craig McMorris link up with their childhood hero, Eero Ettala, in Finland.</desc>
+  </programme>
+  <programme start="20261114145147 +0700" stop="20261114150015 +0700" channel="RedBullWinter.global">
+    <title lang="en">How to capture perfect drone shots</title>
+    <desc lang="en">Loads of people have a drone – but how can you use them best for professional action shots?</desc>
+  </programme>
+  <programme start="20261114150015 +0700" stop="20261114151029 +0700" channel="RedBullWinter.global">
+    <title lang="en">Scotty James opens the halfpipe season in Laax</title>
+    <desc lang="en">Scotty James showed up to the 2021 Laax Open halfpipe event in fighting shape, ready to drop in to win.</desc>
+  </programme>
+  <programme start="20261114151029 +0700" stop="20261114151728 +0700" channel="RedBullWinter.global">
+    <title lang="en">Making X Games history</title>
+    <desc lang="en">Eileen Gu entered the 2021 Winter X Games as an Aspen rookie and won three medals to make competition history.</desc>
+  </programme>
+  <programme start="20261114151728 +0700" stop="20261114152700 +0700" channel="RedBullWinter.global">
+    <title lang="en">New York cover shoot</title>
+    <desc lang="en">From the mountains to the runway, Eileen Gu finds her feet in the two worlds of skiing and modelling.</desc>
+  </programme>
+  <programme start="20261114152700 +0700" stop="20261114154136 +0700" channel="RedBullWinter.global">
+    <title lang="en">Eileen Gu</title>
+    <desc lang="en">Witness the dazzling trajectory of a skier who's redefining what it means to be a modern champion.</desc>
+  </programme>
+  <programme start="20261114154136 +0700" stop="20261114155145 +0700" channel="RedBullWinter.global">
+    <title lang="en">The mountains are calling and Scotty James must go</title>
+    <desc lang="en">Kicking off in Australia last September, we join Scotty James as he packs his bags and heads to Switzerland.</desc>
+  </programme>
+  <programme start="20261114155145 +0700" stop="20261114162456 +0700" channel="RedBullWinter.global">
+    <title lang="en">Range Finder</title>
+    <desc lang="en">Snowboarders Mark Carter and Bryan Iguchi reveal how they approach life.</desc>
+  </programme>
+  <programme start="20261114162456 +0700" stop="20261114163203 +0700" channel="RedBullWinter.global">
+    <title lang="en">How to create the perfect cable cam shot</title>
+    <desc lang="en">John Jackson and the Pirate film crew are in deep powder in Japan capturing amazing cable cam shots.</desc>
+  </programme>
+  <programme start="20261114163203 +0700" stop="20261114172213 +0700" channel="RedBullWinter.global">
+    <title lang="en">She Who Flies</title>
+    <desc lang="en">This cinematic journey charts the highs, lows and in-betweens of Freeski World Champion Mathilde Gremaud.</desc>
+  </programme>
+  <programme start="20261114172213 +0700" stop="20261114173155 +0700" channel="RedBullWinter.global">
     <title lang="en">Spring training days with Scotty James</title>
     <desc lang="en">The sun has set on Scotty James's 2021 competitive halfpipe season, but now there's spring training.</desc>
   </programme>
-  <programme start="20261114090819 +0700" stop="20261114092223 +0700" channel="RedBullWinter.global">
-    <title lang="en">Action Men</title>
-    <desc lang="en">Paddy Graham, Markus Eder and the gang rejoin forces to look back at the highs and lows of an epic ski trip.</desc>
+  <programme start="20261114173155 +0700" stop="20261114174100 +0700" channel="RedBullWinter.global">
+    <title lang="en">World Championships glory</title>
+    <desc lang="en">Freeskier Eileen Gu wins two gold medals and a bronze at the FIS World Championships. All despite being injured.</desc>
   </programme>
-  <programme start="20261114021436 +0700" stop="20261114021937 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Off-road</title>
-    <desc lang="en">Watch off-roaders Seth Quintero and Mitch Guthrie Jr carve their lines in the King of the Hammers desert.</desc>
+  <programme start="20261114174100 +0700" stop="20261114182309 +0700" channel="RedBullWinter.global">
+    <title lang="en">Paved</title>
+    <desc lang="en">Experience the joy as snowboarding’s elite push boundaries and chase podium dreams ahead of the 2026 season.</desc>
   </programme>
-  <programme start="20261114021937 +0700" stop="20261114022136 +0700" channel="RedBullActionReel.global">
-    <title lang="en">GP Ice Race</title>
-    <desc lang="en">Watch Max Verstappen enjoy his first track action of 2022 with ice speedway star Franky Zorn.</desc>
+  <programme start="20261114182309 +0700" stop="20261114194018 +0700" channel="RedBullWinter.global">
+    <title lang="en">The Art of Flight</title>
+    <desc lang="en">Travis Rice and Curt Morgan's follow-up to That's It, That's All raises the bar of snowboarding – again.</desc>
   </programme>
-  <programme start="20261114022136 +0700" stop="20261114022311 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Action from Fabio Wibmer's latest project</title>
-    <desc lang="en">Fabio Wibmer takes dicey situations and turns them into outstanding tricks for his film, Wibmer's Law.</desc>
+  <programme start="20261114123017 +0700" stop="20261114123307 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Kolohe Andino</title>
+    <desc lang="en">Filmer Jacob Vanderwork brings us his best Kolohe Andino clips from their work together over the winter.</desc>
   </programme>
-  <programme start="20261114022311 +0700" stop="20261114022550 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Uncontainable</title>
-    <desc lang="en">Always looking for bigger set-ups, Drew Bezanson built a custom BMX park using enormous shipping containers.</desc>
+  <programme start="20261114123307 +0700" stop="20261114124326 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Markus Eder in The Ultimate Run</title>
+    <desc lang="en">Take a cinematic journey in this Emmy Award-winning ski film from the world's most renowned freestyle skier, Markus Eder.</desc>
   </programme>
-  <programme start="20261114022550 +0700" stop="20261114022814 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Matt Jones</title>
-    <desc lang="en">Step inside Matt Jones’s secret compound to find out just what it takes to take on the best in MTB.</desc>
-  </programme>
-  <programme start="20261114022814 +0700" stop="20261114023101 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Laurie Greenland</title>
-    <desc lang="en">Enjoy the raw sight and sound of MTB pro Laurie Greenland as he rides down a mountainside in New Zealand.</desc>
-  </programme>
-  <programme start="20261114023101 +0700" stop="20261114023514 +0700" channel="RedBullActionReel.global">
-    <title lang="en">CJ Collins FER DAYZ</title>
-    <desc lang="en">Abandoned pools, DIYs and even some street action from everyone's favourite all-terrain animal, CJ Collins.</desc>
-  </programme>
-  <programme start="20261114023514 +0700" stop="20261114023800 +0700" channel="RedBullActionReel.global">
-    <title lang="en">360° of Jaxson Riddle</title>
-    <desc lang="en">See Jaxson Riddle’s tricks from every angle as he prepares to compete in his second Red Bull Rampage.</desc>
-  </programme>
-  <programme start="20261114023800 +0700" stop="20261114024744 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Wild phone chase</title>
-    <desc lang="en">Freerunner Jason Paul makes the impossible possible in the city of Hamburg as he searches for his lost phone.</desc>
-  </programme>
-  <programme start="20261114024744 +0700" stop="20261114025112 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Unrailistic 2.0</title>
-    <desc lang="en">This year freeski ace Jesper Tjäder is back with new trick ideas and creative, never-before-seen features.</desc>
-  </programme>
-  <programme start="20261114025112 +0700" stop="20261114030004 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Ricciardo takes on the Outback</title>
-    <desc lang="en">The 'Honey Badger' in Oz – Red Bull Racing send driver Daniel Ricciardo to Melbourne's Albert Park circuit.</desc>
-  </programme>
-  <programme start="20261114030004 +0700" stop="20261114030146 +0700" channel="RedBullActionReel.global">
+  <programme start="20261114124326 +0700" stop="20261114124508 +0700" channel="RedBullActionReel.global">
     <title lang="en">Carson Storch</title>
     <desc lang="en">Watch Carson Storch ride through a forest and take on a train and rail track in 100 seconds of raw MTB action.</desc>
   </programme>
-  <programme start="20261114030146 +0700" stop="20261114030526 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Last call for Mr Paul</title>
-    <desc lang="en">Pro freerunner Jason Paul is late for a flight and needs to use his athletic prowess to navigate the airport.</desc>
+  <programme start="20261114124508 +0700" stop="20261114125143 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Skate highlights</title>
+    <desc lang="en">Watch the best of an all-action eight-day skate demo mission through Europe with Ryan Sheckler and crew.</desc>
   </programme>
-  <programme start="20261114030526 +0700" stop="20261114031101 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Duct Out</title>
-    <desc lang="en">Tyler Bereman and Robbie Maddison escape LA's gridlock and turn the city into a personal MX playground.</desc>
+  <programme start="20261114125143 +0700" stop="20261114125734 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Running reverse</title>
+    <desc lang="en">Watch freerunner Jason Paul put things right with a series of breathtaking and high-stakes moves.</desc>
   </programme>
-  <programme start="20261114031101 +0700" stop="20261114031244 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Nouria Newman kayaks in British Columbia</title>
-    <desc lang="en">Follow Nouria Newman as she visits Canada to kayak the white water of British Columbia's Spillimacheen River.</desc>
+  <programme start="20261114125734 +0700" stop="20261114130251 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Tyler Bereman</title>
+    <desc lang="en">Watch as a drone captures FMX rider Tyler Bereman on one epic ride from start to finish.</desc>
   </programme>
-  <programme start="20261114031244 +0700" stop="20261114031511 +0700" channel="RedBullActionReel.global">
+  <programme start="20261114130251 +0700" stop="20261114130749 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Skating in Mayan lands</title>
+    <desc lang="en">Watch a skate remix of Madars Apse, Angelo Caro, Jaakko Ojanen and Zack Wallin in the land of the Maya.</desc>
+  </programme>
+  <programme start="20261114130749 +0700" stop="20261114130948 +0700" channel="RedBullActionReel.global">
+    <title lang="en">GP Ice Race</title>
+    <desc lang="en">Watch Max Verstappen enjoy his first track action of 2022 with ice speedway star Franky Zorn.</desc>
+  </programme>
+  <programme start="20261114130948 +0700" stop="20261114131208 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Dancing in the lights</title>
+    <desc lang="en">Get your 2019 going in style with a celebratory dance performance on the roofs of Mumbai in India.</desc>
+  </programme>
+  <programme start="20261114131208 +0700" stop="20261114131850 +0700" channel="RedBullActionReel.global">
+    <title lang="en">From sim to reality</title>
+    <desc lang="en">Max Verstappen gets sucked into his simulator and needs to clear different levels to get to the Belgium GP.</desc>
+  </programme>
+  <programme start="20261114131850 +0700" stop="20261114132118 +0700" channel="RedBullActionReel.global">
     <title lang="en">Martin Söderström and Emil Johansson</title>
     <desc lang="en">See Martin Söderström and Emil Johansson put their style and excellency in focus at Järvsö, Sweden.</desc>
   </programme>
-  <programme start="20261114031511 +0700" stop="20261114031801 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Cherry blossoms</title>
-    <desc lang="en">Check out all the great spots skateboarder Simon Stricker found to shred on a trip to Taiwan.</desc>
+  <programme start="20261114132118 +0700" stop="20261114132346 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Wakeboarding on dams</title>
+    <desc lang="en">Wakeboarder Dominik Hernler takes the sport where it’s never been before when he shreds the Purgstall dams.</desc>
   </programme>
-  <programme start="20261114031801 +0700" stop="20261114032208 +0700" channel="RedBullActionReel.global">
+  <programme start="20261114132346 +0700" stop="20261114132753 +0700" channel="RedBullActionReel.global">
     <title lang="en">Freerunner's guide to the Sydney Opera House</title>
     <desc lang="en">Nobody has ever freerun on the roof of the Sydney Opera House – until now. Watch Dominic Di Tommaso in action.</desc>
   </programme>
-  <programme start="20261114032208 +0700" stop="20261114032720 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Eli Hanneman 2020</title>
-    <desc lang="en">Eli Hanneman's RAW edit brings you his finest work from the past Pacific winter.</desc>
+  <programme start="20261114132753 +0700" stop="20261114133328 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Duct Out</title>
+    <desc lang="en">Tyler Bereman and Robbie Maddison escape LA's gridlock and turn the city into a personal MX playground.</desc>
   </programme>
-  <programme start="20261114032720 +0700" stop="20261114032940 +0700" channel="RedBullActionReel.global">
-    <title lang="en">Dancing in the lights</title>
-    <desc lang="en">Get your 2019 going in style with a celebratory dance performance on the roofs of Mumbai in India.</desc>
+  <programme start="20261114133328 +0700" stop="20261114133634 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Dreamland</title>
+    <desc lang="en">Two pro freerunners explore a shipping container-filled obstacle course through Turkey's Port of Haydarpaşa.</desc>
+  </programme>
+  <programme start="20261114133634 +0700" stop="20261114134001 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Unrailistic 2.0</title>
+    <desc lang="en">This year freeski ace Jesper Tjäder is back with new trick ideas and creative, never-before-seen features.</desc>
+  </programme>
+  <programme start="20261114134001 +0700" stop="20261114134946 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Wild phone chase</title>
+    <desc lang="en">Freerunner Jason Paul makes the impossible possible in the city of Hamburg as he searches for his lost phone.</desc>
+  </programme>
+  <programme start="20261114134946 +0700" stop="20261114135156 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Wake Crane</title>
+    <desc lang="en">Three top riders rip around a custom wakeboard park built from a crane and a bunch of cargo containers.</desc>
+  </programme>
+  <programme start="20261114135156 +0700" stop="20261114135702 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Dropping in on Dubai</title>
+    <desc lang="en">Watch Kriss Kyle jump from a helicopter onto the roof of Burj Al Arab in Dubai – on his BMX bike.</desc>
+  </programme>
+  <programme start="20261114135702 +0700" stop="20261114135842 +0700" channel="RedBullActionReel.global">
+    <title lang="en">Rob Warner and Matt Jones go riding in New Zealand</title>
+    <desc lang="en">Enjoy the raw sight and sound of Rob Warner and Matt Jones riding down a South Island mountainside.</desc>
   </programme>
   <programme start="20261114002000 +0700" stop="20261114003000 +0700" channel="MNC_abc-australia_350.id">
     <title lang="id">Common Cause</title>
@@ -14272,7 +14281,7 @@
   </programme>
   <programme start="20261114090000 +0500" stop="20261114100000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Ғажайып мұра</title>
-    <desc lang="kk">Телехикая</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114100000 +0500" stop="20261114120000 +0500" channel="Qazaqstan.kz">
     <title lang="kk">Мелек</title>
@@ -14376,7 +14385,7 @@
   </programme>
   <programme start="20261114090000 +0500" stop="20261114100000 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Ғажайып мұра</title>
-    <desc lang="kk">Телехикая</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114100000 +0500" stop="20261114120000 +0500" channel="QazaqstanInt.kz">
     <title lang="kk">Мелек</title>
@@ -14491,7 +14500,7 @@
   </programme>
   <programme start="20261114101500 +0500" stop="20261114110000 +0500" channel="AbaiTV.kz">
     <title lang="kk">Дәуір даналары</title>
-    <desc lang="kk">Бағдарлама. Қасым Аманжолов</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114110000 +0500" stop="20261114113000 +0500" channel="AbaiTV.kz">
     <title lang="kk">Зертхана</title>
@@ -14658,7 +14667,7 @@
   </programme>
   <programme start="20261114103000 +0500" stop="20261114113000 +0500" channel="AqtobeTV.kz">
     <title lang="kk">"ҚОҒАМ ҮНІ"</title>
-    <desc lang="kk">Қоғамдық-саяси-әлеуметтік хабар</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114113000 +0500" stop="20261114115000 +0500" channel="AqtobeTV.kz">
     <title lang="kk">"ЖАС ДАРЫН"</title>
@@ -14728,8 +14737,12 @@
     <title lang="kk">ӘНҰРАН</title>
     <desc lang="kk">Әнұран</desc>
   </programme>
-  <programme start="20261114070000 +0500" stop="20261114104000 +0500" channel="AltaiTV.kz">
+  <programme start="20261114070000 +0500" stop="20261114100000 +0500" channel="AltaiTV.kz">
     <title lang="kk">Эфирдің ашылуы. Әнұран</title>
+  </programme>
+  <programme start="20261114100000 +0500" stop="20261114104000 +0500" channel="AltaiTV.kz">
+    <title lang="kk">"ЖАҢА ҚАЗАҚСТАН" ақпараттық бағдарлама</title>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114104000 +0500" stop="20261114110000 +0500" channel="AltaiTV.kz">
     <title lang="kk">"ВЕКТОР БУДУЩЕГО" информационно-позновательная программа</title>
@@ -14758,8 +14771,12 @@
   <programme start="20261114080500 +0500" stop="20261114084500 +0500" channel="AtyrauTV.kz">
     <title lang="kk">"БЕТПЕРДЕЛІ БАТЫР-1" - анимация. (Balapan телеарнасы)</title>
   </programme>
-  <programme start="20261114084500 +0500" stop="20261114105000 +0500" channel="AtyrauTV.kz">
+  <programme start="20261114084500 +0500" stop="20261114101500 +0500" channel="AtyrauTV.kz">
     <title lang="kk">«НОВОСТИ» - информационная программа</title>
+  </programme>
+  <programme start="20261114101500 +0500" stop="20261114105000 +0500" channel="AtyrauTV.kz">
+    <title lang="kk">"ӨЗЕКТІ" - қоғамдық-саяси бағдарлама, қайталау</title>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114105000 +0500" stop="20261114123000 +0500" channel="AtyrauTV.kz">
     <title lang="kk">"АНАМ АНКАРА", телехикая, 34 бөлім (Түркия)</title>
@@ -14803,7 +14820,7 @@
   </programme>
   <programme start="20261114090000 +0500" stop="20261114110000 +0500" channel="ErtisTV.kz">
     <title lang="kk">Сәлем, әлем!</title>
-    <desc lang="kk">Ақпаратты-сазды бағдарлама.</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114110000 +0500" stop="20261114115000 +0500" channel="ErtisTV.kz">
     <title lang="kk">Бақыттың кілті</title>
@@ -14880,7 +14897,7 @@
   </programme>
   <programme start="20261114101500 +0500" stop="20261114110000 +0500" channel="JambylTV.kz">
     <title lang="kk">ЗАМАНДАСТАР</title>
-    <desc lang="kk">телехикая 12-бөлімі</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114110000 +0500" stop="20261114114000 +0500" channel="JambylTV.kz">
     <title lang="kk">ҒАСЫРЛАР ПЕРНЕСІ</title>
@@ -14967,8 +14984,12 @@
   <programme start="20261114093000 +0500" stop="20261114100000 +0500" channel="KoksheTV.kz">
     <title lang="kk">"ҮЗДІК ҚОЙЫЛЫМ" м/х 1 бөлім</title>
   </programme>
-  <programme start="20261114100000 +0500" stop="20261114121000 +0500" channel="KoksheTV.kz">
+  <programme start="20261114100000 +0500" stop="20261114103000 +0500" channel="KoksheTV.kz">
     <title lang="kk">"KÓKSHE AQPARAT" Информационная программа</title>
+  </programme>
+  <programme start="20261114103000 +0500" stop="20261114121000 +0500" channel="KoksheTV.kz">
+    <title lang="kk">"ОРБҰЛАҚ ШАЙҚАСЫ". Телехикая. 3 бөлім</title>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114121000 +0500" stop="20261114121500 +0500" channel="KoksheTV.kz">
     <title lang="kk">"ТЕЛЕМАРКЕТ"</title>
@@ -15031,7 +15052,7 @@
   </programme>
   <programme start="20261114100000 +0500" stop="20261114110000 +0500" channel="MangystauTV.kz">
     <title lang="kk">"100 жаса"</title>
-    <desc lang="kk">Денсаулық</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114110000 +0500" stop="20261114123000 +0500" channel="MangystauTV.kz">
     <title lang="kk">"Фазилет ханым"</title>
@@ -15098,7 +15119,7 @@
   </programme>
   <programme start="20261114095500 +0500" stop="20261114104000 +0500" channel="OntustikTV.kz">
     <title lang="kk">«Ойна да, ойлан»</title>
-    <desc lang="kk">интеллектуалдық бағдарлама</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114104000 +0500" stop="20261114110000 +0500" channel="OntustikTV.kz">
     <title lang="kk">«Сарбаз»</title>
@@ -15173,6 +15194,10 @@
   <programme start="20261114235500 +0500" stop="20261115005500 +0500" channel="OntustikTV.kz">
     <title lang="kk">Арнаның жабылуы.Гимн</title>
   </programme>
+  <programme start="20261114103000 +0500" stop="20261114140000 +0500" channel="QostanaiTV.kz">
+    <title lang="kk">«ҚАЙСАР АВТОБУС» мультхикая</title>
+    <desc lang="kk">Қазірэфирде</desc>
+  </programme>
   <programme start="20261114140000 +0500" stop="20261114191000 +0500" channel="QostanaiTV.kz">
     <title lang="kk">Техникалық үзіліс (14:00-17:00)</title>
   </programme>
@@ -15202,6 +15227,7 @@
   </programme>
   <programme start="20261114103000 +0500" stop="20261114110000 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">АУЫЛ</title>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114110000 +0500" stop="20261114120000 +0500" channel="QyzyljarTV.kz">
     <title lang="kk">ФАЗИЛЕТ ХАНЫМ</title>
@@ -15265,6 +15291,7 @@
   </programme>
   <programme start="20261114101500 +0500" stop="20261114103500 +0500" channel="QyzylordaTV.kz">
     <title lang="kk">"Жәдігер"</title>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114103500 +0500" stop="20261114110000 +0500" channel="QyzylordaTV.kz">
     <title lang="kk">"Ұстаздық ұлағаты ұшан теңіз"</title>
@@ -15337,7 +15364,7 @@
   </programme>
   <programme start="20261114100000 +0500" stop="20261114104500 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">«Арқа ақпарат»</title>
-    <desc lang="kk">Жаңалықтар (каз., рус.)</desc>
+    <desc lang="kk">Қазірэфирде</desc>
   </programme>
   <programme start="20261114104500 +0500" stop="20261114110000 +0500" channel="SaryarqaTV.kz">
     <title lang="kk">«Өзекті»</title>
@@ -15408,70 +15435,6 @@
   </programme>
   <programme start="20261114000000 +0500" stop="20261114010000 +0500" channel="SemeiTV.kz">
     <title lang="kk">Әнұран. Эфирдің жабылуы</title>
-  </programme>
-  <programme start="20261113061000 +0700" stop="20261113072500 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.12</title>
-    <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
-  </programme>
-  <programme start="20261113072500 +0700" stop="20261113080000 +0700" channel="KBSWorld.id">
-    <title lang="en">Mission: Mompossible Ep.24</title>
-    <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
-  </programme>
-  <programme start="20261113080000 +0700" stop="20261113084000 +0700" channel="KBSWorld.id">
-    <title lang="en">A Trap Called Desire Ep.52</title>
-    <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
-  </programme>
-  <programme start="20261113084000 +0700" stop="20261113092000 +0700" channel="KBSWorld.id">
-    <title lang="en">Pearl in Red Ep.45</title>
-    <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
-  </programme>
-  <programme start="20261113092000 +0700" stop="20261113103500 +0700" channel="KBSWorld.id">
-    <title lang="en">Love on the Menu Ep.26</title>
-    <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
-  </programme>
-  <programme start="20261113103500 +0700" stop="20261113104000 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank K-Chart</title>
-    <desc lang="en">Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
-  </programme>
-  <programme start="20261113104000 +0700" stop="20261113121000 +0700" channel="KBSWorld.id">
-    <title lang="en">Boss in the Mirror Ep.378</title>
-    <desc lang="en">A reality talk show that offers a candid and often humorous look at the workplace through the eyes of Korea's most outspoken bosses. Each episode follows prominent CEOs, entertainers, and professionals as they go about their daily routines and interact with their employees. Through real workplace situations, the show reveals the challenges of leadership, communication, and management.</desc>
-  </programme>
-  <programme start="20261113121000 +0700" stop="20261113132000 +0700" channel="KBSWorld.id">
-    <title lang="en">Fight For My Way Ep.3</title>
-    <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
-  </programme>
-  <programme start="20261113132000 +0700" stop="20261113132500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Best of Immortal Songs</title>
-    <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
-  </programme>
-  <programme start="20261113132500 +0700" stop="20261113144000 +0700" channel="KBSWorld.id">
-    <title lang="en">Marry Him If You Dare Ep.12</title>
-    <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
-  </programme>
-  <programme start="20261113144000 +0700" stop="20261113150000 +0700" channel="KBSWorld.id">
-    <title lang="en">KBS WORLD News Today</title>
-    <desc lang="en">KBS World Daily English News Anchor : Choi Kyu-yeon</desc>
-  </programme>
-  <programme start="20261113150000 +0700" stop="20261113150500 +0700" channel="KBSWorld.id">
-    <title lang="en">The Best of Immortal Songs</title>
-    <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
-  </programme>
-  <programme start="20261113150500 +0700" stop="20261113151000 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank K-Chart</title>
-    <desc lang="en">Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
-  </programme>
-  <programme start="20261113151000 +0700" stop="20261113163500 +0700" channel="KBSWorld.id">
-    <title lang="en">Music Bank Ep.1314</title>
-    <desc lang="en">The best tunes in Korea! the most sensational music show on TV satisfies all your senses! Fantastic performances and Awe-inspiring harmony by the nation's top musicians! Follow the latest trend in the Korean music scene through the K-chart, a summary of the week's hottest songs.</desc>
-  </programme>
-  <programme start="20261113163500 +0700" stop="20261113165000 +0700" channel="KBSWorld.id">
-    <title lang="en">K-Beauty Pop-Up Ep.3</title>
-    <desc lang="en">Makeup Artist Liu's K-Beauty Pop-Up Store! A beauty reality show that travels to global hotspots, showcasing K-makeup to people around the world.</desc>
-  </programme>
-  <programme start="20261113165000 +0700" stop="20261113170500 +0700" channel="KBSWorld.id">
-    <title lang="en">K-Beauty Pop-Up Ep.4</title>
-    <desc lang="en">Makeup Artist Liu's K-Beauty Pop-Up Store! A beauty reality show that travels to global hotspots, showcasing K-makeup to people around the world.</desc>
   </programme>
   <programme start="20261113170500 +0700" stop="20261113174500 +0700" channel="KBSWorld.id">
     <title lang="en">Hit the Top Ep.32</title>
@@ -16328,6 +16291,110 @@
   <programme start="20261120235500 +0700" stop="20261121011000 +0700" channel="KBSWorld.id">
     <title lang="en">Marry Him If You Dare Ep.14</title>
     <desc lang="en">32 years old for woman is an age which may be little too late to start something new or little too early to give up something. The 'future-self' comes to 'me' today and gives advices about life and marriage. The future-self is trying to bring better life by helping her to meet a perfect spouse.</desc>
+  </programme>
+  <programme start="20261121011000 +0700" stop="20261121012500 +0700" channel="KBSWorld.id">
+    <title lang="en">Idol Booth Ep.7</title>
+    <desc lang="en">&lt;Idol Booth&gt; is where fans can meet their favorite idols just as both idols and fans have always envisioned them—pretty, cute, full of member chemistry, and as vivid as photocards coming to life—right before their eyes. Set against the backdrop of photo booths—a familiar place for Gen Z and Millennials to make memories with friends and a must-visit spot for many international visitors to Korea—along with the dopamine-rushing claw machine arcades, the show captures idols at their prettiest, cutest, and most energetic moments.</desc>
+  </programme>
+  <programme start="20261121012500 +0700" stop="20261121013000 +0700" channel="KBSWorld.id">
+    <title lang="en">ROUND PLAYLIST</title>
+    <desc lang="en">The program is intended to promote exchanges between Korea and ASEAN countries by utilizing popular music.</desc>
+  </programme>
+  <programme start="20261121013000 +0700" stop="20261121020500 +0700" channel="KBSWorld.id">
+    <title lang="en">Mission: Mompossible Ep.30</title>
+    <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
+  </programme>
+  <programme start="20261121020500 +0700" stop="20261121024500 +0700" channel="KBSWorld.id">
+    <title lang="en">A Trap Called Desire Ep.57</title>
+    <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
+  </programme>
+  <programme start="20261121024500 +0700" stop="20261121035500 +0700" channel="KBSWorld.id">
+    <title lang="en">Fight For My Way Ep.6</title>
+    <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
+  </programme>
+  <programme start="20261121035500 +0700" stop="20261121040000 +0700" channel="KBSWorld.id">
+    <title lang="en">National Heritage Pilgrimage De O Ep.59</title>
+    <desc lang="en">No description</desc>
+  </programme>
+  <programme start="20261121040000 +0700" stop="20261121053000 +0700" channel="KBSWorld.id">
+    <title lang="en">The Seasons Ep.31</title>
+    <desc lang="en">A music program featuring performances and candid conversations with a diverse range of artists to deliver deep musical resonance</desc>
+  </programme>
+  <programme start="20261121053000 +0700" stop="20261121061000 +0700" channel="KBSWorld.id">
+    <title lang="en">Pearl in Red Ep.51</title>
+    <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
+  </programme>
+  <programme start="20261121061000 +0700" stop="20261121072500 +0700" channel="KBSWorld.id">
+    <title lang="en">Problem Child in House Ep.72</title>
+    <desc lang="en">A collection of outrageous problems that you have never heard of! A great 'knowledge talk show' where problematic children who are struggling and fighting in the emotional rooftop room gain true wisdom about life and the world.</desc>
+  </programme>
+  <programme start="20261121072500 +0700" stop="20261121080000 +0700" channel="KBSWorld.id">
+    <title lang="en">Mission: Mompossible Ep.30</title>
+    <desc lang="en">A heartfelt family drama about two very different mothers - one who has devoted her life to her family, and the other who has always lived for herself - and their children, whose lives become intertwined in a turbulent journey of love, conflict, and growth.</desc>
+  </programme>
+  <programme start="20261121080000 +0700" stop="20261121084000 +0700" channel="KBSWorld.id">
+    <title lang="en">A Trap Called Desire Ep.57</title>
+    <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
+  </programme>
+  <programme start="20261121084000 +0700" stop="20261121092000 +0700" channel="KBSWorld.id">
+    <title lang="en">Pearl in Red Ep.51</title>
+    <desc lang="en">A meticulous and intense revenge chronicle in which two women return under false identities to uncover the truths and sins hidden within the Adel family.</desc>
+  </programme>
+  <programme start="20261121092000 +0700" stop="20261121103500 +0700" channel="KBSWorld.id">
+    <title lang="en">Love on the Menu Ep.29</title>
+    <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
+  </programme>
+  <programme start="20261121103500 +0700" stop="20261121104000 +0700" channel="KBSWorld.id">
+    <title lang="en">The Best of Immortal Songs</title>
+    <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
+  </programme>
+  <programme start="20261121104000 +0700" stop="20261121121000 +0700" channel="KBSWorld.id">
+    <title lang="en">The Seasons Ep.31</title>
+    <desc lang="en">A music program featuring performances and candid conversations with a diverse range of artists to deliver deep musical resonance</desc>
+  </programme>
+  <programme start="20261121121000 +0700" stop="20261121132000 +0700" channel="KBSWorld.id">
+    <title lang="en">Fight For My Way Ep.6</title>
+    <desc lang="en">Despite an increasingly hostile world, Ko Dongman and Choi Aera decide not to give up. No matter what others speak of them, they together make their own way to live a happy life.</desc>
+  </programme>
+  <programme start="20261121132000 +0700" stop="20261121132500 +0700" channel="KBSWorld.id">
+    <title lang="en">The Best of Immortal Songs</title>
+    <desc lang="en">The true classic of the century is born again! The legendary classic is reinterpreted by the best vocalists in Korea. Don't miss out on the heart-moving moments that transcend generations.</desc>
+  </programme>
+  <programme start="20261121132500 +0700" stop="20261121142000 +0700" channel="KBSWorld.id">
+    <title lang="en">Documentary 3 Days Ep.727</title>
+    <desc lang="en">The program condenses 72 hours of observation into 50 minutes. It captures the passage of time in a single place, revealing the “real” stories within. It is about the places we pass by, the people we overlook, and the things we forget in everyday life.</desc>
+  </programme>
+  <programme start="20261121142000 +0700" stop="20261121155000 +0700" channel="KBSWorld.id">
+    <title lang="en">Happy Together 2026 Ep.9</title>
+    <desc lang="en">Prove the power of “together”! Korea's first-ever storytelling music audition, where personal stories harmonize into one song.</desc>
+  </programme>
+  <programme start="20261121155000 +0700" stop="20261121172000 +0700" channel="KBSWorld.id">
+    <title lang="en">Boss in the Mirror Ep.380</title>
+    <desc lang="en">A reality talk show that offers a candid and often humorous look at the workplace through the eyes of Korea's most outspoken bosses. Each episode follows prominent CEOs, entertainers, and professionals as they go about their daily routines and interact with their employees. Through real workplace situations, the show reveals the challenges of leadership, communication, and management.</desc>
+  </programme>
+  <programme start="20261121172000 +0700" stop="20261121190000 +0700" channel="KBSWorld.id">
+    <title lang="en">Immortal Songs Ep.780</title>
+    <desc lang="en">Legendary artists and rising performers come together, connecting generations through music. Korea's top vocalists reinterpret iconic songs in their own styles, delivering powerful and emotional performances. Don't miss this unforgettable musical competition.</desc>
+  </programme>
+  <programme start="20261121190000 +0700" stop="20261121201500 +0700" channel="KBSWorld.id">
+    <title lang="en">Love on the Menu Ep.30</title>
+    <desc lang="en">A heartwarming family drama about a man and a woman who rebuild their broken families and discover the recipe for love, healing, and togetherness.</desc>
+  </programme>
+  <programme start="20261121201500 +0700" stop="20261121213000 +0700" channel="KBSWorld.id">
+    <title lang="en">Love in the Moonlight Ep.11</title>
+    <desc lang="en">Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</desc>
+  </programme>
+  <programme start="20261121213000 +0700" stop="20261121224500 +0700" channel="KBSWorld.id">
+    <title lang="en">Love in the Moonlight Ep.12</title>
+    <desc lang="en">Lee Yeong, the crown prince, knows that he can't confess his love for Hong Raon, a eunuch who disguises herself as a man and is afraid her secret will be revealed. So, are they friends or lovers?</desc>
+  </programme>
+  <programme start="20261121224500 +0700" stop="20261121232000 +0700" channel="KBSWorld.id">
+    <title lang="en">A Trap Called Desire Ep.53</title>
+    <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
+  </programme>
+  <programme start="20261121232000 +0700" stop="20261122000000 +0700" channel="KBSWorld.id">
+    <title lang="en">A Trap Called Desire Ep.54</title>
+    <desc lang="en">A woman whose life was stolen by a false murder accusation fights to reclaim her destiny in a gripping revenge drama against insatiable greed.</desc>
   </programme>
   <programme start="20261114000000 +0700" stop="20261114001500 +0700" channel="Indonesiana_MMF.id">
     <title lang="id">ANIMASI BURUNG KERA SI JAGO AYAM</title>
