@@ -124,7 +124,23 @@ TIVIE_MASTER_FALLBACK = [
     {"id": "sctv", "name": "SCTV"}, {"id": "sinpotv", "name": "Sin Po TV"},
     {"id": "transtv", "name": "Trans TV"}, {"id": "trans7", "name": "Trans 7"},
     {"id": "tvone", "name": "tvOne"}, {"id": "tvri", "name": "TVRI"},
-    {"id": "vtv", "name": "VTV"}, {"id": "sindonews", "name": "Sindonews TV"}
+    {"id": "vtv", "name": "VTV"}, {"id": "sindonews", "name": "Sindonews TV"},
+    {"id": "axn", "name": "AXN"}, {"id": "beinsports1", "name": "beIN Sports 1"},
+    {"id": "beinsports2", "name": "beIN Sports 2"}, {"id": "beinsports3", "name": "beIN Sports 3"},
+    {"id": "ccm", "name": "CCM"}, {"id": "celestialmovies", "name": "Celestial Movies"},
+    {"id": "cinemaworld", "name": "CinemaWorld"}, {"id": "cinemax", "name": "Cinemax"},
+    {"id": "galaxy", "name": "Galaxy"}, {"id": "galaxypremium", "name": "Galaxy Premium"},
+    {"id": "hbo", "name": "HBO"}, {"id": "hbofamily", "name": "HBO Family"},
+    {"id": "hbohits", "name": "HBO Hits"}, {"id": "hbosignature", "name": "HBO Signature"},
+    {"id": "hits", "name": "HITS"}, {"id": "hitsmovies", "name": "HITS Movies"},
+    {"id": "hitsnow", "name": "HITS Now"}, {"id": "imc", "name": "IMC"},
+    {"id": "kplus", "name": "K-Plus"}, {"id": "kix", "name": "KIX"},
+    {"id": "lifetime", "name": "Lifetime"}, {"id": "rockaction", "name": "Rock Action"},
+    {"id": "rockentertainment", "name": "Rock Entertainment"}, {"id": "spotv", "name": "SpoTV"},
+    {"id": "spotv2", "name": "SpoTV2"}, {"id": "studiouniversal", "name": "Studio Universal"},
+    {"id": "thrill", "name": "Thrill"}, {"id": "tvn", "name": "tvN"},
+    {"id": "tvnmovies", "name": "tvN Movies"}, {"id": "warner", "name": "Warner TV"},
+    {"id": "zeebioskop", "name": "Zee Bioskop"}
 ]
 
 def discover_tivie_channels():
@@ -684,7 +700,7 @@ def get_mnc_channel_options():
     url = "https://www.mncvision.id/schedule/table"
     EXCLUDED_MNC_IDS = {
         "78", "80", "81", "82", "83", "84", "87", "89", "97", "103", "106", "107", "110", "113", "115", "116",
-        "118", "205", "330", "331", "352", "355", "357", "430", "431", "432", "433", "434", "437", "438"
+        "118", "205", "330", "331", "352", "355", "357", "430", "431", "432", "433", "434", "437", "438", "447"
     }
     
     channels = []
