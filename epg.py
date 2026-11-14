@@ -423,7 +423,6 @@ def get_or_refresh_indonesiana_token(channel_code):
 
     # 3. If not already in place, implement Incremental API Authorization
     if not auth_token:
-        print(f"[*] Indonesiana TV: Performing staged API authentication...")
         for attempt in range(3):
             try:
                 session = requests.Session()
@@ -458,7 +457,6 @@ def get_or_refresh_indonesiana_token(channel_code):
                         email_res = session.post(email_url, headers=email_headers, json=email_payload, timeout=25)
                         if email_res.status_code == 200 and email_res.json().get("success"):
                             auth_token = email_res.json().get("data", {}).get("accessSession", {}).get("token")
-                            print(f"[✓] Successfully obtained the Primary Access Token via API!")
                             break
             except Exception as e:
                 print(f"[!] API Auth Exception (Attempt {attempt + 1}/3): {e}")
@@ -1160,7 +1158,6 @@ def generate_xmltv():
     # 6. Fetch Indonesiana TV
     indonesiana_targets = [t for t in EPG_TARGET_SOURCES if t["id"].startswith("Indonesiana_")]
     if indonesiana_targets:
-        print("[*] Starting Indonesiana TV batch extraction...")
         shared_auth_token = None
         for target in indonesiana_targets:
             shared_auth_token = get_or_refresh_indonesiana_token(target.get("code"))
