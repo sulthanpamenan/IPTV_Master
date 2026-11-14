@@ -91,6 +91,91 @@
     <desc lang="id" />
     <category lang="id">General</category>
   </programme>
+  <programme start="20261115050000 +0700" stop="20261115063000 +0700" channel="transtv">
+    <title lang="id">ISLAM ITU INDAH</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115063000 +0700" stop="20261115073000 +0700" channel="transtv">
+    <title lang="id">INSERT PAGI</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115073000 +0700" stop="20261115090000 +0700" channel="transtv">
+    <title lang="id">KAJIAN HATI</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115090000 +0700" stop="20261115100000 +0700" channel="transtv">
+    <title lang="id">ARJUNA MENCARI CINTA</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115100000 +0700" stop="20261115113000 +0700" channel="transtv">
+    <title lang="id">AMBYAR IN WEEKEND</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115113000 +0700" stop="20261115123000 +0700" channel="transtv">
+    <title lang="id">INSERT</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115123000 +0700" stop="20261115133000 +0700" channel="transtv">
+    <title lang="id">THE LITTLE TALKCHOW</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115133000 +0700" stop="20261115140000 +0700" channel="transtv">
+    <title lang="id">MASAK ANTI RIBET</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115140000 +0700" stop="20261115150000 +0700" channel="transtv">
+    <title lang="id">TANAH AIR BETA</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115150000 +0700" stop="20261115160000 +0700" channel="transtv">
+    <title lang="id">INSERT INVESTIGASI</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115160000 +0700" stop="20261115170000 +0700" channel="transtv">
+    <title lang="id">SEHARI JADI RATU</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115170000 +0700" stop="20261115180000 +0700" channel="transtv">
+    <title lang="id">BIKIN LAPER</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115180000 +0700" stop="20261115190000 +0700" channel="transtv">
+    <title lang="id">INSERT STORY</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115190000 +0700" stop="20261115200000 +0700" channel="transtv">
+    <title lang="id">KEJORA SHOW</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115200000 +0700" stop="20261115220000 +0700" channel="transtv">
+    <title lang="id">TRANSTV FESTIVAL</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115220000 +0700" stop="20261116000000 +0700" channel="transtv">
+    <title lang="id">BIOSKOP TRANSTV  - RESIDENT EVIL: RETRIBUTION</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261115000000 +0700" stop="20261115013000 +0700" channel="transtv">
+    <title lang="id">BIOSKOP TRANSTV  - PATIENT ZERO</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
   <programme start="20261114233100 +0700" stop="20261115001500 +0700" channel="trans7">
     <title lang="id">MISTERI DUNIA</title>
     <desc lang="id" />
