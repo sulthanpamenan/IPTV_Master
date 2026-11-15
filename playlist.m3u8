@@ -3627,6 +3627,9 @@ https://itv-hellskitchen-rakuten.amagi.tv/playlist.m3u8
 <=================== Daytime + Game Shows ===================>
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/Daytime_+_Game_Shows/Nosey.png" group-title="Daytime + Game Shows",Nosey
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Origin=https://play.xumo.com&Referer=https://play.xumo.com/
 https://dbrb49pjoymg4.cloudfront.net/10001/99991366/hls/playlist.m3u8?ads.xumo_channelId=99991366&ads._fw_ifa_type=dpid&ads._fw_did=7cbb683b-d05a-b7ee-8440-7ef90e448150&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads.asnw=&ads.caid=Nosey&ads.csid=xumo_desktopweb_Nosey_ssai&ads._fw_is_lat=1&ads._fw_us_privacy=1YNN&ads._fw_coppa=0&ads.genre=Drama,Entertainment,DD,GD,GV,Talk+Show&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=Drama,Entertainment,DD,GD,GV,Talk+Show&ads._fw_content_rating=TV-PG&ads.xumo_contentId=1070&ads.xumo_contentName=Nosey&ads.xumo_providerId=1070&ads.xumo_providerName=Nosey&ads._fw_deviceMake=&ads._fw_device_model=&ads.channelId=99991366&ads.xumo_platform=desktopweb&ads.site_id=26840&ads.appName=xumo&ads.appVersion=2.32.0&ads._fw_app_bundle=&ads._fw_app_store_url=&ads.site_name=XumoPlay&ads.site_page=play.xumo.com
 
 <=================== Religious ===================>
