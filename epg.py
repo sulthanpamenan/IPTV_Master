@@ -112,6 +112,26 @@ def clean_url_str(val):
     return url_str if url_str.startswith(("http://", "https://")) else ""
 
 
+def extract_icon_from_any(val):
+    if not val:
+        return ""
+    if isinstance(val, str):
+        return clean_url_str(val)
+    if isinstance(val, list):
+        for entry in val:
+            found = extract_icon_from_any(entry)
+            if found:
+                return found
+        return ""
+    if isinstance(val, dict):
+        for key in ["url", "contentUrl", "path", "src", "image_url", "thumbnail_url", "poster", "image", "thumbnail"]:
+            if val.get(key):
+                found = extract_icon_from_any(val.get(key))
+                if found:
+                    return found
+    return ""
+
+
 def decode_base64_json(data_b64):
     if not data_b64:
         return None
@@ -231,18 +251,17 @@ def scrape_single_tivie_channel(ch):
                                 end_iso = item.get("endDate")
                                 name = clean_text_str(item.get("name", ""))
                                 desc = clean_text_str(item.get("description", ""))
-                                genre_raw = item.get("genre") or ""
+                                genre_raw = item.get("genre") or item.get("about") or ""
                                 if isinstance(genre_raw, list):
                                     category = clean_text_str(", ".join(str(g) for g in genre_raw if g))
+                                elif isinstance(genre_raw, dict):
+                                    category = clean_text_str(genre_raw.get("name") or "")
                                 else:
                                     category = clean_text_str(genre_raw)
 
-                                prog_icon = ""
-                                img_obj = item.get("image")
-                                if isinstance(img_obj, str):
-                                    prog_icon = clean_url_str(img_obj)
-                                elif isinstance(img_obj, dict):
-                                    prog_icon = clean_url_str(img_obj.get("url") or img_obj.get("contentUrl") or "")
+                                prog_icon = extract_icon_from_any(
+                                    item.get("image") or item.get("thumbnailUrl") or item.get("workFeatured") or ""
+                                )
 
                                 if not start_iso or not end_iso or not name:
                                     continue
@@ -380,10 +399,12 @@ def fetch_single_dens_channel(channel_info):
             for item in epg_list:
                 if not isinstance(item, dict):
                     continue
-                title = item.get("title")
-                desc = item.get("description") or item.get("desc") or ""
-                category = item.get("category") or item.get("genre") or ""
-                prog_icon = clean_url_str(item.get("poster") or item.get("image") or item.get("thumbnail") or "")
+                title = item.get("title") or item.get("program_title")
+                desc = item.get("description") or item.get("desc") or item.get("synopsis") or ""
+                category = item.get("category") or item.get("genre") or item.get("program_type") or item.get("type") or ""
+                prog_icon = extract_icon_from_any(
+                    item.get("poster") or item.get("image") or item.get("thumbnail") or item.get("thumb") or item.get("cover") or ""
+                )
                 start_time_str = item.get("start_time") or item.get("start")
 
                 if start_time_str and title:
@@ -590,17 +611,26 @@ def fetch_epg_indonesiana_with_token(target, auth_token):
         if prog_res.status_code == 200:
             prog_data = prog_res.json()
             if prog_data.get("success"):
-                items = prog_data.get("data", {}).get("items", [])
+                data_obj = prog_data.get("data", {})
+                if isinstance(data_obj, dict):
+                    channels[0]["icon"] = extract_icon_from_any(
+                        data_obj.get("channel") or data_obj.get("stream") or data_obj.get("logo") or ""
+                    )
+                items = data_obj.get("items", []) if isinstance(data_obj, dict) else []
 
                 if not items:
                     print(f"[!] Indonesiana TV [{target['name']}]: No schedule items found for this date range.")
                     return channels, programmes
 
                 for item in items:
-                    title = item.get("name")
-                    desc = item.get("description") or item.get("synopsis") or ""
-                    category = item.get("category") or item.get("genre") or ""
-                    prog_icon = clean_url_str(item.get("thumbnail") or item.get("image") or item.get("poster") or "")
+                    title = item.get("name") or item.get("title")
+                    desc = item.get("description") or item.get("synopsis") or item.get("desc") or ""
+                    category = item.get("category") or item.get("genre") or item.get("categoryName") or ""
+                    if isinstance(category, dict):
+                        category = category.get("name") or ""
+                    prog_icon = extract_icon_from_any(
+                        item.get("thumbnail") or item.get("image") or item.get("poster") or item.get("coverUrl") or ""
+                    )
                     start_str = item.get("startDate")
                     end_str = item.get("endDate")
                     if start_str and end_str and title:
@@ -652,8 +682,10 @@ def fetch_epg_tpchannel(target):
                 t_raw = item.get("starttime") or item.get("time")
                 title = item.get("title_th") or item.get("title") or item.get("program_name")
                 desc = item.get("detail_th") or item.get("detail") or item.get("description") or item.get("synopsis") or ""
-                category = item.get("category_name") or item.get("type_name") or item.get("category") or ""
-                prog_icon = clean_url_str(item.get("image") or item.get("thumbnail") or item.get("cover") or "")
+                category = item.get("category_name") or item.get("type_name") or item.get("category") or item.get("genre") or ""
+                prog_icon = extract_icon_from_any(
+                    item.get("image") or item.get("thumbnail") or item.get("cover") or item.get("picture") or ""
+                )
 
                 if t_raw and title:
                     t_str = str(t_raw).strip()
@@ -1100,7 +1132,7 @@ def fetch_single_redbull_channel(t):
         res = HTTP_SESSION.get(api_url, timeout=10)
         if res.status_code == 200:
             data = res.json()
-            ch_icon = clean_url_str(
+            ch_icon = extract_icon_from_any(
                 data.get("channel", {}).get("image_url")
                 or data.get("image_url")
                 or ""
@@ -1111,7 +1143,7 @@ def fetch_single_redbull_channel(t):
                 title = item.get("title")
                 desc = item.get("short_description") or item.get("long_description") or ""
                 category = item.get("genre") or item.get("category") or ""
-                prog_icon = clean_url_str(
+                prog_icon = extract_icon_from_any(
                     item.get("image_url")
                     or item.get("thumbnail_url")
                     or item.get("image")
@@ -1200,9 +1232,16 @@ def fetch_epg_kbsworld(target):
                     continue
 
                 ep_info = ""
+                cat_info = ""
                 for col_name in df.columns:
                     col_str = str(col_name).lower()
                     if col_str in ["title", "synop", "duration", "date", "_1"]:
+                        continue
+
+                    if any(k in col_str for k in ["cat", "genre", "type"]):
+                        c_val = clean_text_str(getattr(row, str(col_name), ""))
+                        if c_val and c_val.lower() not in ["nan", "none", ""]:
+                            cat_info = c_val
                         continue
 
                     if any(k in col_str for k in ["sub", "ep", "episode", "number"]) or col_str == "no":
@@ -1243,7 +1282,7 @@ def fetch_epg_kbsworld(target):
                     "stop": stop_formatted,
                     "title": title,
                     "desc": synop,
-                    "category": "",
+                    "category": cat_info,
                     "icon": "",
                     "lang": "en",
                 })
@@ -1380,12 +1419,13 @@ def generate_xmltv():
                     ET.SubElement(p_elem, "desc", lang=p.get("lang", "en")).text = cleaned_desc
 
             if p.get("category") and str(p["category"]).strip() and p.get("category") != "General":
-                cat_val = str(p["category"])
-                cleaned_cat = clean_text_str(cat_val)
-                if cleaned_cat:
-                    ET.SubElement(p_elem, "category", lang=p.get("lang", "en")).text = cleaned_cat
+                cat_val = str(p["category"]) if not isinstance(p["category"], (set, list, dict)) else ", ".join(p["category"])
+                for part in re.split(r"\s*[,/]\s*", cat_val):
+                    cleaned_cat = clean_text_str(part)
+                    if cleaned_cat and cleaned_cat.lower() != "general":
+                        ET.SubElement(p_elem, "category", lang=p.get("lang", "en")).text = cleaned_cat
 
-            prog_icon_url = clean_url_str(p.get("icon", ""))
+            prog_icon_url = extract_icon_from_any(p.get("icon", ""))
             if prog_icon_url:
                 ET.SubElement(p_elem, "icon", src=prog_icon_url)
 
