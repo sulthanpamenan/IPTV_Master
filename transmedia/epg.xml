@@ -86,6 +86,81 @@
     <desc lang="id" />
     <category lang="id">General</category>
   </programme>
+  <programme start="20261123050000 +0700" stop="20261123063000 +0700" channel="transtv">
+    <title lang="id">ISLAM ITU INDAH</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261123063000 +0700" stop="20261123073000 +0700" channel="transtv">
+    <title lang="id">INSERT PAGI</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261123073000 +0700" stop="20261123083000 +0700" channel="transtv">
+    <title lang="id">CNN INDONESIA GOOD MORNING</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261123083000 +0700" stop="20261123103000 +0700" channel="transtv">
+    <title lang="id">PAGI-PAGI AMBYAR</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261123103000 +0700" stop="20261123123000 +0700" channel="transtv">
+    <title lang="id">INSERT</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261123123000 +0700" stop="20261123140000 +0700" channel="transtv">
+    <title lang="id">BROWNIS (OBROLAN MANIS)</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261123140000 +0700" stop="20261123150000 +0700" channel="transtv">
+    <title lang="id">NO SECRET</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261123150000 +0700" stop="20261123160000 +0700" channel="transtv">
+    <title lang="id">INSERT TODAY</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261123160000 +0700" stop="20261123163000 +0700" channel="transtv">
+    <title lang="id">CNN INDONESIA NEWS UPDATE</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261123163000 +0700" stop="20261123173000 +0700" channel="transtv">
+    <title lang="id">INSERT STORY</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261123173000 +0700" stop="20261123184500 +0700" channel="transtv">
+    <title lang="id">BIKIN LAPER</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261123184500 +0700" stop="20261123194500 +0700" channel="transtv">
+    <title lang="id">KUIS DIGODA (DIGOYANG DANGDUT)</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261123194500 +0700" stop="20261123211500 +0700" channel="transtv">
+    <title lang="id">RAMENYA DISINI</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261123211500 +0700" stop="20261123231500 +0700" channel="transtv">
+    <title lang="id">BIOSKOP TRANSTV  - CHARLIES ANGELS (2019)</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
+  <programme start="20261123231500 +0700" stop="20261124004500 +0700" channel="transtv">
+    <title lang="id">BIOSKOP TRANSTV  - ACCIDENT MAN</title>
+    <desc lang="id" />
+    <category lang="id">General</category>
+  </programme>
   <programme start="20261122233100 +0700" stop="20261123004500 +0700" channel="trans7">
     <title lang="id">FTV: NENEK SIHIR</title>
     <desc lang="id" />
