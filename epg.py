@@ -383,6 +383,7 @@ def scrape_single_tivie_channel(ch):
 
     return {"id": ch_id, "name": ch_name, "icon": ch_icon}, programmes
 
+
 def fetch_all_tivie_parallel():
     channels = discover_tivie_channels()
     print(f"[*] Starting parallel EPG extraction for {len(channels)} Tivie.id channels...")
@@ -397,6 +398,7 @@ def fetch_all_tivie_parallel():
 
     print(f"[✓] Tivie.id: Successfully extracted {len(all_channels)} active channels & {len(all_programmes)} programs!")
     return all_channels, all_programmes
+
 
 # --- 2. DENS.TV MODULE ---
 def get_official_dens_channels():
@@ -443,6 +445,7 @@ def get_official_dens_channels():
         {"id_num": "140", "slug": "wedotvbig-stories", "id": "Dens_wedotvbig-stories.id", "name": "wedo Big Stories", "cat": "tv-free-streaming"},
         {"id_num": "141", "slug": "wedosports", "id": "Dens_wedosports.id", "name": "wedoSports", "cat": "tv-free-streaming"}
     ]
+
 
 def fetch_single_dens_channel(channel_info):
     programmes = []
@@ -510,6 +513,7 @@ def fetch_single_dens_channel(channel_info):
         
     return channel_info, programmes
 
+
 def fetch_all_dens_parallel():
     channels_list = get_official_dens_channels()
     print(f"[*] Starting parallel EPG extraction for {len(channels_list)} Dens.TV channels...")
@@ -524,6 +528,7 @@ def fetch_all_dens_parallel():
 
     print(f"[✓] Dens.TV: Successfully extracted {len(all_channels)} active channels & {len(all_programmes)} programs!")
     return all_channels, all_programmes
+
 
 # --- 3. INDONESIANA TV MODULE ---
 def get_or_refresh_indonesiana_token(channel_code):
@@ -622,12 +627,14 @@ def get_or_refresh_indonesiana_token(channel_code):
 
     return auth_token
 
+
 def fetch_epg_indonesiana(target):
     shared_auth_token = get_or_refresh_indonesiana_token(target.get("code"))
     if shared_auth_token:
         return fetch_epg_indonesiana_with_token(target, shared_auth_token)
     print(f"[!] Indonesiana TV [{target['name']}]: Failed to obtain token.")
     return [], []
+
 
 def fetch_epg_indonesiana_with_token(target, auth_token):
     epg_id = target["id"]
@@ -682,6 +689,7 @@ def fetch_epg_indonesiana_with_token(target, auth_token):
         print(f"[!] Indonesiana TV API Error [{target['name']}]: {e}")
 
     return channels, programmes
+
 
 # --- 4. TP CHANNEL MODULE ---
 def fetch_epg_tpchannel(target):
@@ -749,6 +757,7 @@ def fetch_epg_tpchannel(target):
         print(f"[!] TP Channel Error: {e}")
         
     return channels, programmes
+
 
 # --- 5. CLTV36 MODULE ---
 def fetch_epg_cltv36(target):
@@ -859,6 +868,7 @@ def fetch_epg_cltv36(target):
         
     return channels, programmes
 
+
 # --- 6. MNC VISION MODULE ---
 def get_mnc_channel_options():
     url = "https://www.mncvision.id/schedule/table"
@@ -894,6 +904,7 @@ def get_mnc_channel_options():
     except Exception as e:
         print(f"[!] Failed to retrieve the channel list: {e}")
     return channels
+
 
 def fetch_single_mnc_epg(ch_info):
     today_str = get_now_in_channel_tz("+0700").strftime("%Y-%m-%d")
@@ -989,6 +1000,7 @@ def fetch_single_mnc_epg(ch_info):
 
     return [], []
 
+
 def fetch_all_mncvision_parallel():
     channels_list = get_mnc_channel_options()
     if not channels_list:
@@ -1005,6 +1017,7 @@ def fetch_all_mncvision_parallel():
 
     print(f"[✓] MNC Vision: Successfully extracted {len(all_channels)} active channels & {len(all_programmes)} programs!")
     return all_channels, all_programmes
+
 
 # --- 7. QAZAQSTAN NETWORK MODULE ---
 def fetch_epg_qazaqstan(target):
@@ -1105,6 +1118,7 @@ def fetch_epg_qazaqstan(target):
 
     return channels, programmes
 
+
 # --- 8. RED BULL TV MODULE ---
 def fetch_single_redbull_channel(t):
     api_url = f"https://tv-api.redbull.com/guides/v5.1/rbtv/id_ID/id/{t['rrn']}"
@@ -1146,6 +1160,7 @@ def fetch_single_redbull_channel(t):
         
     return {"id": t["id"], "name": t["name"]}, programmes
 
+
 def fetch_epg_redbull_all(targets):
     channels = []
     all_programmes = []
@@ -1156,6 +1171,7 @@ def fetch_epg_redbull_all(targets):
                 channels.append(ch_info)
                 all_programmes.extend(progs)
     return channels, all_programmes
+
 
 # --- 9. KBS WORLD MODULE ---
 def fetch_epg_kbsworld(target):
@@ -1255,6 +1271,7 @@ def fetch_epg_kbsworld(target):
 
     return channels, programmes
 
+
 # --- ROUTER & EXECUTION ---
 def process_single_target(target):
     t_id = target["id"]
@@ -1264,6 +1281,7 @@ def process_single_target(target):
     elif t_id.startswith("Indonesiana_"): return fetch_epg_indonesiana(target)
     elif t_id.endswith(".kz"): return fetch_epg_qazaqstan(target)
     return [], []
+
 
 def generate_xmltv():
     print("=" * 60)
