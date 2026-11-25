@@ -46,7 +46,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main --autostash
-          git add epg.xml
+          git add epg.xml Cache/
           git diff --quiet && git diff --staged --quiet || (
             git commit -m "Auto-update EPG XMLTV [skip ci]"
             for i in {1..5}; do
