@@ -19,8 +19,8 @@ from requests.adapters import HTTPAdapter
 from urllib.parse import quote
 from urllib3.util.retry import Retry
 from utils import (
-    clean_text_str if False else clean_xml_text,
     clean_url_str,
+    clean_xml_text,
     extract_icon_from_any,
     load_json_cache,
     save_json_cache,
@@ -107,35 +107,6 @@ def clean_text_str(val):
     text = str(val).replace("\xa0", " ")
     text = re.sub(r"[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]", " ", text).strip()
     return re.sub(r"\s+", " ", text)
-
-
-def clean_url_str(val):
-    if not val:
-        return ""
-    url_str = clean_text_str(val)
-    if url_str.startswith("//"):
-        url_str = "https:" + url_str
-    return url_str if url_str.startswith(("http://", "https://")) else ""
-
-
-def extract_icon_from_any(val):
-    if not val:
-        return ""
-    if isinstance(val, str):
-        return clean_url_str(val)
-    if isinstance(val, list):
-        for entry in val:
-            found = extract_icon_from_any(entry)
-            if found:
-                return found
-        return ""
-    if isinstance(val, dict):
-        for key in ["url", "contentUrl", "path", "src", "image_url", "thumbnail_url", "poster", "image", "thumbnail"]:
-            if val.get(key):
-                found = extract_icon_from_any(val.get(key))
-                if found:
-                    return found
-    return ""
 
 
 def decode_base64_json(data_b64):
