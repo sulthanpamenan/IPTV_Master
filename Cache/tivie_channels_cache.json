@@ -1,1 +1,167 @@
-
+{
+  "antv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/YcwYQyql9CXniHlugQEaKNt7SmUNA9C8wajaWluo.png?w=120&h=120"
+  },
+  "gtv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/2rxBtLwvNfFCPAIh9QO9xb4DhrfRVFvBqDa0WkKP.png?w=120&h=120"
+  },
+  "indosiar": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/78gjGX7MXIIjHtkRfLMkL3SVWkOS1YCUJnfvM6mU.png?w=120&h=120"
+  },
+  "inews": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/A1neyMyyenFNiu7xvKs7EGh1V79J7vLKCEi7NLCA.png?w=120&h=120"
+  },
+  "garudatv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/eoJWUOQ2IwvoxZQLruU9nRQmoB6Zq2JloDC368ry.png?w=120&h=120"
+  },
+  "cnnindonesia": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/0kONuTn3l5nyiaXNzUD8PkcVJ3KzW77Rr0dVJXKl.png?w=120&h=120"
+  },
+  "kompastv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/rTo9S0kVnTIFEDNOnZpN8Iwk0FLtYeMEcQ4Nd9nq.png?w=120&h=120"
+  },
+  "btv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/ouHjfljSaPJbIXiCDuWpueKhzwXsjZffnHCu2MPU.png?w=120&h=120"
+  },
+  "mdtv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/Lgu7coLBxNFLUXnABSGH8cEGomDz79ZQm4qMUcwr.png?w=120&h=120"
+  },
+  "mentaritv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/TPgQNcz5ZYS8r0Gu20D4y84mGRvXovBlUHoM43Nf.png?w=120&h=120"
+  },
+  "metrotv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/npwegJNO7Q2jrqfhxIpHamD66PJGzhVzYxsCJePj.png?w=120&h=120"
+  },
+  "mnctv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/796l5aHuo4L15YxBkBcqtpsCoSwNTXtSlZNxieXp.png?w=120&h=120"
+  },
+  "moji": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/7GvIDgLzCD5y7aUPOHBc9ToTzPf0A3Fy5zRFkI1S.png?w=120&h=120"
+  },
+  "rcti": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/xs1WvCTI8CBiAlPWhcMK9OI2PxxIbwV9eneps08K.png?w=120&h=120"
+  },
+  "nusantaratv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/3C9PojbLyoLf6nvR4lrPeI6axSGeHwfAAwXvxGDd.png?w=120&h=120"
+  },
+  "rtv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/28bjZF7ogxpmzglTONVLtE6L5cQp9it4Kr6xAR5w.png?w=120&h=120"
+  },
+  "sctv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/f1AU02SyUlsUy86Dy8KSjdX92E4YjXPQDjWHL7Ey.png?w=120&h=120"
+  },
+  "sinpotv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/Moqav0dDQZ3HNslRsD3cCabStBpOsg4JbgfMkVaO.png?w=120&h=120"
+  },
+  "transtv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/yjB7oMqNbF96glayEWNfFX6GenUDt2STtOkFeT5F.png?w=120&h=120"
+  },
+  "trans7": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/amnYF03HkFucMQonA4Kgrz7nPL4Is0pz0f03dvrQ.png?w=120&h=120"
+  },
+  "tvone": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/Uaep3l3FOpvB7WtMu1xQfBvqoqyB8S2ufhdfJURB.png?w=120&h=120"
+  },
+  "vtv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/j3W5E19JVcaaKdNEVK3gss55n8pIpxE82ahs8zmn.png?w=120&h=120"
+  },
+  "tvri": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/XELJMrsGwfckbQ9AlilBa7BdWqmLrvF0DF3PoVKn.png?w=120&h=120"
+  },
+  "sindonews": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/WNqFttH3X4QbMe0WayJzuNwJPqL46uBlDSqgc1bh.png?w=120&h=120"
+  },
+  "axn": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/hwfGtC5uHWwHLfxwmufCZSdtiex9LEm9KkiGG279.png?w=120&h=120"
+  },
+  "beinsports1": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/k4M5amGJxhuV8UlK4TWsQTimKDIZGkRqYoEoYEU4.png?w=120&h=120"
+  },
+  "beinsports2": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/8W7FxJC0W21TocKmzCgKY6uXiBE27aMxo0FGkY3u.png?w=120&h=120"
+  },
+  "beinsports3": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/xrRBDWl8Y9rX9oVtMNulrvfRCMLFayt9FdxtAfxI.png?w=120&h=120"
+  },
+  "cinemaworld": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/2XfSN8zBJ3TEysehlgdhsP4btOipTYRPyKfrxTGi.png?w=120&h=120"
+  },
+  "celestialmovies": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/P0baYv8CHlp6CVaitOYRqSS0Wb2uIzx6crGjpUlw.png?w=120&h=120"
+  },
+  "ccm": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/UkV0opPRSpcXND7mXgvlnx1IdEExaFLQUXKCcKRN.png?w=120&h=120"
+  },
+  "cinemax": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/fZOmr1ulduLAHSvWjX3UNDfVc0wxWO9WhkpgYn9R.png?w=120&h=120"
+  },
+  "galaxypremium": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/2L71R9ucZ1oYukm1DnVkteeeFfQJOMRqD1DGQxFJ.png?w=120&h=120"
+  },
+  "galaxy": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/Q8y7a9Y1DxiK1M93l8ngBDWo4nEx09kEQJo8I7We.png?w=120&h=120"
+  },
+  "hbo": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/uCr9WHGuh7sQ8cmqlqdol3eESsbQRa6gemwj2esE.png?w=120&h=120"
+  },
+  "hbohits": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/IOfjH9vy0Qdr6M3n7xmjSNQJCJq5SiAy9fKInMWW.png?w=120&h=120"
+  },
+  "hbosignature": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/e0N7xCk2xJ7DbDK6WXGf4bzu81Oix1vsG3DRVfoA.png?w=120&h=120"
+  },
+  "hitsmovies": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/b3DzvLR8u4RMGEZytrsLoFclo9Bf5lrtGVtG1khx.png?w=120&h=120"
+  },
+  "hbofamily": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/xfuR1f6UGW7pGBEdpJfh2lbzgxsprKLvvmP0fIax.png?w=120&h=120"
+  },
+  "hits": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/Xk6oOpgerXDp6wJYbo1UznEec5M5XlDY1UdKa7k9.png?w=120&h=120"
+  },
+  "imc": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/tYYqVIu7Tf35tMTzvSv3IkWrFus4WpjollABKLFY.png?w=120&h=120"
+  },
+  "kplus": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/mewxD1BivUkpS44KNmsV4oE5tF6FUoBX97mlrsn2.png?w=120&h=120"
+  },
+  "hitsnow": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/M9lVdLA2uzj7pqlYJmUqASX67iJPYRTMDU6noruB.png?w=120&h=120"
+  },
+  "kix": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/BDiYl9w2tS7Bohf557pNPrf7La9E17oKigvCcBOQ.png?w=120&h=120"
+  },
+  "lifetime": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/mBbdzwkqFHpaCFsMKY4VYWgVV4OFzCnjkxvOfTee.png?w=120&h=120"
+  },
+  "rockaction": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/RMbKYJhy61XCQz9e7uOcX3yC5wY3qYi88WkIjhsE.png?w=120&h=120"
+  },
+  "rockentertainment": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/LiYe2ow9Ub5VPLXVsuaaGfR7a3MfeCq3zs5u5ps6.png?w=120&h=120"
+  },
+  "spotv": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/b2aZ4e325Dg46bKX58RYq0euhaW3qhCtvdZs7iTS.png?w=120&h=120"
+  },
+  "spotv2": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/vupKNFdBElTPUcIDWHyghpuNG7Q8vHsCJSsiBSHa.png?w=120&h=120"
+  },
+  "studiouniversal": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/lvIa4mW840u43R5k0QGfWK6E2c7Uwv0qg8Bm2cXy.png?w=120&h=120"
+  },
+  "thrill": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/oXGexUp0tSif7DP4VimBwz4j4IfKiCrRCEmnGoAB.png?w=120&h=120"
+  },
+  "tvn": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/RVxJdKQQbTbnog5UkWuYN69z6wiRJG6JfDfc3vxD.png?w=120&h=120"
+  },
+  "tvnmovies": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/o7ExraD8JMWhdLi71kfAAwLEApEqB8xiyfUXYNAq.png?w=120&h=120"
+  },
+  "zeebioskop": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/9namyu2NZOtlg3KJpkoHqYrouX13sUeOAwtomaKS.png?w=120&h=120"
+  },
+  "warner": {
+    "icon": "https://i0.wp.com/is3.cloudhost.id/tivie/channel/l9TNuMqGu3KtL7B8LVIjmAuYyYWFU3olHJ8jeQMo.png?w=120&h=120"
+  }
+}
