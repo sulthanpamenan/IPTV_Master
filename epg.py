@@ -3,22 +3,28 @@ import html
 import io
 import json
 import os
+import pandas as pd
 import re
+import requests
 import threading
 import traceback
 import urllib.error
 import urllib.request
+import urllib3
 import xml.etree.ElementTree as ET
+from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
-from urllib.parse import quote
-
-from bs4 import BeautifulSoup
-import pandas as pd
-import requests
 from requests.adapters import HTTPAdapter
-import urllib3
+from urllib.parse import quote
 from urllib3.util.retry import Retry
+from utils import (
+    clean_text_str if False else clean_xml_text,
+    clean_url_str,
+    extract_icon_from_any,
+    load_json_cache,
+    save_json_cache,
+)
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -149,6 +155,17 @@ def parse_cltv36_day_matches(day_text, target_weekday_name, is_weekend):
 
 
 # --- 1. TIVIE.ID MODULE ---
+CF_WORKER_URL = "https://tivie-proxy.sulthan-pamenan.workers.dev"
+TIVIE_CACHE_DIR = "Cache"
+TIVIE_PROGRAM_CACHE_FILE = os.path.join(TIVIE_CACHE_DIR, "tivie_program_cache.json")
+TIVIE_CHANNELS_CACHE_FILE = os.path.join(TIVIE_CACHE_DIR, "tivie_channels_cache.json")
+TIVIE_DETAIL_TTL_SECONDS = 7 * 24 * 3600
+
+TIVIE_PROGRAM_DETAIL_CACHE = {}
+TIVIE_CHANNEL_ICON_CACHE = {}
+TIVIE_CACHE_LOCK = threading.Lock()
+TIVIE_DISK_LOADED = False
+
 TIVIE_MASTER_FALLBACK = [
     {"id": "antv", "name": "ANTV"}, {"id": "btv", "name": "BTV"},
     {"id": "cnnindonesia", "name": "CNN Indonesia"}, {"id": "garudatv", "name": "Garuda TV"},
@@ -181,22 +198,57 @@ TIVIE_MASTER_FALLBACK = [
 ]
 
 
+def _ensure_tivie_disk_cache_loaded():
+    global TIVIE_DISK_LOADED
+    with TIVIE_CACHE_LOCK:
+        if TIVIE_DISK_LOADED:
+            return
+        disk_progs = load_json_cache(TIVIE_PROGRAM_CACHE_FILE, max_age_seconds=TIVIE_DETAIL_TTL_SECONDS)
+        if isinstance(disk_progs, dict):
+            for k, v in disk_progs.items():
+                if isinstance(v, dict) and k not in TIVIE_PROGRAM_DETAIL_CACHE:
+                    TIVIE_PROGRAM_DETAIL_CACHE[k] = {
+                        "icon": clean_url_str(v.get("icon", "")),
+                        "category": clean_xml_text(v.get("category", "")),
+                        "subtitle": clean_xml_text(v.get("subtitle", "")),
+                        "desc": clean_xml_text(v.get("desc", "")),
+                    }
+
+        disk_chs = load_json_cache(TIVIE_CHANNELS_CACHE_FILE, max_age_seconds=TIVIE_DETAIL_TTL_SECONDS)
+        if isinstance(disk_chs, dict):
+            for real_id, info in disk_chs.items():
+                if isinstance(info, dict):
+                    icon_url = clean_url_str(info.get("icon", ""))
+                    if icon_url and real_id not in TIVIE_CHANNEL_ICON_CACHE:
+                        TIVIE_CHANNEL_ICON_CACHE[real_id] = icon_url
+
+        TIVIE_DISK_LOADED = True
+
+
+def _persist_tivie_caches():
+    with TIVIE_CACHE_LOCK:
+        prog_snapshot = dict(TIVIE_PROGRAM_DETAIL_CACHE)
+        ch_snapshot = {k: {"icon": v} for k, v in TIVIE_CHANNEL_ICON_CACHE.items() if v}
+    if prog_snapshot:
+        save_json_cache(TIVIE_PROGRAM_CACHE_FILE, prog_snapshot)
+    if ch_snapshot:
+        save_json_cache(TIVIE_CHANNELS_CACHE_FILE, ch_snapshot)
+
+
 def discover_tivie_channels():
+    _ensure_tivie_disk_cache_loaded()
     channels, added_ids = [], set()
     for m_ch in TIVIE_MASTER_FALLBACK:
-        if m_ch["id"] not in added_ids:
-            added_ids.add(m_ch["id"])
+        real_id = m_ch["id"]
+        if real_id not in added_ids:
+            added_ids.add(real_id)
             channels.append({
-                "id": f"Tivie_{m_ch['id']}.id",
-                "real_id": m_ch["id"],
-                "name": m_ch["name"]
+                "id": f"Tivie_{real_id}.id",
+                "real_id": real_id,
+                "name": m_ch["name"],
+                "icon": TIVIE_CHANNEL_ICON_CACHE.get(real_id, ""),
             })
     return channels
-
-
-CF_WORKER_URL = "https://tivie-proxy.sulthan-pamenan.workers.dev"
-TIVIE_PROGRAM_DETAIL_CACHE = {}
-TIVIE_CACHE_LOCK = threading.Lock()
 
 
 def _normalize_tivie_program_url(href_val):
@@ -218,16 +270,17 @@ def _build_tivie_proxy_program_url(program_url):
 
 
 def fetch_tivie_program_detail(program_url):
+    _ensure_tivie_disk_cache_loaded()
     clean_prog_url = _normalize_tivie_program_url(program_url)
     if not clean_prog_url:
-        return {"icon": "", "category": "", "desc": ""}
+        return {"icon": "", "category": "", "subtitle": "", "desc": ""}
 
     cache_key = clean_prog_url.split("?")[0]
     with TIVIE_CACHE_LOCK:
         if cache_key in TIVIE_PROGRAM_DETAIL_CACHE:
             return TIVIE_PROGRAM_DETAIL_CACHE[cache_key]
 
-    detail = {"icon": "", "category": "", "desc": ""}
+    detail = {"icon": "", "category": "", "subtitle": "", "desc": ""}
     candidate_urls = []
     proxy_url = _build_tivie_proxy_program_url(clean_prog_url)
     if proxy_url:
@@ -261,25 +314,46 @@ def fetch_tivie_program_detail(program_url):
                 if og_img and og_img.get("content"):
                     detail["icon"] = extract_icon_from_any(og_img.get("content"))
 
-            # 2. Category
-            cat_link = main_el.select_one("a[href*='/programs/']")
-            if cat_link:
-                detail["category"] = clean_text_str(cat_link.get_text(" ", strip=True))
+            # 2. Categories
+            cats = []
+            for cat_link in main_el.select("a[href*='/programs/']"):
+                c_txt = clean_xml_text(cat_link.get_text(" ", strip=True))
+                if c_txt and len(c_txt) <= 40 and c_txt.lower() not in {"semua", "all", "program", "programs"}:
+                    if c_txt not in cats:
+                        cats.append(c_txt)
+            if cats:
+                detail["category"] = " / ".join(cats[:2])
 
-            # 3. Synopsis
+            # 3. Sub-title / episode hint
+            h1_el = main_el.find("h1")
+            if h1_el:
+                h1_txt = clean_xml_text(h1_el.get_text(" ", strip=True))
+                ep_match = re.search(r"\b(?:eps?\.?|episode|season\s*\d+|part\s*\d+)\s*[:#-]?\s*\d+\b", h1_txt, re.I)
+                if ep_match:
+                    detail["subtitle"] = ep_match.group(0).strip()
+
+            # 4. Synopsis
             h2_el = main_el.find("h2")
             if h2_el:
-                for hidden_el in h2_el.parent.select(".hide") if h2_el.parent else []:
-                    hidden_el.decompose()
+                if h2_el.parent:
+                    for hidden_el in h2_el.parent.select(".hide"):
+                        hidden_el.decompose()
                 p_el = h2_el.find_next("p")
                 if p_el:
                     for hidden_el in p_el.select(".hide"):
                         hidden_el.decompose()
-                    p_text = clean_text_str(p_el.get_text(" ", strip=True))
+                    p_text = clean_xml_text(p_el.get_text(" ", strip=True))
                     if p_text and not p_text.lower().startswith("jadwal siaran tayangan"):
                         detail["desc"] = p_text
 
-            if detail["icon"] or detail["category"] or detail["desc"]:
+            if not detail["desc"]:
+                meta_desc = soup.find("meta", attrs={"name": "description"}) or soup.find("meta", property="og:description")
+                if meta_desc and meta_desc.get("content"):
+                    m_txt = clean_xml_text(meta_desc.get("content"))
+                    if m_txt and not m_txt.lower().startswith("jadwal siaran tayangan"):
+                        detail["desc"] = m_txt
+
+            if detail["icon"] or detail["category"] or detail["desc"] or detail["subtitle"]:
                 break
         except Exception:
             continue
@@ -290,11 +364,38 @@ def fetch_tivie_program_detail(program_url):
     return detail
 
 
+def resolve_tivie_details_batch(prog_urls, max_workers=10):
+    _ensure_tivie_disk_cache_loaded()
+    pending_urls = []
+    seen_keys = set()
+
+    for u in prog_urls:
+        norm = _normalize_tivie_program_url(u)
+        if not norm:
+            continue
+        key = norm.split("?")[0]
+        if key in seen_keys:
+            continue
+        seen_keys.add(key)
+        with TIVIE_CACHE_LOCK:
+            already_cached = key in TIVIE_PROGRAM_DETAIL_CACHE
+        if not already_cached:
+            pending_urls.append(norm)
+
+    if not pending_urls:
+        return
+
+    with ThreadPoolExecutor(max_workers=min(max_workers, len(pending_urls))) as executor:
+        list(executor.map(fetch_tivie_program_detail, pending_urls))
+
+
 def scrape_single_tivie_channel(ch):
+    _ensure_tivie_disk_cache_loaded()
     ch_id, real_id, ch_name = ch["id"], ch["real_id"], ch["name"]
+    ch_icon = clean_url_str(ch.get("icon", "")) or TIVIE_CHANNEL_ICON_CACHE.get(real_id, "")
     url = f"{CF_WORKER_URL}/channel/{real_id}"
-    programmes = []
-    ch_icon = ""
+    draft_programmes = []
+    urls_to_resolve = []
 
     try:
         res = HTTP_SESSION.get(
@@ -311,14 +412,18 @@ def scrape_single_tivie_channel(ch):
                 "img[src*='/tivie/channel/'], img[alt*='logo' i], img.channel-logo, .channel-header img"
             )
             if logo_img and logo_img.get("src"):
-                ch_icon = extract_icon_from_any(logo_img.get("src"))
+                parsed_logo = extract_icon_from_any(logo_img.get("src"))
+                if parsed_logo:
+                    ch_icon = parsed_logo
+                    with TIVIE_CACHE_LOCK:
+                        TIVIE_CHANNEL_ICON_CACHE[real_id] = ch_icon
 
             title_to_prog_url = {}
             for a_tag in soup.select("a[href*='/program/']"):
                 p_url = _normalize_tivie_program_url(a_tag.get("href"))
                 if not p_url:
                     continue
-                a_text = clean_text_str(a_tag.get_text(" ", strip=True)).lower()
+                a_text = clean_xml_text(a_tag.get_text(" ", strip=True)).lower()
                 if a_text and a_text not in title_to_prog_url:
                     title_to_prog_url[a_text] = p_url
 
@@ -336,9 +441,9 @@ def scrape_single_tivie_channel(ch):
                         if item.get("@type") == "BroadcastEvent":
                             start_iso = item.get("startDate")
                             end_iso = item.get("endDate")
-                            name = clean_text_str(item.get("name", ""))
-                            desc = clean_text_str(item.get("description", ""))
-                            category = ""
+                            name = clean_xml_text(item.get("name", ""))
+                            desc = clean_xml_text(item.get("description", ""))
+                            category = clean_xml_text(item.get("genre") or "")
                             prog_icon = extract_icon_from_any(
                                 item.get("image") or item.get("thumbnailUrl") or ""
                             )
@@ -351,29 +456,43 @@ def scrape_single_tivie_channel(ch):
                                 prog_url = title_to_prog_url.get(name.lower(), "")
 
                             if prog_url and (not prog_icon or not category or not desc):
-                                extra = fetch_tivie_program_detail(prog_url)
-                                if not prog_icon and extra.get("icon"):
-                                    prog_icon = extra["icon"]
-                                if not category and extra.get("category"):
-                                    category = extra["category"]
-                                if not desc and extra.get("desc"):
-                                    desc = extra["desc"]
+                                urls_to_resolve.append(prog_url)
 
                             start_dt = datetime.fromisoformat(start_iso)
                             stop_dt = datetime.fromisoformat(end_iso)
 
-                            programmes.append({
+                            draft_programmes.append({
                                 "channel": ch_id,
                                 "start": format_xmltv_date(start_dt, "+0700"),
                                 "stop": format_xmltv_date(stop_dt, "+0700"),
                                 "title": name,
+                                "subtitle": "",
                                 "desc": desc,
                                 "category": category,
                                 "icon": prog_icon,
+                                "prog_url": prog_url,
                                 "lang": "id",
                             })
                 except (json.JSONDecodeError, TypeError, ValueError):
                     continue
+
+        if urls_to_resolve:
+            resolve_tivie_details_batch(urls_to_resolve, max_workers=8)
+
+        programmes = []
+        for p in draft_programmes:
+            prog_url = p.pop("prog_url", "")
+            if prog_url:
+                extra = fetch_tivie_program_detail(prog_url)
+                if not p["icon"] and extra.get("icon"):
+                    p["icon"] = extra["icon"]
+                if not p["category"] and extra.get("category"):
+                    p["category"] = extra["category"]
+                if not p["subtitle"] and extra.get("subtitle"):
+                    p["subtitle"] = extra["subtitle"]
+                if not p["desc"] and extra.get("desc"):
+                    p["desc"] = extra["desc"]
+            programmes.append(p)
 
         if programmes:
             print(f"[✓] Tivie.id [{ch_name}]: Successfully loaded {len(programmes)} programs!")
@@ -396,6 +515,7 @@ def fetch_all_tivie_parallel():
                 all_channels.append(ch_info)
                 all_programmes.extend(progs)
 
+    _persist_tivie_caches()
     print(f"[✓] Tivie.id: Successfully extracted {len(all_channels)} active channels & {len(all_programmes)} programs!")
     return all_channels, all_programmes
 
@@ -1371,6 +1491,9 @@ def generate_xmltv():
             title_val = str(p["title"]) if not isinstance(p["title"], (set, list, dict)) else " ".join(p["title"])
             cleaned_title = html.unescape(clean_text_str(title_val))
             ET.SubElement(p_elem, "title", lang=p.get("lang", "en")).text = cleaned_title
+            
+            if p.get("subtitle") and str(p["subtitle"]).strip():
+                ET.SubElement(p_elem, "sub-title", lang=p.get("lang", "en")).text = html.unescape(clean_xml_text(p["subtitle"]))
             
             if p.get("desc") and str(p["desc"]).strip():
                 desc_val = str(p["desc"]) if not isinstance(p["desc"], (set, list, dict)) else " ".join(p["desc"])
