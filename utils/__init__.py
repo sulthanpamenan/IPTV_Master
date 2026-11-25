@@ -1,6 +1,14 @@
+import json
+import os
+import re
+import threading
+import time
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+
+_CACHE_IO_LOCK = threading.Lock()
+
 
 def create_robust_session(headers=None):
     session = requests.Session()
@@ -13,11 +21,12 @@ def create_robust_session(headers=None):
         session.headers.update(headers)
     return session
 
+
 def clean_xml_text(val):
     if not val:
         return ""
     val_str = str(val)
-    return "".join(
+    cleaned = "".join(
         ch
         for ch in val_str
         if (
@@ -26,12 +35,71 @@ def clean_xml_text(val):
             or (0xE000 <= ord(ch) <= 0xFFFD)
             or (0x10000 <= ord(ch) <= 0x10FFFF)
         )
-    ).strip()
+    )
+    cleaned = cleaned.replace("\xa0", " ")
+    cleaned = re.sub(r"[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]", " ", cleaned).strip()
+    return re.sub(r"\s+", " ", cleaned)
+
+
+def clean_url_str(val):
+    if not val:
+        return ""
+    url_str = clean_xml_text(val)
+    if url_str.startswith("//"):
+        url_str = "https:" + url_str
+    return url_str if url_str.startswith(("http://", "https://")) else ""
+
+
+def extract_icon_from_any(val):
+    if not val:
+        return ""
+    if isinstance(val, str):
+        return clean_url_str(val)
+    if isinstance(val, list):
+        for entry in val:
+            found = extract_icon_from_any(entry)
+            if found:
+                return found
+        return ""
+    if isinstance(val, dict):
+        for key in ["url", "contentUrl", "path", "src", "image_url", "thumbnail_url", "poster", "image", "thumbnail"]:
+            if val.get(key):
+                found = extract_icon_from_any(val.get(key))
+                if found:
+                    return found
+    return ""
+
+
+def load_json_cache(cache_path, max_age_seconds=None):
+    with _CACHE_IO_LOCK:
+        if not os.path.exists(cache_path):
+            return None
+        try:
+            if max_age_seconds is not None:
+                age = time.time() - os.path.getmtime(cache_path)
+                if age > max_age_seconds:
+                    return None
+            with open(cache_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return None
+
+
+def save_json_cache(cache_path, payload):
+    with _CACHE_IO_LOCK:
+        cache_dir = os.path.dirname(cache_path)
+        if cache_dir:
+            os.makedirs(cache_dir, exist_ok=True)
+        tmp_path = f"{cache_path}.tmp"
+        with open(tmp_path, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        os.replace(tmp_path, cache_path)
+
 
 def authenticate_fls_guest(session=None):
     if not session:
         session = create_robust_session()
-    
+
     auth_url = "https://api.gizmott.com/api/v1/account/authenticate"
     headers = {
         "accept": "application/json, text/plain, */*",
