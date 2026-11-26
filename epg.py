@@ -84,13 +84,6 @@ EPG_TARGET_SOURCES = [
     {"id": "KBSWorld.id", "name": "KBS World", "utc_offset": "+0700"},
 ]
 
-HTTP_SESSION = requests.Session()
-retries = Retry(total=3, backoff_factor=0.5, status_forcelist=[500, 502, 503, 504])
-adapter = HTTPAdapter(max_retries=retries, pool_connections=50, pool_maxsize=50)
-HTTP_SESSION.mount("https://", adapter)
-HTTP_SESSION.mount("http://", adapter)
-HTTP_SESSION.headers.update(HEADERS)
-
 
 def format_xmltv_date(dt_obj, utc_offset="+0700"):
     return dt_obj.strftime(f"%Y%m%d%H%M%S {utc_offset}")
