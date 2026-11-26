@@ -15,8 +15,6 @@ from urllib.parse import quote
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 
 from utils import (
     clean_url_str,
@@ -34,6 +32,8 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
     "Accept-Language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
 }
+
+HTTP_SESSION = create_robust_session(HEADERS)
 
 TIME_PATTERN_HM = re.compile(r"(\b[0-2]?\d[:.][0-5]\d\b)")
 TIME_PATTERN_AMPM = re.compile(r"(\d{1,2}:\d{2}\s*(?:AM|PM|am|pm))", re.IGNORECASE)
@@ -376,6 +376,7 @@ def scrape_single_tivie_channel(ch):
     url = f"{CF_WORKER_URL}/channel/{real_id}"
     draft_programmes = []
     urls_to_resolve = []
+    programmes = []
 
     try:
         res = HTTP_SESSION.get(
@@ -459,7 +460,6 @@ def scrape_single_tivie_channel(ch):
         if urls_to_resolve:
             resolve_tivie_details_batch(urls_to_resolve, max_workers=8)
 
-        programmes = []
         for p in draft_programmes:
             prog_url = p.pop("prog_url", "")
             if prog_url:
