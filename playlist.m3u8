@@ -1252,7 +1252,7 @@ https://cdndirector.dailymotion.com/cdn/live/video/xar7p26.m3u8?sec=lE3qH4ptng0l
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h14/index.m3u8
 
-#EXTINF:-1 tvg-id="Dens_france-english-24.id" tvg-name="France 24 English" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/France_24.png" group-title="News + Opinion",France 24 English
+#EXTINF:-1 tvg-id="Dens_france-24-english.id" tvg-name="France 24 English" tvg-logo="https://raw.githubusercontent.com/sulthanpamenan/IPTV_Master/main/Logos/News_%2B_Opinion/France_24.png" group-title="News + Opinion",France 24 English
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=DENSGO/3.00.00 (Linux; Android 15; SM-G9980) ExoPlayerLib/2.19.1&Origin=https://www.dens.tv&Referer=https://www.dens.tv/
