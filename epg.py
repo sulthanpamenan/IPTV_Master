@@ -21,6 +21,7 @@ from urllib3.util.retry import Retry
 from utils import (
     clean_url_str,
     clean_xml_text,
+    create_robust_session,
     extract_icon_from_any,
     load_json_cache,
     save_json_cache,
