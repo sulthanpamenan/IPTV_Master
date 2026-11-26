@@ -62,8 +62,8 @@ def extract_icon_from_any(val):
                 return found
         return ""
     if isinstance(val, dict):
-        for key in ["url", "contentUrl", "path", "src", "image_url", "thumbnail_url", "poster", "image", "thumbnail"]:
-            if val.get(key):
+        for key in ["url", "contentUrl", "default", "path", "src", "image_url", "thumbnail_url", "poster", "logo", "icon", "image", "thumbnail", "images"]:
+            if key in val and val.get(key):
                 found = extract_icon_from_any(val.get(key))
                 if found:
                     return found
@@ -87,13 +87,20 @@ def load_json_cache(cache_path, max_age_seconds=None):
 
 def save_json_cache(cache_path, payload):
     with _CACHE_IO_LOCK:
-        cache_dir = os.path.dirname(cache_path)
-        if cache_dir:
-            os.makedirs(cache_dir, exist_ok=True)
         tmp_path = f"{cache_path}.tmp"
-        with open(tmp_path, "w", encoding="utf-8") as f:
-            json.dump(payload, f, ensure_ascii=False, indent=2)
-        os.replace(tmp_path, cache_path)
+        try:
+            cache_dir = os.path.dirname(cache_path)
+            if cache_dir:
+                os.makedirs(cache_dir, exist_ok=True)
+            with open(tmp_path, "w", encoding="utf-8") as f:
+                json.dump(payload, f, ensure_ascii=False, indent=2)
+            os.replace(tmp_path, cache_path)
+        except Exception:
+            try:
+                if os.path.exists(tmp_path):
+                    os.remove(tmp_path)
+            except Exception:
+                pass
 
 
 def authenticate_fls_guest(session=None):
