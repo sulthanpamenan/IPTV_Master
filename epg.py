@@ -492,6 +492,43 @@ def fetch_all_tivie_parallel():
 
 
 # --- 2. DENS.TV MODULE ---
+DENS_CACHE_DIR = "Cache"
+DENS_CHANNELS_CACHE_FILE = os.path.join(DENS_CACHE_DIR, "dens_channels_cache.json")
+DENS_CACHE_TTL_SECONDS = 7 * 24 * 3600
+
+DENS_CHANNEL_ICON_CACHE = {}
+DENS_CACHE_LOCK = threading.Lock()
+DENS_DISK_LOADED = False
+
+DENS_PLACEHOLDER_TITLES = {
+    "the schedule is not available",
+    "schedule not available",
+    "no schedule available",
+}
+
+
+def _ensure_dens_disk_cache_loaded():
+    global DENS_DISK_LOADED
+    with DENS_CACHE_LOCK:
+        if DENS_DISK_LOADED:
+            return
+        disk_chs = load_json_cache(DENS_CHANNELS_CACHE_FILE, max_age_seconds=DENS_CACHE_TTL_SECONDS)
+        if isinstance(disk_chs, dict):
+            for ch_key, info in disk_chs.items():
+                if isinstance(info, dict):
+                    icon_url = clean_url_str(info.get("icon", ""))
+                    if icon_url and ch_key not in DENS_CHANNEL_ICON_CACHE:
+                        DENS_CHANNEL_ICON_CACHE[ch_key] = icon_url
+        DENS_DISK_LOADED = True
+
+
+def _persist_dens_caches():
+    with DENS_CACHE_LOCK:
+        ch_snapshot = {k: {"icon": v} for k, v in DENS_CHANNEL_ICON_CACHE.items() if v}
+    if ch_snapshot:
+        save_json_cache(DENS_CHANNELS_CACHE_FILE, ch_snapshot)
+
+
 def get_official_dens_channels():
     return [
         {"id_num": "3", "slug": "live-streaming-1", "id": "Dens_live-streaming-1.id", "name": "Live Streaming 1", "cat": "tv-local"},
@@ -534,78 +571,171 @@ def get_official_dens_channels():
         {"id_num": "139", "slug": "wedotvmovies", "id": "Dens_wedotvmovies.id", "name": "wedo Movies", "cat": "tv-free-streaming"},
         {"id_num": "142", "slug": "wedotvamor", "id": "Dens_wedotvamor.id", "name": "wedo Amor", "cat": "tv-free-streaming"},
         {"id_num": "140", "slug": "wedotvbig-stories", "id": "Dens_wedotvbig-stories.id", "name": "wedo Big Stories", "cat": "tv-free-streaming"},
-        {"id_num": "141", "slug": "wedosports", "id": "Dens_wedosports.id", "name": "wedoSports", "cat": "tv-free-streaming"}
+        {"id_num": "141", "slug": "wedosports", "id": "Dens_wedosports.id", "name": "wedoSports", "cat": "tv-free-streaming"},
     ]
 
 
-def fetch_single_dens_channel(channel_info):
-    programmes = []
-    wib_tz = timezone(timedelta(hours=7))
-    
-    primary_cat = channel_info.get('cat', 'tv-local')
-    url = f"https://www.dens.tv/{primary_cat}/watch/{channel_info['id_num']}/{channel_info['slug']}"
-    
-    try:
-        res = HTTP_SESSION.get(url, timeout=10)
-        if res.status_code == 200:
-            soup = BeautifulSoup(res.text, "html.parser")
-            epg_list = []
+def _parse_dens_dt(dt_val, tz):
+    if not dt_val:
+        return None
+    raw = str(dt_val).strip()
+    for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S"):
+        try:
+            return datetime.strptime(raw[:19], fmt).replace(tzinfo=tz)
+        except ValueError:
+            continue
+    return None
 
-            for script in soup.find_all("script"):
-                if script.string and "tvEpg" in script.string:
-                    matches = re.findall(r"(tvEpg\w*)\s*=\s*(\[.*?\]);", script.string)
-                    for _, json_str in matches:
-                        try:
-                            parsed_data = json.loads(json_str)
-                            if isinstance(parsed_data, list):
-                                epg_list.extend(parsed_data)
-                        except json.JSONDecodeError:
-                            continue
+
+def _extract_dens_epg_items(soup, id_num):
+    epg_list = []
+    for script in soup.find_all("script"):
+        script_txt = script.string or ""
+        if "tvEpg" not in script_txt:
+            continue
+        matches = re.findall(r"\b(tvEpg\w*)\s*=\s*(\[[\s\S]*?\]);", script_txt)
+        for _, json_str in matches:
+            try:
+                parsed_data = json.loads(json_str)
+                if isinstance(parsed_data, list):
+                    epg_list.extend(parsed_data)
+            except json.JSONDecodeError:
+                continue
+
+    if not epg_list:
+        for el in soup.select(".item-schedule[data-x-content]"):
+            decoded = decode_base64_json(el.get("data-x-content", ""))
+            if isinstance(decoded, dict):
+                epg_list.append(decoded)
+
+    ch_icon = ""
+    for script in soup.find_all("script"):
+        script_txt = script.string or ""
+        ch_var = f"tvChannel_{id_num}"
+        if ch_var in script_txt:
+            m = re.search(rf"{re.escape(ch_var)}\s*=\s*(\{{[\s\S]*?\}});", script_txt)
+            if m:
+                try:
+                    ch_obj = json.loads(m.group(1))
+                    default_img = (
+                        ch_obj.get("meta", {})
+                        .get("images", {})
+                        .get("default", "")
+                    )
+                    ch_icon = extract_icon_from_any(default_img)
+                    if ch_icon:
+                        break
+                except json.JSONDecodeError:
+                    pass
+
+    if not ch_icon:
+        og_img = soup.find("meta", property="og:image")
+        if og_img and og_img.get("content"):
+            ch_icon = extract_icon_from_any(og_img.get("content"))
+
+    return epg_list, ch_icon
+
+
+def fetch_single_dens_channel(channel_info):
+    _ensure_dens_disk_cache_loaded()
+    wib_tz = timezone(timedelta(hours=7))
+    ch_key = f"{channel_info['id_num']}_{channel_info['slug']}"
+    ch_icon = clean_url_str(channel_info.get("icon", "")) or DENS_CHANNEL_ICON_CACHE.get(ch_key, "")
+
+    primary_cat = channel_info.get("cat", "tv-local")
+    url = f"https://www.dens.tv/{primary_cat}/watch/{channel_info['id_num']}/{channel_info['slug']}"
+    programmes = []
+
+    try:
+        res = HTTP_SESSION.get(
+            url,
+            headers={
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "id,en-US;q=0.9,en;q=0.8",
+                "Referer": f"https://www.dens.tv/{primary_cat}",
+            },
+            timeout=15,
+        )
+        if res.status_code == 200 and res.text:
+            soup = BeautifulSoup(res.text, "html.parser")
+            epg_list, extracted_icon = _extract_dens_epg_items(soup, channel_info["id_num"])
+
+            if extracted_icon:
+                ch_icon = extracted_icon
+                with DENS_CACHE_LOCK:
+                    DENS_CHANNEL_ICON_CACHE[ch_key] = ch_icon
 
             raw_progs = []
             for item in epg_list:
-                title = item.get("title")
-                desc = item.get("description") or ""
-                start_time_str = item.get("start_time")
+                if not isinstance(item, dict):
+                    continue
+                title = clean_xml_text(clean_text_str(item.get("title", "")))
+                if not title or title.lower() in DENS_PLACEHOLDER_TITLES:
+                    continue
 
-                if start_time_str and title:
-                    try:
-                        start_dt = datetime.strptime(str(start_time_str).strip(), "%Y-%m-%d %H:%M:%S").replace(tzinfo=wib_tz)
-                        raw_progs.append({
-                            "start_dt": start_dt, 
-                            "title": clean_text_str(title), 
-                            "desc": clean_text_str(desc)
-                        })
-                    except ValueError:
-                        continue
+                desc = clean_xml_text(clean_text_str(item.get("description") or ""))
+                start_dt = _parse_dens_dt(item.get("start_time"), wib_tz)
+                end_dt = _parse_dens_dt(item.get("end_time"), wib_tz)
+
+                if start_dt:
+                    if end_dt and end_dt <= start_dt:
+                        end_dt += timedelta(days=1)
+                    raw_progs.append({
+                        "start_dt": start_dt,
+                        "end_dt": end_dt,
+                        "title": title,
+                        "desc": desc,
+                    })
 
             if raw_progs:
                 raw_progs.sort(key=lambda x: x["start_dt"])
-                for i in range(len(raw_progs)):
-                    curr, start_dt = raw_progs[i], raw_progs[i]["start_dt"]
-                    if i + 1 < len(raw_progs):
-                        stop_dt = raw_progs[i + 1]["start_dt"]
-                        if stop_dt <= start_dt: 
-                            stop_dt += timedelta(days=1)
-                    else: 
-                        stop_dt = start_dt + timedelta(hours=1)
+                seen_keys = set()
+
+                for i, curr in enumerate(raw_progs):
+                    start_dt = curr["start_dt"]
+                    stop_dt = curr["end_dt"]
+
+                    if not stop_dt:
+                        if i + 1 < len(raw_progs):
+                            stop_dt = raw_progs[i + 1]["start_dt"]
+                            if stop_dt <= start_dt:
+                                stop_dt += timedelta(days=1)
+                        else:
+                            stop_dt = start_dt + timedelta(hours=1)
+
+                    start_fmt = format_xmltv_date(start_dt, "+0700")
+                    stop_fmt = format_xmltv_date(stop_dt, "+0700")
+                    dedup_key = (start_fmt, curr["title"].lower())
+
+                    if dedup_key in seen_keys:
+                        continue
+                    seen_keys.add(dedup_key)
 
                     programmes.append({
                         "channel": channel_info["id"],
-                        "start": format_xmltv_date(start_dt, "+0700"),
-                        "stop": format_xmltv_date(stop_dt, "+0700"),
+                        "start": start_fmt,
+                        "stop": stop_fmt,
                         "title": curr["title"],
                         "desc": curr["desc"],
-                        "lang": "id"
+                        "lang": "id",
                     })
-                print(f"[✓] Dens.TV [{channel_info['name']}]: Successfully loaded {len(programmes)} programs!")
-    except Exception: 
-        pass
-        
-    return channel_info, programmes
+
+                if programmes:
+                    print(f"[✓] Dens.TV [{channel_info['name']}]: Successfully loaded {len(programmes)} programs!")
+
+    except Exception as e:
+        print(f"[!] Dens.TV Error [{channel_info['name']}]: {e}")
+
+    out_ch = {
+        "id": channel_info["id"],
+        "name": channel_info["name"],
+        "icon": ch_icon,
+    }
+    return out_ch, programmes
 
 
 def fetch_all_dens_parallel():
+    _ensure_dens_disk_cache_loaded()
     channels_list = get_official_dens_channels()
     print(f"[*] Starting parallel EPG extraction for {len(channels_list)} Dens.TV channels...")
     all_channels, all_programmes = [], []
@@ -614,9 +744,10 @@ def fetch_all_dens_parallel():
         results = executor.map(fetch_single_dens_channel, channels_list)
         for ch_info, progs in results:
             if progs:
-                all_channels.append({"id": ch_info["id"], "name": ch_info["name"]})
+                all_channels.append(ch_info)
                 all_programmes.extend(progs)
 
+    _persist_dens_caches()
     print(f"[✓] Dens.TV: Successfully extracted {len(all_channels)} active channels & {len(all_programmes)} programs!")
     return all_channels, all_programmes
 
