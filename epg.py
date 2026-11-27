@@ -1031,9 +1031,66 @@ def fetch_epg_tpchannel(target):
 
 
 # --- 5. CLTV36 MODULE ---
+def _extract_cltv36_channel_logo(soup):
+    for sel in [
+        ".site-branding img[src]",
+        ".custom-logo-link img[src]",
+        "header img[src*='logo' i]",
+        "header img[src]",
+    ]:
+        img = soup.select_one(sel)
+        if img:
+            for attr in ("src", "data-src"):
+                val = extract_icon_from_any(img.get(attr) or "")
+                if val and "localhost" not in val:
+                    return val
+
+    og_img = soup.find("meta", property="og:image")
+    if og_img and og_img.get("content"):
+        val = extract_icon_from_any(og_img.get("content"))
+        if val and "localhost" not in val:
+            return val
+
+    return ""
+
+
+def _extract_cltv36_poster(sec):
+    for a_tag in sec.select("a[href]"):
+        href_clean = clean_url_str(a_tag.get("href", ""))
+        if href_clean and "/wp-content/uploads/" in href_clean and "localhost" not in href_clean:
+            return href_clean
+
+    img_tag = sec.find("img")
+    if img_tag:
+        srcset = img_tag.get("srcset") or ""
+        if srcset:
+            candidates = []
+            for part in srcset.split(","):
+                tokens = part.strip().split()
+                if tokens:
+                    u = clean_url_str(tokens[0])
+                    if u and "localhost" not in u:
+                        w = 0
+                        if len(tokens) > 1 and tokens[1].endswith("w"):
+                            try:
+                                w = int(tokens[1][:-1])
+                            except ValueError:
+                                w = 0
+                        candidates.append((w, u))
+            if candidates:
+                candidates.sort(key=lambda x: x[0], reverse=True)
+                return candidates[0][1]
+
+        src_clean = clean_url_str(img_tag.get("src", ""))
+        if src_clean and "localhost" not in src_clean:
+            return src_clean
+
+    return ""
+
+
 def fetch_epg_cltv36(target):
     epg_id, offset = target["id"], target.get("utc_offset", "+0800")
-    channels = [{"id": epg_id, "name": target["name"]}]
+    channel_logo = ""
     programmes = []
 
     today_local = get_now_in_channel_tz(offset)
@@ -1045,8 +1102,11 @@ def fetch_epg_cltv36(target):
         res = HTTP_SESSION.get(target["url"], timeout=15)
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, "html.parser")
+            channel_logo = _extract_cltv36_channel_logo(soup)
 
-            retired_heading = soup.find(lambda tag: tag.name in ["h2", "h3"] and "RETIRED" in tag.get_text().upper())
+            retired_heading = soup.find(
+                lambda tag: tag.name in ["h2", "h3"] and "RETIRED" in tag.get_text().upper()
+            )
 
             sections = soup.select("section.elementor-section")
             if not sections:
@@ -1063,6 +1123,8 @@ def fetch_epg_cltv36(target):
                 title = clean_text_str(h2_tag.get_text(strip=True))
                 if not title or "RETIRED" in title.upper() or title.upper() == "CLTV PROGRAMS":
                     continue
+
+                poster_url = _extract_cltv36_poster(sec)
 
                 strong_tags = sec.find_all("strong")
                 schedule_blocks = []
@@ -1134,6 +1196,7 @@ def fetch_epg_cltv36(target):
                                 "stop": format_xmltv_date(stop_dt, offset),
                                 "title": title,
                                 "desc": desc_text,
+                                "icon": poster_url,
                                 "lang": "en",
                             }
 
@@ -1147,6 +1210,7 @@ def fetch_epg_cltv36(target):
     except Exception as e:
         print(f"[!] CLTV36 Error: {e}")
 
+    channels = [{"id": epg_id, "name": target["name"], "icon": channel_logo}]
     return channels, programmes
 
 
