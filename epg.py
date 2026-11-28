@@ -1427,6 +1427,9 @@ def _extract_qazaqstan_from_livewire(soup, today_str):
             continue
 
         desc_clean = clean_text_str(str(desc_raw or ""))
+        if re.fullmatch(r"қазір\s*эфирде", desc_clean, flags=re.IGNORECASE):
+            desc_clean = ""
+            
         icon_clean = extract_icon_from_any(str(img_raw or ""))
 
         results.append({
@@ -1440,7 +1443,7 @@ def _extract_qazaqstan_from_livewire(soup, today_str):
 
 
 def _extract_qazaqstan_from_dom(soup):
-    items = soup.select("div.flex.items-center.justify-between.w-full, .program-item")
+    items = soup.select("div.program-item, div.flex.items-center.justify-between.w-full")
     raw_progs = []
     genre_keywords = [
         "деректі фильм", "деректі фильмдер", "телехикая", "телехикаялар", "бағдарлама", "бағдарламалар",
@@ -1449,41 +1452,42 @@ def _extract_qazaqstan_from_dom(soup):
     ]
 
     for item in items:
-        time_elem = item.select_one(".font-bold.text-h5, [class*='text-h5'], [class*='font-bold']")
-        time_text = time_elem.get_text(strip=True) if time_elem else ""
+        time_elem = item.select_one(".font-bold.text-h5, .font-bold.text-h3, .font-bold.text-h2, [class*='text-h5'], [class*='font-bold']")
+        time_text = time_elem.get_text(" ", strip=True) if time_elem else ""
         match = TIME_PATTERN_HM.search(time_text) or TIME_PATTERN_HM.search(item.get_text(" ", strip=True))
         if not match:
             continue
 
         t_str = match.group(1).replace(".", ":").zfill(5)[:5]
-        category_elem = item.select_one("div.text-xs, [class*='text-xs']")
         title_elem = item.select_one(".program-title, [class*='program-title']")
-
-        cat_text = clean_text_str(category_elem.get_text(strip=True)) if category_elem else ""
-        title_text = clean_text_str(title_elem.get_text(strip=True)) if title_elem else ""
-
-        if any(kw in title_text.lower() for kw in genre_keywords) and not any(kw in cat_text.lower() for kw in genre_keywords):
-            category, raw_title = title_text, cat_text
-        else:
-            category, raw_title = cat_text, title_text
+        raw_title = clean_text_str(title_elem.get_text(" ", strip=True)) if title_elem else ""
 
         if not raw_title:
             for b in item.select("div.font-bold, [class*='font-bold']"):
-                b_text = b.get_text(strip=True)
-                if b_text and not TIME_PATTERN_HM.search(b_text) and b_text != category:
+                b_text = clean_text_str(b.get_text(" ", strip=True))
+                if b_text and not TIME_PATTERN_HM.search(b_text) and "онлайн көру" not in b_text.lower():
                     raw_title = b_text
                     break
 
         clean_title = re.sub(r"^[–\-\:\s\.\,]+|[–\-\:\s\.\,]+$", "", raw_title)
-        clean_title = re.sub(r"(онлайн көру|live|эфирде)", "", clean_title, flags=re.IGNORECASE)
+        clean_title = re.sub(r"(онлайн көру|live|эфирде|қазір)", "", clean_title, flags=re.IGNORECASE)
         clean_title = clean_text_str(clean_title)
 
         if clean_title and len(clean_title) >= 2 and not TIME_PATTERN_HM.match(clean_title):
-            desc_text = category if (category and category != clean_title) else ""
+            desc_text = ""
+            genre_match = re.findall(r"\(([^()]+)\)", clean_title)
+            if genre_match:
+                matched_genres = [
+                    g.strip() for g in genre_match
+                    if any(kw in g.lower() for kw in genre_keywords)
+                ]
+                if matched_genres:
+                    desc_text = " / ".join(matched_genres)
+
             raw_progs.append({
                 "start_str": t_str,
                 "title": clean_title,
-                "desc": desc_text,
+                "desc": desc_text if desc_text != clean_title else "",
                 "icon": "",
             })
 
