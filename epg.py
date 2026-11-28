@@ -1365,96 +1365,219 @@ def fetch_all_mncvision_parallel():
 
 
 # --- 7. QAZAQSTAN NETWORK MODULE ---
+QAZAQSTAN_HTML_CACHE = {}
+QAZAQSTAN_CACHE_LOCK = threading.Lock()
+
+
+def _extract_qazaqstan_from_livewire(soup, today_str):
+    extracted = []
+    for el in soup.find_all(attrs={"wire:snapshot": True}):
+        raw_snap = el.get("wire:snapshot")
+        if not raw_snap:
+            continue
+        try:
+            snap = json.loads(html.unescape(raw_snap))
+        except Exception:
+            continue
+
+        data = snap.get("data") if isinstance(snap, dict) else None
+        if not isinstance(data, dict) or "schedule" not in data:
+            continue
+
+        selected_date = str(data.get("selectedDate") or "").strip()
+        if selected_date and selected_date != today_str:
+            continue
+
+        extracted = []
+
+        def _walk_items(node):
+            if isinstance(node, dict):
+                if "title" in node and "time" in node:
+                    extracted.append(node)
+                for v in node.values():
+                    _walk_items(v)
+            elif isinstance(node, list):
+                for item in node:
+                    _walk_items(item)
+
+        _walk_items(data.get("schedule"))
+        if extracted:
+            break
+
+    results = []
+    for item in extracted:
+        t_raw = str(item.get("time") or "").strip()
+        title_raw = str(item.get("title") or "").strip()
+        desc_raw = item.get("description")
+        img_raw = item.get("image")
+
+        if isinstance(desc_raw, (dict, list)):
+            desc_raw = ""
+        if isinstance(img_raw, (dict, list)):
+            img_raw = ""
+
+        match = TIME_PATTERN_HM.search(t_raw)
+        if not match or not title_raw:
+            continue
+
+        t_str = match.group(1).replace(".", ":").zfill(5)[:5]
+        clean_title = re.sub(r"(онлайн көру|live|эфирде)", "", title_raw, flags=re.IGNORECASE)
+        clean_title = clean_text_str(clean_title)
+        if not clean_title or len(clean_title) < 2:
+            continue
+
+        desc_clean = clean_text_str(str(desc_raw or ""))
+        icon_clean = extract_icon_from_any(str(img_raw or ""))
+
+        results.append({
+            "start_str": t_str,
+            "title": clean_title,
+            "desc": desc_clean if desc_clean != clean_title else "",
+            "icon": icon_clean,
+        })
+
+    return results
+
+
+def _extract_qazaqstan_from_dom(soup):
+    items = soup.select("div.flex.items-center.justify-between.w-full, .program-item")
+    raw_progs = []
+    genre_keywords = [
+        "деректі фильм", "деректі фильмдер", "телехикая", "телехикаялар", "бағдарлама", "бағдарламалар",
+        "мультхикая", "мультхикаялар", "мегажоба", "мегажобалар", "көркем фильм", "көркем фильмдер",
+        "ақпараттық-саяси бағдарлама",
+    ]
+
+    for item in items:
+        time_elem = item.select_one(".font-bold.text-h5, [class*='text-h5'], [class*='font-bold']")
+        time_text = time_elem.get_text(strip=True) if time_elem else ""
+        match = TIME_PATTERN_HM.search(time_text) or TIME_PATTERN_HM.search(item.get_text(" ", strip=True))
+        if not match:
+            continue
+
+        t_str = match.group(1).replace(".", ":").zfill(5)[:5]
+        category_elem = item.select_one("div.text-xs, [class*='text-xs']")
+        title_elem = item.select_one(".program-title, [class*='program-title']")
+
+        cat_text = clean_text_str(category_elem.get_text(strip=True)) if category_elem else ""
+        title_text = clean_text_str(title_elem.get_text(strip=True)) if title_elem else ""
+
+        if any(kw in title_text.lower() for kw in genre_keywords) and not any(kw in cat_text.lower() for kw in genre_keywords):
+            category, raw_title = title_text, cat_text
+        else:
+            category, raw_title = cat_text, title_text
+
+        if not raw_title:
+            for b in item.select("div.font-bold, [class*='font-bold']"):
+                b_text = b.get_text(strip=True)
+                if b_text and not TIME_PATTERN_HM.search(b_text) and b_text != category:
+                    raw_title = b_text
+                    break
+
+        clean_title = re.sub(r"^[–\-\:\s\.\,]+|[–\-\:\s\.\,]+$", "", raw_title)
+        clean_title = re.sub(r"(онлайн көру|live|эфирде)", "", clean_title, flags=re.IGNORECASE)
+        clean_title = clean_text_str(clean_title)
+
+        if clean_title and len(clean_title) >= 2 and not TIME_PATTERN_HM.match(clean_title):
+            desc_text = category if (category and category != clean_title) else ""
+            raw_progs.append({
+                "start_str": t_str,
+                "title": clean_title,
+                "desc": desc_text,
+                "icon": "",
+            })
+
+    return raw_progs
+
+
 def fetch_epg_qazaqstan(target):
     epg_id, offset = target["id"], target.get("utc_offset", "+0500")
     channels = [{"id": epg_id, "name": target["name"]}]
     programmes = []
-    today_str = get_now_in_channel_tz(offset).strftime("%Y-%m-%d")
+
+    today_dt = get_now_in_channel_tz(offset)
+    today_str = today_dt.strftime("%Y-%m-%d")
     base_url = target["url"].rstrip("/")
-    direct_url = f"{base_url}/{today_str}" if not base_url.endswith(today_str) else base_url
 
-    for url in [direct_url, f"https://iptv-playlist.sulthan-pamenan.workers.dev/?url={quote(direct_url, safe='')}"]:
+    candidate_bases = []
+    if base_url.endswith(today_str):
+        candidate_bases.append(base_url)
+    else:
+        candidate_bases.extend([f"{base_url}/{today_str}", base_url])
+
+    candidate_urls = []
+    for b_url in candidate_bases:
+        candidate_urls.append(b_url)
+        proxy_u = f"https://iptv-playlist.sulthan-pamenan.workers.dev/?url={quote(b_url, safe='')}"
+        if proxy_u not in candidate_urls:
+            candidate_urls.append(proxy_u)
+
+    for url in candidate_urls:
+        cache_key = (url, today_str)
+        with QAZAQSTAN_CACHE_LOCK:
+            cached_html = QAZAQSTAN_HTML_CACHE.get(cache_key)
+
         try:
-            res = HTTP_SESSION.get(url, timeout=15)
-            res.raise_for_status()
-            soup = BeautifulSoup(res.text, "html.parser")
+            if cached_html is not None:
+                html_text = cached_html
+            else:
+                res = HTTP_SESSION.get(
+                    url,
+                    headers={
+                        "Referer": base_url,
+                        "Cache-Control": "no-cache",
+                    },
+                    timeout=15,
+                )
+                res.raise_for_status()
+                html_text = res.text
+                with QAZAQSTAN_CACHE_LOCK:
+                    QAZAQSTAN_HTML_CACHE[cache_key] = html_text
 
-            items = soup.select("div.flex.items-center.justify-between.w-full, .program-item")
+            soup = BeautifulSoup(html_text, "html.parser")
 
-            raw_progs = []
-            for item in items:
-                time_elem = item.select_one(".font-bold.text-h5, [class*='text-h5'], [class*='font-bold']")
-                time_text = time_elem.get_text(strip=True) if time_elem else ""
-
-                match = TIME_PATTERN_HM.search(time_text) or TIME_PATTERN_HM.search(item.get_text(" ", strip=True))
-                if match:
-                    t_str = match.group(1).replace(".", ":").zfill(5)[:5]
-
-                    category_elem = item.select_one("div.text-xs, [class*='text-xs']")
-                    title_elem = item.select_one(".program-title, [class*='program-title']")
-
-                    cat_text = clean_text_str(category_elem.get_text(strip=True)) if category_elem else ""
-                    title_text = clean_text_str(title_elem.get_text(strip=True)) if title_elem else ""
-
-                    genre_keywords = [
-                        "деректі фильм", "деректі фильмдер", "телехикая", "телехикаялар", "бағдарлама", "бағдарламалар",
-                        "мультхикая", "мультхикаялар", "мегажоба", "мегажобалар", "көркем фильм", "көркем фильмдер",
-                        "ақпараттық-саяси бағдарлама",
-                    ]
-
-                    if any(kw in title_text.lower() for kw in genre_keywords) and not any(kw in cat_text.lower() for kw in genre_keywords):
-                        category = title_text
-                        raw_title = cat_text
-                    else:
-                        category = cat_text
-                        raw_title = title_text
-
-                    if not raw_title:
-                        bold_elems = item.select("div.font-bold, [class*='font-bold']")
-                        for b in bold_elems:
-                            b_text = b.get_text(strip=True)
-                            if b_text and not TIME_PATTERN_HM.search(b_text) and b_text != category:
-                                raw_title = b_text
-                                break
-
-                    clean_title = re.sub(r"^[–\-\:\s\.\,]+|[–\-\:\s\.\,]+$", "", raw_title)
-                    clean_title = re.sub(r"(онлайн көру|live|эфирде)", "", clean_title, flags=re.IGNORECASE)
-                    clean_title = clean_text_str(clean_title)
-
-                    if clean_title and len(clean_title) >= 2 and not TIME_PATTERN_HM.match(clean_title):
-                        if not any(r["start_str"] == t_str and r["title"] == clean_title for r in raw_progs):
-                            desc_text = category if (category and category != clean_title) else ""
-                            raw_progs.append({
-                                "start_str": t_str,
-                                "title": clean_title,
-                                "desc": desc_text,
-                            })
+            raw_progs = _extract_qazaqstan_from_livewire(soup, today_str)
+            if not raw_progs:
+                raw_progs = _extract_qazaqstan_from_dom(soup)
 
             if raw_progs:
-                for i in range(len(raw_progs)):
-                    curr = raw_progs[i]
+                dedup_raw = []
+                seen_raw = set()
+                for r in raw_progs:
+                    key = (r["start_str"], r["title"].lower())
+                    if key not in seen_raw:
+                        seen_raw.add(key)
+                        dedup_raw.append(r)
+
+                for i, curr in enumerate(dedup_raw):
                     t_str = curr["start_str"]
                     try:
                         start_dt = datetime.strptime(f"{today_str} {t_str}", "%Y-%m-%d %H:%M")
-                        if i + 1 < len(raw_progs):
-                            stop_dt = datetime.strptime(f"{today_str} {raw_progs[i+1]['start_str']}", "%Y-%m-%d %H:%M")
+                        if i + 1 < len(dedup_raw):
+                            stop_dt = datetime.strptime(f"{today_str} {dedup_raw[i + 1]['start_str']}", "%Y-%m-%d %H:%M")
                             if stop_dt <= start_dt:
                                 stop_dt += timedelta(days=1)
                         else:
                             stop_dt = start_dt + timedelta(hours=1)
 
-                        programmes.append({
+                        prog_obj = {
                             "channel": epg_id,
                             "start": format_xmltv_date(start_dt, offset),
                             "stop": format_xmltv_date(stop_dt, offset),
                             "title": curr["title"],
                             "desc": curr["desc"],
                             "lang": "kk",
-                        })
+                        }
+                        if curr.get("icon"):
+                            prog_obj["icon"] = curr["icon"]
+
+                        programmes.append(prog_obj)
                     except Exception:
                         continue
-                print(f"[✓] {target['name']}: Successfully loaded {len(programmes)} programs.")
-                break
+
+                if programmes:
+                    print(f"[✓] {target['name']}: Successfully loaded {len(programmes)} programs.")
+                    break
         except Exception:
             continue
 
@@ -1739,7 +1862,7 @@ def generate_xmltv():
         if "rrn" not in t and not t["id"].startswith("Indonesiana_")
     ]
     if other_targets:
-        with ThreadPoolExecutor(max_workers=min(9, len(other_targets))) as executor:
+        with ThreadPoolExecutor(max_workers=min(6, len(other_targets))) as executor:
             for ch_list, progs in executor.map(process_single_target, other_targets):
                 _append_results(all_channels, all_programmes, ch_list, progs)
 
